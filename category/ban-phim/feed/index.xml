@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Bàn Phím &#8211; BIBICA.NET</title>
+	<atom:link href="https://static.bibica.net/category/ban-phim/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 06 Jun 2018 20:11:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://media.publit.io/file/w_32,h_32,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg</url>
+	<title>Bàn Phím &#8211; BIBICA.NET</title>
+	<link>https://static.bibica.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Leopold FC980C &#8211; Đôi dòng cảm nhận</title>
+		<link>https://static.bibica.net/leopold-fc980c-doi-dong-cam-nhan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=leopold-fc980c-doi-dong-cam-nhan</link>
+					<comments>https://static.bibica.net/leopold-fc980c-doi-dong-cam-nhan/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2018 20:11:17 +0000</pubDate>
+				<category><![CDATA[Bàn Phím]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4492</guid>
+
+					<description><![CDATA[Đây là một bài viết cũ, mình viết từ khá lâu ở fb cá nhân, hôm nay lôi sang đây cho nó có bài thôi <a class="read-more" href="https://static.bibica.net/leopold-fc980c-doi-dong-cam-nhan/">Read more →</a>
+<p><a href="https://static.bibica.net/leopold-fc980c-doi-dong-cam-nhan/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/leopold-fc980c-doi-dong-cam-nhan/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

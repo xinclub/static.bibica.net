@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: GeneratePress &#8211; Lightweight, Responsive WordPress Theme	</title>
+	<atom:link href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=generatepress-lightweight-responsive-wordpress-theme</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Mon, 24 May 2021 06:02:37 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-1007</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 06:02:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-1007</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-1006&quot;&gt;Danh Nguyen&lt;/a&gt;.
+
+Chủ yếu cũng do lười :D
+
+Phần cũng vì các thứ mình viết, là các thứ để tạo nên thèng bibica.net này, dùng như hiện tại mình thấy cũng đủ rồi, nên cũng chưa biết viết thêm về cái gì :D
+
+Khoản tối ưu này nọ, thì chủ yếu do wordpress, theme, plugin giờ viết cũng tốt lắm rồi, người dùng cuối cài vào là xong, phần cloudflare có các server tại VN rồi, hỗ trợ cache, ssl, dns .... đủ cả :D
+
+Cũng không biết viết về cái gì luôn :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-1006">Danh Nguyen</a>.</p>
+<p>Chủ yếu cũng do lười 😀</p>
+<p>Phần cũng vì các thứ mình viết, là các thứ để tạo nên thèng bibica.net này, dùng như hiện tại mình thấy cũng đủ rồi, nên cũng chưa biết viết thêm về cái gì 😀</p>
+<p>Khoản tối ưu này nọ, thì chủ yếu do wordpress, theme, plugin giờ viết cũng tốt lắm rồi, người dùng cuối cài vào là xong, phần cloudflare có các server tại VN rồi, hỗ trợ cache, ssl, dns &#8230;. đủ cả 😀</p>
+<p>Cũng không biết viết về cái gì luôn :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Danh Nguyen		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-1006</link>
+
+		<dc:creator><![CDATA[Danh Nguyen]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 03:36:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-1006</guid>
+
+					<description><![CDATA[Dạo này ít thấy bác lên bài mới nhỉ . Lâu lâu cũng vào hóng]]></description>
+			<content:encoded><![CDATA[<p>Dạo này ít thấy bác lên bài mới nhỉ . Lâu lâu cũng vào hóng</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trần Minh Nhật		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-880</link>
+
+		<dc:creator><![CDATA[Trần Minh Nhật]]></dc:creator>
+		<pubDate>Sat, 30 Nov 2019 12:32:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-880</guid>
+
+					<description><![CDATA[3 dòng code để show Updated post. Dán nó vào Additional CSS:
+
+.posted-on .updated {
+    display: block;
+}
+.posted-on .published {
+    display: none;
+}
+
+.posted-on .updated:before {
+    content: &quot;Cập nhật: &quot;;
+}]]></description>
+			<content:encoded><![CDATA[<p>3 dòng code để show Updated post. Dán nó vào Additional CSS:</p>
+<p>.posted-on .updated {<br />
+    display: block;<br />
+}<br />
+.posted-on .published {<br />
+    display: none;<br />
+}</p>
+<p>.posted-on .updated:before {<br />
+    content: &#8220;Cập nhật: &#8220;;<br />
+}</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khánh Nguyễn		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-782</link>
+
+		<dc:creator><![CDATA[Khánh Nguyễn]]></dc:creator>
+		<pubDate>Wed, 31 Jul 2019 11:52:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-782</guid>
+
+					<description><![CDATA[Mình đang dùng GeneratePress luôn nè, đúng là ở Việt Nam ít người dùng thật.]]></description>
+			<content:encoded><![CDATA[<p>Mình đang dùng GeneratePress luôn nè, đúng là ở Việt Nam ít người dùng thật.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Caillou		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-583</link>
+
+		<dc:creator><![CDATA[Caillou]]></dc:creator>
+		<pubDate>Mon, 31 Dec 2018 05:30:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-583</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-311&quot;&gt;Tung Dang Thanh&lt;/a&gt;.
+
+Bác thêm đoạn sau vào CSS:
+
+.posted-on .updated {
+    display: inline-block;
+}]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-311">Tung Dang Thanh</a>.</p>
+<p>Bác thêm đoạn sau vào CSS:</p>
+<p>.posted-on .updated {<br />
+    display: inline-block;<br />
+}</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-316</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 17 Jun 2018 12:01:26 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-316</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-315&quot;&gt;Tung Dang Thanh&lt;/a&gt;.
+
+Cũng không rõ lắm, nghịch thử đi :D
+
+Kẹt wớ thì hú bé Tom ^_^]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-315">Tung Dang Thanh</a>.</p>
+<p>Cũng không rõ lắm, nghịch thử đi 😀</p>
+<p>Kẹt wớ thì hú bé Tom ^_^</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tung Dang Thanh		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-315</link>
+
+		<dc:creator><![CDATA[Tung Dang Thanh]]></dc:creator>
+		<pubDate>Sun, 17 Jun 2018 11:29:15 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-315</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-314&quot;&gt;bibica&lt;/a&gt;.
+
+Hay do mình dùng cái Mansory Layout nên nó thế nhỉ? Mấy cái code php ông tác giả cho trên github cũng chả dùng được cái nào, huhu]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-314">bibica</a>.</p>
+<p>Hay do mình dùng cái Mansory Layout nên nó thế nhỉ? Mấy cái code php ông tác giả cho trên github cũng chả dùng được cái nào, huhu</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-314</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 17 Jun 2018 11:25:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-314</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-311&quot;&gt;Tung Dang Thanh&lt;/a&gt;.
+
+Ah, sorry hôm rầy lu bu quá :D
+
+Code đó add vào là hiện mà ta :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-311">Tung Dang Thanh</a>.</p>
+<p>Ah, sorry hôm rầy lu bu quá 😀</p>
+<p>Code đó add vào là hiện mà ta 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tung Dang Thanh		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-311</link>
+
+		<dc:creator><![CDATA[Tung Dang Thanh]]></dc:creator>
+		<pubDate>Wed, 13 Jun 2018 10:25:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-311</guid>
+
+					<description><![CDATA[Cái code show update time đấy phải có thêm CSS thì nó mới hiện phải không bibica? Mình thêm không thì thấy hiện mỗi dòng &quot;updated on:&quot;.]]></description>
+			<content:encoded><![CDATA[<p>Cái code show update time đấy phải có thêm CSS thì nó mới hiện phải không bibica? Mình thêm không thì thấy hiện mỗi dòng &#8220;updated on:&#8221;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-300</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 26 May 2018 10:32:55 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072#comment-300</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-299&quot;&gt;san&lt;/a&gt;.
+
+Dạ, trang mình không phải trang share đồ có bản quyền bạn à :(
+
+Bạn vui lòng google tí là ra hé :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comment-299">san</a>.</p>
+<p>Dạ, trang mình không phải trang share đồ có bản quyền bạn à 🙁</p>
+<p>Bạn vui lòng google tí là ra hé 🙁</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

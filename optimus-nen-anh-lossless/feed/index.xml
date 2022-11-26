@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Optimus &#8211; Nén ảnh lossless	</title>
+	<atom:link href="https://static.bibica.net/optimus-nen-anh-lossless/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/optimus-nen-anh-lossless/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=optimus-nen-anh-lossless</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 16:18:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-611</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 18 Feb 2019 08:38:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-611</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/optimus-nen-anh-lossless/#comment-610&quot;&gt;Đạo Nguyễn&lt;/a&gt;.
+
+Dùng cho shop thì WP Rocket gần như trùm rồi, mà như đã nói ở trên ấy, giờ Cloudflare có location Việt Nam nên config gì cũng chỉ cho vui cả, chạy vù vù cả ấy mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/optimus-nen-anh-lossless/#comment-610">Đạo Nguyễn</a>.</p>
+<p>Dùng cho shop thì WP Rocket gần như trùm rồi, mà như đã nói ở trên ấy, giờ Cloudflare có location Việt Nam nên config gì cũng chỉ cho vui cả, chạy vù vù cả ấy mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-610</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Mon, 18 Feb 2019 08:19:40 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-610</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/optimus-nen-anh-lossless/#comment-609&quot;&gt;bibica&lt;/a&gt;.
+
+Cache Enabler mình thấy nó đơn giản quá nên cũng hơi lăn tăn, đang định dùng WP Rocket + Rocket-Nginx, nhưng lại không thấy nó có Webp, mình dùng cho website bán hàng nên cân nhắc quá.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/optimus-nen-anh-lossless/#comment-609">bibica</a>.</p>
+<p>Cache Enabler mình thấy nó đơn giản quá nên cũng hơi lăn tăn, đang định dùng WP Rocket + Rocket-Nginx, nhưng lại không thấy nó có Webp, mình dùng cho website bán hàng nên cân nhắc quá.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-609</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 18 Feb 2019 08:05:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-609</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/optimus-nen-anh-lossless/#comment-608&quot;&gt;Đạo Nguyễn&lt;/a&gt;.
+
+Optimus + Cache Enabler :P
+
+Nói chung cho vui là chính thôi, thực tế chủ yếu giờ Cloudflare có location Việt Nam rồi, load vù vù cả :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/optimus-nen-anh-lossless/#comment-608">Đạo Nguyễn</a>.</p>
+<p>Optimus + Cache Enabler 😛</p>
+<p>Nói chung cho vui là chính thôi, thực tế chủ yếu giờ Cloudflare có location Việt Nam rồi, load vù vù cả 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-608</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Mon, 18 Feb 2019 08:01:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-608</guid>
+
+					<description><![CDATA[Mình thấy trang của bạn toàn dùng webp luôn, cái này do Optimus à]]></description>
+			<content:encoded><![CDATA[<p>Mình thấy trang của bạn toàn dùng webp luôn, cái này do Optimus à</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-542</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2018 12:29:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-542</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/optimus-nen-anh-lossless/#comment-541&quot;&gt;Caillou&lt;/a&gt;.
+
+Như mình nói trong bài rồi ấy, không phải dịch vụ tốt hay không tốt, mà là vấn đề về công nghệ, cách làm này đã có từ thời internet ra đời, quá sức cũ rồi
+
+Thử dùng mấy dịch vụ như Cloudinary, thử vài hôm là biết công nghệ mới nó ra làm sao liền á :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/optimus-nen-anh-lossless/#comment-541">Caillou</a>.</p>
+<p>Như mình nói trong bài rồi ấy, không phải dịch vụ tốt hay không tốt, mà là vấn đề về công nghệ, cách làm này đã có từ thời internet ra đời, quá sức cũ rồi</p>
+<p>Thử dùng mấy dịch vụ như Cloudinary, thử vài hôm là biết công nghệ mới nó ra làm sao liền á 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Caillou		</title>
+		<link>https://static.bibica.net/optimus-nen-anh-lossless/#comment-541</link>
+
+		<dc:creator><![CDATA[Caillou]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2018 06:24:38 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4655#comment-541</guid>
+
+					<description><![CDATA[Mình đang xài 1 thằng tương tự thằng này là ShortPixel Image Optimizer
+cũng khá ngon, cậu dùng thử xem ntn :D]]></description>
+			<content:encoded><![CDATA[<p>Mình đang xài 1 thằng tương tự thằng này là ShortPixel Image Optimizer<br />
+cũng khá ngon, cậu dùng thử xem ntn 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

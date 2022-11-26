@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: WordOps	</title>
+	<atom:link href="https://static.bibica.net/wordops/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/wordops/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wordops</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 22 Apr 2020 13:23:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordops/#comment-964</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2020 13:23:10 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-964</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-963&quot;&gt;Thai Bao&lt;/a&gt;.
+
+Remote MySQL server thì chỉ là điền info của database vào cho đúng là được
+
+Xem host đang dùng có đang chặn port kết nối ra ngoài không?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-963">Thai Bao</a>.</p>
+<p>Remote MySQL server thì chỉ là điền info của database vào cho đúng là được</p>
+<p>Xem host đang dùng có đang chặn port kết nối ra ngoài không?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Thai Bao		</title>
+		<link>https://static.bibica.net/wordops/#comment-963</link>
+
+		<dc:creator><![CDATA[Thai Bao]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2020 07:27:27 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-963</guid>
+
+					<description><![CDATA[bibica ơi hướng dẫn cài đặt thêm phần WordOps with a remote MySQL server đi ạ. Mình có thử nhưng toàn gặp lỗi]]></description>
+			<content:encoded><![CDATA[<p>bibica ơi hướng dẫn cài đặt thêm phần WordOps with a remote MySQL server đi ạ. Mình có thử nhưng toàn gặp lỗi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordops/#comment-908</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 01 Mar 2020 16:58:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-908</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-907&quot;&gt;Nguyễn Văn&lt;/a&gt;.
+
+Thử mấy lệnh mới ở đây xem sao (https://docs.wordops.net/guides/manage-ssl-certificates/)
+
+Bài này viết cũ quá, chắc bên wordops họ đổi lại các dòng lệnh :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-907">Nguyễn Văn</a>.</p>
+<p>Thử mấy lệnh mới ở đây xem sao (https://docs.wordops.net/guides/manage-ssl-certificates/)</p>
+<p>Bài này viết cũ quá, chắc bên wordops họ đổi lại các dòng lệnh 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/wordops/#comment-907</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Sun, 01 Mar 2020 16:53:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-907</guid>
+
+					<description><![CDATA[Admin và các bạn cho hỏi khi cài ssl thì báo lỗi thế này, chỉ giúp cách khắc phục. Thanks
+
+Your domain is properly configured but acme.sh was unable to issue certificate.
+You can find more informations in /var/log/wo/wordops.log]]></description>
+			<content:encoded><![CDATA[<p>Admin và các bạn cho hỏi khi cài ssl thì báo lỗi thế này, chỉ giúp cách khắc phục. Thanks</p>
+<p>Your domain is properly configured but acme.sh was unable to issue certificate.<br />
+You can find more informations in /var/log/wo/wordops.log</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordops/#comment-882</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 09 Dec 2019 15:55:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-882</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-881&quot;&gt;Phong Phan&lt;/a&gt;.
+
+Thường mấy script dạng này họ không làm mấy tính năng đó :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-881">Phong Phan</a>.</p>
+<p>Thường mấy script dạng này họ không làm mấy tính năng đó 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Phong Phan		</title>
+		<link>https://static.bibica.net/wordops/#comment-881</link>
+
+		<dc:creator><![CDATA[Phong Phan]]></dc:creator>
+		<pubDate>Mon, 09 Dec 2019 15:01:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-881</guid>
+
+					<description><![CDATA[Cái này có tích hợp luôn chia ftp user cho từng domain ko bạn ?]]></description>
+			<content:encoded><![CDATA[<p>Cái này có tích hợp luôn chia ftp user cho từng domain ko bạn ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Caillou		</title>
+		<link>https://static.bibica.net/wordops/#comment-743</link>
+
+		<dc:creator><![CDATA[Caillou]]></dc:creator>
+		<pubDate>Fri, 10 May 2019 17:32:40 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-743</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-733&quot;&gt;bibica&lt;/a&gt;.
+
+Chính xác, mình còn mấy site đang chạy v3 vẫn phải chạy cron mới chịu nổi :v]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-733">bibica</a>.</p>
+<p>Chính xác, mình còn mấy site đang chạy v3 vẫn phải chạy cron mới chịu nổi :v</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trahn		</title>
+		<link>https://static.bibica.net/wordops/#comment-742</link>
+
+		<dc:creator><![CDATA[Trahn]]></dc:creator>
+		<pubDate>Tue, 07 May 2019 06:24:28 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-742</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-740&quot;&gt;bibica&lt;/a&gt;.
+
+có lẽ bạn không có lý do chính đáng ... chỉ là bạn không hiểu các lệnh Bash tôi nghĩ;)
+
+hiệu suất tốt hơn nhiều so với WordOps - dù sao bạn cũng chọn]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-740">bibica</a>.</p>
+<p>có lẽ bạn không có lý do chính đáng &#8230; chỉ là bạn không hiểu các lệnh Bash tôi nghĩ;)</p>
+<p>hiệu suất tốt hơn nhiều so với WordOps &#8211; dù sao bạn cũng chọn</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordops/#comment-740</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 06 May 2019 19:41:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-740</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-739&quot;&gt;Trahn&lt;/a&gt;.
+
+Mình chỉ nói ngắn gọn, là đọc xong dòng đó trên slickstack.io thì mình chẳng cần nhìn thêm bất cứ thứ gì tay đó viết nữa :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-739">Trahn</a>.</p>
+<p>Mình chỉ nói ngắn gọn, là đọc xong dòng đó trên slickstack.io thì mình chẳng cần nhìn thêm bất cứ thứ gì tay đó viết nữa 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trahn		</title>
+		<link>https://static.bibica.net/wordops/#comment-739</link>
+
+		<dc:creator><![CDATA[Trahn]]></dc:creator>
+		<pubDate>Mon, 06 May 2019 19:27:58 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4923#comment-739</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordops/#comment-736&quot;&gt;bibica&lt;/a&gt;.
+
+Dù sao thì ý kiến của người viết blog không ảnh hưởng đến phần mềm (tôi vẫn có thể cài đặt trong Amazon)
+
+Ai muốn sử dụng Amazon? hỗ trợ khủng khiếp, trung tâm dữ liệu hạn chế (và bí mật) và rất tốn kém
+
+bạn có thể sử dụng (ví dụ) DigitalOcean tại Singapore + CloudFlare tại Việt Nam / Châu Á (mạng CDN rất lớn trên toàn thế giới)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordops/#comment-736">bibica</a>.</p>
+<p>Dù sao thì ý kiến của người viết blog không ảnh hưởng đến phần mềm (tôi vẫn có thể cài đặt trong Amazon)</p>
+<p>Ai muốn sử dụng Amazon? hỗ trợ khủng khiếp, trung tâm dữ liệu hạn chế (và bí mật) và rất tốn kém</p>
+<p>bạn có thể sử dụng (ví dụ) DigitalOcean tại Singapore + CloudFlare tại Việt Nam / Châu Á (mạng CDN rất lớn trên toàn thế giới)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

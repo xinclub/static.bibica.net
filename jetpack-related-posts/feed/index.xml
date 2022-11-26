@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Jetpack Related Posts	</title>
+	<atom:link href="https://static.bibica.net/jetpack-related-posts/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/jetpack-related-posts/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jetpack-related-posts</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 22:50:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-822</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 05 Oct 2019 18:45:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-822</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-821&quot;&gt;Đạt Trần&lt;/a&gt;.
+
+Chọn tất cả các plugin đang chạy, ấn tạm dừng, chỉ để cái Related Post chạy xem hiện ra bình thường không?
+
+Nó hiện ra rồi thì bật từng plugin lại lên, tới cái nào bật lên mà gây lỗi với Related Post là biết mà
+
+Với lại Related Post là hiện ra ở .... post mà, hiện ra ở trang chủ là làm sao?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-821">Đạt Trần</a>.</p>
+<p>Chọn tất cả các plugin đang chạy, ấn tạm dừng, chỉ để cái Related Post chạy xem hiện ra bình thường không?</p>
+<p>Nó hiện ra rồi thì bật từng plugin lại lên, tới cái nào bật lên mà gây lỗi với Related Post là biết mà</p>
+<p>Với lại Related Post là hiện ra ở &#8230;. post mà, hiện ra ở trang chủ là làm sao?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạt Trần		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-821</link>
+
+		<dc:creator><![CDATA[Đạt Trần]]></dc:creator>
+		<pubDate>Sat, 05 Oct 2019 18:25:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-821</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-820&quot;&gt;bibica&lt;/a&gt;.
+
+em bật Related Post trong Jetpack và nó không hiện ra trang chủ. Dùng Jetpack Debug thì biết là do em tắt XML-RPC. Nhưng em đã kiểm tra tất cả plugin đều ko thấy nó tắt cái đó đi :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-820">bibica</a>.</p>
+<p>em bật Related Post trong Jetpack và nó không hiện ra trang chủ. Dùng Jetpack Debug thì biết là do em tắt XML-RPC. Nhưng em đã kiểm tra tất cả plugin đều ko thấy nó tắt cái đó đi 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-820</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 05 Oct 2019 17:51:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-820</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-819&quot;&gt;Đạt Trần&lt;/a&gt;.
+
+Lỗi xml-rpc là lỗi gì :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-819">Đạt Trần</a>.</p>
+<p>Lỗi xml-rpc là lỗi gì 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạt Trần		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-819</link>
+
+		<dc:creator><![CDATA[Đạt Trần]]></dc:creator>
+		<pubDate>Sat, 05 Oct 2019 17:50:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-819</guid>
+
+					<description><![CDATA[anh ơi anh dùng với centminmod có bị lỗi xml-rpc không thế?]]></description>
+			<content:encoded><![CDATA[<p>anh ơi anh dùng với centminmod có bị lỗi xml-rpc không thế?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-391</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 09 Sep 2018 09:15:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-391</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-390&quot;&gt;Tony&lt;/a&gt;.
+
+Nếu bạn đọc hết bài viết bên trên thì đã có câu trả lời rồi chứ nhỉ?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-390">Tony</a>.</p>
+<p>Nếu bạn đọc hết bài viết bên trên thì đã có câu trả lời rồi chứ nhỉ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tony		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-390</link>
+
+		<dc:creator><![CDATA[Tony]]></dc:creator>
+		<pubDate>Sat, 08 Sep 2018 15:40:08 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-390</guid>
+
+					<description><![CDATA[Dùng bộ Jetpack này có nặng không bạn ơi, thấy relate post bạn quảng cáo hay quá! Ông viết bài chất, nghe là muốn dùng. Đang xài webinoly, generatepress toàn ông giới thiệu.]]></description>
+			<content:encoded><![CDATA[<p>Dùng bộ Jetpack này có nặng không bạn ơi, thấy relate post bạn quảng cáo hay quá! Ông viết bài chất, nghe là muốn dùng. Đang xài webinoly, generatepress toàn ông giới thiệu.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyen Hoang Phu Thinh		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-326</link>
+
+		<dc:creator><![CDATA[Nguyen Hoang Phu Thinh]]></dc:creator>
+		<pubDate>Sat, 23 Jun 2018 10:12:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-326</guid>
+
+					<description><![CDATA[Ồ vậy hả, cảm ơn bạn nhiều nhé :D Vậy yên tâm hơn rồi :)]]></description>
+			<content:encoded><![CDATA[<p>Ồ vậy hả, cảm ơn bạn nhiều nhé 😀 Vậy yên tâm hơn rồi 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-325</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 23 Jun 2018 10:10:55 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-325</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-324&quot;&gt;Nguyen Hoang Phu Thinh&lt;/a&gt;.
+
+Do họ dùng cơ chế server &lt;-&gt; server nên mới bắt đầu dùng nó chưa ổn định lắm, chờ ít hôm để các bài viết được ổn định lại là được :D
+
+Lúc mới dùng mình cũng bị thế, dùng một thời gian nó tự cập nhập ổn định lại thôi :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-324">Nguyen Hoang Phu Thinh</a>.</p>
+<p>Do họ dùng cơ chế server <-> server nên mới bắt đầu dùng nó chưa ổn định lắm, chờ ít hôm để các bài viết được ổn định lại là được 😀</p>
+<p>Lúc mới dùng mình cũng bị thế, dùng một thời gian nó tự cập nhập ổn định lại thôi 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyen Hoang Phu Thinh		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-324</link>
+
+		<dc:creator><![CDATA[Nguyen Hoang Phu Thinh]]></dc:creator>
+		<pubDate>Sat, 23 Jun 2018 10:04:54 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-324</guid>
+
+					<description><![CDATA[Chào bạn,
+
+Bài viết rất hay và chi tiết, có kinh nghiệm rất rõ :) Mình cũng đọc nhiều bài về Related Post của Jetpack rồi mà chủ yếu họ toàn dịch lại rồi copy paste không. 
+
+Cho mình hỏi bạn cái này. Mình có activate chức năng Related Post của jetpack rồi. Nhưng bài được bài không. Tức là, bài A thì có related post, bài B thì không, bài C thì lại có related post. Mình có dùng tag, trong khi các tag của 3 bài này không khác nhau là mấy.
+
+Mình cũng có xem lại loại post của mình nữa (theme mình dùng hỗ trợ 7-8 loại post gì lận &quot;Baskerville&quot;). Cả 3 bài A, B và C đều chung 1 loại post. Nên mình không biết lý do tại sao? Mình có thử sync lại connection như ở trên bạn chỉ nhưng vẫn không có gì thay đổi hết. Bài có, bài không.
+
+Mong bạn hỗ trợ nếu được. Chân thành cảm ơn!]]></description>
+			<content:encoded><![CDATA[<p>Chào bạn,</p>
+<p>Bài viết rất hay và chi tiết, có kinh nghiệm rất rõ 🙂 Mình cũng đọc nhiều bài về Related Post của Jetpack rồi mà chủ yếu họ toàn dịch lại rồi copy paste không. </p>
+<p>Cho mình hỏi bạn cái này. Mình có activate chức năng Related Post của jetpack rồi. Nhưng bài được bài không. Tức là, bài A thì có related post, bài B thì không, bài C thì lại có related post. Mình có dùng tag, trong khi các tag của 3 bài này không khác nhau là mấy.</p>
+<p>Mình cũng có xem lại loại post của mình nữa (theme mình dùng hỗ trợ 7-8 loại post gì lận &#8220;Baskerville&#8221;). Cả 3 bài A, B và C đều chung 1 loại post. Nên mình không biết lý do tại sao? Mình có thử sync lại connection như ở trên bạn chỉ nhưng vẫn không có gì thay đổi hết. Bài có, bài không.</p>
+<p>Mong bạn hỗ trợ nếu được. Chân thành cảm ơn!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-related-posts/#comment-84</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 03:07:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3214#comment-84</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-related-posts/#comment-83&quot;&gt;Hai Lúa&lt;/a&gt;.
+
+Về ý 1, thì mình không rõ lắm, mặc định hiểu là nó hiện bài viết liên quan, còn bạn lại muốn hiện chuyên mục à?
+Về ý 2, thì đợt trước mình có thử điền thêm vài bài khác nhưng nó không hiện ra :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-related-posts/#comment-83">Hai Lúa</a>.</p>
+<p>Về ý 1, thì mình không rõ lắm, mặc định hiểu là nó hiện bài viết liên quan, còn bạn lại muốn hiện chuyên mục à?<br />
+Về ý 2, thì đợt trước mình có thử điền thêm vài bài khác nhưng nó không hiện ra 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script>var et_site_url='https://static.bibica.net';var et_post_id='4823';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}</script><title>Swift Performance &#8211; BIBICA.NET</title>
+<link rel="preload" href="https://media.publit.io/file/w_464,h_86,c_fit,q_80/logo-3-H.png" as="image">
+<link rel="preload" href="https://media.publit.io/file/w_725,h_440,c_fit,q_80/2019-04-02_17-26-34.png" as="image" imagesrcset="https://media.publit.io/file/w_725,h_440,c_fit,q_80/2019-04-02_17-26-34.png 725w, https://media.publit.io/file/w_300,h_182,c_fit,q_80/2019-04-02_17-26-34.png 300w, https://media.publit.io/file/w_500,h_304,c_fit,q_80/2019-04-02_17-26-34.png 500w, https://media.publit.io/file/w_761,c_fit,q_80/2019-04-02_17-26-34.png 761w" imagesizes="(max-width: 725px) 100vw, 725px">
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="preconnect" href="https://i0.wp.com/">
+<link rel="preconnect" href="https://i1.wp.com/">
+<link rel="preconnect" href="https://i2.wp.com/">
+<link rel="dns-prefetch" href="//i0.wp.com">
+<link rel="dns-prefetch" href="//i1.wp.com">
+<link rel="dns-prefetch" href="//i2.wp.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="dns-prefetch" href="https://static.bibica.net">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; Feed" href="https://static.bibica.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; Comments Feed" href="https://static.bibica.net/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; Swift Performance Comments Feed" href="https://static.bibica.net/swift-performance/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.10.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-6Y2T5Q1R88" data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '8.10.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-6Y2T5Q1R88',
+														];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-6Y2T5Q1R88', {"forceSSL":"true","link_attribution":"true","post_type":"post","tags":"untagged","published_at":"2019-04-03T13:53:13+07:00","category":"review","author":"user-1","logged_in":"false"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link rel="stylesheet" id="wp-block-library-css" href="https://static.bibica.net/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-library-inline-css">.has-text-align-justify{text-align:justify;}</style>
+<link rel="stylesheet" id="classic-theme-styles-css" href="https://static.bibica.net/wp-includes/css/classic-themes.min.css?ver=1" media="all">
+<link rel="stylesheet" id="stcr-style-css" href="https://static.bibica.net/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-style.css?ver=6.1.1" media="all">
+<link rel="stylesheet" id="orbisius_ct_bibica_review_01_parent_style-css" href="https://static.bibica.net/wp-content/themes/generatepress/style.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="orbisius_ct_bibica_review_01_parent_style_child_style-css" href="https://static.bibica.net/wp-content/themes/bibica-review/style.css?ver=1.1" media="all">
+<link rel="stylesheet" id="generate-style-grid-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="generate-style-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/style.min.css?ver=3.2.3" media="all">
+<style id="generate-style-inline-css">.featured-image img {width: 725px;}
+body{background-color:#e9ebee;color:#0c0000;}a{color:#343e47;}a:visited{color:#343e47;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}.wp-block-group__inner-container{max-width:1100px;margin-left:auto;margin-right:auto;}.generate-back-to-top{font-size:20px;border-radius:3px;position:fixed;bottom:30px;right:30px;line-height:40px;width:40px;text-align:center;z-index:10;transition:opacity 300ms ease-in-out;opacity:0.1;transform:translateY(1000px);}.generate-back-to-top__show{opacity:1;transform:translateY(0);}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity 100ms ease-in-out;opacity:0;}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1;}.navigation-search input[type="search"]{outline:0;border:0;vertical-align:bottom;line-height:1;opacity:0.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none;height:60px;}.navigation-search input::-ms-clear{display:none;width:0;height:0;}.navigation-search input::-ms-reveal{display:none;width:0;height:0;}.navigation-search input::-webkit-search-decoration, .navigation-search input::-webkit-search-cancel-button, .navigation-search input::-webkit-search-results-button, .navigation-search input::-webkit-search-results-decoration{display:none;}.main-navigation li.search-item{z-index:21;}li.search-item.active{transition:opacity 100ms ease-in-out;}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right;}.gen-sidebar-nav .navigation-search{top:auto;bottom:0;}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}.has-contrast-color{color:var(--contrast);}.has-contrast-background-color{background-color:var(--contrast);}.has-contrast-2-color{color:var(--contrast-2);}.has-contrast-2-background-color{background-color:var(--contrast-2);}.has-contrast-3-color{color:var(--contrast-3);}.has-contrast-3-background-color{background-color:var(--contrast-3);}.has-base-color{color:var(--base);}.has-base-background-color{background-color:var(--base);}.has-base-2-color{color:var(--base-2);}.has-base-2-background-color{background-color:var(--base-2);}.has-base-3-color{color:var(--base-3);}.has-base-3-background-color{background-color:var(--base-3);}.has-accent-color{color:var(--accent);}.has-accent-background-color{background-color:var(--accent);}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}p{margin-bottom:1em;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1em;}.main-title{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:normal;font-size:45px;}.site-description{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}.main-navigation a, .menu-toggle{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";text-transform:uppercase;}.main-navigation .main-nav ul ul li a{font-size:14px;}.widget-title{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:bold;text-transform:capitalize;font-size:25px;margin-bottom:15px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}button:not(.menu-toggle),html input[type="button"],input[type="reset"],input[type="submit"],.button,.wp-block-button .wp-block-button__link{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:400;}h1{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:600;text-transform:capitalize;font-size:30px;}h2{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:600;text-transform:capitalize;font-size:30px;}h3{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:bold;font-size:20px;}h4{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:inherit;}h5{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:inherit;}h6{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}.site-info{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:400;text-transform:capitalize;font-size:16px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#222222;}.top-bar a{color:#f4911f;}.top-bar a:hover{color:#222222;}.site-header{background-color:#343e47;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#ffffff;}.site-description{color:#ffffff;}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:#343e47;}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#e2e2e2;background-color:#343e47;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#343e47;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#e2e2e2;background-color:#343e47;}.main-navigation ul ul{background-color:#343e47;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#ffffff;background-color:#343e47;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#343e47;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{color:#0c0c0c;background-color:#ffffff;}.inside-article a,.paging-navigation a,.comments-area a,.page-header a{color:#277ee4;}.inside-article a:hover,.paging-navigation a:hover,.comments-area a:hover,.page-header a:hover{color:#7600f4;}.entry-header h1,.page-header h1{color:#343e47;}.entry-title a{color:#343e47;}.entry-title a:hover{color:#343e47;}.entry-meta{color:#90949c;}.entry-meta a{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{color:#282828;background-color:#e9ebee;}.sidebar .widget a{color:#282828;}.sidebar .widget a:hover{color:#277ee4;}.sidebar .widget .widget-title{color:#343e47;}.footer-widgets{color:#282828;background-color:#ffffff;}.footer-widgets a{color:#282828;}.footer-widgets a:hover{color:#b5b5b5;}.footer-widgets .widget-title{color:#343e47;}.site-info{color:#90949c;background-color:#e9ebee;}.site-info a{color:#90949c;}.site-info a:hover{color:#277ee4;}.footer-bar .widget_nav_menu .current-menu-item a{color:#277ee4;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#343e47;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#343e47;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#666666;}a.generate-back-to-top{background-color:#f77b0e;color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:#f7b276;color:#ffffff;}@media (max-width: 768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-top-bar{padding:5px 10px 5px 10px;}.inside-header{padding:10px;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:20px;}.site-main .wp-block-group__inner-container{padding:20px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-20px;width:calc(100% + 40px);max-width:calc(100% + 40px);}.one-container.right-sidebar .site-main,.one-container.both-right .site-main{margin-right:20px;}.one-container.left-sidebar .site-main,.one-container.both-left .site-main{margin-left:20px;}.one-container.both-sidebars .site-main{margin:0px 20px 0px 20px;}.main-navigation .main-nav ul li a,.menu-toggle,.main-navigation .mobile-bar-items a{padding-left:7px;padding-right:7px;line-height:75px;}.main-navigation .main-nav ul ul li a{padding:10px 7px 10px 7px;}.navigation-search input[type="search"]{height:75px;}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:7px;}.menu-item-has-children .dropdown-menu-toggle{padding-right:7px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:7px;}.widget-area .widget{padding:20px;}.footer-widgets{padding:20px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.site-main .wp-block-group__inner-container{padding:30px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}/* End cached CSS */@media (max-width: 768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+.main-navigation.toggled .main-nav > ul{background-color: #343e47}
+.navigation-branding .main-title{font-weight:normal;text-transform:none;font-size:45px;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}@media (max-width: 768px){.navigation-branding .main-title{font-size:30px;}}</style>
+<link rel="stylesheet" id="generate-mobile-style-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/mobile.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="generate-font-icons-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/components/font-awesome.min.css?ver=4.7" media="all">
+<link rel="stylesheet" id="generate-child-css" href="https://static.bibica.net/wp-content/themes/bibica-review/style.css?ver=1669408164" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="https://static.bibica.net/wp-content/plugins/tablepress/css/default.min.css?ver=1.14" media="all">
+<link rel="stylesheet" id="generate-blog-images-css" href="https://static.bibica.net/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="enlighterjs-css" href="https://static.bibica.net/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=sxG6g8i781CS7Xa" media="all">
+<link rel="stylesheet" id="generate-navigation-branding-css" href="https://static.bibica.net/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding.min.css?ver=2.2.1" media="all">
+<style id="generate-navigation-branding-inline-css">@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}}.navigation-branding img, .site-logo.mobile-header-logo img{height:75px;width:auto;}.navigation-branding .main-title{line-height:75px;}@media (max-width: 1110px){#site-navigation .navigation-branding, #sticky-navigation .navigation-branding{margin-left:10px;}}@media (max-width: 768px){.main-navigation:not(.slideout-navigation) .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;}.main-navigation:not(.slideout-navigation) .inside-navigation{-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;}.nav-aligned-center .navigation-branding, .nav-aligned-left .navigation-branding{margin-right:auto;}.nav-aligned-center  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-center  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav{margin-right:0px;}}</style>
+<script src="https://static.bibica.net/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=8.10.1" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/static.bibica.net","hash_tracking":"false","ua":"","v4_id":"G-6Y2T5Q1R88"};</script>
+<link rel="canonical" href="https://static.bibica.net/swift-performance/">
+<style type="text/css" id="et-bloom-custom-css">.et_bloom .et_bloom_optin_1 .et_bloom_form_content { background-color: #e9ebee !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container .et_bloom_form_header { background-color: #343e47 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_fields i { color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_custom_field_radio i:before { background: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.et_bloom .et_bloom_optin_1 .et_bloom_form_container p, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p strong, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form input, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }</style>
+<link rel="preload" href="https://static.bibica.net/wp-content/plugins/bloom/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous">
+<style type="text/css">.rp4wp-related-posts ul{width:100%;padding:0;margin:0;float:left;}
+.rp4wp-related-posts ul>li{list-style:none;padding:0;margin:0;padding-bottom:20px;clear:both;}
+.rp4wp-related-posts ul>li>p{margin:0;padding:0;}
+.rp4wp-related-post-image{width:20%;padding-right:25px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;float:left;}</style>
+<meta name="description" content="Swift Performance là một plugin cache cho WordPress, tình cờ mình biết tới khi đọc blog của  WP JOHNNY , một thanh niên cũng rất cuồng hiệu năng, không chắc lắm">
+<meta property="og:title" content="Swift Performance &#8211; BIBICA.NET">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://media.publit.io/file/w_464,h_86,c_fit,q_80/logo-3-H.png">
+<meta property="og:image:width" content="464">
+<meta property="og:image:height" content="86">
+<meta property="og:description" content="Swift Performance là một plugin cache cho WordPress, tình cờ mình biết tới khi đọc blog của  WP JOHNNY , một thanh niên cũng rất cuồng hiệu năng, không chắc lắm">
+<meta property="og:url" content="https://static.bibica.net/swift-performance/">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="BIBICA.NET">
+<meta property="article:published_time" content="2019-04-03T06:53:13+00:00">
+<meta property="article:modified_time" content="2021-05-17T03:42:51+00:00">
+<meta property="og:updated_time" content="2021-05-17T03:42:51+00:00">
+<meta property="article:section" content="Review">
+<meta property="article:author" content="bibica">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://media.publit.io/file/w_464,h_86,c_fit,q_80/logo-3-H.png">
+<link rel="icon" href="https://media.publit.io/file/w_32,h_32,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg" sizes="32x32">
+<link rel="icon" href="https://media.publit.io/file/w_192,h_192,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://media.publit.io/file/w_180,h_180,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg">
+<meta name="msapplication-TileImage" content="https://media.publit.io/file/w_270,h_270,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg">
+		<style id="wp-custom-css">.generate-back-to-top,
+.generate-back-to-top:visited {
+    border-radius: 20px; /* how round the button is */
+    line-height: 40px; /* how tall it is */
+    width: 40px; /* how wide it is */
+}</style>
+		</head>
+
+<body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-4823 single-format-standard wp-embed-responsive post-image-below-header post-image-aligned-center sticky-menu-fade mobile-header mobile-header-sticky et_bloom right-sidebar nav-float-right separate-containers fluid-header active-footer-widgets-0 nav-search-enabled header-aligned-left dropdown-hover featured-image-active">
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header class="site-header" id="masthead" aria-label="Site" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://static.bibica.net/" rel="home">
+						BIBICA.NET
+					</a>
+				</p>
+						<p class="site-description" itemprop="description">
+					What You See Is What We Share
+				</p>
+					</div>		<nav class="main-navigation sub-menu-right" id="site-navigation" aria-label="Primary" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://dev-bibica-net.pantheonsite.io/">
+					<input type="search" class="search-field" value="" name="s" title="Search">
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-menu-trang-chu" class=" menu sf-menu">
+<li id="menu-item-2528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2528">
+<a title="Home" href="https://static.bibica.net/"><i class="fa fa-home" aria-hidden="true"></i> Home<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2529" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2529"><a title="Toolbox" href="https://static.bibica.net/category/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+	<li id="menu-item-2530" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2530"><a title="Review" href="https://static.bibica.net/category/review/"><i class="fa fa-eye" aria-hidden="true"></i> Review</a></li>
+	<li id="menu-item-2531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2531"><a title="Advertisement" href="https://static.bibica.net/category/review/advertisement/"><i class="fa fa-handshake-o" aria-hidden="true"></i> Advertisement</a></li>
+	<li id="menu-item-2532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2532"><a title="Chat Chit" href="https://static.bibica.net/category/lam-nham/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chat Chit</a></li>
+</ul>
+</li>
+<li id="menu-item-1381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1381"><a title="Shop" target="_blank" rel="noopener" href="http://ngoirungdui.com/shop/"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a title="Toolbox" href="https://static.bibica.net/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+<li id="menu-item-1902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1902"><a title="Speed Up" href="https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/"><i class="fa fa-rocket" aria-hidden="true"></i> Speed Up</a></li>
+<li id="menu-item-1952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1952">
+<a title="Service" href="https://static.bibica.net/service/"><i class="fa  fa-thumbs-o-up"></i> Service<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2767"><a title="Monitor Uptime" target="_blank" rel="noopener" href="https://www.uptimedoctor.com/publicreport/gwv1lv4l/147562/1/471535"><i class="fa fa-desktop" aria-hidden="true"></i> Monitor Uptime</a></li>
+	<li id="menu-item-2770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2770"><a title="Archives" href="https://static.bibica.net/archives/"><i class="fa fa-archive" aria-hidden="true"></i> Archives</a></li>
+</ul>
+</li>
+<li id="menu-item-1967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a title="History" href="https://static.bibica.net/history/"><i class="fa fa-history" aria-hidden="true"></i> History</a></li>
+<li id="menu-item-1937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a title="Contact Us" href="https://static.bibica.net/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+<li id="menu-item-2605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2605"><a title="Facebook" target="_blank" rel="noopener" href="http://fb.com/bibica.net"><i class="fa fa-facebook fa" aria-hidden="true"></i></a></li>
+<li id="menu-item-3274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3274"><a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/b2bteams"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li>
+</ul></div>			</div>
+		</nav>
+					</div>
+		</header>
+				<nav id="mobile-header" itemtype="https://schema.org/SiteNavigationElement" itemscope class="main-navigation mobile-header-navigation">
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://dev-bibica-net.pantheonsite.io/">
+					<input type="search" class="search-field" value="" name="s" title="Search">
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+							<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+						<span class="mobile-menu">Menu</span>					</button>
+					<div id="mobile-menu" class="main-nav"><ul id="menu-menu-trang-chu-1" class=" menu sf-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2528">
+<a title="Home" href="https://static.bibica.net/"><i class="fa fa-home" aria-hidden="true"></i> Home<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2529"><a title="Toolbox" href="https://static.bibica.net/category/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2530"><a title="Review" href="https://static.bibica.net/category/review/"><i class="fa fa-eye" aria-hidden="true"></i> Review</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2531"><a title="Advertisement" href="https://static.bibica.net/category/review/advertisement/"><i class="fa fa-handshake-o" aria-hidden="true"></i> Advertisement</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2532"><a title="Chat Chit" href="https://static.bibica.net/category/lam-nham/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chat Chit</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1381"><a title="Shop" target="_blank" rel="noopener" href="http://ngoirungdui.com/shop/"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a title="Toolbox" href="https://static.bibica.net/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1902"><a title="Speed Up" href="https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/"><i class="fa fa-rocket" aria-hidden="true"></i> Speed Up</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1952">
+<a title="Service" href="https://static.bibica.net/service/"><i class="fa  fa-thumbs-o-up"></i> Service<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2767"><a title="Monitor Uptime" target="_blank" rel="noopener" href="https://www.uptimedoctor.com/publicreport/gwv1lv4l/147562/1/471535"><i class="fa fa-desktop" aria-hidden="true"></i> Monitor Uptime</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2770"><a title="Archives" href="https://static.bibica.net/archives/"><i class="fa fa-archive" aria-hidden="true"></i> Archives</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a title="History" href="https://static.bibica.net/history/"><i class="fa fa-history" aria-hidden="true"></i> History</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a title="Contact Us" href="https://static.bibica.net/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2605"><a title="Facebook" target="_blank" rel="noopener" href="http://fb.com/bibica.net"><i class="fa fa-facebook fa" aria-hidden="true"></i></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3274"><a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/b2bteams"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li>
+</ul></div>			</div>
+<!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+		
+	<div id="page" class="hfeed site grid-container container grid-parent">
+		<div id="content" class="site-content">
+			
+	<div class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75" id="primary">
+		<main class="site-main" id="main">
+			
+<article id="post-4823" class="post-4823 post type-post status-publish format-standard has-post-thumbnail hentry category-review" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+					<header class="entry-header" aria-label="Content">
+				<h1 class="entry-title" itemprop="headline">Swift Performance</h1>		<div class="entry-meta">
+			<span class="posted-on"><i class="fa fa-calendar fa-1x" aria-hidden="true"></i> 03/04/2019 <i class="fa fa-refresh fa-1x fa-fw"></i> 17/05/2021 </span>		</div>
+					</header>
+			<div class="featured-image  page-header-image-single ">
+				<img data-perfmatters-preload width="464" height="86" src="https://media.publit.io/file/w_464,h_86,c_fit,q_80/logo-3-H.png" class="attachment-full size-full" alt="logo" decoding="async" itemprop="image">
+			</div>
+		<div class="entry-content" itemprop="text">
+			<p><a href="https://swiftperformance.io/" target="_blank" rel="noopener">Swift Performance</a> là một plugin cache cho WordPress, tình cờ mình biết tới khi đọc blog của <a href="https://wpjohnny.com/swift-performance-wordpress-cache-plugin-unofficial-guide/" target="_blank" rel="noopener">WP JOHNNY</a>, một thanh niên cũng rất cuồng hiệu năng, không chắc lắm nhưng hình như anh này người Việt Nam??? giai đoạn đó, tầm 05/2018 thì mình cũng có dùng thử nhưng thấy khá nhiều lỗi và vấn đề tiếu theo là bạn đủ trình độ để đọc hiểu hết các config của Swift Performance thì gần như trình của bạn về tối ưu hiệu năng, tốc độ của Wordpress nó ở 1 tầm khác rồi :]] và cũng có rất nhiều plugin khác tương tự, đơn giản hay rẻ và miễn phí để bạn có thể dùng</p>
+<p>Thời gian sau này thì Tom, tác giả của <a href="https://static.bibica.net/gioi-thieu-mot-so-trang-web-hay-ve-wordpress/" target="_blank" rel="noopener">OnlineMediaMasters</a> cũng có viết 1 bài về <a href="https://onlinemediamasters.com/swift-performance-settings/" target="_blank" rel="noopener">Swift Performance</a></p>
+<p>Thế nên trước khi đọc bài từ bibica.net, bạn nên đọc 2 bài từ WP JOHNNY và OnlineMediaMasters, để có thể hiểu thêm về cách config cho Swift Performance</p>
+<p>Mỗi người họ sẽ có 1 cách tư duy, quan điểm khác nhau về tốc độ, hiệu năng, và không phải lúc nào cũng đúng, nó cũng lệ thuộc nhiều vào cấu hình server đang dùng, VPS hay hostshare, ram ít hay nhiều, cpu làm sao, location US hay Việt Nam &#8230;  khách truy cập từ đâu, rất nhiều thứ &#8230;</p>
+<p>OK, bài này mình sẽ viết trên Swift Performance version 2.0.15 ra mắt vào <a href="https://swiftperformance.io/changelog/" target="_blank" rel="noopener">02/10/2019</a>, bạn nào thích có thể thử các bản beta mới hơn 😛</p>
+<p>Mình đang dùng bản trả phí, có điều thực tế thì các tính năng trả phí của họ gần như mình không dùng, nên bạn có thể thử với bản <a href="https://wordpress.org/plugins/swift-performance-lite/" target="_blank" rel="noopener">FREE</a> cũng ổn, chẳng vấn đề gì</p>
+<p>Trước khi cài đặt thì xóa hết các plugin cache khác nếu đang dùng ra, cài đặt thì bạn cứ next next next chọn AUTOCONFIG cho có là được, vì ta sẽ config chi tiết lại sau 😀</p>
+<p><a href="https://media.publit.io/file/q_80/2019-04-02_17-26-34.png"><img data-perfmatters-preload decoding="async" loading="lazy" class="aligncenter size-large wp-image-4824" src="https://media.publit.io/file/w_725,h_440,c_fit,q_80/2019-04-02_17-26-34.png" alt="" width="725" height="440" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_440,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-26-34.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_182,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-26-34.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_304,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-26-34.png 500w, https://media.publit.io/file/w_761,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-26-34.png 761w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Swift Performance sẽ tự tính toán để cho ra các giá trị tối ưu</p>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-02_17-28-49.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4825" src="https://media.publit.io/file/w_725,h_500,c_fit,q_80/2019-04-02_17-28-49.png" alt="" width="725" height="500" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_500,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-28-49.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_207,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-28-49.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_345,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-28-49.png 500w, https://media.publit.io/file/w_741,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-02_17-28-49.png 741w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Nói chung cài xong thì ta bắt đầu config, bạn có thể làm theo cấu hình như mình đang chạy cho thèng bibica.net, hoặc sửa lại theo ý cá nhân, mình sẽ cố gắng giải thích các option có tính năng gì, mà thực ra Swift Performance họ cũng có giải thích khá cụ thể bằng các chú thích bên cạnh rồi :]]
+</p>
+<h1>Bắt đầu bắt tab Settings</h1>
+<h2>General -&gt; General</h2>
+<h2><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_9-54-25.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4826" src="https://media.publit.io/file/w_725,h_508,c_fit,q_80/2019-04-03_9-54-25.png" alt="" width="725" height="508" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_508,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_9-54-25.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_210,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_9-54-25.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_350,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_9-54-25.png 500w, https://media.publit.io/file/w_1428,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_9-54-25.png 1428w" sizes="(max-width: 725px) 100vw, 725px"></a></h2>
+<p><span style="color: #993300">Ấn vào <strong>Advanced View</strong></span> để nó hiện ra đủ các tùy chọn</p>
+<div id="_luv_cookies-disabled-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Disable Cookies</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_whitelabel-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Hide Footprints</strong>
+<div class="luv-framework-field-description">Chọn bật
+</div>
+<div>Swift Performance họ cho sửa lại cái dòng comment khi tạo thành cache, kiểu bạn có thể sửa lại thành  &lt;!&#8211;Cached with bibica.net&#8211;&gt; nhìn cho bờ gồ :D, bạn nào thích khoe hàng cái dòng đó thì chọn tắt option Hide Footprints đi 😛</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_use-compute-api-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Use Compute API</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_remote-cron-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Remote Cron</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_enable-beta-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Beta Tester</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_enable-logging-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Debug Log</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+</div>
+<h2>General -&gt; Tweaks</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-05-58.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4827" src="https://media.publit.io/file/w_725,h_602,c_fit,q_80/2019-04-03_10-05-58.png" alt="" width="725" height="602" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_602,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-05-58.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_249,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-05-58.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_415,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-05-58.png 500w, https://media.publit.io/file/w_1417,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-05-58.png 1417w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div> </div>
+<div>
+<div id="_luv_normalize-static-resources-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Normalize Static Resources</strong>
+<div class="luv-framework-field-description">Chọn bật</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_dns-prefetch-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Prefetch DNS</strong>
+<div class="luv-framework-field-description">Chọn bật
+</div>
+<div>Prefetch DNS có tác dụng khá tốt khi bạn dùng các CDN qua các dịch vụ như Jetpack &#8230; </div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_dns-prefetch-js-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Collect domains from scripts</strong>
+<div class="luv-framework-field-description">Chọn bật</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_exclude-dns-prefetch-container" class="luv-framework-field-container should-clear-cache" data-type="multi-text">
+<div class="luv-framework-field-title">
+<strong>Exclude DNS Prefetch</strong>
+<div class="luv-framework-field-description">Giữ mặc định
+</div>
+</div>
+</div>
+<div id="_luv_gravatar-cache-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Gravatar Cache</strong>
+<div class="luv-framework-field-description">Chọn bật
+<p>Option này do mình đã dùng plugin <a href="https://static.bibica.net/fv-gravatar-cache/" target="_blank" rel="noopener">FV Gravatar Cache</a> có tính năng tương tự, nên chọn tắt ở trong Swift Performance thôi</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_custom-htaccess-container" class="luv-framework-field-container" data-type="editor">
+<div class="luv-framework-field-title">
+<strong>Custom Htaccess</strong>
+<div class="luv-framework-field-description">Giữ nguyên</div>
+</div>
+</div>
+</div>
+<div> </div>
+<div><strong>Background Requests</strong></div>
+<div>
+<div id="_luv_custom-htaccess-container" class="luv-framework-field-container" data-type="editor">
+<div class="luv-framework-field-inner">
+<div class="CodeMirror cm-s-monokai">
+<div>Giữ nguyên</div>
+</div>
+</div>
+</div>
+</div>
+<h2>General -&gt; Heartbeat</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-13-45.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4828" src="https://media.publit.io/file/w_725,h_377,c_fit,q_80/2019-04-03_10-13-45.png" alt="" width="725" height="377" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_377,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-13-45.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_156,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-13-45.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_260,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-13-45.png 500w, https://media.publit.io/file/w_1091,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-13-45.png 1091w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Bật hay tắt thì tùy bạn, vì tính năng này chỉ có tác dụng trong quản trị admin của WordPress, cá nhân thì mình đã bật thông qua <a href="https://static.bibica.net/perfmatters/" target="_blank" rel="noopener">Perfmatters</a> rồi nên trong Swift Performance để thế, bạn nào thích bật thì cứ ấn chọn là được</p>
+<h2>General -&gt; <strong>Google Analytics</strong>
+</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-16-05.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4829" src="https://media.publit.io/file/w_725,h_382,c_fit,q_80/2019-04-03_10-16-05.png" alt="" width="725" height="382" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_382,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-16-05.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_158,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-16-05.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_263,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-16-05.png 500w, https://media.publit.io/file/w_1083,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-16-05.png 1083w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p><strong>Bypass Google Analytics</strong><br>
+Chọn bật</p>
+<p>Cá nhân thì mình đã bật tính năng này thông qua <a href="https://static.bibica.net/perfmatters/" target="_blank" rel="noopener">Perfmatters</a> rồi nên trong Swift Performance để tắt<br>
+Nó giúp load request Google Analytics từ host của bạn, nên load nhanh hơn</p>
+<h2>General -&gt; Whitelabel</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-19-38.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4830" src="https://media.publit.io/file/w_725,h_817,c_fit,q_80/2019-04-03_10-19-38.png" alt="" width="725" height="817" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_817,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-19-38.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_338,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-19-38.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_564,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-19-38.png 500w, https://media.publit.io/file/w_1076,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-19-38.png 1076w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Một tính năng khá hay ho, khi bạn có thể sửa lại tất cả các thông tin plugin của Swift Performance thành &#8230; của bạn 😀 sau đó bạn có thể ngồi phét lác là teo tự viết plugin cache này với chúng bạn 😀 tin mình đi, không ai biết là đang dùng plugin gì để cache đâu :]]
+</p>
+<p>Cá nhân thì mình không dùng tính năng này, đã bật Hide Footprints từ General để ẩn cái dòng comment này đi rồi</p>
+<h2>Media -&gt; Images</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-25-49.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4831" src="https://media.publit.io/file/w_725,h_929,c_fit,q_80/2019-04-03_10-25-49.png" alt="" width="725" height="929" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_929,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-25-49.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_384,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-25-49.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_640,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-25-49.png 500w, https://media.publit.io/file/w_1075,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-25-49.png 1075w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Mình tắt tất cả tính năng nén ảnh, tối ưu ảnh từ Swift Performance, bới mình đang dùng 1 dịch vụ khác là <a href="https://optimus.io/en/" target="_blank" rel="noopener">Optimus</a> để làm chuyện này, bạn nào thích thì có thể dùng thử tính năng nén ảnh của họ</p>
+<p>Lazyload Images về cơ bản khi bạn kéo chuột tới đâu, thì nó mới load cái hình ảnh ra, facebook và rất nhiều trang đang dùng tính năng này, tuy thế cá nhân, trên thèng bibica.net, 1 cái blog bé tí, mình thấy không quan trọng, mình <strong>tắt tính năng về Lazyload Images</strong> để mang tới trải nghiệm tốt hơn</p>
+<h2>Media -&gt; <strong>Embed</strong>s</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-33-29.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4832" src="https://media.publit.io/file/w_725,h_431,c_fit,q_80/2019-04-03_10-33-29.png" alt="" width="725" height="431" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_431,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-33-29.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_178,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-33-29.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_297,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-33-29.png 500w, https://media.publit.io/file/w_1091,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-33-29.png 1091w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_smart-youtube-embed-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Youtube Smart Embed</strong>
+<div class="luv-framework-field-description">Chọn bật
+<p>Giảm các request khi bạn chèn clip từ Youtube vào bài viết</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_exclude-youtube-embed-container" class="luv-framework-field-container should-clear-cache" data-type="multi-text">
+<div class="luv-framework-field-title">
+<strong>Exclude Youtube Videos</strong>
+<div class="luv-framework-field-description">Giữ mặc định
+</div>
+</div>
+</div>
+<div id="_luv_lazyload-iframes-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Lazy Load Iframes</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+</div>
+<h2>Optimization &gt; General</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-37-08.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4833" src="https://media.publit.io/file/w_725,h_942,c_fit,q_80/2019-04-03_10-37-08.png" alt="" width="725" height="942" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_942,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-37-08.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_390,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-37-08.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_650,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-37-08.png 500w, https://media.publit.io/file/w_1085,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-37-08.png 1085w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_merge-assets-logged-in-users-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Merge Assets for Logged in Users</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_server-push-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Server Push</strong>
+<div class="luv-framework-field-description">Dùng hay không dùng push trên http2 thì mình không cảm nhận được sự khác biệt về tốc độ, bật hay tắt thì tùy bạn</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_optimize-prebuild-only-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Optimize Prebuild Only</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_merge-background-only-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Optimize in Background</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_html-auto-fix-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Fix Invalid HTML</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_minify-html-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Minify HTML</strong>
+<div class="luv-framework-field-description">Chọn bật
+<p>Xóa ít khoảng trắng trong file cache html thì về lý thuyết sẽ giảm dung lượng file -&gt; sẽ nhanh hơn, tuy thế con số rất nhỏ, cũng không đáng kể</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_disable-emojis-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Disable Emojis</strong>
+<div class="luv-framework-field-description">Chọn bật
+<p>Emojis thì thật ra WordPress cũng chỉ load thêm 1 request ra, bật hay tắt cũng cải thiện rất nhỏ, gần như không đáng kể</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_limit-threads-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Limit Simultaneous Threads</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_dom-parser-max-buffer-container" class="luv-framework-field-container" data-default="MTAwMDAwMA==" data-type="text">
+<div class="luv-framework-field-title">
+<strong>DOM Parser Max Buffer</strong>
+<div class="luv-framework-field-description">Giữ mặc định</div>
+</div>
+</div>
+<h2>Optimization &gt; Scripts</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-44-33.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4834" src="https://media.publit.io/file/w_725,h_398,c_fit,q_80/2019-04-03_10-44-33.png" alt="" width="725" height="398" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_398,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-44-33.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_164,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-44-33.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_274,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-44-33.png 500w, https://media.publit.io/file/w_1087,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-44-33.png 1087w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_merge-scripts-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Merge Scripts</strong>
+<div class="luv-framework-field-description">Chọn tắt
+<p>Về lý thuyết khi bạn chạy http, giảm các request sẽ giúp load trang nhanh hơn, tuy thế giờ anh em sang http2 cả rồi, việc gom thành 1 file .js chỉ có tác dụng &#8230; tăng điểm số từ các trang check điểm kiểu <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/" target="_blank" rel="noopener">GTmetrix, Pingdom</a> &#8230; <br>
+Thêm nữa thực tế file js cũng chỉ load lần đầu tiên khi bạn vào site, từ lần thứ 2 trình duyệt tự cache lôi ra chạy lại cả rồi, nên cũng không quan trọng</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_disable-jquery-migrate-container" class="luv-framework-field-container should-clear-cache" data-type="switch">
+<div class="luv-framework-field-title"><strong>Disable jQuery Migrate</strong></div>
+</div>
+<div>Chọn tắt</div>
+<h2><strong>Optimization &gt; Styles</strong></h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_10-49-31.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4835" src="https://media.publit.io/file/w_725,h_399,c_fit,q_80/2019-04-03_10-49-31.png" alt="" width="725" height="399" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_399,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-49-31.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_165,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-49-31.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_275,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-49-31.png 500w, https://media.publit.io/file/w_1091,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_10-49-31.png 1091w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p><strong>Merge Styles</strong><br>
+Chọn tắt</p>
+<p>Tương tự như phần Optimization &gt; Scripts, về lý thuyết khi bạn chạy http, giảm các request sẽ giúp load trang nhanh hơn, tuy thế giờ anh em sang http2 cả rồi, việc gom thành 1 file .css chỉ có tác dụng &#8230; tăng điểm số từ các trang check điểm kiểu <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/" target="_blank" rel="noopener">GTmetrix, Pingdom</a> &#8230; <br>
+Thêm nữa thực tế file css cũng chỉ load lần đầu tiên khi bạn vào site, từ lần thứ 2 trình duyệt tự cache lôi ra chạy lại cả rồi, nên cũng không quan trọng</p>
+<div>
+<p><span style="color: #993300">Optimization &gt; Scripts và Styles nếu bật cần nhiều kinh nghiệm để tinh chỉnh, một số plugin hoặc theme khi gom lại bị lỗi,  làm bố cục, tính năng của site bị lỗi, đa phần là do người viết plugin, theme họ viết chưa tốt, thực tế mình đã thử rất nhiều lần vấn đề gom nhiều file js, css thành 1 file, nó không giúp cải thiện về tốc độ (hay ít nhất cải thiện mà bạn không cảm nhận được), thành ra bạn cũng đừng cố tối ưu phần này làm gì 😀</span></p>
+</div>
+<h2>Caching &gt; General</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-00-48.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4836" src="https://media.publit.io/file/w_725,h_1505,c_fit,q_80/2019-04-03_11-00-48.png" alt="" width="725" height="1505" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_1505,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-00-48.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_623,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-00-48.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_1038,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-00-48.png 500w, https://media.publit.io/file/w_1074,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-00-48.png 1074w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_enable-caching-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Enable Caching</strong></div>
+<div class="luv-framework-field-inner">Chọn bật
+</div>
+</div>
+<div id="_luv_caching-mode-container" class="luv-framework-field-container" data-default="ImRpc2tfY2FjaGVfcGhwIg==" data-type="dropdown">
+<div class="luv-framework-field-title"><strong>Caching Mode</strong></div>
+<div class="luv-framework-field-inner"><span class="select2 select2-container select2-container--default" dir="ltr"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-labelledby="select2-_luv_caching-mode-kh-container"><span id="select2-_luv_caching-mode-kh-container" class="select2-selection__rendered" title="Disk Cache with Rewrites">Chọn Disk Cache with Rewrites
+<p></p></span><b></b></span></span></span></div>
+</div>
+<div id="_luv_early-load-container" class="luv-framework-field-container" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Early Loader</strong>
+<div class="luv-framework-field-description">Chọn bật</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_cache-path-container" class="luv-framework-field-container" data-default="IlwvaG9tZVwvbmdpbnhcL2RvbWFpbnNcL2JpYmljYS5uZXRcL3B1YmxpY1wvd3AtY29udGVudFwvY2FjaGVcLyI=" data-type="text">
+<div class="luv-framework-field-title">
+<strong>Cache Path<br>
+</strong>Giữ mặc định<strong>
+<p></p></strong>
+</div>
+</div>
+<div id="_luv_cache-expiry-mode-container" class="luv-framework-field-container" data-default="InRpbWViYXNlZCI=" data-type="dropdown">
+<div class="luv-framework-field-title"><strong>Cache Expiry Mode</strong></div>
+<div class="luv-framework-field-inner"><span class="select2 select2-container select2-container--default" dir="ltr"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-labelledby="select2-_luv_cache-expiry-mode-kh-container"><span id="select2-_luv_cache-expiry-mode-kh-container" class="select2-selection__rendered" title="Action based mode">Chọn Action based mode
+<p>Tính năng Action Based Mode về lý thuyết là nó sẽ tự xóa cache khi thấy sự thay đổi, như cập nhật bài đăng, bài đăng mới, bình luận mới, bình luận được phê duyệt &#8230; tuy thế mình chưa rõ nó xử lý xóa cache &#8220;thông minh&#8221; tới đâu? chỉ xóa cache bài viết đó khi thay đổi nội dung, có comment mới hay xóa tất cả cache của cả trang?</p>
+<p></p></span><b></b></span></span></span></div>
+</div>
+<div id="_luv_clear-page-cache-after-post-container" class="luv-framework-field-container" data-type="dropdown">
+<div class="luv-framework-field-title">
+<strong>Clear Cache on Update Post by Page</strong><br>
+Giữ mặc định
+</div>
+</div>
+<div id="_luv_clear-permalink-cache-after-post-container" class="luv-framework-field-container" data-type="multi-text">
+<div class="luv-framework-field-title">
+<strong>Clear Cache on Update Post by URL</strong><br>
+Giữ mặc định
+</div>
+</div>
+<div id="_luv_enable-caching-logged-in-users-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Caching for logged in users</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_mobile-support-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Separate Mobile Device Cache</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_browser-cache-container" class="luv-framework-field-container" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Browser Cache</strong>
+<div class="luv-framework-field-description">
+<span style="color: #993300">Chọn tắt</span>
+<p>Lý thuyết cache từ trình duyệt sẽ giúp load nhanh hơn cho các khách từ lần truy cập thứ 2, tuy thế nếu bạn thường xuyên sửa file js, css &#8230; thì khách cũ vào rất dễ bị load lại các file css, js cũ, tất nhiên khách có thể xử lý đơn giản bằng cách <strong>Ctrl + F5</strong> để xóa cache trên trình duyệt và vấn đề là &#8230; không phải khách nào cũng biết 😀</p>
+<p><span style="color: #993300"><strong>Cá nhân mình luôn tắt tính năng cache từ trình duyệt để giảm thấp nhất các vấn đề này</strong></span></p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_enable-gzip-container" class="luv-framework-field-container" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Gzip</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+</div>
+<div> </div>
+<div>Gzip sẽ giảm dung lượng file xuống, giúp khách load file nhanh hơn, tuy thế thèng bibica.net đang chạy http2 và nén file theo chuẩn Brotli của Cloudflare thành ra tính năng này mình tắt trên Swift Performance, bạn nào không dùng Brotli của Cloudflare thì có thể thử Gzip theo chuẩn của Swift Performance, tại mình nhớ nó nén file xuống rất nhiều</div>
+<div id="_luv_enable-gzip-container" class="luv-framework-field-container" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_304-header-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Send 304 Header<br>
+</strong>Chọn tắt<strong><br>
+</strong>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_cache-404-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Cache 404 pages<br>
+</strong>Chọn tắt<strong><br>
+</strong>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_dynamic-caching-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Dynamic Caching</strong>
+<div class="luv-framework-field-description">Giữ mặc định</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_cacheable-ajax-actions-container" class="luv-framework-field-container" data-type="multi-text">
+<div class="luv-framework-field-title">
+<strong>Cacheable AJAX Actions<br>
+</strong>Giữ mặc định<br>
+<strong><br>
+</strong>
+</div>
+</div>
+<div id="_luv_ajax-cache-expiry-time-container" class="luv-framework-field-container" data-default="IjE0NDAi" data-type="text">
+<div class="luv-framework-field-title">
+<strong>AJAX Cache Expiry Time</strong>
+<div class="luv-framework-field-description">Giữ mặc định</div>
+</div>
+</div>
+<h2>Caching -&gt; Tweaks</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-25-55.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4837" src="https://media.publit.io/file/w_725,h_619,c_fit,q_80/2019-04-03_11-25-55.png" alt="" width="725" height="619" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_619,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-25-55.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_256,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-25-55.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_427,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-25-55.png 500w, https://media.publit.io/file/w_1092,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-25-55.png 1092w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_proxy-cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Proxy Cache</strong>
+<div class="luv-framework-field-description">Chọn tắt
+<p><span style="color: #993300">Option này thì mình không chắc lắm, vì theo như chọn tắt thì nó sẽ không dùng cache từ Cloudflare, bằng cách tạo thêm tiêu đề để không cache từ Cloudflare, tuy thế mình chọn tắt vẫn thấy đang được cache qua Cloudflare &#8220;cf-cache-status: HIT&#8221;</span></p>
+</div>
+</div>
+</div>
+<div id="_luv_proxy-cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_ignore-query-string-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Ignore Query String</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_avoid-mixed-content-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Avoid Mixed Content</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_keep-original-headers-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Keep Original Headers</strong>
+<div class="luv-framework-field-description">Chọn bật</div>
+</div>
+</div>
+<div> </div>
+<div>Lý thuyết ta nên giữ tiêu đề gốc theo config mặc định sẵn từ cấu hình server hoặc cấu hình thêm vào bằng tay, không nên để Swift Performance tự sửa lại, vì rất dễ chồng chéo lỗi, không sử lý được 😀</div>
+<div id="_luv_keep-original-headers-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_cache-case-insensitive-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Case Insensitive URLs</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_ajaxify-container" class="luv-framework-field-container should-clear-cache" data-type="multi-text">
+<div class="luv-framework-field-title">
+<strong>Lazyload elements</strong>
+<div class="luv-framework-field-description">Giữ mặc định</div>
+</div>
+</div>
+<h2>Caching -&gt; Exceptions</h2>
+<h2><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-40-24.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4838" src="https://media.publit.io/file/w_725,h_964,c_fit,q_80/2019-04-03_11-40-24.png" alt="" width="725" height="964" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_964,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-40-24.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_399,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-40-24.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_665,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-40-24.png 500w, https://media.publit.io/file/w_1066,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-40-24.png 1066w" sizes="(max-width: 725px) 100vw, 725px"></a></h2>
+<div id="_luv_exclude-post-types-container" class="luv-framework-field-container should-clear-cache" data-type="dropdown">
+<div class="luv-framework-field-title"><strong>Exclude Post Types</strong></div>
+<div>Giữ mặc định</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-pages-container" class="luv-framework-field-container should-clear-cache" data-type="dropdown">
+<div class="luv-framework-field-title"><strong>Exclude Pages</strong></div>
+<div>Giữ mặc định</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-strings-container" class="luv-framework-field-container should-clear-cache" data-type="multi-text">
+<div class="luv-framework-field-title"><strong>Exclude URLs</strong></div>
+<div>Giữ mặc định</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-content-parts-container" class="luv-framework-field-container should-clear-cache" data-type="multi-text">
+<div class="luv-framework-field-title"><strong>Exclude Content Parts</strong></div>
+<div>Giữ mặc định</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-useragents-container" class="luv-framework-field-container" data-type="multi-text">
+<div class="luv-framework-field-title"><strong>Exclude User Agents</strong></div>
+<div>Giữ mặc định</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-crawlers-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Exclude Crawlers</strong></div>
+<div class="luv-framework-field-inner">Chọn tắt</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-author-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Exclude Author Pages</strong></div>
+<div class="luv-framework-field-inner">Chọn tắt</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-archive-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Exclude Archive</strong></div>
+<div class="luv-framework-field-inner">Chọn tắt</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-rest-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Exclude REST URLs</strong></div>
+<div class="luv-framework-field-inner">Chọn tắt</div>
+<div> </div>
+</div>
+<div id="_luv_exclude-feed-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Exclude Feed</strong></div>
+</div>
+<div>Chọn tắt</div>
+<h2>Caching &gt; Warmup</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-44-58.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4839" src="https://media.publit.io/file/w_725,h_757,c_fit,q_80/2019-04-03_11-44-58.png" alt="" width="725" height="757" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_757,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-44-58.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_313,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-44-58.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_522,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-44-58.png 500w, https://media.publit.io/file/w_1086,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-44-58.png 1086w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_enable-remote-prebuild-cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Remote Prebuild Cache</strong>
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+</div>
+<div> </div>
+<div>Trong trường hợp bạn dùng host share hoặc VPS quá yếu, thì có chọn chọn bật phần <strong>Remote Prebuild Cache</strong> để Swift Performance tự xử lý vấn đề tạo cache trước cho bạn</div>
+<div id="_luv_enable-remote-prebuild-cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_automated_prebuild_cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Prebuild Cache Automatically</strong>
+<div class="luv-framework-field-description">Chọn bật</div>
+</div>
+</div>
+<div> </div>
+<div>Tính năng tạo trước cache thì mình chỉ thấy Swift Performance và <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/" target="_blank" rel="noopener">WP Rocket</a> có, nếu không bật tính năng này lên thì rất phí nhé 😀</div>
+<div id="_luv_automated_prebuild_cache-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_prebuild-speed-container" class="luv-framework-field-container" data-default="NQ==" data-type="dropdown">
+<div class="luv-framework-field-title">
+<strong>Prebuild Speed</strong>
+<div class="luv-framework-field-description">Chọn Unlimited</div>
+</div>
+</div>
+<div> </div>
+<div>Nếu VPS hay host share của bạn yếu quá thì có thể giảm xuống Slow để chạy</div>
+<div id="_luv_prebuild-speed-container" class="luv-framework-field-container" data-default="NQ==" data-type="dropdown">
+<div class="luv-framework-field-title">
+<div> </div>
+</div>
+</div>
+<div id="_luv_discover-warmup-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Discover New Pages</strong>
+<div class="luv-framework-field-description">Chọn bật
+<p>Lý thuyết Swift Performance sẽ tự tìm các trang mới để cache trước cho bạn, giúp đỡ sót bài không cache, không chắc lắm về tính hiệu quả, cá nhân chọn bật 😀</p>
+</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_cache-author-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Prebuild Author Pages</strong></div>
+<div class="luv-framework-field-inner">
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+</div>
+<div id="_luv_cache-archive-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Prebuild Archive</strong></div>
+<div class="luv-framework-field-inner">
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+</div>
+<div id="_luv_cache-terms-container" class="luv-framework-field-container should-clear-cache" data-default="MQ==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Prebuild Terms</strong></div>
+<div class="luv-framework-field-inner">
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+</div>
+<div id="_luv_cache-rest-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Prebuild REST URLs</strong></div>
+<div class="luv-framework-field-inner">
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+</div>
+<div id="_luv_cache-feed-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong><strong>Prebuild Feed<br>
+</strong></strong>
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-description">Chọn tắt</div>
+</div>
+</div>
+</div>
+<h2>Caching -&gt; Varnish</h2>
+<h2><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-53-55.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4840" src="https://media.publit.io/file/w_725,h_481,c_fit,q_80/2019-04-03_11-53-55.png" alt="" width="725" height="481" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_481,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-53-55.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_199,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-53-55.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_332,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-53-55.png 500w, https://media.publit.io/file/w_1076,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-53-55.png 1076w" sizes="(max-width: 725px) 100vw, 725px"></a></h2>
+<p><strong>Enable Auto Purge<br>
+</strong>Chọn tắt</p>
+<p>Bạn nào dùng Varnish thì bật lên để khi Swift Performance xóa cache, nó xóa thêm từ Varnish</p>
+<h2>Caching -&gt; Appcache</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_11-57-29.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4841" src="https://media.publit.io/file/w_725,h_479,c_fit,q_80/2019-04-03_11-57-29.png" alt="" width="725" height="479" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_479,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-57-29.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_198,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-57-29.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_330,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-57-29.png 500w, https://media.publit.io/file/w_1082,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_11-57-29.png 1082w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<div id="_luv_appcache-desktop-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<strong>Enable Appcache for Desktop<br>
+</strong>Chọn tắt<strong><br>
+</strong>
+</div>
+<div class="luv-framework-field-inner"> </div>
+</div>
+<div id="_luv_appcache-mobile-container" class="luv-framework-field-container" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title"><strong>Enable Appcache for Mobile</strong></div>
+</div>
+<div>Chọn tắt</div>
+<div id="_luv_cache-feed-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<div class="luv-framework-field-inner">
+Appcache là một tính năng rất đặc biệt, mà mình chỉ thấy trên Swift Performance, nôm na khi khách mới truy cập lần đầu tiên vào site, nó sẽ tự download tất cả các file cache của &#8230;. cả site vào máy của khách, bằng cách này, khi khách xem các bài viết tiếp theo khác từ site sẽ vô cùng nhanh 😀
+<p>Tuy thế khi mình bật tính năng ở bản v2.0.15, nó bị lỗi, thi thoảng load thiếu vài file css, js, làm bị lỗi hiển thị, bạn nào dùng Swift Performance thì thử bật nó lên rồi xem thử coi thế nào 😛 không chắc lắm, tại theo mình nhớ ở các bản trước, thì chạy Appcache bình thường 😛</p>
+</div>
+<h2 class="luv-framework-field-inner">Plugins -&gt; Contact Form 7</h2>
+</div>
+</div>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-04-03.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4842" src="https://media.publit.io/file/w_725,h_346,c_fit,q_80/2019-04-03_12-04-03.png" alt="" width="725" height="346" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_346,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-04-03.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_143,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-04-03.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_239,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-04-03.png 500w, https://media.publit.io/file/w_1085,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-04-03.png 1085w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p><strong>Smart Enqueue Assets<br>
+</strong>Chọn tắt</p>
+<p>Cũng không quá quan trọng, nôm na tính năng này giúp chỉ load file css, js của Contact Form 7 khi bạn vào trang contact, liên hệ thôi, mình chọn tắt vì đã dùng 1 tính năng tương tự bên <a href="https://static.bibica.net/perfmatters/" target="_blank" rel="noopener">Perfmatters</a> rồi</p>
+<p>Nói chung tính năng này cũng vẻ vời cho màu mè, hiệu quả thực tế cũng không cao lắm</p>
+<h2>CDN -&gt; General</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-08-01.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4843" src="https://media.publit.io/file/w_725,h_303,c_fit,q_80/2019-04-03_12-08-01.png" alt="" width="725" height="303" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_303,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-08-01.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_125,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-08-01.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_209,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-08-01.png 500w, https://media.publit.io/file/w_1085,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-08-01.png 1085w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p><strong>Enable CDN<br>
+</strong>Chọn tắt</p>
+<p>Bạn nào dùng thêm CDN thì bật lên điền vào là được, cá nhân thì từ khi <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/" target="_blank" rel="noopener">Cloudflare hỗ trợ location Việt Nam</a> thì mình gần như không quan tâm tới mấy cái CDN khác nữa 😀</p>
+<h2>CDN -&gt; Cloudflare</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-11-03.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4844" src="https://media.publit.io/file/w_725,h_394,c_fit,q_80/2019-04-03_12-11-03.png" alt="" width="725" height="394" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_394,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-11-03.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_163,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-11-03.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_272,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-11-03.png 500w, https://media.publit.io/file/w_1154,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-11-03.png 1154w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p><strong>Enable Auto Purge<br>
+</strong>Chọn bật</p>
+<p>Mình đang dùng Cloudflare nên bật để khi xóa cache Swift Performance xóa luôn cache từ Cloudflare, bạn nào không dùng Cloudflare thì tắt đi</p>
+<h2>Import/Export</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-16-12.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4845" src="https://media.publit.io/file/w_725,h_351,c_fit,q_80/2019-04-03_12-16-12.png" alt="" width="725" height="351" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_351,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-16-12.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_145,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-16-12.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_242,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-16-12.png 500w, https://media.publit.io/file/w_1158,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-16-12.png 1158w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Bạn có thể lưu file config thành 1 file &#8220;swift-performance-settings.json&#8221; để sau cấu hình cho trang khác, lười thì import nó vào &#8230; cho nhanh cũng được 😀 tuy thế mình không chắc lắm hiệu quả không, vì rất nhiều giá trị khác nhau, tốt nhất bạn nên config bằng tay cho mỗi domain, dễ kiểm soát lỗi hơn</p>
+<h1>Tiếp theo là tab Image Optimizer</h1>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-20-03.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4846" src="https://media.publit.io/file/w_725,h_424,c_fit,q_80/2019-04-03_12-20-03.png" alt="" width="725" height="424" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_424,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-20-03.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_175,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-20-03.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_292,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-20-03.png 500w, https://media.publit.io/file/w_1116,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-20-03.png 1116w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Không có nhiều thứ để nói ở tab Image Optimizer lắm, vì tối ưu ảnh thì mình dùng <a href="https://optimus.io/en/" target="_blank" rel="noopener">Optimus</a> rồi 😀</p>
+<p>Điểm hay ho là so với các plugin cache khác, họ bắt bạn phải mua 1 plugin để nén ảnh, còn Swift Performance có sẵn tính năng này trong bản trả phí luôn</p>
+<h1>Tiếp theo là tab Database Optimizer</h1>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-22-42.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4847" src="https://media.publit.io/file/w_725,h_388,c_fit,q_80/2019-04-03_12-22-42.png" alt="" width="725" height="388" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_388,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-22-42.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_160,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-22-42.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_267,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-22-42.png 500w, https://media.publit.io/file/w_1159,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-22-42.png 1159w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Thiệt là tới đây, mình thấy tác giả Swift Performance vẻ vời thêm nhiều thứ quá, cache thì cache, end user chỉ cần thế, thêm cả tối ưu database làm gì? <br>
+Trang bé tí thì chẳng cần, còn trang to thì họ đã phải dùng plugin tối ưu database khác rồi 😀</p>
+<p>Ờ mà nói chung cũng tốt, có thừa còn hơn không có 😛</p>
+<h2>Về tab Critical Font</h2>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-27-50-1.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4849" src="https://media.publit.io/file/w_725,h_379,c_fit,q_80/2019-04-03_12-27-50-2.png" alt="" width="725" height="379" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_379,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-27-50-2.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_157,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-27-50-2.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_262,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-27-50-2.png 500w, https://media.publit.io/file/w_961,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-27-50-2.png 961w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Ý tưởng mình nghĩ ổn, nôm na Swift Performance sẽ scan hết các Font Awesome bạn đang dùng trên site, sau đó tạo thành 1 file font mới, chặn load ra từ link cũ, nói chung là không phải load 1 file to dùng gần 5000 icon gốc của Font Awesome, tuy thếtheme mình đang dùng là <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">GeneratePress</a>, tác giả Tom cũng đã làm tính năng này rồi </p>
+<p>Cũng không rõ lắm tại sao, khi mình dùng file font gốc từ <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">GeneratePress</a> thì chỉ có 75.6 kb, mà khi dùng font tạo từ Swift Performance lại hơn 100 kb lận 😀<i class="fa fa-wordpress"></i></p>
+<h1>Tab Plugin Organizer</h1>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-46-18.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4850" src="https://media.publit.io/file/w_725,h_512,c_fit,q_80/2019-04-03_12-46-18.png" alt="" width="725" height="512" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_512,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-46-18.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_212,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-46-18.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_353,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-46-18.png 500w, https://media.publit.io/file/w_1145,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-46-18.png 1145w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Tính năng này nó giống một số tính năng từ plugin khác như <a href="https://static.bibica.net/perfmatters/" target="_blank" rel="noopener">Perfmatters</a>, <a href="https://tomasz-dobrzynski.com/wordpress-gonzales" target="_blank" rel="noopener">Gonzales</a> &#8230; nôm na nó giúp bạn có thể chọn các plugin hiện ra ở chỗ nào trên site, chứ không phải cứ cài vào là sẽ load hết</p>
+<div id="_luv_cache-feed-container" class="luv-framework-field-container should-clear-cache" data-default="MA==" data-type="switch">
+<div class="luv-framework-field-title">
+<p class="luv-framework-field-inner">Plugins -&gt; Contact Form 7 ở trên là 1 ví dụ, mỗi cái càng viết mình lại càng thấy tác giả Swift Performance quá sức rườm rà, đã có phần Plugin Organizer rồi lại còn tách Contact Form 7 ra thành 1 option để làm gì?</p>
+</div>
+</div>
+<p>Plugin Organizer là một tính năng mình nghĩ là hữu ích, cơ mà nói sao nói, tính hiệu quả của nó mạnh nhất cho trang HOME, cụ thể trang home của bibica.net, mình đã tắt load gần như tất cả các plugin hiện ra, chỉ cho hiện khi xem bài viết, nó cũng chạy khá ít request 😛 thuần túy cũng nhìn cho đẹp thôi, chứ khi bạn đã cache trang thành 1 file html rồi thì các thứ tối ưu khác nó cũng vẽ vời là chính</p>
+<p>Sau khi bạn đi hết tab Setting -&gt; Image Optimizer -&gt; Database Optimizer -&gt; Critical Font -&gt; Plugin Organizer thì sẽ quay về tab quan trọng nhất Dashboard </p>
+<h1>Dashboard</h1>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_12-58-08.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4851" src="https://media.publit.io/file/w_725,h_639,c_fit,q_80/2019-04-03_12-58-08.png" alt="" width="725" height="639" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_639,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-58-08.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_264,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-58-08.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_440,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-58-08.png 500w, https://media.publit.io/file/w_1142,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_12-58-08.png 1142w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Sau khi config ở các tab khác xong xuôi, bạn hãy về tab Dashboard, sau đó ấn vào Show Rewrite Rules để lấy file config, chỉnh sửa lại cho Nginx</p>
+<pre class="lang:default decode:true">###BEGIN Swift Performance###
+
+set $swift_cache 1;
+if ($request_method = POST){
+	set $swift_cache 0;
+}
+
+if ($args != ''){
+	set $swift_cache 0;
+}
+
+if ($http_cookie ~* "wordpress_logged_in") {
+	set $swift_cache 0;
+}
+
+if ($request_uri ~ ^/wp-content/cache/swift-performance/([^/]*)/assetproxy) {
+      set $swift_cache 0;
+}
+
+if (!-f "/code/wp-content/cache/swift-performance//$http_host/$request_uri/desktop/unauthenticated/index.html") {
+	set $swift_cache 0;
+}
+
+if ($swift_cache = 1){
+    rewrite .* /wp-content/cache/swift-performance/$http_host/$request_uri/desktop/unauthenticated/index.html last;
+}
+
+
+
+
+###END Swift Performance###</pre>
+<p>Tùy các bước ban đầu bạn config làm sao, sẽ ra các file config khác nhau, chép nó vào file config của VPS 😀</p>
+<p>Như mình đang dùng <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/" rel="bookmark">Centmin Mod</a> thì file config nằm ở <span class="crayon-o">/</span><span class="crayon-v">usr</span><span class="crayon-o">/</span><span class="crayon-v">local</span><span class="crayon-o">/</span><span class="crayon-v">nginx</span><span class="crayon-o">/</span><span class="crayon-v">conf</span><span class="crayon-o">/</span><span class="crayon-v">conf</span><span class="crayon-sy">.</span><span class="crayon-v">d/</span>bibica.net.conf, thêm dòng bên trên trong phần server {}</p>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_13-04-19.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4852" src="https://media.publit.io/file/w_725,h_576,c_fit,q_80/2019-04-03_13-04-19.png" alt="" width="725" height="576" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_576,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-04-19.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_238,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-04-19.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_397,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-04-19.png 500w, https://media.publit.io/file/w_1128,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-04-19.png 1128w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Sau đó chạy tiếp dòng dưới, reload lại nginx, để thay đổi có hiệu lực</p>
+<pre class="lang:default decode:true">nginx -t
+service nginx reload</pre>
+<div class="su-note" style="border-color:/#dedf9c;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><div class="su-note-inner su-u-clearfix su-u-trim" style="background-color:/#f8f9b6;border-color:#ffffff;color:#000000;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;">Ở tab Dashboard còn có 1 option là <span style="color: #993300"><strong>Reset Warmup Table</strong></span>, sau này nếu bạn có chỉnh sửa lại các option ở tab Setting thì ấn vào nó 1 phát để nó tạo ra các đường dẫn preload khác 😀 </div></div>
+<p>Như thèng bibica.net thì nó tạo sẵn 111 cái link đã cache 😛 thích tạo thêm cache từ nhiều link khác thì ở phần Caching &gt; Warmup bạn bật thêm các option về <strong>Prebuild</strong> là được, tuy thế mình nghĩ quan trọng nhất của prebuild là các bài viết thôi, chứ cũng hiếm ai ấn vào tác giả, ấn vào ngày tháng xem coi tháng đó có bao nhiêu bài mà prebuild làm gì cho mệt 😛 </p>
+<p>Về hiệu quả thực tế thì mình thấy so với các plugin cache khác từng dùng như <a href="https://static.bibica.net/cache-enabler/" target="_blank" rel="noopener">Cache Enabler</a>, <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/" target="_blank" rel="noopener">WP Rocket</a> &#8230; là không đáng kể, thật ra khi bạn cache rồi, sự khác biệt giữa các việc load cái file html ra là rất bé, thêm vào đó, bản thân thèng bibica.net dùng location Singapore, cache các file tĩnh qua Cloudflare từ location Việt Nam, nên nếu bạn truy cập từ Việt Nam, nhìn vào sẽ không cảm nhận được sự khác biệt quá rõ ràng, thậm chí mình không dùng bất cứ plugin cache nào, load bibica.net cũng loanh quanh 1s, cache xong giảm xuống còn 200-500ms cũng rất khó để khách truy cập thấy rõ :]]
+</p>
+<p>Các tính năng cấp cao của Swift Performance như Image Optimizer, Plugin Organizer, Heartbeat, Bypass Google Analytics &#8230;. thì mình đang dùng plugin khác tương tự, Critical Font thì không hiệu quả với theme GeneratePress <i class="fa fa-wordpress"></i></p>
+<p>Appcache có lẽ là tính năng khả dĩ nhất, thì chạy nó &#8230;. gây lỗi 😀 thực tế trước đây, mình thử ở các bản khác, nó cực kì nhanh, xuống được 1 con số hoang đường, là <a href="https://static.bibica.net/toolbox/" target="_blank" rel="noopener">71 ms</a> 😀</p>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2018-12-05_6-23-15-1.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4853" src="https://media.publit.io/file/w_725,h_702,c_fit,q_80/2018-12-05_6-23-15-1.png" alt="" width="725" height="702" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_702,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2018-12-05_6-23-15-1.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_291,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2018-12-05_6-23-15-1.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_484,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2018-12-05_6-23-15-1.png 500w, https://media.publit.io/file/w_1175,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2018-12-05_6-23-15-1.png 1175w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>&nbsp;</p>
+<p>Hôm nay thử lại thì thấy nó cũng quanh quanh 500ms thôi 😛 không khác gì các plugin cache khác, tạm mình sẽ chạy 1 thời gian Swift Performance xem thế nào, có gì thay đổi hay lỗi liếc gì sẽ cập nhập vào bài sau 😀</p>
+<p>Chạy test nhẹ thử 1 bài test từ loader.io xem hiệu năng thế nào 😛</p>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2019-04-03_13-48-16.png"><img decoding="async" loading="lazy" class="aligncenter size-large wp-image-4856" src="https://media.publit.io/file/w_725,h_659,c_fit,q_80/2019-04-03_13-48-16.png" alt="" width="725" height="659" srcset="https://media.publit.io/file/w_725,https://static.bibica.net/swift-performance/h_659,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-48-16.png 725w, https://media.publit.io/file/w_300,https://static.bibica.net/swift-performance/h_273,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-48-16.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/swift-performance/h_455,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-48-16.png 500w, https://media.publit.io/file/w_1214,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/c_fit,https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/https://static.bibica.net/swift-performance/q_80/2019-04-03_13-48-16.png 1214w" sizes="(max-width: 725px) 100vw, 725px"></a></p>
+<p>Kết quả khá là thọt, khi dùng <a href="https://static.bibica.net/cache-enabler/" target="_blank" rel="noopener">Cache Enabler</a>  thì CPU load ~60-100%, RAM sử dụng ~ 500MB, <span class="avg_response_time">Thời gian phản hồi ~ <strong>1s </strong>và chỉ <strong>có </strong></span><strong><span class="errors_rate">1.0 % kết nối bị lỗi</span></strong><span class="errors_rate">, </span>Swift Performance hoàn thành bài test lỗi tới 25% :]]
+</p>
+<p>Tổng thể thì mình cũng không khuyến khích ai dùng, config quá dài, quá rối rắm, đọc hết cái bài này cũng đủ mệt, cài <a href="https://static.bibica.net/cache-enabler/" target="_blank" rel="noopener">Cache Enabler</a> vào ấn stick 3-4 tùy chọn là xong 😛</p>
+<hr>
+<div class="" data-block="true" data-editor="ftfhu" data-offset-key="asofu-0-0">
+<div class="_1mf _1mj" data-offset-key="asofu-0-0"><span data-offset-key="asofu-0-0">Khó hiểu 😀</span></div>
+</div>
+<div class="" data-block="true" data-editor="ftfhu" data-offset-key="dgnc2-0-0">
+<div class="_1mf _1mj" data-offset-key="dgnc2-0-0"><span data-offset-key="dgnc2-0-0"> </span></div>
+</div>
+<div class="" data-block="true" data-editor="ftfhu" data-offset-key="7v89p-0-0">
+<div class="_1mf _1mj" data-offset-key="7v89p-0-0"><span data-offset-key="7v89p-0-0">Nay rỗi rãi, ngồi log vào thèng bibica.net, thấy 03/04/<span style="color: #993300"><strong>2019</strong></span> có viết 1 bài về Swift Performance, dài khủng bố, các setting tùy chọn, ngồi viết cho hết 2-5h là ít =))</span></div>
+</div>
+<div class="" data-block="true" data-editor="ftfhu" data-offset-key="1lr58-0-0">
+<div class="_1mf _1mj" data-offset-key="1lr58-0-0"><span data-offset-key="1lr58-0-0"> </span></div>
+</div>
+<div class="" data-block="true" data-editor="ftfhu" data-offset-key="eliu4-0-0">
+<div class="_1mf _1mj" data-offset-key="eliu4-0-0"><span data-offset-key="eliu4-0-0">Vấn đề là không hiểu tại sao, lại set &#8230;. Private 😀</span></div>
+</div>
+<p><a href="https://static.bibica.net/wp-content/uploads/2019/04/2021-05-10-22-45-55.png"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-5503" src="https://media.publit.io/file/w_1278,h_1447,c_fit,q_80/2021-05-10-22-45-55.png" alt="2021-05-10_22-45-55" width="1278" height="1447"></a></p>
+<p>Thành ra nếu bạn đọc được bài này, thì thông tin rất cũ rồi hé, không rõ sau 2 năm, Swift Performance có gì mới không nữa 😀</p>
+<div class="rp4wp-related-posts">
+<h3>Related Posts</h3>
+<ul>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/fv-gravatar-cache/"><img src="https://media.publit.io/file/q_80/2018-12-16_12-05-18.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="FV Gravatar Cache" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/fv-gravatar-cache/">FV Gravatar Cache</a><p>FV Gravatar Cache là một plugin giúp tạo cache cho các avatar từ Gravatar, hiện ra&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/"><img src="https://media.publit.io/file/q_80/2022-11-22-11-53-04.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="2022-11-22_11-53-04" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/">Xóa cache CloudFlare từ SlickStack</a><p>CloudFlare là 1 addon nhỏ của bộ cài đặt SlickStack, tác giả tách nhỏ ra&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/cache-enabler/"><img src="https://media.publit.io/file/q_80/2018-12-08_0-35-07.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="2018-12-08_0-35-07" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/cache-enabler/">Cache Enabler</a><p>Cache Enabler là một hình thức cache đơn giản, và tính năng của nó gần&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/"><img src="https://media.publit.io/file/q_80/wordpress-nginx-fastcgi.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="wordpress-nginx-fastcgi" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/">Nginx Fastcgi Cache, liệu có đáng dùng?</a><p>Đứng ở góc độ cá nhân, mình thấy WP Rocket là plugin cache tuyệt vời&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/"><img src="https://media.publit.io/file/q_80/2022-11-12-22-22-23.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="2022-11-12_22-22-23" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/">FlyingPress - plugin cache hàng đầu</a><p>Qua cập nhập 1 số update hệ thống cho thèng bibica.net, tiện mồm check lại&hellip;</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="et_bloom_below_post"><div class="et_bloom_inline_form et_bloom_optin et_bloom_make_form_visible et_bloom_optin_1" style="display: none;" data-success_action_details="redirect_url|https://dev-bibica-net.pantheonsite.io/thank-you-for-subscribing/">
+				
+				<div class="et_bloom_form_container  et_bloom_rounded_corners et_bloom_rounded et_bloom_form_text_dark et_bloom_form_bottom et_bloom_inline_2_fields et_bloom_success_action">
+					
+			<div class="et_bloom_form_container_wrapper clearfix">
+				<div class="et_bloom_header_outer">
+					<div class="et_bloom_form_header split et_bloom_header_text_light">
+						<img src="https://res.cloudinary.com/ngoirungdui/image/upload/f_auto,fl_lossy,q_auto:eco,dpr_auto,w_auto/f_auto,fl_lossy,q_auto:eco,dpr_auto,w_auto/c_scale,w_100/v1514814214/logo_email_jmg9yz.png" alt="Get the next article in your inbox" class=" et_bloom_image_no_animation et_bloom_image">
+						<div class="et_bloom_form_text">
+						<h4 class="title" style="border: 0px; margin: 0px; padding: 0px; font-family: 'Work Sans', sans-serif; font-size: 22px; font-weight: inherit; line-height: 1; text-transform: uppercase; color: #ffffff;">Get the next article in your inbox</h4>
+<p><span style="color: #ffffff;">WordPress, Theme, Plugin, Speed, Optimization, Tips, Trick & Reviews, <span style="text-decoration: underline;"><em><strong>once a week</strong></em></span></span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="et_bloom_form_content et_bloom_2_fields et_bloom_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<div class="et_bloom_fields">
+							<p class="et_bloom_popup_input et_bloom_subscribe_name">
+								<input placeholder="Name" maxlength="50">
+							</p>
+							<p class="et_bloom_popup_input et_bloom_subscribe_email">
+								<input placeholder="Email">
+							</p>
+							
+							<button data-optin_id="optin_1" data-service="mailchimp" data-list_id="475980b14d" data-page_id="4823" data-account="bibicadotreview" data-ip_address="false" class="et_bloom_submit_subscription">
+								<span class="et_bloom_subscribe_loader"></span>
+								<span class="et_bloom_button_text et_bloom_button_text_color_light">JOIN US</span>
+							</button>
+						</div>
+					</form>
+					<div class="et_bloom_success_container">
+						<span class="et_bloom_success_checkmark"></span>
+					</div>
+					<h2 class="et_bloom_success_message">You have Successfully Subscribed!</h2>
+					<div class="et_bloom_form_footer">We respect your privacy and take protecting it seriously, we hate spam, unsubscribe at any time.</div>
+				</div>
+			</div>
+			<span class="et_bloom_close_button"></span>
+				</div>
+			</div></div>		</div>
+
+				<footer class="entry-meta" aria-label="Entry meta">
+			<span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://static.bibica.net/category/review/" rel="category tag">Review</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
+			<div class="nav-previous"><span class="prev"><a href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/" rel="prev">Chuyển bibica.net sang Amazon Lightsail $10/month</a></span></div>
+<div class="nav-next"><span class="next"><a href="https://static.bibica.net/wordpress-zero-spam/" rel="next">WordPress Zero Spam</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+
+			<div class="comments-area">
+				<div id="comments">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://static.bibica.net/swift-performance/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="https://dev-bibica-net.pantheonsite.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-form-comment"><label for="comment" class="screen-reader-text">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>
+<label for="author" class="screen-reader-text">Name</label><input placeholder="Name *" id="author" name="author" type="text" value="" size="30" required>
+<label for="email" class="screen-reader-text">Email</label><input placeholder="Email *" id="email" name="email" type="email" value="" size="30" required>
+<p class="comment-form-subscriptions"><label for="subscribe-reloaded"><input style="width:30px" type="checkbox" name="subscribe-reloaded" id="subscribe-reloaded" value="yes" checked> Notify me of followup comments via e-mail.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="4823" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+			</div>
+
+					</main>
+	</div>
+
+	<div class="widget-area sidebar is-right-sidebar grid-25 tablet-grid-25 grid-parent" id="right-sidebar">
+	<div class="inside-right-sidebar">
+		<aside id="dpe_fp_widget-11" class="widget inner-padding widget_dpe_fp_widget"><h2 class="widget-title">Featured Posts</h2>	<ul class="dpe-flexible-posts">
+			<li id="post-849" class="post-849 post type-post status-publish format-standard has-post-thumbnail hentry category-review">
+			<a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/">
+				<img src="https://media.publit.io/file/q_80/12-7-2017-6-38-24-pm-2.png" class="attachment-medium size-medium wp-post-image" alt="Webinoly Một Sự Thay Thế Hoàn Hảo Cho EasyEngine" decoding="async" loading="lazy">				<h4 class="title">Webinoly &#8211; Đơn giản và mạnh mẽ</h4>
+			</a>
+		</li>
+			<li id="post-544" class="post-544 post type-post status-publish format-standard has-post-thumbnail hentry category-review">
+			<a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/">
+				<img src="https://media.publit.io/file/q_80/cloudflare-X.png" class="attachment-medium size-medium wp-post-image" alt="CloudFlare" decoding="async" loading="lazy">				<h4 class="title">Cloudflare CDN, DNS và Cache &#8211; Đã hỗ trợ location tại Việt Nam</h4>
+			</a>
+		</li>
+			<li id="post-1072" class="post-1072 post type-post status-publish format-standard has-post-thumbnail hentry category-advertisement category-toolbox">
+			<a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">
+				<img src="https://media.publit.io/file/q_80/generatepress-lightweight-responsive-wordpress-theme-2.jpg" class="attachment-medium size-medium wp-post-image" alt="GeneratePress – Lightweight, Responsive WordPress Theme" decoding="async" loading="lazy">				<h4 class="title">GeneratePress &#8211; Lightweight, Responsive WordPress Theme</h4>
+			</a>
+		</li>
+			<li id="post-1916" class="post-1916 post type-post status-publish format-standard has-post-thumbnail hentry category-advertisement category-review category-toolbox">
+			<a href="https://static.bibica.net/perfmatters/">
+				<img src="https://media.publit.io/file/q_80/wordpress-performance-plugin-slider-6.png" class="attachment-medium size-medium wp-post-image" alt="wordpress-performance-plugin-slider-6" decoding="async" loading="lazy">				<h4 class="title">Perfmatters</h4>
+			</a>
+		</li>
+			<li id="post-6904" class="post-6904 post type-post status-publish format-standard has-post-thumbnail hentry category-toolbox">
+			<a href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/">
+				<img src="https://media.publit.io/file/q_80/2022-11-12-22-22-23.png" class="attachment-medium size-medium wp-post-image" alt="2022-11-12_22-22-23" decoding="async" loading="lazy">				<h4 class="title">FlyingPress &#8211; plugin cache hàng đầu</h4>
+			</a>
+		</li>
+		</ul>
+<!-- .dpe-flexible-posts -->
+</aside>	</div>
+</div>
+
+	</div>
+<!-- #content -->
+</div>
+<!-- #page -->
+
+
+<div class="site-footer">
+			<footer class="site-info" aria-label="Site" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					<div style="float:left">Copyright <i class="fa fa-copyright"></i> 2022 Master XinClub - Powered by <i class="fa fa-heart"></i> <a href="https://static.bibica.net/cloud-vps-upcloud/" rel="bookmark">UpCloud</a> <i class="fa fa-heartbeat"></i> <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/" rel="bookmark">Webinoly</a> <i class="fa fa-cloud"></i> <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/" rel="bookmark">Cloudflare</a> <i class="fa fa-moon-o"></i> <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">GeneratePress</a> <i class="fa fa-wordpress"></i> <a href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
+</div>				</div>
+			</div>
+		</footer>
+		</div>
+<!-- .site-footer -->
+
+<a title="Scroll back to top" aria-label="Scroll back to top" rel="nofollow" href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+					
+				</a><script id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://static.bibica.net/#website","url":"https://static.bibica.net/","name":"BIBICA.NET","potentialAction":{"@id":"https://static.bibica.net/swift-performance#searchaction"},"publisher":{"@id":"https://static.bibica.net/#organization"}},{"@type":"SearchAction","@id":"https://static.bibica.net/swift-performance#searchaction","target":"https://static.bibica.net/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"BreadcrumbList","name":"Breadcrumbs","@id":"https://static.bibica.net/swift-performance#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://static.bibica.net/"},{"@type":"ListItem","position":2,"name":"Review","item":"https://static.bibica.net/category/review/"}]},{"@type":"WebPage","@id":"https://static.bibica.net/swift-performance#webpage","url":"https://static.bibica.net/swift-performance","inLanguage":"en_US","name":"Swift Performance – BIBICA.NET","description":"Swift Performance là một plugin cache cho WordPress, tình cờ mình biết tới khi đọc blog của  WP JOHNNY , một thanh niên cũng rất cuồng hiệu năng, không chắc lắm","datePublished":"2019-04-03T06:53:13+00:00","dateModified":"2021-05-17T03:42:51+00:00","isPartOf":{"@id":"https://static.bibica.net/#website"},"breadcrumb":{"@id":"https://static.bibica.net/swift-performance#breadcrumbs"},"primaryImageOfPage":{"@id":"https://static.bibica.net/swift-performance#thumbnail"},"image":{"@id":"https://static.bibica.net/swift-performance#thumbnail"}},{"@type":"Organization","@id":"https://static.bibica.net/#organization","url":"https://static.bibica.net/","name":"BIBICA.NET","logo":{"@id":"https://static.bibica.net/swift-performance#logo"},"image":{"@id":"https://static.bibica.net/swift-performance#logo"}},{"@type":"ImageObject","@id":"https://static.bibica.net/swift-performance#logo","url":"https://media.publit.io/file/w_512,h_512,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg","width":512,"height":512},{"@type":"ImageObject","@id":"https://static.bibica.net/swift-performance#thumbnail","url":"https://media.publit.io/file/w_464,h_86,c_fit,q_80/logo-3-H.png","width":464,"height":86},{"@type":"Article","@id":"https://static.bibica.net/swift-performance#article","url":"https://static.bibica.net/swift-performance","headline":"Swift Performance","datePublished":"2019-04-03T06:53:13+00:00","dateModified":"2021-05-17T03:42:51+00:00","wordCount":4824,"articleSection":["Review"],"isPartOf":{"@id":"https://static.bibica.net/swift-performance#webpage"},"mainEntityOfPage":{"@id":"https://static.bibica.net/swift-performance#webpage"},"image":{"@id":"https://static.bibica.net/swift-performance#thumbnail"},"publisher":{"@id":"https://static.bibica.net/#organization"},"author":{"@id":"https://static.bibica.net/swift-performance#author"}},{"@type":"Person","@id":"https://static.bibica.net/swift-performance#author","url":"https://static.bibica.net/author/bibica/","name":"bibica","image":{"@id":"https://static.bibica.net/swift-performance#author_image"}},{"@type":"ImageObject","@id":"https://static.bibica.net/swift-performance#author_image","url":"https://secure.gravatar.com/avatar/cf204c301a46f1b6bc57ffdb8f82977e?s=96&d=mm&r=g","width":96,"height":96,"caption":"bibica"}]}</script><script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+		if ( typeof(jQuery) !== 'undefined' ) {
+		jQuery( document ).ready(function(){
+		function monsterinsights_scroll_tracking_load() {
+		if ( ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) || ( typeof(__gtagTracker) !== 'undefined' && __gtagTracker ) ) {
+		(function(factory) {
+		factory(jQuery);
+		}(function($) {
+
+		/* Scroll Depth */
+		"use strict";
+		var defaults = {
+		percentage: true
+		};
+
+		var $window = $(window),
+		cache = [],
+		scrollEventBound = false,
+		lastPixelDepth = 0;
+
+		/*
+		* Plugin
+		*/
+
+		$.scrollDepth = function(options) {
+
+		var startTime = +new Date();
+
+		options = $.extend({}, defaults, options);
+
+		/*
+		* Functions
+		*/
+
+		function sendEvent(action, label, scrollDistance, timing) {
+		if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+		return;
+		}
+			var paramName = action.toLowerCase();
+	var fieldsArray = {
+	send_to: 'G-6Y2T5Q1R88',
+	non_interaction: true
+	};
+	fieldsArray[paramName] = label;
+
+	if (arguments.length > 3) {
+	fieldsArray.scroll_timing = timing
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	} else {
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	}
+			}
+
+		function calculateMarks(docHeight) {
+		return {
+		'25%' : parseInt(docHeight * 0.25, 10),
+		'50%' : parseInt(docHeight * 0.50, 10),
+		'75%' : parseInt(docHeight * 0.75, 10),
+		/* Cushion to trigger 100% event in iOS */
+		'100%': docHeight - 5
+		};
+		}
+
+		function checkMarks(marks, scrollDistance, timing) {
+		/* Check each active mark */
+		$.each(marks, function(key, val) {
+		if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+		sendEvent('Percentage', key, scrollDistance, timing);
+		cache.push(key);
+		}
+		});
+		}
+
+		function rounded(scrollDistance) {
+		/* Returns String */
+		return (Math.floor(scrollDistance/250) * 250).toString();
+		}
+
+		function init() {
+		bindScrollDepth();
+		}
+
+		/*
+		* Public Methods
+		*/
+
+		/* Reset Scroll Depth with the originally initialized options */
+		$.scrollDepth.reset = function() {
+		cache = [];
+		lastPixelDepth = 0;
+		$window.off('scroll.scrollDepth');
+		bindScrollDepth();
+		};
+
+		/* Add DOM elements to be tracked */
+		$.scrollDepth.addElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.merge(options.elements, elems);
+
+		/* If scroll event has been unbound from window, rebind */
+		if (!scrollEventBound) {
+		bindScrollDepth();
+		}
+
+		};
+
+		/* Remove DOM elements currently tracked */
+		$.scrollDepth.removeElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.each(elems, function(index, elem) {
+
+		var inElementsArray = $.inArray(elem, options.elements);
+		var inCacheArray = $.inArray(elem, cache);
+
+		if (inElementsArray != -1) {
+		options.elements.splice(inElementsArray, 1);
+		}
+
+		if (inCacheArray != -1) {
+		cache.splice(inCacheArray, 1);
+		}
+
+		});
+
+		};
+
+		/*
+		* Throttle function borrowed from:
+		* Underscore.js 1.5.2
+		* http://underscorejs.org
+		* (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+		* Underscore may be freely distributed under the MIT license.
+		*/
+
+		function throttle(func, wait) {
+		var context, args, result;
+		var timeout = null;
+		var previous = 0;
+		var later = function() {
+		previous = new Date;
+		timeout = null;
+		result = func.apply(context, args);
+		};
+		return function() {
+		var now = new Date;
+		if (!previous) previous = now;
+		var remaining = wait - (now - previous);
+		context = this;
+		args = arguments;
+		if (remaining <= 0) {
+		clearTimeout(timeout);
+		timeout = null;
+		previous = now;
+		result = func.apply(context, args);
+		} else if (!timeout) {
+		timeout = setTimeout(later, remaining);
+		}
+		return result;
+		};
+		}
+
+		/*
+		* Scroll Event
+		*/
+
+		function bindScrollDepth() {
+
+		scrollEventBound = true;
+
+		$window.on('scroll.scrollDepth', throttle(function() {
+		/*
+		* We calculate document and window height on each scroll event to
+		* account for dynamic DOM changes.
+		*/
+
+		var docHeight = $(document).height(),
+		winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+		scrollDistance = $window.scrollTop() + winHeight,
+
+		/* Recalculate percentage marks */
+		marks = calculateMarks(docHeight),
+
+		/* Timing */
+		timing = +new Date - startTime;
+
+		checkMarks(marks, scrollDistance, timing);
+		}, 500));
+
+		}
+
+		init();
+		};
+
+		/* UMD export */
+		return $.scrollDepth;
+
+		}));
+
+		jQuery.scrollDepth();
+		} else {
+		setTimeout(monsterinsights_scroll_tracking_load, 200);
+		}
+		}
+		monsterinsights_scroll_tracking_load();
+		});
+		}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script>
+<link rel="stylesheet" id="et_bloom-css-css" href="https://static.bibica.net/wp-content/plugins/bloom/css/style.css?ver=1.3.12" media="all">
+<link rel="stylesheet" id="su-shortcodes-css" href="https://static.bibica.net/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css?ver=5.12.5" media="all">
+<script src="https://static.bibica.net/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?ver=2.2.1" id="generate-sticky-js"></script>
+<script id="contact-form-7-js-extra">var wpcf7 = {"api":{"root":"https:\/\/static.bibica.net\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};</script>
+<script id="wpzerospam-js-extra">var wpzerospam = {"key":"wi0ktldp1iuJo@X9Eg8fh07kp!#i@!#^WioES9miJ(0%*job@yWBNu^AL4Yvfo)E"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//assets/js/wpzerospam.js?ver=4.6.0" id="wpzerospam-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//integrations/contact-form-7/js/cf7.js?ver=4.6.0" id="wpzerospam-integration-cf7-js"></script>
+<script id="generate-smooth-scroll-js-extra">var smooth = {"elements":[".smooth-scroll","li.smooth-scroll a"],"duration":"800"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js?ver=2.2.1" id="generate-smooth-scroll-js"></script>
+<!--[if lte IE 11]>
+<script src='https://dev-bibica-net.pantheonsite.io/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.2.3' id='generate-classlist-js'></script>
+<![endif]-->
+<script id="generate-menu-js-extra">var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.2.3" id="generate-menu-js"></script>
+<script id="generate-navigation-search-js-extra">var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/navigation-search.min.js?ver=3.2.3" id="generate-navigation-search-js"></script>
+<script id="generate-back-to-top-js-extra">var generatepressBackToTop = {"smooth":"1"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/back-to-top.min.js?ver=3.2.3" id="generate-back-to-top-js"></script>
+<script src="https://static.bibica.net/wp-includes/js/comment-reply.min.js?ver=6.1.1" id="comment-reply-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/core/admin/js/common.js?ver=4.9.3" id="et-core-common-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=sxG6g8i781CS7Xa" id="enlighterjs-js"></script>
+<script id="enlighterjs-js-after">!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":true,"textOverflow":"break","linenumbers":true,"theme":"dracula","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);</script>
+<script data-cfasync="false" data-no-optimize="1" src="https://static.bibica.net/wp-content/plugins/perfmatters/vendor/instant-page/instantpage.js?ver=2.0.0" id="perfmatters-instant-page-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/jquery.uniform.min.js?ver=1.3.12" id="et_bloom-uniform-js-js"></script>
+<script id="et_bloom-custom-js-js-extra">var bloomSettings = {"ajaxurl":"https:\/\/static.bibica.net\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/static.bibica.net\/swift-performance\/","stats_nonce":"2b27dbdf5f","subscribe_nonce":"1f19cc9153","is_user_logged_in":"not_logged"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/custom.js?ver=1.3.12" id="et_bloom-custom-js-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/idle-timer.min.js?ver=1.3.12" id="et_bloom-idle-timer-js-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//integrations/comments/js/comments.js?ver=4.6.0" id="wpzerospam-integration-comments-js"></script>
+
+</body>
+</html>

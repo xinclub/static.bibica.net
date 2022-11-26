@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: [SHARE] Perfmatters	</title>
+	<atom:link href="https://static.bibica.net/share-perfmatters/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/share-perfmatters/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=share-perfmatters</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Tue, 11 Jun 2019 14:51:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/share-perfmatters/#comment-755</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 11 Jun 2019 14:51:18 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4980#comment-755</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/share-perfmatters/#comment-754&quot;&gt;Lucius Vo&lt;/a&gt;.
+
+Perfmatters chủ yếu giảm các request thôi, đâu dụng chạm gì tới plugin cache, thích dùng plugin cache nào thì cứ dùng là được
+
+Ý 2 thì trong bài có nói rồi mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/share-perfmatters/#comment-754">Lucius Vo</a>.</p>
+<p>Perfmatters chủ yếu giảm các request thôi, đâu dụng chạm gì tới plugin cache, thích dùng plugin cache nào thì cứ dùng là được</p>
+<p>Ý 2 thì trong bài có nói rồi mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lucius Vo		</title>
+		<link>https://static.bibica.net/share-perfmatters/#comment-754</link>
+
+		<dc:creator><![CDATA[Lucius Vo]]></dc:creator>
+		<pubDate>Tue, 11 Jun 2019 12:00:06 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4980#comment-754</guid>
+
+					<description><![CDATA[Không biết nên dùng plugins cache nào để phối hợp tốt với Perfmatters nhỉ?
+Bạn có thể chia sẻ giải pháp cache hiện tại bạn đang dùng được không ạ?]]></description>
+			<content:encoded><![CDATA[<p>Không biết nên dùng plugins cache nào để phối hợp tốt với Perfmatters nhỉ?<br />
+Bạn có thể chia sẻ giải pháp cache hiện tại bạn đang dùng được không ạ?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

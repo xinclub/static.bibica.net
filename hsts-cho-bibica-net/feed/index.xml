@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: HSTS cho bibica.net	</title>
+	<atom:link href="https://static.bibica.net/hsts-cho-bibica-net/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/hsts-cho-bibica-net/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hsts-cho-bibica-net</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Tue, 07 Apr 2020 06:30:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Bình		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-960</link>
+
+		<dc:creator><![CDATA[Bình]]></dc:creator>
+		<pubDate>Tue, 07 Apr 2020 06:30:04 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-960</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-947&quot;&gt;Nguyễn Văn&lt;/a&gt;.
+
+====
+listen 443;
+ssl on;
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;
+==== chỉnh như bên dưới sẽ hết :)
+listen 443 ssl;
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-947">Nguyễn Văn</a>.</p>
+<p>====<br />
+listen 443;<br />
+ssl on;<br />
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;<br />
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;<br />
+==== chỉnh như bên dưới sẽ hết 🙂<br />
+listen 443 ssl;<br />
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;<br />
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Văn Nguyễn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-959</link>
+
+		<dc:creator><![CDATA[Văn Nguyễn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 10:48:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-959</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-958&quot;&gt;bibica&lt;/a&gt;.
+
+Theo hướng dẫn làm đi làm lại mãi vẫn lỗi dòng add site chuẩn hết đến đoạn này thì lại bị lỗi
+listen 443;
+ssl on;
+ssl_certificate /root/ssl/bibica.net.pem;
+ssl_certificate_key /root/ssl/bibica.net.key;
+Lỗi dòng ssl on;
+Thế mới đau chứ, từ qua nay mò mãi lên mạng xem các site nhưng ko có tài liệu.
+bạn có thể giành chút thời gian xem hộ vps mình lỗi chỗ nào dc ko cài cả 6, 7 vẫn không dc.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-958">bibica</a>.</p>
+<p>Theo hướng dẫn làm đi làm lại mãi vẫn lỗi dòng add site chuẩn hết đến đoạn này thì lại bị lỗi<br />
+listen 443;<br />
+ssl on;<br />
+ssl_certificate /root/ssl/bibica.net.pem;<br />
+ssl_certificate_key /root/ssl/bibica.net.key;<br />
+Lỗi dòng ssl on;<br />
+Thế mới đau chứ, từ qua nay mò mãi lên mạng xem các site nhưng ko có tài liệu.<br />
+bạn có thể giành chút thời gian xem hộ vps mình lỗi chỗ nào dc ko cài cả 6, 7 vẫn không dc.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-958</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 10:26:34 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-958</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-957&quot;&gt;Nguyễn Văn&lt;/a&gt;.
+
+Cài centiminmod với tất cả thông số mặc định (1 dòng code), add website vào (ấn 2-3 lần), tiếp theo config https như bài này
+
+Nó chỉ thế thôi mà?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-957">Nguyễn Văn</a>.</p>
+<p>Cài centiminmod với tất cả thông số mặc định (1 dòng code), add website vào (ấn 2-3 lần), tiếp theo config https như bài này</p>
+<p>Nó chỉ thế thôi mà?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-957</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 09:32:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-957</guid>
+
+					<description><![CDATA[Tôi đã cài lại centiminmod và cài lại ssl nhưng lỗi vẫn như cũ, admin có thể xem giúp được ko ạ. THanks]]></description>
+			<content:encoded><![CDATA[<p>Tôi đã cài lại centiminmod và cài lại ssl nhưng lỗi vẫn như cũ, admin có thể xem giúp được ko ạ. THanks</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-956</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 08:42:24 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-956</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-954&quot;&gt;bibica&lt;/a&gt;.
+
+Thử xem đã, hix]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-954">bibica</a>.</p>
+<p>Thử xem đã, hix</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Văn Nguyễn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-955</link>
+
+		<dc:creator><![CDATA[Văn Nguyễn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 08:24:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-955</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-954&quot;&gt;bibica&lt;/a&gt;.
+
+đã xóa và cài lại centmin mod 2 lần rôi, vẫn chưa hiểu là sai ở bước nào bạn ạ.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-954">bibica</a>.</p>
+<p>đã xóa và cài lại centmin mod 2 lần rôi, vẫn chưa hiểu là sai ở bước nào bạn ạ.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-954</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 08:20:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-954</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-943&quot;&gt;Nguyễn Văn&lt;/a&gt;.
+
+Xóa hết làm lại từ đầu thôi :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-943">Nguyễn Văn</a>.</p>
+<p>Xóa hết làm lại từ đầu thôi 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-953</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 07:52:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-953</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-944&quot;&gt;bibica&lt;/a&gt;.
+
+Đã chỉnh sửa đúng y hệt luôn 
+https://batdongsanduyenhai.vn/wp-content/uploads/2020/03/ho-tro.png
+
+Nhưng khi gõ 
+
+nginx -t
+
+thì nó báo lỗi line theo chữ ssl on;
+nginx: [warn] the &quot;ssl&quot; directive is deprecated, use the &quot;listen ... ssl&quot; directive instead in /usr/local/nginx/conf/conf.d/datxanhquangninh.vn.conf:20
+nên mình nghĩ chưa ra sai chỗ nào :( rất mogng được hỗ trợ]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-944">bibica</a>.</p>
+<p>Đã chỉnh sửa đúng y hệt luôn<br />
+https://batdongsanduyenhai.vn/wp-content/uploads/2020/03/ho-tro.png</p>
+<p>Nhưng khi gõ </p>
+<p>nginx -t</p>
+<p>thì nó báo lỗi line theo chữ ssl on;<br />
+nginx: [warn] the &#8220;ssl&#8221; directive is deprecated, use the &#8220;listen &#8230; ssl&#8221; directive instead in /usr/local/nginx/conf/conf.d/datxanhquangninh.vn.conf:20<br />
+nên mình nghĩ chưa ra sai chỗ nào 🙁 rất mogng được hỗ trợ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-952</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 07:37:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-952</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-950&quot;&gt;bibica&lt;/a&gt;.
+
+Làm như bài, cái file nó sẽ như thế này (https://i1.wp.com/bibica.net/wp-content/uploads/2018/11/2018-11-30_22-01-15.png)
+
+So xem điền đúng không?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-950">bibica</a>.</p>
+<p>Làm như bài, cái file nó sẽ như thế này (https://i1.wp.com/bibica.net/wp-content/uploads/2018/11/2018-11-30_22-01-15.png)</p>
+<p>So xem điền đúng không?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/hsts-cho-bibica-net/#comment-951</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2020 07:35:24 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4593#comment-951</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/hsts-cho-bibica-net/#comment-950&quot;&gt;bibica&lt;/a&gt;.
+
+Mình thử lại nhiều lần lắm rồi, đến bước này bị lỗi này 
+listen 443;
+ssl on;
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;
+
+Khi làm lệnh lại 
+nginx -t
+
+nó báo lỗi
+
+nginx: [warn] the &quot;ssl&quot; directive is deprecated, use the &quot;listen ... ssl&quot; directive instead in /usr/local/nginx/conf/conf.d/datxanhquangninh.vn.conf:15
+
+line 15 là ssl on; 
+khi xóa đi thì nó ko báo lỗi nữa. Tóm lại hiện đang vướng biết xử lí cài lại qua nay chục lần chưa dc :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/hsts-cho-bibica-net/#comment-950">bibica</a>.</p>
+<p>Mình thử lại nhiều lần lắm rồi, đến bước này bị lỗi này<br />
+listen 443;<br />
+ssl on;<br />
+ssl_certificate /root/ssl/datxanhquangninh.net.pem;<br />
+ssl_certificate_key /root/ssl/datxanhquangninh.net.key;</p>
+<p>Khi làm lệnh lại<br />
+nginx -t</p>
+<p>nó báo lỗi</p>
+<p>nginx: [warn] the &#8220;ssl&#8221; directive is deprecated, use the &#8220;listen &#8230; ssl&#8221; directive instead in /usr/local/nginx/conf/conf.d/datxanhquangninh.vn.conf:15</p>
+<p>line 15 là ssl on;<br />
+khi xóa đi thì nó ko báo lỗi nữa. Tóm lại hiện đang vướng biết xử lí cài lại qua nay chục lần chưa dc 🙁</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

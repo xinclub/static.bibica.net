@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: WP Rocket và Rocket-Nginx	</title>
+	<atom:link href="https://static.bibica.net/wp-rocket-va-rocket-nginx/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wp-rocket-va-rocket-nginx</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 24 Dec 2020 09:18:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-997</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 09:18:54 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-997</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-996&quot;&gt;Huu Duc&lt;/a&gt;.
+
+Từ khi Cloudflare có server tại Việt Nam, tất cả các hình thức tăng tốc, tối ưu, nó gần như chỉ là vẽ vời, màu mè, không còn ý nghĩa nữa rồi
+
+Chọn 1 dịch vụ hostting có downtime thấp, sau đó làm na ná theo bài là đủ (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/)
+
+Nó đáp ứng được tiêu chí nhanh và chịu tải tốt rồi, thực tế bạn cũng có thể test ngay trên thèng bibica.net, 1 trang đang dùng hosting ... US mà ở VN load vẫn ào ào cả đấy thôi :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-996">Huu Duc</a>.</p>
+<p>Từ khi Cloudflare có server tại Việt Nam, tất cả các hình thức tăng tốc, tối ưu, nó gần như chỉ là vẽ vời, màu mè, không còn ý nghĩa nữa rồi</p>
+<p>Chọn 1 dịch vụ hostting có downtime thấp, sau đó làm na ná theo bài là đủ (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/)</p>
+<p>Nó đáp ứng được tiêu chí nhanh và chịu tải tốt rồi, thực tế bạn cũng có thể test ngay trên thèng bibica.net, 1 trang đang dùng hosting &#8230; US mà ở VN load vẫn ào ào cả đấy thôi 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Huu Duc		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-996</link>
+
+		<dc:creator><![CDATA[Huu Duc]]></dc:creator>
+		<pubDate>Thu, 24 Dec 2020 02:55:40 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-996</guid>
+
+					<description><![CDATA[bác bibica ơi, rãnh xài thử cái 1click OpenLiteSpeed rồi review cho ae thử xem.
+https://openlitespeed.org/#install
+Chờ bài review của bác]]></description>
+			<content:encoded><![CDATA[<p>bác bibica ơi, rãnh xài thử cái 1click OpenLiteSpeed rồi review cho ae thử xem.<br />
+https://openlitespeed.org/#install<br />
+Chờ bài review của bác</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-969</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2020 06:11:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-969</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-967&quot;&gt;Minh&lt;/a&gt;.
+
+https://vpssim.vn/4885-huong-dan-config-vhost-de-wordpress-blog-co-su-dung-plugin-wp-rocket-tren-vpssim.html]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-967">Minh</a>.</p>
+<p>https://vpssim.vn/4885-huong-dan-config-vhost-de-wordpress-blog-co-su-dung-plugin-wp-rocket-tren-vpssim.html</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-968</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2020 06:11:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-968</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-967&quot;&gt;Minh&lt;/a&gt;.
+
+Mà theo mình nhớ, cách đây hơn nửa năm gì đó, vpssim đã tích hợp RocketNginx vào rồi mà]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-967">Minh</a>.</p>
+<p>Mà theo mình nhớ, cách đây hơn nửa năm gì đó, vpssim đã tích hợp RocketNginx vào rồi mà</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Minh		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-967</link>
+
+		<dc:creator><![CDATA[Minh]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2020 05:54:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-967</guid>
+
+					<description><![CDATA[Mình xài vpssim, vậy sau khi cài RocketNginx thì mình uncomment dòng load file conf của vpssim cho wprocket hả bác]]></description>
+			<content:encoded><![CDATA[<p>Mình xài vpssim, vậy sau khi cài RocketNginx thì mình uncomment dòng load file conf của vpssim cho wprocket hả bác</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-966</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2020 05:29:06 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-966</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-965&quot;&gt;Minh&lt;/a&gt;.
+
+Cài bình thường thôi mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-965">Minh</a>.</p>
+<p>Cài bình thường thôi mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Minh		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-965</link>
+
+		<dc:creator><![CDATA[Minh]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2020 05:26:12 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-965</guid>
+
+					<description><![CDATA[Mình đang xài vpssim, có thể cài thêm Rocket Nginx dc ko bác ??]]></description>
+			<content:encoded><![CDATA[<p>Mình đang xài vpssim, có thể cài thêm Rocket Nginx dc ko bác ??</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-924</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2020 14:07:08 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-924</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-923&quot;&gt;David Do&lt;/a&gt;.
+
+Tham khảo các comment .... bên dưới]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-923">David Do</a>.</p>
+<p>Tham khảo các comment &#8230;. bên dưới</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Do		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-923</link>
+
+		<dc:creator><![CDATA[David Do]]></dc:creator>
+		<pubDate>Tue, 17 Mar 2020 14:01:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-923</guid>
+
+					<description><![CDATA[Mình cài cho https://developers.doligo.net/ 
+thêm dòng này include /usr/local/etc/rocket-nginx/default.conf;
+
+Thì nó báo X-Rocket-Nginx-Serving-Static: No thì khắc phục như nào nhỉ
+thấy nó load chậm hơi ấy]]></description>
+			<content:encoded><![CDATA[<p>Mình cài cho https://developers.doligo.net/<br />
+thêm dòng này include /usr/local/etc/rocket-nginx/default.conf;</p>
+<p>Thì nó báo X-Rocket-Nginx-Serving-Static: No thì khắc phục như nào nhỉ<br />
+thấy nó load chậm hơi ấy</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-915</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 08 Mar 2020 13:20:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1802#comment-915</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-914&quot;&gt;Quang Dang&lt;/a&gt;.
+
+Không ạ :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wp-rocket-va-rocket-nginx/#comment-914">Quang Dang</a>.</p>
+<p>Không ạ 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

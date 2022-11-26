@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Đánh giá sơ bộ về các plugin subscribe cho WordPress	</title>
+	<atom:link href="https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 03:34:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/#comment-928</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 22 Mar 2020 07:27:31 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2643#comment-928</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/#comment-927&quot;&gt;Cuong&lt;/a&gt;.
+
+Cài Bloom vào thì chọn dịch vụ để nó gửi email đi, mình đang dùng MAILCHIMP
+
+Cụ thể các bước thì đọc help hoặc goolge là đủ cả, anh em Việt Nam giới thiệu hướng dẫn nhiều lắm :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/#comment-927">Cuong</a>.</p>
+<p>Cài Bloom vào thì chọn dịch vụ để nó gửi email đi, mình đang dùng MAILCHIMP</p>
+<p>Cụ thể các bước thì đọc help hoặc goolge là đủ cả, anh em Việt Nam giới thiệu hướng dẫn nhiều lắm 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/#comment-927</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Sat, 21 Mar 2020 18:03:14 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2643#comment-927</guid>
+
+					<description><![CDATA[Mình mới cài cái bloom, cho hỏi làm thế nào để... active tính năng tự động gửi email khi có bài viết mới ạ bibica ơi :(]]></description>
+			<content:encoded><![CDATA[<p>Mình mới cài cái bloom, cho hỏi làm thế nào để&#8230; active tính năng tự động gửi email khi có bài viết mới ạ bibica ơi 🙁</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

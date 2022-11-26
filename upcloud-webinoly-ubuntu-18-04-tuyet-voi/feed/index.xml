@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: UpCloud + Webinoly + Ubuntu 18.04 = tuyệt vời	</title>
+	<atom:link href="https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=upcloud-webinoly-ubuntu-18-04-tuyet-voi</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 08:15:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Tony		</title>
+		<link>https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/#comment-358</link>
+
+		<dc:creator><![CDATA[Tony]]></dc:creator>
+		<pubDate>Thu, 02 Aug 2018 07:36:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4499#comment-358</guid>
+
+					<description><![CDATA[ok bạn, vậy vẫn để bản 16 tiếp thôi =)]]></description>
+			<content:encoded><![CDATA[<p>ok bạn, vậy vẫn để bản 16 tiếp thôi =)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/#comment-357</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 01 Aug 2018 05:50:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4499#comment-357</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/#comment-356&quot;&gt;Tony&lt;/a&gt;.
+
+Backup fullsite bằng Duplicator Pro (https://static.bibica.net/duplicator-pro/)
+
+Tạo VPS mới OS Ubuntu 18.04 rồi cài lại thôi, nhanh và an toàn nhất :P
+
+Thật ra Ubuntu 16.04 cũng ổn cả mà, như mình đang chạy thèng bibica.net trên VPS của Amazon Lightsail, không có v18.04, vẫn đang dùng v16.04, chạy vẫn xé gió cả mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/#comment-356">Tony</a>.</p>
+<p>Backup fullsite bằng Duplicator Pro (https://static.bibica.net/duplicator-pro/)</p>
+<p>Tạo VPS mới OS Ubuntu 18.04 rồi cài lại thôi, nhanh và an toàn nhất 😛</p>
+<p>Thật ra Ubuntu 16.04 cũng ổn cả mà, như mình đang chạy thèng bibica.net trên VPS của Amazon Lightsail, không có v18.04, vẫn đang dùng v16.04, chạy vẫn xé gió cả mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tony		</title>
+		<link>https://static.bibica.net/upcloud-webinoly-ubuntu-18-04-tuyet-voi/#comment-356</link>
+
+		<dc:creator><![CDATA[Tony]]></dc:creator>
+		<pubDate>Wed, 01 Aug 2018 05:42:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4499#comment-356</guid>
+
+					<description><![CDATA[Đang xài Ubuntu 16 muốn update lên 18 mà không mất dữ liệu có được không?]]></description>
+			<content:encoded><![CDATA[<p>Đang xài Ubuntu 16 muốn update lên 18 mà không mất dữ liệu có được không?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

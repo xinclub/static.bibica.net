@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Amazon Simple Email Service	</title>
+	<atom:link href="https://static.bibica.net/amazon-simple-email-service/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/amazon-simple-email-service/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-simple-email-service</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 06 May 2020 18:10:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-973</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 06 May 2020 18:10:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-973</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-simple-email-service/#comment-972&quot;&gt;Cuong&lt;/a&gt;.
+
+Tạo tài khoản rồi ấn request là được mà, AWS mình thấy thoáng khoản gửi email này lắm, gần như ai request cũng cho cả :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-simple-email-service/#comment-972">Cuong</a>.</p>
+<p>Tạo tài khoản rồi ấn request là được mà, AWS mình thấy thoáng khoản gửi email này lắm, gần như ai request cũng cho cả 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-972</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Mon, 04 May 2020 19:59:11 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-972</guid>
+
+					<description><![CDATA[bibica ơi bạn còn dùng tài khoản amazon SES 50000 daily limit quota không? nếu không dùng bán lại cho mình được không? mình cần gấp lắm :(]]></description>
+			<content:encoded><![CDATA[<p>bibica ơi bạn còn dùng tài khoản amazon SES 50000 daily limit quota không? nếu không dùng bán lại cho mình được không? mình cần gấp lắm 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-738</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 06 May 2019 14:11:26 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-738</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-simple-email-service/#comment-737&quot;&gt;hưng&lt;/a&gt;.
+
+Link trong bài có rồi mà bạn? (https://deliciousbrains.com/amazon-ses-tutorial/)
+
+Với thường dùng dịch vụ khác, nó không đưa vào inbox thôi (đa phần nằm ở promotion), chứ bị đưa sang spam là có vấn đề gì khác rồi]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-simple-email-service/#comment-737">hưng</a>.</p>
+<p>Link trong bài có rồi mà bạn? (https://deliciousbrains.com/amazon-ses-tutorial/)</p>
+<p>Với thường dùng dịch vụ khác, nó không đưa vào inbox thôi (đa phần nằm ở promotion), chứ bị đưa sang spam là có vấn đề gì khác rồi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: hưng		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-737</link>
+
+		<dc:creator><![CDATA[hưng]]></dc:creator>
+		<pubDate>Mon, 06 May 2019 14:08:27 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-737</guid>
+
+					<description><![CDATA[bạn có thể hướng dẫn chi tiết setup thằng này không. 
+mình đang dùng send grid nhưng toàn bị nhảy vào spam]]></description>
+			<content:encoded><![CDATA[<p>bạn có thể hướng dẫn chi tiết setup thằng này không.<br />
+mình đang dùng send grid nhưng toàn bị nhảy vào spam</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-721</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2019 05:53:53 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-721</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-simple-email-service/#comment-720&quot;&gt;Cuong&lt;/a&gt;.
+
+https://static.bibica.net/aws-gift-card/]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-simple-email-service/#comment-720">Cuong</a>.</p>
+<p>https://static.bibica.net/aws-gift-card/</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-720</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2019 05:52:39 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-720</guid>
+
+					<description><![CDATA[bibica ơi mua AWS Gift Card ở đâu vậy :3 có thể giới thiệu cho mình được không? cám ơn nha!]]></description>
+			<content:encoded><![CDATA[<p>bibica ơi mua AWS Gift Card ở đâu vậy :3 có thể giới thiệu cho mình được không? cám ơn nha!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kien		</title>
+		<link>https://static.bibica.net/amazon-simple-email-service/#comment-531</link>
+
+		<dc:creator><![CDATA[kien]]></dc:creator>
+		<pubDate>Wed, 05 Dec 2018 19:20:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4620#comment-531</guid>
+
+					<description><![CDATA[ngon]]></description>
+			<content:encoded><![CDATA[<p>ngon</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

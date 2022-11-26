@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Amazon Lightsail	</title>
+	<atom:link href="https://static.bibica.net/amazon-lightsail/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/amazon-lightsail/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-lightsail</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 20 May 2020 18:05:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: SteveTai		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-974</link>
+
+		<dc:creator><![CDATA[SteveTai]]></dc:creator>
+		<pubDate>Wed, 20 May 2020 18:05:39 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-974</guid>
+
+					<description><![CDATA[Thực ra mà nói mình cũng giống quan điểm của bạn là cái điểm uptime thôi, mấy bác cứ quan trọng cái disk IO chứ làm cái website lên uptime tầm 30 phút trong lúc sale off của store về là ăn hành thật. Tụi Vinmec của Vingroup mình nó cũng chạy trên AWS hết chứ có xài mấy ông Cloud kia đâu :D 
+
+Mà công nhận bạn viết mấy bài, mà mình đọc thấy ghiền thật :))]]></description>
+			<content:encoded><![CDATA[<p>Thực ra mà nói mình cũng giống quan điểm của bạn là cái điểm uptime thôi, mấy bác cứ quan trọng cái disk IO chứ làm cái website lên uptime tầm 30 phút trong lúc sale off của store về là ăn hành thật. Tụi Vinmec của Vingroup mình nó cũng chạy trên AWS hết chứ có xài mấy ông Cloud kia đâu 😀 </p>
+<p>Mà công nhận bạn viết mấy bài, mà mình đọc thấy ghiền thật :))</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-859</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 30 Oct 2019 07:02:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-859</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-858&quot;&gt;Nhat&lt;/a&gt;.
+
+Lấy ip ở phần Static IP để dùng]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-858">Nhat</a>.</p>
+<p>Lấy ip ở phần Static IP để dùng</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhat		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-858</link>
+
+		<dc:creator><![CDATA[Nhat]]></dc:creator>
+		<pubDate>Wed, 30 Oct 2019 06:36:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-858</guid>
+
+					<description><![CDATA[Chào anh. VPS của Lightsail có 2 ip, vậy mình trỏ Domain sang IP nào vậy anh]]></description>
+			<content:encoded><![CDATA[<p>Chào anh. VPS của Lightsail có 2 ip, vậy mình trỏ Domain sang IP nào vậy anh</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-577</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 25 Dec 2018 17:12:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-577</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-576&quot;&gt;anhdv&lt;/a&gt;.
+
+Dùng AWS thì nhớ xài gift card (https://static.bibica.net/aws-gift-card/)
+
+Giá $10 -&gt; $25 cho gift card $150 :D tha hồ mà tiêu xài bét nhè, vừa rẻ vừa có con VPS chuẩn thế giới :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-576">anhdv</a>.</p>
+<p>Dùng AWS thì nhớ xài gift card (https://static.bibica.net/aws-gift-card/)</p>
+<p>Giá $10 -> $25 cho gift card $150 😀 tha hồ mà tiêu xài bét nhè, vừa rẻ vừa có con VPS chuẩn thế giới 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: anhdv		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-576</link>
+
+		<dc:creator><![CDATA[anhdv]]></dc:creator>
+		<pubDate>Tue, 25 Dec 2018 16:52:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-576</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-575&quot;&gt;bibica&lt;/a&gt;.
+
+Cám ơn bạn nhiều, nói chung là cứ phải thử mới biết thật. Mình đang chuẩn bị move từ DigitalOcean về bên này xem thế nào.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-575">bibica</a>.</p>
+<p>Cám ơn bạn nhiều, nói chung là cứ phải thử mới biết thật. Mình đang chuẩn bị move từ DigitalOcean về bên này xem thế nào.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-575</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 25 Dec 2018 05:56:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-575</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-573&quot;&gt;anhdv&lt;/a&gt;.
+
+Ah, với lại họ cũng cho dùng thử 30 ngày miễn phí mà :D bạn cứ dùng thử xem thế nào rồi tự đánh giá là được mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-573">anhdv</a>.</p>
+<p>Ah, với lại họ cũng cho dùng thử 30 ngày miễn phí mà 😀 bạn cứ dùng thử xem thế nào rồi tự đánh giá là được mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-574</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 25 Dec 2018 05:53:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-574</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-573&quot;&gt;anhdv&lt;/a&gt;.
+
+Tổng thể thì vẫn tùy nhu cầu thế nào mà sử dụng, mà chọn dịch vụ thôi
+
+Thích nhìn tốc độ disk hoành tráng thì có thể dùng UpCloud mà :D
+
+Chứ mình thì dùng Amazon Lightsail tầm 8-9 tháng rồi, chẳng thấy vấn đề gì liên quan tới disk hết :D
+
+Thực tế thèng bibica.net vẫn đang chạy trên gói thấp nhất của Lightsail $3.5 / month, bạn có thấy vấn đề gì liên quan tới tốc độ không :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-573">anhdv</a>.</p>
+<p>Tổng thể thì vẫn tùy nhu cầu thế nào mà sử dụng, mà chọn dịch vụ thôi</p>
+<p>Thích nhìn tốc độ disk hoành tráng thì có thể dùng UpCloud mà 😀</p>
+<p>Chứ mình thì dùng Amazon Lightsail tầm 8-9 tháng rồi, chẳng thấy vấn đề gì liên quan tới disk hết 😀</p>
+<p>Thực tế thèng bibica.net vẫn đang chạy trên gói thấp nhất của Lightsail $3.5 / month, bạn có thấy vấn đề gì liên quan tới tốc độ không 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: anhdv		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-573</link>
+
+		<dc:creator><![CDATA[anhdv]]></dc:creator>
+		<pubDate>Tue, 25 Dec 2018 03:03:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-573</guid>
+
+					<description><![CDATA[Chào bạn,
+Mình cũng đang quan tâm đến Amazon lightsail, nhưng nhìn disk I/O của nó mà mình hơi sốc. Disk I/O như này không biết có ảnh nhiều đến tốc độ tải trang không.]]></description>
+			<content:encoded><![CDATA[<p>Chào bạn,<br />
+Mình cũng đang quan tâm đến Amazon lightsail, nhưng nhìn disk I/O của nó mà mình hơi sốc. Disk I/O như này không biết có ảnh nhiều đến tốc độ tải trang không.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-502</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 03 Dec 2018 11:17:30 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-502</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-501&quot;&gt;Nguyễn Minh Hùng&lt;/a&gt;.
+
+Gói cao hơn thì phải từ 20$/month nó mới lên được 2vcore :D dưới giá đó 1vcore như nhau cả :P
+
+Còn với cách config cho thèng bibica.net thì gần như không cần dùng tới RAM, vì trang đa phần cache cả :D
+
+Và quan trọng nhất là dùng gói cùi nhất mà vẫn đạt tốc độ nhanh nhất mới thích chứ, còn cứ lấy cấu hình cho cao đè vào thì đâu nói lên vấn đề tối ưu tốt hay không tốt :D
+
+Thực tế thèng bibica.net, trừ lần đầu tiên vào site, chứ từ cái click chuột lần 2, đều &lt; 1s load xong trang cả :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-501">Nguyễn Minh Hùng</a>.</p>
+<p>Gói cao hơn thì phải từ 20$/month nó mới lên được 2vcore 😀 dưới giá đó 1vcore như nhau cả 😛</p>
+<p>Còn với cách config cho thèng bibica.net thì gần như không cần dùng tới RAM, vì trang đa phần cache cả 😀</p>
+<p>Và quan trọng nhất là dùng gói cùi nhất mà vẫn đạt tốc độ nhanh nhất mới thích chứ, còn cứ lấy cấu hình cho cao đè vào thì đâu nói lên vấn đề tối ưu tốt hay không tốt 😀</p>
+<p>Thực tế thèng bibica.net, trừ lần đầu tiên vào site, chứ từ cái click chuột lần 2, đều < 1s load xong trang cả 😛
+</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Minh Hùng		</title>
+		<link>https://static.bibica.net/amazon-lightsail/#comment-501</link>
+
+		<dc:creator><![CDATA[Nguyễn Minh Hùng]]></dc:creator>
+		<pubDate>Mon, 03 Dec 2018 11:09:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3905#comment-501</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-lightsail/#comment-498&quot;&gt;bibica&lt;/a&gt;.
+
+Ủa mà tiền nhiều thế sao anh chọn gói cao hơn xài cho phê.
+Em kiếm không ra credit hoặc gilf card 12 tháng trên ebay.
+em đang ticket xin thêm instances mà thằng amazon nó phản hồi suport lâu thật. Lần trước xác minh điện thoại đợi cả ngày.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-lightsail/#comment-498">bibica</a>.</p>
+<p>Ủa mà tiền nhiều thế sao anh chọn gói cao hơn xài cho phê.<br />
+Em kiếm không ra credit hoặc gilf card 12 tháng trên ebay.<br />
+em đang ticket xin thêm instances mà thằng amazon nó phản hồi suport lâu thật. Lần trước xác minh điện thoại đợi cả ngày.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

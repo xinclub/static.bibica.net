@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Amazon RDS for MariaDB	</title>
+	<atom:link href="https://static.bibica.net/amazon-rds-for-mariadb/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/amazon-rds-for-mariadb/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-rds-for-mariadb</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 20:30:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-rds-for-mariadb/#comment-214</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 22 Apr 2018 13:41:49 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4236#comment-214</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-rds-for-mariadb/#comment-213&quot;&gt;Vượng&lt;/a&gt;.
+
+Cũng không hẳn, phần vì họ cũng mới chỉ có cụm location cho gói Lightsail khoảng nửa năm nay, thêm vào các tài khoản mới mở thường họ giới hạn số lượng ở mỗi vùng, thêm nữa là Amazon không trả tiền cho các quảng cáo giới thiệu, thêm nữa là cấu hình về ổ cứng của họ thật thì ... kém :P nên nhiều tay to chẳng thèm nói thôi 
+
+Cá nhân thì vẫn đang khá thích thú với UpCloud, nếu dùng nửa năm nữa mà tỷ lệ uptime của họ được khoảng 99.99% thì sẽ sang dùng hẳn luôn, còn nếu từ giờ tới lúc đó mà chỉ cần thấp hơn tỷ lệ này thì ... chuyển nhà khỏi phải nghĩ ^_^]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-rds-for-mariadb/#comment-213">Vượng</a>.</p>
+<p>Cũng không hẳn, phần vì họ cũng mới chỉ có cụm location cho gói Lightsail khoảng nửa năm nay, thêm vào các tài khoản mới mở thường họ giới hạn số lượng ở mỗi vùng, thêm nữa là Amazon không trả tiền cho các quảng cáo giới thiệu, thêm nữa là cấu hình về ổ cứng của họ thật thì &#8230; kém 😛 nên nhiều tay to chẳng thèm nói thôi </p>
+<p>Cá nhân thì vẫn đang khá thích thú với UpCloud, nếu dùng nửa năm nữa mà tỷ lệ uptime của họ được khoảng 99.99% thì sẽ sang dùng hẳn luôn, còn nếu từ giờ tới lúc đó mà chỉ cần thấp hơn tỷ lệ này thì &#8230; chuyển nhà khỏi phải nghĩ ^_^</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/amazon-rds-for-mariadb/#comment-213</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Sun, 22 Apr 2018 13:35:31 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4236#comment-213</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-rds-for-mariadb/#comment-212&quot;&gt;bibica&lt;/a&gt;.
+
+Cụ mà tiết lộ chiêu Amz ra thì có mà thiên hạ Việt Nam đại loạn sang hết với ẻm :-)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-rds-for-mariadb/#comment-212">bibica</a>.</p>
+<p>Cụ mà tiết lộ chiêu Amz ra thì có mà thiên hạ Việt Nam đại loạn sang hết với ẻm 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-rds-for-mariadb/#comment-212</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 22 Apr 2018 07:17:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4236#comment-212</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-rds-for-mariadb/#comment-211&quot;&gt;Vượng&lt;/a&gt;.
+
+Thật ra lý do dùng thì hôm nọ có nói qua Fb ồi á, không thôi thì cũng chẳng dám ngó tới nó, thực tế nhu cầu cũng chưa tới, thuần túy UpCloud hiện tại không cache đã đạt mức click là chạy :]] thậm chí search bài viết cũng chưa tới 1s là ra kết quả
+
+Có điều vẫn vô cùng ngưỡng mộ cái uptime của họ, tốt khủng khiếp cho cụm location Asia :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-rds-for-mariadb/#comment-211">Vượng</a>.</p>
+<p>Thật ra lý do dùng thì hôm nọ có nói qua Fb ồi á, không thôi thì cũng chẳng dám ngó tới nó, thực tế nhu cầu cũng chưa tới, thuần túy UpCloud hiện tại không cache đã đạt mức click là chạy :]] thậm chí search bài viết cũng chưa tới 1s là ra kết quả</p>
+<p>Có điều vẫn vô cùng ngưỡng mộ cái uptime của họ, tốt khủng khiếp cho cụm location Asia 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/amazon-rds-for-mariadb/#comment-211</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Sun, 22 Apr 2018 06:46:09 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4236#comment-211</guid>
+
+					<description><![CDATA[công phu dữ dằn. aws giờ trở thành topnotch với các doanh nghiệp rồi. chứng chỉ aws hiện giờ đang rất đắt giá, hehe. nghe nói performance và scale-ability chính là 2 thứ khiến  cho aws đang trở thành lựa chọn hàng đầu với doanh nghiệp.
+
+bài nhiều chữ seo giỏi dữ :-)]]></description>
+			<content:encoded><![CDATA[<p>công phu dữ dằn. aws giờ trở thành topnotch với các doanh nghiệp rồi. chứng chỉ aws hiện giờ đang rất đắt giá, hehe. nghe nói performance và scale-ability chính là 2 thứ khiến  cho aws đang trở thành lựa chọn hàng đầu với doanh nghiệp.</p>
+<p>bài nhiều chữ seo giỏi dữ 🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

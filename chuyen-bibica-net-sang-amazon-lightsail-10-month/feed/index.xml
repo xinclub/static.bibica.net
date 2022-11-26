@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Chuyển bibica.net sang Amazon Lightsail $10/month	</title>
+	<atom:link href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=chuyen-bibica-net-sang-amazon-lightsail-10-month</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 16:06:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: nghĩa		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-861</link>
+
+		<dc:creator><![CDATA[nghĩa]]></dc:creator>
+		<pubDate>Wed, 06 Nov 2019 07:18:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-861</guid>
+
+					<description><![CDATA[cám ơn bạn]]></description>
+			<content:encoded><![CDATA[<p>cám ơn bạn</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-786</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 01 Aug 2019 05:37:31 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-786</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-785&quot;&gt;Khánh Nguyễn&lt;/a&gt;.
+
+Muốn biết cụm locaiton nào nhanh thì ấn vào đây để test (https://www.cloudping.info/)
+
+Mạng Việt Nam thì trên dịch vụ của Amazon, thường location Singapore nhanh nhất, có điều chọn location Asia là được, tùy nhu cầu traffic trang thế nào, nói chung là Sing hay Japan đều ổn ...]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-785">Khánh Nguyễn</a>.</p>
+<p>Muốn biết cụm locaiton nào nhanh thì ấn vào đây để test (https://www.cloudping.info/)</p>
+<p>Mạng Việt Nam thì trên dịch vụ của Amazon, thường location Singapore nhanh nhất, có điều chọn location Asia là được, tùy nhu cầu traffic trang thế nào, nói chung là Sing hay Japan đều ổn &#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khánh Nguyễn		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-785</link>
+
+		<dc:creator><![CDATA[Khánh Nguyễn]]></dc:creator>
+		<pubDate>Thu, 01 Aug 2019 05:30:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-785</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-784&quot;&gt;bibica&lt;/a&gt;.
+
+Vậy nếu so sánh location Singapore và Japan của Lightsail thì nên chọn cái nào?
+Đợt mình dùng Linode thì Japan xa hơn hơn tốc độ cao hơn hẳn.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-784">bibica</a>.</p>
+<p>Vậy nếu so sánh location Singapore và Japan của Lightsail thì nên chọn cái nào?<br />
+Đợt mình dùng Linode thì Japan xa hơn hơn tốc độ cao hơn hẳn.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-784</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 01 Aug 2019 05:02:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-784</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-783&quot;&gt;Khánh Nguyễn&lt;/a&gt;.
+
+Thuần tốc độ, cùng location, thì đa phần na ná nhau cả :D
+
+Lightsail chủ yếu dùng cơ sở hạ tầng của Amazon, thành ra độ ổn định tốt hơn, các vấn đề kiểu cúp điện đột ngột, bảo trì ... hiếm xảy ra, tỷ lệ uptime gần như hàng đầu
+
+Quan trọng là họ cho dùng code nữa :D thành ra tổng chi phí rẻ hơn, về cơ bản tốt hơn về mọi mặt :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-783">Khánh Nguyễn</a>.</p>
+<p>Thuần tốc độ, cùng location, thì đa phần na ná nhau cả 😀</p>
+<p>Lightsail chủ yếu dùng cơ sở hạ tầng của Amazon, thành ra độ ổn định tốt hơn, các vấn đề kiểu cúp điện đột ngột, bảo trì &#8230; hiếm xảy ra, tỷ lệ uptime gần như hàng đầu</p>
+<p>Quan trọng là họ cho dùng code nữa 😀 thành ra tổng chi phí rẻ hơn, về cơ bản tốt hơn về mọi mặt 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khánh Nguyễn		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-783</link>
+
+		<dc:creator><![CDATA[Khánh Nguyễn]]></dc:creator>
+		<pubDate>Thu, 01 Aug 2019 04:25:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-783</guid>
+
+					<description><![CDATA[Lightsail so với Vultr thì cái nào cho tốc độ về Việt Nam tốt hơn nhỉ?
+Mình đang tính move qua Lightsail cho tiết kiệm chi phí (nhờ bài viết đề cập về AWS Credit Code của bạn ^^)]]></description>
+			<content:encoded><![CDATA[<p>Lightsail so với Vultr thì cái nào cho tốc độ về Việt Nam tốt hơn nhỉ?<br />
+Mình đang tính move qua Lightsail cho tiết kiệm chi phí (nhờ bài viết đề cập về AWS Credit Code của bạn ^^)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-781</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 26 Jul 2019 09:11:36 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-781</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-780&quot;&gt;Nam Mai&lt;/a&gt;.
+
+Flatsome là một trường hợp khá lạ, theme tác giả viết mình chỉ có thể nói là tuyệt vời, thực tế thì thèng ngoirungdui.com, speed luôn tốt hơn thèng bibica.net, dù nó là shop nữa mới kinh chứ :D
+
+Về độ chịu tải thì tất nhiên, khi khách thực tế vào mua hàng, nó sẽ phải chậm hơn, hiển nhiên, có điều mình thấy cũng nhanh lắm, bạn thử vào link này (https://ngoirungdui.com/order/order-cac-mat-hang-tu-trung-quoc/)
+Ấn mua hàng thử xem từ lúc tạo đơn tới lúc hoàn thành speed là sao thì biết mà :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-780">Nam Mai</a>.</p>
+<p>Flatsome là một trường hợp khá lạ, theme tác giả viết mình chỉ có thể nói là tuyệt vời, thực tế thì thèng ngoirungdui.com, speed luôn tốt hơn thèng bibica.net, dù nó là shop nữa mới kinh chứ 😀</p>
+<p>Về độ chịu tải thì tất nhiên, khi khách thực tế vào mua hàng, nó sẽ phải chậm hơn, hiển nhiên, có điều mình thấy cũng nhanh lắm, bạn thử vào link này (https://ngoirungdui.com/order/order-cac-mat-hang-tu-trung-quoc/)<br />
+Ấn mua hàng thử xem từ lúc tạo đơn tới lúc hoàn thành speed là sao thì biết mà 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nam Mai		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-780</link>
+
+		<dc:creator><![CDATA[Nam Mai]]></dc:creator>
+		<pubDate>Fri, 26 Jul 2019 08:44:11 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-780</guid>
+
+					<description><![CDATA[Cám ơn bạn.
+Bên site shop flatsome của ngoirungdui test loader.io được tầm bn bạn ? tại theme shop sẽ nặng hơn theme bibica bạn đang dùng.]]></description>
+			<content:encoded><![CDATA[<p>Cám ơn bạn.<br />
+Bên site shop flatsome của ngoirungdui test loader.io được tầm bn bạn ? tại theme shop sẽ nặng hơn theme bibica bạn đang dùng.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dũng Bùi		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-657</link>
+
+		<dc:creator><![CDATA[Dũng Bùi]]></dc:creator>
+		<pubDate>Tue, 26 Mar 2019 08:39:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-657</guid>
+
+					<description><![CDATA[Bài viết chi tiết và rất có giá trị tham khảo. Cảm ơn anh.]]></description>
+			<content:encoded><![CDATA[<p>Bài viết chi tiết và rất có giá trị tham khảo. Cảm ơn anh.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: thu huong		</title>
+		<link>https://static.bibica.net/chuyen-bibica-net-sang-amazon-lightsail-10-month/#comment-649</link>
+
+		<dc:creator><![CDATA[thu huong]]></dc:creator>
+		<pubDate>Sun, 24 Mar 2019 06:42:10 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4792#comment-649</guid>
+
+					<description><![CDATA[Mình đang dùng vultr + webinoly theo hướng dẫn của bạn, cũng đang tập làm, cám ơn bạn đã hướng dẫn]]></description>
+			<content:encoded><![CDATA[<p>Mình đang dùng vultr + webinoly theo hướng dẫn của bạn, cũng đang tập làm, cám ơn bạn đã hướng dẫn</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

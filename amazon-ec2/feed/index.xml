@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Amazon EC2	</title>
+	<atom:link href="https://static.bibica.net/amazon-ec2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/amazon-ec2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-ec2</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 09:43:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-303</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 27 May 2018 01:44:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-303</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-302&quot;&gt;Duy Hữu&lt;/a&gt;.
+
+Thật ra vấn đề này cực kì hiếm gặp, thực tế mình cũng đã gặp 1 lần cách đây 1-2 tuần, nôm na là lúc đấy trang quản trị Cloudflare họ vừa cập nhập lại hệ thống làm sao đó, mình lại vào đổi DNS lại, thế là lỗi :D Còn các domain không sửa gì thì vẫn chạy bình thường]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-302">Duy Hữu</a>.</p>
+<p>Thật ra vấn đề này cực kì hiếm gặp, thực tế mình cũng đã gặp 1 lần cách đây 1-2 tuần, nôm na là lúc đấy trang quản trị Cloudflare họ vừa cập nhập lại hệ thống làm sao đó, mình lại vào đổi DNS lại, thế là lỗi 😀 Còn các domain không sửa gì thì vẫn chạy bình thường</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy Hữu		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-302</link>
+
+		<dc:creator><![CDATA[Duy Hữu]]></dc:creator>
+		<pubDate>Sat, 26 May 2018 21:38:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-302</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-293&quot;&gt;bibica&lt;/a&gt;.
+
+Ok mình đã giải quyết được rồi, thanks bạn đã chịu tư vấn giúp đỡ ^^]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-293">bibica</a>.</p>
+<p>Ok mình đã giải quyết được rồi, thanks bạn đã chịu tư vấn giúp đỡ ^^</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-301</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 26 May 2018 11:03:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-301</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-298&quot;&gt;Duy Hữu&lt;/a&gt;.
+
+Không quan trọng lắm, bạn cứ đổi IP trên localhost test trước xem chạy ổn chưa là được]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-298">Duy Hữu</a>.</p>
+<p>Không quan trọng lắm, bạn cứ đổi IP trên localhost test trước xem chạy ổn chưa là được</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy Hữu		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-298</link>
+
+		<dc:creator><![CDATA[Duy Hữu]]></dc:creator>
+		<pubDate>Sat, 26 May 2018 03:21:19 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-298</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-293&quot;&gt;bibica&lt;/a&gt;.
+
+Yeah mình đã làm như vậy, nhờ suport namecheap nó cũng nói đã trỏ về ip 13.251.68.168 rồi. Nhưng mình vào domain thì bị lỗi T_T]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-293">bibica</a>.</p>
+<p>Yeah mình đã làm như vậy, nhờ suport namecheap nó cũng nói đã trỏ về ip 13.251.68.168 rồi. Nhưng mình vào domain thì bị lỗi T_T</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-297</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 26 May 2018 00:25:04 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-297</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-296&quot;&gt;Duy Hữu&lt;/a&gt;.
+
+Trỏ A domain về 13.251.68.168 là được thôi mà
+@ -&gt; 13.251.68.168
+www -&gt; 13.251.68.168
+
+Ví dụ thế]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-296">Duy Hữu</a>.</p>
+<p>Trỏ A domain về 13.251.68.168 là được thôi mà<br />
+@ -> 13.251.68.168<br />
+www -> 13.251.68.168</p>
+<p>Ví dụ thế</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy Hữu		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-296</link>
+
+		<dc:creator><![CDATA[Duy Hữu]]></dc:creator>
+		<pubDate>Fri, 25 May 2018 17:18:24 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-296</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-293&quot;&gt;bibica&lt;/a&gt;.
+
+https://imgur.com/a/LGcrCty]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-293">bibica</a>.</p>
+<p>https://imgur.com/a/LGcrCty</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-295</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 25 May 2018 16:41:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-295</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-293&quot;&gt;bibica&lt;/a&gt;.
+
+Vứt vào https://imgur.com/ rồi copy link là được mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-293">bibica</a>.</p>
+<p>Vứt vào https://imgur.com/ rồi copy link là được mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy Hữu		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-294</link>
+
+		<dc:creator><![CDATA[Duy Hữu]]></dc:creator>
+		<pubDate>Fri, 25 May 2018 15:21:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-294</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-293&quot;&gt;bibica&lt;/a&gt;.
+
+Làm sao để đăng hình lên đây?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-293">bibica</a>.</p>
+<p>Làm sao để đăng hình lên đây?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-293</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 25 May 2018 15:13:08 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-293</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-292&quot;&gt;Duy Hữu&lt;/a&gt;.
+
+Chụp cái hình info VPS lên đây là được :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-292">Duy Hữu</a>.</p>
+<p>Chụp cái hình info VPS lên đây là được 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy Hữu		</title>
+		<link>https://static.bibica.net/amazon-ec2/#comment-292</link>
+
+		<dc:creator><![CDATA[Duy Hữu]]></dc:creator>
+		<pubDate>Fri, 25 May 2018 14:53:14 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3786#comment-292</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/amazon-ec2/#comment-291&quot;&gt;bibica&lt;/a&gt;.
+
+Mình đã thử nhập ip rồi tạo luôn Elastic IPs, Elastic IPs và IPv4 Public IP giống nhau, nên mình trỏ về ip đó nhưng hôm qua nay vô domain vẫn bị lỗi. Không biết sao nữa.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/amazon-ec2/#comment-291">bibica</a>.</p>
+<p>Mình đã thử nhập ip rồi tạo luôn Elastic IPs, Elastic IPs và IPv4 Public IP giống nhau, nên mình trỏ về ip đó nhưng hôm qua nay vô domain vẫn bị lỗi. Không biết sao nữa.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

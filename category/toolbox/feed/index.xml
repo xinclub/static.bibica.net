@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Toolbox &#8211; BIBICA.NET</title>
+	<atom:link href="https://static.bibica.net/category/toolbox/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Fri, 25 Nov 2022 00:58:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://static.bibica.net/wp-content/uploads/2017/12/cropped-563a3a6682276d793436-1-32x32.jpg</url>
+	<title>Toolbox &#8211; BIBICA.NET</title>
+	<link>https://static.bibica.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tăng tốc toàn diện cho bibica.net năm 2022</title>
+		<link>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tang-toc-toan-dien-cho-bibica-net-nam-2022</link>
+					<comments>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 20 Nov 2022 05:32:37 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7303</guid>
+
+					<description><![CDATA[Tổng thể combo hiện tại của bibica.net cho năm 2022 là UpCloud Singapore Ubuntu v22.04 LTS Webinoly v1.16.7 &#8211; Nginx v1.22.1 + MariaDB v10.6.11 (MySQL) PHP 7.4.33 Cloudflare &#8211; sử dụng DNS, SSL và cache file tĩnh (css,js) Perfmatters để  tối ưu hiệu xuất cho WordPress FlyingPress để cache ở cấp độ Nginx  Jetpack để cache xử lý hình ảnh Bài viết này ... <a title="Tăng tốc toàn diện cho bibica.net năm 2022" class="read-more" href="https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/" aria-label="More on Tăng tốc toàn diện cho bibica.net năm 2022">Read more →</a>
+<p><a href="https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Duplicator Pro &#8211; UPDATE 2022</title>
+		<link>https://static.bibica.net/duplicator-pro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=duplicator-pro</link>
+					<comments>https://static.bibica.net/duplicator-pro/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 24 Dec 2017 03:05:13 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2012</guid>
+
+					<description><![CDATA[Duplicator Pro là plugin số 1 trong việc tự động sao lưu hoặc di chuyển trang web sang các dịch vụ hosting, domain khác <a class="read-more" href="https://static.bibica.net/duplicator-pro/">Read more →</a>
+<p><a href="https://static.bibica.net/duplicator-pro/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/duplicator-pro/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Query Monitor &#8211; gỡ lỗi cho Wordpress</title>
+		<link>https://static.bibica.net/query-monitor-go-loi-cho-wordpress/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=query-monitor-go-loi-cho-wordpress</link>
+					<comments>https://static.bibica.net/query-monitor-go-loi-cho-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 20 Nov 2022 11:42:48 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7319</guid>
+
+					<description><![CDATA[Query Monitor là 1 công cụ dành cho các nhà phát triển WordPress, thông thường thì chúng ta, những người dùng cuối, cùng khá ít khi phải quan tâm tới cái này, thực tế mình cài Query Monitor vào từ những ngày đầu, đa phần chỉ dùng để quan sát xem các plugin cài vào, có lỗi gì không, xem ... <a title="Query Monitor &#8211; gỡ lỗi cho Wordpress" class="read-more" href="https://static.bibica.net/query-monitor-go-loi-cho-wordpress/" aria-label="More on Query Monitor &#8211; gỡ lỗi cho Wordpress">Read more →</a>
+<p><a href="https://static.bibica.net/query-monitor-go-loi-cho-wordpress/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/query-monitor-go-loi-cho-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Related Posts for WordPress</title>
+		<link>https://static.bibica.net/related-posts-for-wordpress/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=related-posts-for-wordpress</link>
+					<comments>https://static.bibica.net/related-posts-for-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 24 Nov 2022 02:46:56 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7871</guid>
+
+					<description><![CDATA[Related Posts for WordPress được viết ra bởi never5 và barrykooij, về tính năng thì như trên gọi, nó sẽ hiện ra các bài viết liên quan tới bài viết bạn đang đọc 😀 Trước đây thì mình luôn tự tin dùng Jetpack Related Posts, ngoài chuyện xử lý theo cơ chế server &#60;-&#62; server, dạng như nó đọc text, ... <a title="Related Posts for WordPress" class="read-more" href="https://static.bibica.net/related-posts-for-wordpress/" aria-label="More on Related Posts for WordPress">Read more →</a>
+<p><a href="https://static.bibica.net/related-posts-for-wordpress/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/related-posts-for-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Xóa cache CloudFlare từ SlickStack</title>
+		<link>https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=xoa-cache-cloudflare-tu-slickstack</link>
+					<comments>https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2022 05:01:52 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7386</guid>
+
+					<description><![CDATA[CloudFlare là 1 addon nhỏ của bộ cài đặt SlickStack, tác giả tách nhỏ ra share trên github Về cơ bản tính năng của nó sẽ khá tương đồng với plugin CloudFlare từ chính &#8230;. CloudFlare  😀 có điều nó đơn giản hơn, nhẹ hơn, chỉ có 2 tính năng chính là xóa cache và bật tắt sang chế độ ... <a title="Xóa cache CloudFlare từ SlickStack" class="read-more" href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/" aria-label="More on Xóa cache CloudFlare từ SlickStack">Read more →</a>
+<p><a href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FlyingPress &#8211; plugin cache hàng đầu</title>
+		<link>https://static.bibica.net/flyingpress-plugin-cache-hang-dau/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=flyingpress-plugin-cache-hang-dau</link>
+					<comments>https://static.bibica.net/flyingpress-plugin-cache-hang-dau/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 12 Nov 2022 15:31:13 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6904</guid>
+
+					<description><![CDATA[Qua cập nhập 1 số update hệ thống cho thèng bibica.net, tiện mồm check lại các thông tin về các plugin cache thay thế cho Cache Enabler đã dùng quá nhiều năm Tình cờ nhớ tới trang WPJohnny, hình như anh chủ cũng là người Việt Nam 😀 Quay lại chủ đề, thì thấy Johnny có giới thiệu cache plugin ... <a title="FlyingPress &#8211; plugin cache hàng đầu" class="read-more" href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/" aria-label="More on FlyingPress &#8211; plugin cache hàng đầu">Read more →</a>
+<p><a href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/flyingpress-plugin-cache-hang-dau/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Perfmatters</title>
+		<link>https://static.bibica.net/perfmatters/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=perfmatters</link>
+					<comments>https://static.bibica.net/perfmatters/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 23 Dec 2017 01:01:06 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1916</guid>
+
+					<description><![CDATA[Perfmatters là một plugin tăng tốc hiệu xuất cho WordPress, được anh em nhà Jackson viết nên, họ là một trong những người cực đoan về hiệu năng cho WordPress nhất mà mình từng gặp
+Bằng cách bật, tắt các tính năng không cần thiết, set vị trí load cho các file js, css, bạn sẽ giúp trang web của mình tăng thêm từ 10-20% cho tới 50% hiệu năng so với bình thường <a class="read-more" href="https://static.bibica.net/perfmatters/">Read more →</a>
+<p><a href="https://static.bibica.net/perfmatters/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/perfmatters/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>UpTimeDoctor sau 5 năm sử dụng &#8211; Hoàn Hảo</title>
+		<link>https://static.bibica.net/uptimedoctor-sau-5-nam-su-dung-hoan-hao/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=uptimedoctor-sau-5-nam-su-dung-hoan-hao</link>
+					<comments>https://static.bibica.net/uptimedoctor-sau-5-nam-su-dung-hoan-hao/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2022 12:37:53 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6801</guid>
+
+					<description><![CDATA[Nhân dịp vừa move thèng bibica.net sang UpCloud Singapore nên xem lại dịch vụ monitor Uptime Doctor sau khoảng 5 năm sử dụng UpTimeDoctor là 1 dịch vụ để kiểm tra uptime và downtime website mà mình tình cờ biết vào 2017, ban đầu không ấn tượng lắm, vì giao diện của nó xấu quá, tuy thế dùng mới thấy ... <a title="UpTimeDoctor sau 5 năm sử dụng &#8211; Hoàn Hảo" class="read-more" href="https://static.bibica.net/uptimedoctor-sau-5-nam-su-dung-hoan-hao/" aria-label="More on UpTimeDoctor sau 5 năm sử dụng &#8211; Hoàn Hảo">Read more →</a>
+<p><a href="https://static.bibica.net/uptimedoctor-sau-5-nam-su-dung-hoan-hao/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/uptimedoctor-sau-5-nam-su-dung-hoan-hao/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cập Nhập Hệ Thống Cho BIBICA.NET năm 2022</title>
+		<link>https://static.bibica.net/cap-nhap-he-thong-cho-bibica-net-nam-2022/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cap-nhap-he-thong-cho-bibica-net-nam-2022</link>
+					<comments>https://static.bibica.net/cap-nhap-he-thong-cho-bibica-net-nam-2022/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2022 17:41:57 +0000</pubDate>
+				<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6712</guid>
+
+					<description><![CDATA[Viết lại 1 số cập nhập cho hệ thống của thèng bibica.net Đổi sang dùng UpCloud Location Singapore Đổi sang dùng Webinoly v1.16.7 – Nginx v1.22.1 + MariaDB v10.6.11 (MySQL) PHP 7.4.33 Nâng cấp WordPress lên 6.1 Cập nhập tất cả plugins, themes lên phiên bản mới nhất (bản trả phí hết hạn rồi thì &#8230; kệ vậy :D) Cài đặt thêm plugin Advanced ... <a title="Cập Nhập Hệ Thống Cho BIBICA.NET năm 2022" class="read-more" href="https://static.bibica.net/cap-nhap-he-thong-cho-bibica-net-nam-2022/" aria-label="More on Cập Nhập Hệ Thống Cho BIBICA.NET năm 2022">Read more →</a>
+<p><a href="https://static.bibica.net/cap-nhap-he-thong-cho-bibica-net-nam-2022/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/cap-nhap-he-thong-cho-bibica-net-nam-2022/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MailGun – The Email Service For Developers</title>
+		<link>https://static.bibica.net/mailgun-the-email-service-for-developers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=mailgun-the-email-service-for-developers</link>
+					<comments>https://static.bibica.net/mailgun-the-email-service-for-developers/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 20 Apr 2018 12:02:54 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4216</guid>
+
+					<description><![CDATA[Để bạn dễ hình dung, thì thường 10 năm trước, mọi người hay gửi thẳng email từ server hosting, đâu đó qua hàm mail trên php, port 25, lâu dài, các dãy IP của dịch vụ hosting sẽ &#8220;bị&#8221; đưa vào blacklist hết, đơn giản vì chuyện spam, scam &#8230; email là quá hiển nhiên, dần dần mọi người phải ... <a title="MailGun – The Email Service For Developers" class="read-more" href="https://static.bibica.net/mailgun-the-email-service-for-developers/" aria-label="More on MailGun – The Email Service For Developers">Read more →</a>
+<p><a href="https://static.bibica.net/mailgun-the-email-service-for-developers/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/mailgun-the-email-service-for-developers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

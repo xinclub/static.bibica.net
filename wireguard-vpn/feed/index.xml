@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: WireGuard VPN	</title>
+	<atom:link href="https://static.bibica.net/wireguard-vpn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/wireguard-vpn/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wireguard-vpn</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Sat, 09 Oct 2021 13:07:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Vuong Nguyen		</title>
+		<link>https://static.bibica.net/wireguard-vpn/#comment-1024</link>
+
+		<dc:creator><![CDATA[Vuong Nguyen]]></dc:creator>
+		<pubDate>Thu, 23 Sep 2021 05:03:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5795#comment-1024</guid>
+
+					<description><![CDATA[ngon đấy.]]></description>
+			<content:encoded><![CDATA[<p>ngon đấy.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dương		</title>
+		<link>https://static.bibica.net/wireguard-vpn/#comment-1023</link>
+
+		<dc:creator><![CDATA[Dương]]></dc:creator>
+		<pubDate>Thu, 23 Sep 2021 00:20:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5795#comment-1023</guid>
+
+					<description><![CDATA[Ok Bình]]></description>
+			<content:encoded><![CDATA[<p>Ok Bình</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

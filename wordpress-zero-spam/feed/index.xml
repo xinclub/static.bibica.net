@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: WordPress Zero Spam	</title>
+	<atom:link href="https://static.bibica.net/wordpress-zero-spam/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/wordpress-zero-spam/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wordpress-zero-spam</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 11:24:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-717</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 14 Apr 2019 09:36:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-717</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordpress-zero-spam/#comment-714&quot;&gt;Cuong Tran&lt;/a&gt;.
+
+reCAPTCHA, có nói trong bài mà, ấn vào plugin rồi search ra cả 50-100 plugin như thế là ít :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordpress-zero-spam/#comment-714">Cuong Tran</a>.</p>
+<p>reCAPTCHA, có nói trong bài mà, ấn vào plugin rồi search ra cả 50-100 plugin như thế là ít 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong Tran		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-716</link>
+
+		<dc:creator><![CDATA[Cuong Tran]]></dc:creator>
+		<pubDate>Sun, 14 Apr 2019 08:49:15 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-716</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordpress-zero-spam/#comment-715&quot;&gt;bibica&lt;/a&gt;.
+
+Hix buồn quá, test đủ kiểu rồi vẫn bị lỗi :(( mà ngày nào cũng nhận mail spam xóa mỏi tay khó chịu kinh khủng, bibica có alternative plugin nào thay thế cho cái word zero spam không :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordpress-zero-spam/#comment-715">bibica</a>.</p>
+<p>Hix buồn quá, test đủ kiểu rồi vẫn bị lỗi :(( mà ngày nào cũng nhận mail spam xóa mỏi tay khó chịu kinh khủng, bibica có alternative plugin nào thay thế cho cái word zero spam không 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-715</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 13 Apr 2019 02:33:47 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-715</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordpress-zero-spam/#comment-714&quot;&gt;Cuong Tran&lt;/a&gt;.
+
+Thường do đụng plugin hay bản php đang chạy bị gì đó liên quan tới thèng Zero Spam :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordpress-zero-spam/#comment-714">Cuong Tran</a>.</p>
+<p>Thường do đụng plugin hay bản php đang chạy bị gì đó liên quan tới thèng Zero Spam 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong Tran		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-714</link>
+
+		<dc:creator><![CDATA[Cuong Tran]]></dc:creator>
+		<pubDate>Sat, 13 Apr 2019 02:27:08 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-714</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordpress-zero-spam/#comment-713&quot;&gt;bibica&lt;/a&gt;.
+
+Huhu mình cần dùng mà :((
+Xóa thì biết dùng cái gì vừa nhẹ vừa tốt bây giờ, còn xóa đi cài lại nó vẫn cứ báo lỗi đấy ý :(( chả hiểu sao nữa.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordpress-zero-spam/#comment-713">bibica</a>.</p>
+<p>Huhu mình cần dùng mà :((<br />
+Xóa thì biết dùng cái gì vừa nhẹ vừa tốt bây giờ, còn xóa đi cài lại nó vẫn cứ báo lỗi đấy ý :(( chả hiểu sao nữa.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-713</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 13 Apr 2019 02:25:18 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-713</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/wordpress-zero-spam/#comment-712&quot;&gt;Cuong&lt;/a&gt;.
+
+Xóa ra ạ :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/wordpress-zero-spam/#comment-712">Cuong</a>.</p>
+<p>Xóa ra ạ 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/wordpress-zero-spam/#comment-712</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Fri, 12 Apr 2019 22:50:51 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4861#comment-712</guid>
+
+					<description><![CDATA[The plugin generated 282 characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin.
+
+Mình cài rồi active cái Wordpress Zero Spam nó báo lỗi này :( phải làm sao bây giờ Bibica ơi]]></description>
+			<content:encoded><![CDATA[<p>The plugin generated 282 characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin.</p>
+<p>Mình cài rồi active cái Wordpress Zero Spam nó báo lỗi này 🙁 phải làm sao bây giờ Bibica ơi</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

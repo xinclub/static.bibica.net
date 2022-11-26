@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: EasyEngine vs Centmin Mod vs RunCloud vs Webinoly	</title>
+	<atom:link href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 05:51:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Tranh		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-920</link>
+
+		<dc:creator><![CDATA[Tranh]]></dc:creator>
+		<pubDate>Wed, 11 Mar 2020 15:18:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-920</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-673&quot;&gt;Đạo&lt;/a&gt;.
+
+Litespeed hút ... rất bực bội và họ spam internet với các tiêu chuẩn gian lận. Nginx luôn nhanh hơn máy chủ Apache hoặc Litespeed. Nginx được thiết kế để mở rộng quy mô vô hạn nếu bạn có đủ RAM và luồng CPU, nó sẽ tiếp tục mở rộng (không cần PHP để lưu vào bộ đệm, không giống như các plugin cồng kềnh của Litespeed cho WordPress).
+
+SlickStack, EasyEngine, Centmin Mod, WordOps, Webinoly ... tất cả chúng đều nhanh hơn Litespeed nhảm nhí. Bạn phải là một trong những người gửi thư rác của họ tôi đoán?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-673">Đạo</a>.</p>
+<p>Litespeed hút &#8230; rất bực bội và họ spam internet với các tiêu chuẩn gian lận. Nginx luôn nhanh hơn máy chủ Apache hoặc Litespeed. Nginx được thiết kế để mở rộng quy mô vô hạn nếu bạn có đủ RAM và luồng CPU, nó sẽ tiếp tục mở rộng (không cần PHP để lưu vào bộ đệm, không giống như các plugin cồng kềnh của Litespeed cho WordPress).</p>
+<p>SlickStack, EasyEngine, Centmin Mod, WordOps, Webinoly &#8230; tất cả chúng đều nhanh hơn Litespeed nhảm nhí. Bạn phải là một trong những người gửi thư rác của họ tôi đoán?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-891</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2020 17:07:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-891</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-890&quot;&gt;Duy&lt;/a&gt;.
+
+Kiểu tối ưu tốc độ, bảo mật .... bản thân các script trong bài này họ làm cả rồi mà, thực tế mình cũng cài mặc định Centmin Mod vào thôi cứ có đụng chạm dòng code nào đâu :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-890">Duy</a>.</p>
+<p>Kiểu tối ưu tốc độ, bảo mật &#8230;. bản thân các script trong bài này họ làm cả rồi mà, thực tế mình cũng cài mặc định Centmin Mod vào thôi cứ có đụng chạm dòng code nào đâu 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-890</link>
+
+		<dc:creator><![CDATA[Duy]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2020 16:53:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-890</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-453&quot;&gt;bibica&lt;/a&gt;.
+
+Bác có dịch vụ cài đặt VPS không? Kiểu tối ưu tốc độ, bảo mật...vv giống với dịch vụ của bên HocVPS ấy. Em thấy bác cũng chịu khó tìm tòi, sao không mở dịch vụ, uổng tài năng vậy]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-453">bibica</a>.</p>
+<p>Bác có dịch vụ cài đặt VPS không? Kiểu tối ưu tốc độ, bảo mật&#8230;vv giống với dịch vụ của bên HocVPS ấy. Em thấy bác cũng chịu khó tìm tòi, sao không mở dịch vụ, uổng tài năng vậy</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-674</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 29 Mar 2019 03:18:58 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-674</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-673&quot;&gt;Đạo&lt;/a&gt;.
+
+Vấn đề này mình có nói ở vài bài rồi, thật ra nó là 1 câu tư duy của nhóm tác giả EasyEngine 
+&quot;Về cơ bản sẽ có nhiều thứ khác nhanh hơn 1 tí so với Nginx, tầm 10-20%, bù lại cho chuyện đó là chúng teo phải bỏ ra vô số thời gian để đọc, tìm hiểu, tested đánh giá, và nếu thế bọn teo thà bỏ thời gian vào Nginx, một ngôn ngữ chúng teo đã hiểu rõ, và đào sâu tới tận cùng cho nó&quot; :]]
+
+Openlitespeed nó tới đâu thì bạn chỉ cần kiếm 2 con VPS cấu hình và location như nhau, cài vào, xong chạy vài bài test từ loader.io là xong, tự có câu trả lời rồi mà :D
+
+Suy nghĩ đơn giản 1 tẹo, thì nếu Openlitespeed tốt tới thế thì tác giả của EasyEngine, Centmin Mod, Webinoly .... đã quay ra dùng rồi chứ chẳng cần chờ tới giờ :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-673">Đạo</a>.</p>
+<p>Vấn đề này mình có nói ở vài bài rồi, thật ra nó là 1 câu tư duy của nhóm tác giả EasyEngine<br />
+&#8220;Về cơ bản sẽ có nhiều thứ khác nhanh hơn 1 tí so với Nginx, tầm 10-20%, bù lại cho chuyện đó là chúng teo phải bỏ ra vô số thời gian để đọc, tìm hiểu, tested đánh giá, và nếu thế bọn teo thà bỏ thời gian vào Nginx, một ngôn ngữ chúng teo đã hiểu rõ, và đào sâu tới tận cùng cho nó&#8221; :]]</p>
+<p>Openlitespeed nó tới đâu thì bạn chỉ cần kiếm 2 con VPS cấu hình và location như nhau, cài vào, xong chạy vài bài test từ loader.io là xong, tự có câu trả lời rồi mà 😀</p>
+<p>Suy nghĩ đơn giản 1 tẹo, thì nếu Openlitespeed tốt tới thế thì tác giả của EasyEngine, Centmin Mod, Webinoly &#8230;. đã quay ra dùng rồi chứ chẳng cần chờ tới giờ 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-673</link>
+
+		<dc:creator><![CDATA[Đạo]]></dc:creator>
+		<pubDate>Fri, 29 Mar 2019 03:02:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-673</guid>
+
+					<description><![CDATA[Bạn test thử với Openlitespeed xem, mình dùng với Cyberpanel và LScache thấy nó tiện phết. Mà nó load cũng nhanh cơ, test so với VPSSIM thì thấy TTTB thấp hơn đáng kể.]]></description>
+			<content:encoded><![CDATA[<p>Bạn test thử với Openlitespeed xem, mình dùng với Cyberpanel và LScache thấy nó tiện phết. Mà nó load cũng nhanh cơ, test so với VPSSIM thì thấy TTTB thấp hơn đáng kể.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-453</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 22 Nov 2018 19:02:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-453</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-451&quot;&gt;Duy&lt;/a&gt;.
+
+Tùy quan điểm của bạn về vấn đề này để mà chọn, có điều nói sao nói, thường không biết gì về server mới dùng các tool cài sẵn như thế này
+
+HocVPS và VPSSIM hỗ trợ tiếng Việt, chạy có thắc mắc hay lỗi gì chỉ cần hỏi tác giả, xíu là được support miễn phí luôn rồi  :D 
+
+Thích nhanh nhất có thể dùng Centmin Mod, thích ổn định, đơn giản, hiệu quả có thể dùng EasyEngine, Webinoly, RunCloud, thích hỗ trợ tiếng Việt có thể dùng HocVPS và VPSSIM
+
+Góc độ cá nhân thì mình thấy dùng EasyEngine, Centmin Mod, RunCloud, Webinoly, HocVPS hay VPSSIM ... đều được, ít ra thì đều là các sản phẩm tồn tại trên 1 năm và tác giả đều còn support
+
+Chẳng hạn như cái blog này mình thích nhanh, mình dùng Centmin Mod, còn mấy trang shop kiểu ngoirungdui.com, mình cần ổn định, mình dùng Webinoly
+
+Cơ mà chung quy cuối vẫn là bạn quen dùng thèng nào thì cứ tiếp tục dùng thôi :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-451">Duy</a>.</p>
+<p>Tùy quan điểm của bạn về vấn đề này để mà chọn, có điều nói sao nói, thường không biết gì về server mới dùng các tool cài sẵn như thế này</p>
+<p>HocVPS và VPSSIM hỗ trợ tiếng Việt, chạy có thắc mắc hay lỗi gì chỉ cần hỏi tác giả, xíu là được support miễn phí luôn rồi  😀 </p>
+<p>Thích nhanh nhất có thể dùng Centmin Mod, thích ổn định, đơn giản, hiệu quả có thể dùng EasyEngine, Webinoly, RunCloud, thích hỗ trợ tiếng Việt có thể dùng HocVPS và VPSSIM</p>
+<p>Góc độ cá nhân thì mình thấy dùng EasyEngine, Centmin Mod, RunCloud, Webinoly, HocVPS hay VPSSIM &#8230; đều được, ít ra thì đều là các sản phẩm tồn tại trên 1 năm và tác giả đều còn support</p>
+<p>Chẳng hạn như cái blog này mình thích nhanh, mình dùng Centmin Mod, còn mấy trang shop kiểu ngoirungdui.com, mình cần ổn định, mình dùng Webinoly</p>
+<p>Cơ mà chung quy cuối vẫn là bạn quen dùng thèng nào thì cứ tiếp tục dùng thôi 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duy		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-451</link>
+
+		<dc:creator><![CDATA[Duy]]></dc:creator>
+		<pubDate>Thu, 22 Nov 2018 13:02:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-451</guid>
+
+					<description><![CDATA[Hocvps với vpssim so với mấy cái này thế nào bác? Bác làm luôn bài thử nghiệm đi vì 2 script đó của VN nên có rất nhiều người dùng bác ạ]]></description>
+			<content:encoded><![CDATA[<p>Hocvps với vpssim so với mấy cái này thế nào bác? Bác làm luôn bài thử nghiệm đi vì 2 script đó của VN nên có rất nhiều người dùng bác ạ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-43</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2018 02:08:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-43</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-42&quot;&gt;Nam&lt;/a&gt;.
+
+Bạn cứ cài vào, chạy thử thực tế, xong chạy vài vòng loader.io test thử là biết mà, thật ra nó liên quan tới nhiều vấn đề khác nữa
+
+Như mình dùng trên con VPS 512 RAM, thành ra rất ấn tượng với Webinoly, chạy bét nhè các thể loại mà không bị lỗi database bao giờ]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-42">Nam</a>.</p>
+<p>Bạn cứ cài vào, chạy thử thực tế, xong chạy vài vòng loader.io test thử là biết mà, thật ra nó liên quan tới nhiều vấn đề khác nữa</p>
+<p>Như mình dùng trên con VPS 512 RAM, thành ra rất ấn tượng với Webinoly, chạy bét nhè các thể loại mà không bị lỗi database bao giờ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nam		</title>
+		<link>https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/#comment-42</link>
+
+		<dc:creator><![CDATA[Nam]]></dc:creator>
+		<pubDate>Mon, 15 Jan 2018 01:43:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3378#comment-42</guid>
+
+					<description><![CDATA[script hocvps bác xài chưa cho em tí nhận xét ạ.]]></description>
+			<content:encoded><![CDATA[<p>script hocvps bác xài chưa cho em tí nhận xét ạ.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

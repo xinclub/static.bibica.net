@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script>var et_site_url='https://static.bibica.net';var et_post_id='3758';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}</script><title>SuperSonic và CloudFlare TTFB ~3x ms &#8211; BIBICA.NET</title>
+<link rel="preload" href="https://media.publit.io/file/w_979,h_543,c_fit,q_80/3-27-2018-2-53-56-am.png" as="image">
+<link rel="preload" href="https://media.publit.io/file/w_979,h_589,c_fit,q_80/3-27-2018-2-15-03-am.png" as="image" imagesrcset="https://media.publit.io/file/w_979,c_fit,q_80/3-27-2018-2-15-03-am.png 979w, https://media.publit.io/file/w_300,h_180,c_fit,q_80/3-27-2018-2-15-03-am.png 300w, https://media.publit.io/file/w_500,h_301,c_fit,q_80/3-27-2018-2-15-03-am.png 500w, https://media.publit.io/file/w_725,h_436,c_fit,q_80/3-27-2018-2-15-03-am.png 725w" imagesizes="(max-width: 979px) 100vw, 979px">
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="preconnect" href="https://i0.wp.com/">
+<link rel="preconnect" href="https://i1.wp.com/">
+<link rel="preconnect" href="https://i2.wp.com/">
+<link rel="dns-prefetch" href="//i0.wp.com">
+<link rel="dns-prefetch" href="//i1.wp.com">
+<link rel="dns-prefetch" href="//i2.wp.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="dns-prefetch" href="https://static.bibica.net">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; Feed" href="https://static.bibica.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; Comments Feed" href="https://static.bibica.net/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="BIBICA.NET &raquo; SuperSonic và CloudFlare TTFB ~3x ms Comments Feed" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.10.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-6Y2T5Q1R88" data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '8.10.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-6Y2T5Q1R88',
+														];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-6Y2T5Q1R88', {"forceSSL":"true","link_attribution":"true","post_type":"post","tags":"untagged","published_at":"2018-03-27T03:08:36+07:00","category":"review,toolbox","author":"user-1","logged_in":"false"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link rel="stylesheet" id="wp-block-library-css" href="https://static.bibica.net/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-library-inline-css">.has-text-align-justify{text-align:justify;}</style>
+<link rel="stylesheet" id="classic-theme-styles-css" href="https://static.bibica.net/wp-includes/css/classic-themes.min.css?ver=1" media="all">
+<link rel="stylesheet" id="stcr-style-css" href="https://static.bibica.net/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-style.css?ver=6.1.1" media="all">
+<link rel="stylesheet" id="orbisius_ct_bibica_review_01_parent_style-css" href="https://static.bibica.net/wp-content/themes/generatepress/style.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="orbisius_ct_bibica_review_01_parent_style_child_style-css" href="https://static.bibica.net/wp-content/themes/bibica-review/style.css?ver=1.1" media="all">
+<link rel="stylesheet" id="generate-style-grid-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/unsemantic-grid.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="generate-style-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/style.min.css?ver=3.2.3" media="all">
+<style id="generate-style-inline-css">.featured-image img {width: 725px;}
+body{background-color:#e9ebee;color:#0c0000;}a{color:#343e47;}a:visited{color:#343e47;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}.wp-block-group__inner-container{max-width:1100px;margin-left:auto;margin-right:auto;}.generate-back-to-top{font-size:20px;border-radius:3px;position:fixed;bottom:30px;right:30px;line-height:40px;width:40px;text-align:center;z-index:10;transition:opacity 300ms ease-in-out;opacity:0.1;transform:translateY(1000px);}.generate-back-to-top__show{opacity:1;transform:translateY(0);}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity 100ms ease-in-out;opacity:0;}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1;}.navigation-search input[type="search"]{outline:0;border:0;vertical-align:bottom;line-height:1;opacity:0.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none;height:60px;}.navigation-search input::-ms-clear{display:none;width:0;height:0;}.navigation-search input::-ms-reveal{display:none;width:0;height:0;}.navigation-search input::-webkit-search-decoration, .navigation-search input::-webkit-search-cancel-button, .navigation-search input::-webkit-search-results-button, .navigation-search input::-webkit-search-results-decoration{display:none;}.main-navigation li.search-item{z-index:21;}li.search-item.active{transition:opacity 100ms ease-in-out;}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right;}.gen-sidebar-nav .navigation-search{top:auto;bottom:0;}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}.has-contrast-color{color:var(--contrast);}.has-contrast-background-color{background-color:var(--contrast);}.has-contrast-2-color{color:var(--contrast-2);}.has-contrast-2-background-color{background-color:var(--contrast-2);}.has-contrast-3-color{color:var(--contrast-3);}.has-contrast-3-background-color{background-color:var(--contrast-3);}.has-base-color{color:var(--base);}.has-base-background-color{background-color:var(--base);}.has-base-2-color{color:var(--base-2);}.has-base-2-background-color{background-color:var(--base-2);}.has-base-3-color{color:var(--base-3);}.has-base-3-background-color{background-color:var(--base-3);}.has-accent-color{color:var(--accent);}.has-accent-background-color{background-color:var(--accent);}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}p{margin-bottom:1em;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1em;}.main-title{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:normal;font-size:45px;}.site-description{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}.main-navigation a, .menu-toggle{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";text-transform:uppercase;}.main-navigation .main-nav ul ul li a{font-size:14px;}.widget-title{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:bold;text-transform:capitalize;font-size:25px;margin-bottom:15px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}button:not(.menu-toggle),html input[type="button"],input[type="reset"],input[type="submit"],.button,.wp-block-button .wp-block-button__link{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:400;}h1{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:600;text-transform:capitalize;font-size:30px;}h2{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:600;text-transform:capitalize;font-size:30px;}h3{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:bold;font-size:20px;}h4{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:inherit;}h5{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:inherit;}h6{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}.site-info{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-weight:400;text-transform:capitalize;font-size:16px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#222222;}.top-bar a{color:#f4911f;}.top-bar a:hover{color:#222222;}.site-header{background-color:#343e47;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#ffffff;}.site-description{color:#ffffff;}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:#343e47;}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#e2e2e2;background-color:#343e47;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#343e47;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#e2e2e2;background-color:#343e47;}.main-navigation ul ul{background-color:#343e47;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#ffffff;background-color:#343e47;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#343e47;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{color:#0c0c0c;background-color:#ffffff;}.inside-article a,.paging-navigation a,.comments-area a,.page-header a{color:#277ee4;}.inside-article a:hover,.paging-navigation a:hover,.comments-area a:hover,.page-header a:hover{color:#7600f4;}.entry-header h1,.page-header h1{color:#343e47;}.entry-title a{color:#343e47;}.entry-title a:hover{color:#343e47;}.entry-meta{color:#90949c;}.entry-meta a{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{color:#282828;background-color:#e9ebee;}.sidebar .widget a{color:#282828;}.sidebar .widget a:hover{color:#277ee4;}.sidebar .widget .widget-title{color:#343e47;}.footer-widgets{color:#282828;background-color:#ffffff;}.footer-widgets a{color:#282828;}.footer-widgets a:hover{color:#b5b5b5;}.footer-widgets .widget-title{color:#343e47;}.site-info{color:#90949c;background-color:#e9ebee;}.site-info a{color:#90949c;}.site-info a:hover{color:#277ee4;}.footer-bar .widget_nav_menu .current-menu-item a{color:#277ee4;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#343e47;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#343e47;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#666666;}a.generate-back-to-top{background-color:#f77b0e;color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:#f7b276;color:#ffffff;}@media (max-width: 768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-top-bar{padding:5px 10px 5px 10px;}.inside-header{padding:10px;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:20px;}.site-main .wp-block-group__inner-container{padding:20px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-20px;width:calc(100% + 40px);max-width:calc(100% + 40px);}.one-container.right-sidebar .site-main,.one-container.both-right .site-main{margin-right:20px;}.one-container.left-sidebar .site-main,.one-container.both-left .site-main{margin-left:20px;}.one-container.both-sidebars .site-main{margin:0px 20px 0px 20px;}.main-navigation .main-nav ul li a,.menu-toggle,.main-navigation .mobile-bar-items a{padding-left:7px;padding-right:7px;line-height:75px;}.main-navigation .main-nav ul ul li a{padding:10px 7px 10px 7px;}.navigation-search input[type="search"]{height:75px;}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:7px;}.menu-item-has-children .dropdown-menu-toggle{padding-right:7px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:7px;}.widget-area .widget{padding:20px;}.footer-widgets{padding:20px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.site-main .wp-block-group__inner-container{padding:30px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}/* End cached CSS */@media (max-width: 768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+.main-navigation.toggled .main-nav > ul{background-color: #343e47}
+.navigation-branding .main-title{font-weight:normal;text-transform:none;font-size:45px;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}@media (max-width: 768px){.navigation-branding .main-title{font-size:30px;}}</style>
+<link rel="stylesheet" id="generate-mobile-style-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/mobile.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="generate-font-icons-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?ver=3.2.3" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://static.bibica.net/wp-content/themes/generatepress/assets/css/components/font-awesome.min.css?ver=4.7" media="all">
+<link rel="stylesheet" id="generate-child-css" href="https://static.bibica.net/wp-content/themes/bibica-review/style.css?ver=1669408164" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="https://static.bibica.net/wp-content/plugins/tablepress/css/default.min.css?ver=1.14" media="all">
+<link rel="stylesheet" id="generate-blog-images-css" href="https://static.bibica.net/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="enlighterjs-css" href="https://static.bibica.net/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=sxG6g8i781CS7Xa" media="all">
+<link rel="stylesheet" id="generate-navigation-branding-css" href="https://static.bibica.net/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding.min.css?ver=2.2.1" media="all">
+<style id="generate-navigation-branding-inline-css">@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}}.navigation-branding img, .site-logo.mobile-header-logo img{height:75px;width:auto;}.navigation-branding .main-title{line-height:75px;}@media (max-width: 1110px){#site-navigation .navigation-branding, #sticky-navigation .navigation-branding{margin-left:10px;}}@media (max-width: 768px){.main-navigation:not(.slideout-navigation) .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;}.main-navigation:not(.slideout-navigation) .inside-navigation{-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;}.nav-aligned-center .navigation-branding, .nav-aligned-left .navigation-branding{margin-right:auto;}.nav-aligned-center  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-center  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav{margin-right:0px;}}</style>
+<script src="https://static.bibica.net/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=8.10.1" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/static.bibica.net","hash_tracking":"false","ua":"","v4_id":"G-6Y2T5Q1R88"};</script>
+<link rel="canonical" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/">
+<style type="text/css" id="et-bloom-custom-css">.et_bloom .et_bloom_optin_1 .et_bloom_form_content { background-color: #e9ebee !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container .et_bloom_form_header { background-color: #343e47 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_fields i { color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content .et_bloom_custom_field_radio i:before { background: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_content button { background-color: #dd3333 !important; } .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.et_bloom .et_bloom_optin_1 .et_bloom_form_container p, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p span, .et_bloom .et_bloom_optin_1 .et_bloom_form_container p strong, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form input, .et_bloom .et_bloom_optin_1 .et_bloom_form_container form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }</style>
+<link rel="preload" href="https://static.bibica.net/wp-content/plugins/bloom/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous">
+<style type="text/css">.rp4wp-related-posts ul{width:100%;padding:0;margin:0;float:left;}
+.rp4wp-related-posts ul>li{list-style:none;padding:0;margin:0;padding-bottom:20px;clear:both;}
+.rp4wp-related-posts ul>li>p{margin:0;padding:0;}
+.rp4wp-related-post-image{width:20%;padding-right:25px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;float:left;}</style>
+<meta name="description" content="Thật ra nếu SuperSonic họ viết hoàn hảo, vấn đề xóa cache trên CloudFlare tốt thì gần như bạn không phải dùng thêm bất cứ plugin cache nào nữa cả, hệ thống serv">
+<meta property="og:title" content="SuperSonic và CloudFlare TTFB ~3x ms &#8211; BIBICA.NET">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://media.publit.io/file/w_979,h_543,c_fit,q_80/3-27-2018-2-53-56-am.png">
+<meta property="og:image:width" content="979">
+<meta property="og:image:height" content="543">
+<meta property="og:description" content="Thật ra nếu SuperSonic họ viết hoàn hảo, vấn đề xóa cache trên CloudFlare tốt thì gần như bạn không phải dùng thêm bất cứ plugin cache nào nữa cả, hệ thống serv">
+<meta property="og:url" content="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="BIBICA.NET">
+<meta property="article:published_time" content="2018-03-26T20:08:36+00:00">
+<meta property="article:modified_time" content="2020-04-02T06:35:47+00:00">
+<meta property="og:updated_time" content="2020-04-02T06:35:47+00:00">
+<meta property="article:section" content="Review">
+<meta property="article:author" content="bibica">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://media.publit.io/file/w_979,h_543,c_fit,q_80/3-27-2018-2-53-56-am.png">
+<link rel="icon" href="https://media.publit.io/file/w_32,h_32,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg" sizes="32x32">
+<link rel="icon" href="https://media.publit.io/file/w_192,h_192,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://media.publit.io/file/w_180,h_180,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg">
+<meta name="msapplication-TileImage" content="https://media.publit.io/file/w_270,h_270,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg">
+		<style id="wp-custom-css">.generate-back-to-top,
+.generate-back-to-top:visited {
+    border-radius: 20px; /* how round the button is */
+    line-height: 40px; /* how tall it is */
+    width: 40px; /* how wide it is */
+}</style>
+		</head>
+
+<body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-3758 single-format-standard wp-embed-responsive post-image-below-header post-image-aligned-center sticky-menu-fade mobile-header mobile-header-sticky et_bloom right-sidebar nav-float-right separate-containers fluid-header active-footer-widgets-0 nav-search-enabled header-aligned-left dropdown-hover featured-image-active">
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header class="site-header" id="masthead" aria-label="Site" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://static.bibica.net/" rel="home">
+						BIBICA.NET
+					</a>
+				</p>
+						<p class="site-description" itemprop="description">
+					What You See Is What We Share
+				</p>
+					</div>		<nav class="main-navigation sub-menu-right" id="site-navigation" aria-label="Primary" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://dev-bibica-net.pantheonsite.io/">
+					<input type="search" class="search-field" value="" name="s" title="Search">
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-menu-trang-chu" class=" menu sf-menu">
+<li id="menu-item-2528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2528">
+<a title="Home" href="https://static.bibica.net/"><i class="fa fa-home" aria-hidden="true"></i> Home<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2529" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2529"><a title="Toolbox" href="https://static.bibica.net/category/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+	<li id="menu-item-2530" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2530"><a title="Review" href="https://static.bibica.net/category/review/"><i class="fa fa-eye" aria-hidden="true"></i> Review</a></li>
+	<li id="menu-item-2531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2531"><a title="Advertisement" href="https://static.bibica.net/category/review/advertisement/"><i class="fa fa-handshake-o" aria-hidden="true"></i> Advertisement</a></li>
+	<li id="menu-item-2532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2532"><a title="Chat Chit" href="https://static.bibica.net/category/lam-nham/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chat Chit</a></li>
+</ul>
+</li>
+<li id="menu-item-1381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1381"><a title="Shop" target="_blank" rel="noopener" href="http://ngoirungdui.com/shop/"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a title="Toolbox" href="https://static.bibica.net/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+<li id="menu-item-1902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1902"><a title="Speed Up" href="https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/"><i class="fa fa-rocket" aria-hidden="true"></i> Speed Up</a></li>
+<li id="menu-item-1952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1952">
+<a title="Service" href="https://static.bibica.net/service/"><i class="fa  fa-thumbs-o-up"></i> Service<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2767"><a title="Monitor Uptime" target="_blank" rel="noopener" href="https://www.uptimedoctor.com/publicreport/gwv1lv4l/147562/1/471535"><i class="fa fa-desktop" aria-hidden="true"></i> Monitor Uptime</a></li>
+	<li id="menu-item-2770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2770"><a title="Archives" href="https://static.bibica.net/archives/"><i class="fa fa-archive" aria-hidden="true"></i> Archives</a></li>
+</ul>
+</li>
+<li id="menu-item-1967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a title="History" href="https://static.bibica.net/history/"><i class="fa fa-history" aria-hidden="true"></i> History</a></li>
+<li id="menu-item-1937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a title="Contact Us" href="https://static.bibica.net/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+<li id="menu-item-2605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2605"><a title="Facebook" target="_blank" rel="noopener" href="http://fb.com/bibica.net"><i class="fa fa-facebook fa" aria-hidden="true"></i></a></li>
+<li id="menu-item-3274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3274"><a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/b2bteams"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li>
+</ul></div>			</div>
+		</nav>
+					</div>
+		</header>
+				<nav id="mobile-header" itemtype="https://schema.org/SiteNavigationElement" itemscope class="main-navigation mobile-header-navigation">
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://dev-bibica-net.pantheonsite.io/">
+					<input type="search" class="search-field" value="" name="s" title="Search">
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+							<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+						<span class="mobile-menu">Menu</span>					</button>
+					<div id="mobile-menu" class="main-nav"><ul id="menu-menu-trang-chu-1" class=" menu sf-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2528">
+<a title="Home" href="https://static.bibica.net/"><i class="fa fa-home" aria-hidden="true"></i> Home<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2529"><a title="Toolbox" href="https://static.bibica.net/category/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2530"><a title="Review" href="https://static.bibica.net/category/review/"><i class="fa fa-eye" aria-hidden="true"></i> Review</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2531"><a title="Advertisement" href="https://static.bibica.net/category/review/advertisement/"><i class="fa fa-handshake-o" aria-hidden="true"></i> Advertisement</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2532"><a title="Chat Chit" href="https://static.bibica.net/category/lam-nham/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Chat Chit</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1381"><a title="Shop" target="_blank" rel="noopener" href="http://ngoirungdui.com/shop/"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a title="Toolbox" href="https://static.bibica.net/toolbox/"><i class="fa fa-wrench" aria-hidden="true"></i> Toolbox</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1902"><a title="Speed Up" href="https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/"><i class="fa fa-rocket" aria-hidden="true"></i> Speed Up</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1952">
+<a title="Service" href="https://static.bibica.net/service/"><i class="fa  fa-thumbs-o-up"></i> Service<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2767"><a title="Monitor Uptime" target="_blank" rel="noopener" href="https://www.uptimedoctor.com/publicreport/gwv1lv4l/147562/1/471535"><i class="fa fa-desktop" aria-hidden="true"></i> Monitor Uptime</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2770"><a title="Archives" href="https://static.bibica.net/archives/"><i class="fa fa-archive" aria-hidden="true"></i> Archives</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a title="History" href="https://static.bibica.net/history/"><i class="fa fa-history" aria-hidden="true"></i> History</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1937"><a title="Contact Us" href="https://static.bibica.net/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2605"><a title="Facebook" target="_blank" rel="noopener" href="http://fb.com/bibica.net"><i class="fa fa-facebook fa" aria-hidden="true"></i></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3274"><a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/b2bteams"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li>
+</ul></div>			</div>
+<!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+		
+	<div id="page" class="hfeed site grid-container container grid-parent">
+		<div id="content" class="site-content">
+			
+	<div class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75" id="primary">
+		<main class="site-main" id="main">
+			
+<article id="post-3758" class="post-3758 post type-post status-publish format-standard has-post-thumbnail hentry category-review category-toolbox" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+					<header class="entry-header" aria-label="Content">
+				<h1 class="entry-title" itemprop="headline">SuperSonic và CloudFlare TTFB ~3x ms</h1>		<div class="entry-meta">
+			<span class="posted-on"><i class="fa fa-calendar fa-1x" aria-hidden="true"></i> 27/03/2018 <i class="fa fa-refresh fa-1x fa-fw"></i> 02/04/2020 </span>		</div>
+					</header>
+			<div class="featured-image  page-header-image-single ">
+				<img data-perfmatters-preload width="979" height="543" src="https://media.publit.io/file/w_979,h_543,c_fit,q_80/3-27-2018-2-53-56-am.png" class="attachment-full size-full" alt="3-27-2018 2-53-56 AM" decoding="async" itemprop="image">
+			</div>
+		<div class="entry-content" itemprop="text">
+			<p>Với plugin <a href="https://wordpress.org/plugins/supersonic/" target="_blank" rel="noopener">SuperSonic</a> kết hợp CloudFlare bạn có thể tăng tốc WordPress lên gần như nhanh nhất có thể, thậm chí ngoài chuyện giúp truy cập cực nhanh từ  khắp nơi trên thế giới, nó còn giúp bạn tiết kiệm rất nhiều băng thông, tuy thế, như mình từng nói rất nhiều lần trong các bài viết về <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/" target="_blank" rel="noopener">CloudFlare</a>, gói FREE gần như chỉ có thể dùng cho blog, còn với các site chạy WooCommerce (shop tích hợp vào WordPress) thì gần như không thể dùng được, còn cái gói có thể dùng được, giá 1 tháng là $200 :]]
+</p>
+<p>Theo mặc định, CloudFlare không lưu trữ nội dung HTML tuy thế sau này (hình như đâu đó 2014) CloudFlare đã cho phép thực hiện, bằng cách thêm các quy tắc trang trong quản trị, tuy thế khi nội dung trang web bị thay đổi (thêm, chỉnh sửa hoặc xoá bài post, trang hoặc bình luận) CloudFlare không làm mới nội dung đã cache,  plugin được chính Cloudflare viết thì thì họ lại làm quá triệt để, nghĩa là khi có bất cứ sự sửa, xóa, thêm bớt nào trên site, họ xóa đi tất cả cache cũ, thật sự thì cố mà dùng thì vẫn được, vì chỉ cần khi người đầu tiên xem lại bài, là nó đã tự cache bài đó rồi</p>
+<p>SuperSonic về cơ bản cũng tương tự như plugin CloudFlare làm, tuy thế họ làm chi tiết từng phần hơn, như khi bạn sửa bài viết, thêm comment, thì chỗ nào cần có sự thay đổi, nó sẽ xóa cache đi, còn các thứ khác thì vẫn giữ cache cũ, cơ bản thì hay hơn, với họ cũng thêm vài phần nhỏ, như disables phần admin hiện ở thanh trên trình duyệt đi, thêm các tính năng chặn theo quốc gia, IP, spam từ CloudFlare vào để người dùng dễ tùy biến hơn&#8230;. </p>
+<p>Tất nhiên là không thể nào hoàn thiện tuyệt đối , lý do thì cũng đã nói ở trên rồi, có điều nó rất khá, gần như trong các plugin cache cho CloudFlare từng dùng, SuperSonic ổn nhất 😛 tuy thế khi một user comment, thường nó sẽ hiện ra thông báo, &#8220;comment đang được chờ quản trị duyệt&#8221;, tuy thế, khi dùng CloudFlare cache, nó sẽ chỉ load trang cũ ra mà thôi, thành ra người post comment sẽ không hiểu là mình đã post xong hay mạng bị lỗi &#8230; 🙁 để hạn chế chuyện này bạn có thể dùng thêm một plugin liên quan tới comment chạy AJAX như <a href="https://wordpress.org/plugins/wp-ajaxify-comments/" target="_blank" rel="noopener">WP Ajaxify Comments</a> là được, nó hiện thông báo lên cho user thấy, nói chung thuốc đặc trị cho cache là AJAX, site bạn có cái gì khi cache mà bị lỗi hãy kiếm các plugin liên quan chạy AJAX là được 😛 </p>
+<h2>Các bước cấu hình SuperSonic và CloudFlare:</h2>
+<h3>Trong quản trị của CloudFlare </h3>
+<p><a href="https://i1.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-2-15-03-am.png?fit=979%2C589&#038;ssl=1"><img data-perfmatters-preload decoding="async" loading="lazy" class="aligncenter size-full wp-image-3761" src="https://media.publit.io/file/w_979,h_589,c_fit,q_80/3-27-2018-2-15-03-am.png" alt="" width="979" height="589" srcset="https://media.publit.io/file/w_979,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-15-03-am.png 979w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_180,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-15-03-am.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_301,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-15-03-am.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_436,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-15-03-am.png 725w" sizes="(max-width: 979px) 100vw, 979px"></a></p>
+<p>Tạo 3 &#8220;Page Rules&#8221; như thế, giải trích cụ thể thì trong bài <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/" target="_blank" rel="noopener">CloudFlare</a> mình viết cả rồi, bạn có thể vào tham khảo</p>
+<h3>Trong plugin của SuperSonic</h3>
+<h3>CF Settings:</h3>
+<p><a href="https://i1.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-1-39-18-am.png?fit=953%2C462&#038;ssl=1"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3764" src="https://media.publit.io/file/w_953,h_462,c_fit,q_80/3-27-2018-1-39-18-am.png" alt="" width="953" height="462" srcset="https://media.publit.io/file/w_953,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-1-39-18-am.png 953w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_145,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-1-39-18-am.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_242,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-1-39-18-am.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_351,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-1-39-18-am.png 725w" sizes="(max-width: 953px) 100vw, 953px"></a></p>
+<p>Điền các thông tin như email login, API key mà SuperSonic yêu cầu, ZONE thì chọn domain bạn muốn cache, xong ấn button &#8220;Update Setting&#8221;</p>
+<h3>Options:</h3>
+<p><a href="https://i1.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-2-27-42-am.png?fit=1466%2C1246&#038;ssl=1"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3765" src="https://media.publit.io/file/w_1466,h_1246,c_fit,q_80/3-27-2018-2-27-42-am.png" alt="" width="1466" height="1246" srcset="https://media.publit.io/file/w_1466,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-27-42-am.png 1466w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_255,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-27-42-am.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_425,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-27-42-am.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_616,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-27-42-am.png 725w" sizes="(max-width: 1466px) 100vw, 1466px"></a></p>
+<p>Chọn như hình, gần như ấn chọn hết 😀 quan trọng nhất là <span style="color: #800000"><strong>Purge immediatly</strong></span>, ban đầu mình không chọn tùy chọn này thành ra khi viết, sửa bài mãi nó không xóa cache cũ 😀</p>
+<h3>CF Tools:</h3>
+<p><a href="https://i2.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-2-30-46-am.png?fit=932%2C616&#038;ssl=1"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3766" src="https://media.publit.io/file/w_932,h_616,c_fit,q_80/3-27-2018-2-30-46-am.png" alt="" width="932" height="616" srcset="https://media.publit.io/file/w_932,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-30-46-am.png 932w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_198,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-30-46-am.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_330,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-30-46-am.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_479,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-30-46-am.png 725w" sizes="(max-width: 932px) 100vw, 932px"></a></p>
+<p>Bạn có thể xóa cache ở tab này, thật ra cũng hơi thừa vì nó đã có nút Supersonic ở ngay phía trên của admin rồi, tính năng Firewall hay block, hay ban thì thú thực mình không quan tâm lắm, SuperSonic mình nghĩ tác giả vẫn nên tập trung vào chuyện xử lý vấn đề xóa cache thật tốt là đủ 😀</p>
+<h3>Purge Settings:</h3>
+<p><a href="https://i2.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-2-34-06-am.png?fit=1180%2C1780&#038;ssl=1"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3767" src="https://media.publit.io/file/w_1180,h_1780,c_fit,q_80/3-27-2018-2-34-06-am.png" alt="" width="1180" height="1780" srcset="https://media.publit.io/file/w_1180,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-34-06-am.png 1180w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_453,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-34-06-am.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_754,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-34-06-am.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_1094,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-2-34-06-am.png 725w" sizes="(max-width: 1180px) 100vw, 1180px"></a></p>
+<p>Phần quan trọng nhất, liên quan tới xóa cache, nó gồm có các phần nhỏ như posts, page, media, comment, bạn muốn khi có sự thay đổi khi tạo, sửa, và xóa thì các thứ liên qua sẽ bị xóa cache thì ấn chọn, để dễ hình dung thì như phần comment, blog mình nó chỉ hiện comment ở bên dưới bài post, không có hiện ra ở trang nào liên quan, nên mình chỉ xóa cache phần bài post, còn nếu bạn nào có hiện phần comment ngoài trang chủ thì chọn thêm Home page &#8230;, kiểu như thế, còn nếu không rõ thì cứ stick chọn hết các thứ là được 😀 thật ra các thứ thường thay đổi nhất đa phần là comment mới, còn sửa bài, xóa bài cũng hiếm, có cái này đỡ khá nhiều</p>
+<p>Comments, Security &#8230; còn lại không quan trọng lắm, bạn nào có nhu cầu thì dùng thôi, còn không để mặc định là được, mình không quan tâm tới các tùy chọn chống spam lắm, vì thật sự mỗi comment đều đã phải duyệt tay rồi :]]
+</p>
+<p>Thật ra nếu SuperSonic họ viết hoàn hảo, vấn đề xóa cache trên CloudFlare tốt thì gần như bạn không phải dùng thêm bất cứ plugin cache nào nữa, hệ thống server của CloudFlare thì khỏi phải bàn rồi, cực nhanh và trâu, chưa kể còn hằng hà sa số tính năng về security, nói chung dùng CloudFlare cache đầu tiên ta sẽ có 1 tốc độ truy cập siêu nhanh ở mọi nơi trên thế giới, TTFB hoàn hảo, host sẽ vô cùng nhẹ, vì gần như chỉ phải chạy khi lần đầu tiên khi load trang, băng thông tiêu tốn cũng gần như không đáng kể, vì CloudFlare họ CDN, cache cả rồi, kèm theo đó là tính năng Away Online của CloudFlare, kể cả site bạn có sập khi bị tấn công hay khi host bảo trì, CloudFlare vẫn lấy cache cũ để load lại, giúp bạn có tỷ lệ uptime cao, không bị mất traffic 😀</p>
+<p><a href="https://i1.wp.com/bibica.net/wp-content/uploads/2018/03/3-27-2018-3-04-08-ams.png?fit=1583%2C950&#038;ssl=1"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-3774" src="https://media.publit.io/file/w_1583,h_950,c_fit,q_80/3-27-2018-3-04-08-ams.png" alt="" width="1583" height="950" srcset="https://media.publit.io/file/w_1583,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-3-04-08-ams.png 1583w, https://media.publit.io/file/w_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_180,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-3-04-08-ams.png 300w, https://media.publit.io/file/w_500,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_300,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-3-04-08-ams.png 500w, https://media.publit.io/file/w_725,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/h_435,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/c_fit,https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/q_80/3-27-2018-3-04-08-ams.png 725w" sizes="(max-width: 1583px) 100vw, 1583px"></a></p>
+<p>Nói chung là khi cache thông qua CloudFlare rồi thì VPS gần như chẳng phải làm gì, 10.000 client truy cập mỗi &#8230; giây mừ chạy vẫn ầm ầm thì khỏi bàn về chất lượng của CloudFlare rồi hé 😀 mình sẽ sử dụng thử SuperSonic một thời gian xem có gặp phải vấn đề gì nữa không, còn tạm thời như thế này là ổn 😀</p>
+<p><span style="color: #993300"><em>Update 26/03/2018</em></span>: Tình cờ check lại email thì thấy có con VPS RAM &#8230; <strong>256 MB</strong> :]] <strong>location US</strong> nữa mới hãm, nên tiện làm cái trang <a href="http://haproxy.tech/" target="_blank" rel="noopener">demo cho vụ SuperSonic và CloudFlare</a> luôn 😛</p>
+<p>Khi bạn config như bài xong, load trang tầm 0.1-&gt; 0.5s 😀</p>
+<div class="rp4wp-related-posts">
+<h3>Related Posts</h3>
+<ul>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/"><img src="https://media.publit.io/file/q_80/cloudflare-X.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="CloudFlare" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/">Cloudflare CDN, DNS và Cache - Đã hỗ trợ location tại Việt Nam</a><p>Giới thiệu sơ lược về Cloudflare, một nhà cung cấp dịch vụ miễn phí CDN,&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/"><img src="https://media.publit.io/file/q_80/2022-11-22-11-53-04.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="2022-11-22_11-53-04" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/xoa-cache-cloudflare-tu-slickstack/">Xóa cache CloudFlare từ SlickStack</a><p>CloudFlare là 1 addon nhỏ của bộ cài đặt SlickStack, tác giả tách nhỏ ra&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/cloudflare-registrar/"><img src="https://media.publit.io/file/q_80/2021-10-10-22-52-13.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="2021-10-10_22-52-13" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/cloudflare-registrar/">Cloudflare Registrar</a><p>Cách đây vài năm mình thấy quảng cáo, nôm na Cloudflare Registrar đã có hỗ trợ&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/openvpn-va-vultr/"><img src="https://media.publit.io/file/q_80/openvpntech_logo1-0.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="openvpntech_logo1" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/openvpn-va-vultr/">OpenVPN và Vultr</a><p>Hướng dẫn cài đặt OpenVPN trên các VPS chạy trên hệ điều hành Debian, Ubuntu và&hellip;</p>
+</div>
+</li>
+<li>
+<div class="rp4wp-related-post-image">
+<a href="https://static.bibica.net/danh-gia-ve-fast-fac1200r-va-mercury-mw310re/"><img src="https://media.publit.io/file/q_80/img_2091-T.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="IMG_2091" decoding="async" loading="lazy"></a>
+</div>
+<div class="rp4wp-related-post-content">
+<a href="https://static.bibica.net/danh-gia-ve-fast-fac1200r-va-mercury-mw310re/">Đánh giá về FAST FAC1200R và MERCURY MW310RE</a><p>Đánh giá sơ bộ về FAST FAC1200R (wifi router) và MERCURY MW310RE (repeater wifi) sau 30&hellip;</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="et_bloom_below_post"><div class="et_bloom_inline_form et_bloom_optin et_bloom_make_form_visible et_bloom_optin_1" style="display: none;" data-success_action_details="redirect_url|https://dev-bibica-net.pantheonsite.io/thank-you-for-subscribing/">
+				
+				<div class="et_bloom_form_container  et_bloom_rounded_corners et_bloom_rounded et_bloom_form_text_dark et_bloom_form_bottom et_bloom_inline_2_fields et_bloom_success_action">
+					
+			<div class="et_bloom_form_container_wrapper clearfix">
+				<div class="et_bloom_header_outer">
+					<div class="et_bloom_form_header split et_bloom_header_text_light">
+						<img src="https://res.cloudinary.com/ngoirungdui/image/upload/f_auto,fl_lossy,q_auto:eco,dpr_auto,w_auto/f_auto,fl_lossy,q_auto:eco,dpr_auto,w_auto/c_scale,w_100/v1514814214/logo_email_jmg9yz.png" alt="Get the next article in your inbox" class=" et_bloom_image_no_animation et_bloom_image">
+						<div class="et_bloom_form_text">
+						<h4 class="title" style="border: 0px; margin: 0px; padding: 0px; font-family: 'Work Sans', sans-serif; font-size: 22px; font-weight: inherit; line-height: 1; text-transform: uppercase; color: #ffffff;">Get the next article in your inbox</h4>
+<p><span style="color: #ffffff;">WordPress, Theme, Plugin, Speed, Optimization, Tips, Trick & Reviews, <span style="text-decoration: underline;"><em><strong>once a week</strong></em></span></span></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="et_bloom_form_content et_bloom_2_fields et_bloom_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						<div class="et_bloom_fields">
+							<p class="et_bloom_popup_input et_bloom_subscribe_name">
+								<input placeholder="Name" maxlength="50">
+							</p>
+							<p class="et_bloom_popup_input et_bloom_subscribe_email">
+								<input placeholder="Email">
+							</p>
+							
+							<button data-optin_id="optin_1" data-service="mailchimp" data-list_id="475980b14d" data-page_id="3758" data-account="bibicadotreview" data-ip_address="false" class="et_bloom_submit_subscription">
+								<span class="et_bloom_subscribe_loader"></span>
+								<span class="et_bloom_button_text et_bloom_button_text_color_light">JOIN US</span>
+							</button>
+						</div>
+					</form>
+					<div class="et_bloom_success_container">
+						<span class="et_bloom_success_checkmark"></span>
+					</div>
+					<h2 class="et_bloom_success_message">You have Successfully Subscribed!</h2>
+					<div class="et_bloom_form_footer">We respect your privacy and take protecting it seriously, we hate spam, unsubscribe at any time.</div>
+				</div>
+			</div>
+			<span class="et_bloom_close_button"></span>
+				</div>
+			</div></div>		</div>
+
+				<footer class="entry-meta" aria-label="Entry meta">
+			<span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://static.bibica.net/category/review/" rel="category tag">Review</a>, <a href="https://static.bibica.net/category/toolbox/" rel="category tag">Toolbox</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
+			<div class="nav-previous"><span class="prev"><a href="https://static.bibica.net/treo-may-kiem-tien-voi-loadteam/" rel="prev">Treo máy kiếm tiền với LoadTeam</a></span></div>
+<div class="nav-next"><span class="next"><a href="https://static.bibica.net/serverscope-linux-server-benchmarks/" rel="next">ServerScope &#8211; Linux Server Benchmarks</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+
+			<div class="comments-area">
+				<div id="comments">
+
+	<h3 class="comments-title">21 thoughts on &ldquo;SuperSonic và CloudFlare TTFB ~3x ms&rdquo;</h3>
+		<ol class="comment-list">
+			
+		<li id="comment-761" class="comment even thread-even depth-1 parent">
+			<article class="comment-body" id="div-comment-761" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/eb2f9c691416f72d16672d17dc4547a4x96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/eb2f9c691416f72d16672d17dc4547a4x192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">đạt</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-761">									<time datetime="2019-06-23T22:21:09+07:00" itemprop="datePublished">
+										23/06/2019 at 22:21									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>dạ cho e hỏi là gói free của cloudflare thì cho phép liên kết vs tên miền nếu như e xoá tên miền đó đi thì có đc tạo tiếp nửa ko ạ</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=761#respond" data-commentid="761" data-postid="3758" data-belowelement="div-comment-761" data-respondelement="respond" data-replyto="Reply to đạt" aria-label="Reply to đạt">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-762" class="comment byuser comment-author-bibica bypostauthor odd alt depth-2">
+			<article class="comment-body" id="div-comment-762" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-762">									<time datetime="2019-06-24T04:03:35+07:00" itemprop="datePublished">
+										24/06/2019 at 04:03									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Xóa domain đi rồi thì không quản lý qua CloudFlare được nữa</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=762#respond" data-commentid="762" data-postid="3758" data-belowelement="div-comment-762" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+
+		<li id="comment-645" class="comment even thread-odd thread-alt depth-1 parent">
+			<article class="comment-body" id="div-comment-645" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">Khải Trần</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-645">									<time datetime="2019-03-22T22:32:48+07:00" itemprop="datePublished">
+										22/03/2019 at 22:32									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Phiền Ad cho mình hỏi tí nhé!</p>
+<p>01. Mình dùng Webinoly để cài đặt website, trong đó mình có dùng FastCgi Cache. Giờ mình muốn dùng combo SuperSonic và Cloudflare thì mình có cần phải chạy dòng lệnh này của webinoly không: site example.com -cache=off.</p>
+<p>02. Hai plugin này có cần phải xóa không: Nginx Helper và Redis Object Cache?</p>
+<p>Mình cảm ơn ad nhiều nhé, bài viết rất chất lượng, hj!</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=645#respond" data-commentid="645" data-postid="3758" data-belowelement="div-comment-645" data-respondelement="respond" data-replyto="Reply to Khải Trần" aria-label="Reply to Khải Trần">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-646" class="comment byuser comment-author-bibica bypostauthor odd alt depth-2 parent">
+			<article class="comment-body" id="div-comment-646" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-646">									<time datetime="2019-03-22T23:20:49+07:00" itemprop="datePublished">
+										22/03/2019 at 23:20									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Ah, đầu tiên phải xem quan điểm dùng có cần cache không đã? vì cache hiệu quả nó chỉ cao nhất ở các trang traffic lớn, như dùng FastCgi thì chịu tầm 1000 người online 1 lúc, còn dùng sang cache bằng SuperSonic thì &#8230; gần như bao nhiêu người vào cũng chiến hết, vì lúc này tất cả traffic bị tống sang Cloudflare rồi, server bạn gần như không phải làm gì cả 😀</p>
+<p>Còn nếu trang bạn traffic lèo tèo kiểu thèng bibica.net, ngày tầm 30-40 lượt truy cập thì cache hay không cache cũng chẳng khác gì mấy đâu 😛</p>
+<p>Về ý 1-2 bạn hỏi thì cơ bản giống nhau, nôm na chỉ dùng 1 plugin cache duy nhất, không khi chạy sẽ đụng chạm, xóa hết các plugin cache đi xong rồi cài gì thì cài</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=646#respond" data-commentid="646" data-postid="3758" data-belowelement="div-comment-646" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-647" class="comment even depth-3 parent">
+			<article class="comment-body" id="div-comment-647" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">Khai Tran</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-647">									<time datetime="2019-03-23T01:47:33+07:00" itemprop="datePublished">
+										23/03/2019 at 01:47									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Cho mình hỏi thêm là mình có cần chạy dòng lệnh của Webinoly là site example.com -cache=off không?</p>
+<p>Ad giải thích dễ hiểu quá, cảm ơn ad nhiều!</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=647#respond" data-commentid="647" data-postid="3758" data-belowelement="div-comment-647" data-respondelement="respond" data-replyto="Reply to Khai Tran" aria-label="Reply to Khai Tran">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-648" class="comment byuser comment-author-bibica bypostauthor odd alt depth-4">
+			<article class="comment-body" id="div-comment-648" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-648">									<time datetime="2019-03-23T02:01:57+07:00" itemprop="datePublished">
+										23/03/2019 at 02:01									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Có ạ, chạy lệnh đó nó hình như nó tự xóa plugin trong WP thì phải 😀</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=648#respond" data-commentid="648" data-postid="3758" data-belowelement="div-comment-648" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+
+		<li id="comment-619" class="comment even thread-even depth-1 parent">
+			<article class="comment-body" id="div-comment-619" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">charli</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-619">									<time datetime="2019-03-05T14:58:27+07:00" itemprop="datePublished">
+										05/03/2019 at 14:58									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Chào AD<br>
+Vậy mình dùng Woocommerce làm web bán hàng, không dùng chức năng đăng nhập, vậy cài Supperconic được không.<br>
+Hiện mình dùng Cloudflare với LScache<br>
+P/s: bài viết tuyệt</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=619#respond" data-commentid="619" data-postid="3758" data-belowelement="div-comment-619" data-respondelement="respond" data-replyto="Reply to charli" aria-label="Reply to charli">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-620" class="comment byuser comment-author-bibica bypostauthor odd alt depth-2 parent">
+			<article class="comment-body" id="div-comment-620" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-620">									<time datetime="2019-03-05T16:31:02+07:00" itemprop="datePublished">
+										05/03/2019 at 16:31									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Không chắc lắm, vì lúc test SuperSonic mình thử trên thèng bibica.net, không cài shop nên không rõ phần purge setting có không, chứ nếu sản phẩm có người mua, thay đổi số lượng mà không làm mới lại thì hãm lắm 😛</p>
+<p>Shop thì mình vẫn recommend dùng WP Rocket thôi 😀</p>
+<p>Mà thực tế giờ cũng không cần cache làm gì, vì Cloudflare có location Việt Nam rồi, chạy xé gió cả mà 😛</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=620#respond" data-commentid="620" data-postid="3758" data-belowelement="div-comment-620" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-621" class="comment even depth-3 parent">
+			<article class="comment-body" id="div-comment-621" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">charli</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-621">									<time datetime="2019-03-05T16:51:02+07:00" itemprop="datePublished">
+										05/03/2019 at 16:51									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Hi Ad<br>
+Litspeed cache thì có chức năng Purge khi có sự thay đổi trên bài viết hoặc comment&#8230;.<br>
+Cho mình hỏi thêm chút khi mình thì báo lỗi trong Gtmetrix: Use cookie-free domains với Serve scaled images. Có bài nào của ad hướng dẫn phần này chưa. Tks ad.<br>
+Chốt: vậy giờ không xài plugin Cache nào luôn ah. keke.</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=621#respond" data-commentid="621" data-postid="3758" data-belowelement="div-comment-621" data-respondelement="respond" data-replyto="Reply to charli" aria-label="Reply to charli">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-622" class="comment byuser comment-author-bibica bypostauthor odd alt depth-4 parent">
+			<article class="comment-body" id="div-comment-622" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622">									<time datetime="2019-03-05T19:35:20+07:00" itemprop="datePublished">
+										05/03/2019 at 19:35									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Về điểm số thì đầu tiên bạn tham khảo bài này đã &#8220;Điểm Số GTmetrix, Pingdom … Liệu Có Quan Trọng?&#8221; (https://dev-bibica-net.pantheonsite.io/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/)</p>
+<p>Thực tế điểm số, nó là một bài test để bạn có thể &#8220;tham khảo&#8221; thêm về cách config hiệu năng, xem coi có hợp lý không, chứ nó chẳng nói lên cái gì</p>
+<p>Kiểu bạn hướng tới traffic cho user từ VN, mà các trang check ở US báo trang bạn chậm thì cũng chẳng nói lên cái gì</p>
+<p>Về &#8220;Use cookie-free domains&#8221; thì không cần quan tâm, vớ vẩn thôi, còn &#8220;Serve scaled images&#8221; thì ý nó báo là kích thước hiển thị không đúng, kiếu đúng ra ở vị trí đó chỉ cần cái ảnh 200 x 200 px, mà bạn lại đang dùng cái ảnh 1920 x 1080, nó bị nặng hơn 1 cách quá đáng thôi 😛</p>
+<p>Về tốc độ thì mình nghĩ bạn tham khảo bài &#8220;Tăng Tốc, Tối Ưu Hóa Cho WordPress&#8221; (https://dev-bibica-net.pantheonsite.io/tang-toc-toi-uu-hoa-cho-wordpress/) cũng khá đầy đủ rồi, còn rảnh hơn thì cứ đọc hết các bài trên bibica.net cũng tương đối đủ hổ báo rồi 😛</p>
+<p>Thực tế bibica.net bạn cũng có thể thấy gần như ấn vào link mới chỉ mất tầm 1-2s là nó qua trang mới, load xong cả rồi mừ 😀</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=622#respond" data-commentid="622" data-postid="3758" data-belowelement="div-comment-622" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-623" class="comment even depth-5">
+			<article class="comment-body" id="div-comment-623" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/fe108db6ac5c8e394952a4c70d251ebcx192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">charli</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-623">									<time datetime="2019-03-06T08:26:16+07:00" itemprop="datePublished">
+										06/03/2019 at 08:26									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Tks kiu Admin<br>
+Có lẻ nghiên cứu trang ThachPham hơi lỗi thời rồi nhỉ, kaka. để mình nghiên cứu BIBICA.NET.</p>
+				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+
+		<li id="comment-624" class="comment byuser comment-author-bibica bypostauthor odd alt depth-5">
+			<article class="comment-body" id="div-comment-624" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-624">									<time datetime="2019-03-06T12:22:26+07:00" itemprop="datePublished">
+										06/03/2019 at 12:22									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Viết tầm 3-6 tháng không update lại là đã thấy sai rồi 😀</p>
+<p>Mấy bài cũ giới thiệu Vultr, UpCloud &#8230; trên bibica.net giờ giá tiền, thông số phần cứng giờ sai cả rồi ấy chứ :]]</p>
+				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+
+		<li id="comment-529" class="comment even thread-odd thread-alt depth-1 parent">
+			<article class="comment-body" id="div-comment-529" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">Nguyen</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-529">									<time datetime="2018-12-06T01:22:11+07:00" itemprop="datePublished">
+										06/12/2018 at 01:22									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Sao em đọc trong tool box thấy a sử dụng cloudflare còn xài thêm cache enabler nữa ?? Anh ko còn sử dụng super sonic nữa thì đổi wa plugin nào vậy a?</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=529#respond" data-commentid="529" data-postid="3758" data-belowelement="div-comment-529" data-respondelement="respond" data-replyto="Reply to Nguyen" aria-label="Reply to Nguyen">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-530" class="comment byuser comment-author-bibica bypostauthor odd alt depth-2">
+			<article class="comment-body" id="div-comment-530" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-530">									<time datetime="2018-12-06T01:30:28+07:00" itemprop="datePublished">
+										06/12/2018 at 01:30									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Cloudflare là DNS, CDN, SSL 😀 còn Cache Enabler thì thi thoảng nghịch test cho vui xem speed xuống được tới đâu, chứ thường mình off vụ cache :]]</p>
+<p>SuperSonic dùng nó cho các trang tĩnh thì gần như vô đối luôn 😀</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=530#respond" data-commentid="530" data-postid="3758" data-belowelement="div-comment-530" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+
+		<li id="comment-227" class="comment even thread-even depth-1 parent">
+			<article class="comment-body" id="div-comment-227" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">lkb123</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-227">									<time datetime="2018-05-03T23:47:12+07:00" itemprop="datePublished">
+										03/05/2018 at 23:47									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Mình có dùng thử qua thì thấy supersonic thật sự tốt cho một số trang như blog hoặc site có nội dung tĩnh ít tương tác với người dùng sẽ tốt hơn.<br>
+Với một số trang có phần user login thì hầu như không thể login được</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=227#respond" data-commentid="227" data-postid="3758" data-belowelement="div-comment-227" data-respondelement="respond" data-replyto="Reply to lkb123" aria-label="Reply to lkb123">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-228" class="comment byuser comment-author-bibica bypostauthor odd alt depth-2 parent">
+			<article class="comment-body" id="div-comment-228" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-228">									<time datetime="2018-05-03T23:54:19+07:00" itemprop="datePublished">
+										03/05/2018 at 23:54									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Lý do thì mình có nói trong các bài viết về CloudFlare rồi, vấn đề là FREE CloudFlare họ chỉ cho 3 rules và không cho dùng cookies, gói dùng được thì ~ $200 / 1 tháng :]]</p>
+<p>Muốn dùng triệt để, tận dụng cache từ CloudFlare thì các phần tương tác như comment bạn dùng Ajax hoặc dùng các hệ thống comment ngoài, ổn cả thôi 😀</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=228#respond" data-commentid="228" data-postid="3758" data-belowelement="div-comment-228" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-230" class="comment even depth-3 parent">
+			<article class="comment-body" id="div-comment-230" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">lkb123</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-230">									<time datetime="2018-05-04T00:55:33+07:00" itemprop="datePublished">
+										04/05/2018 at 00:55									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Mình chỉ gặp vấn đề phần login thôi! Mình thử mấy site và mấy lần thì mới phát hiện ra khi login nó đẩy về lại trang chủ như chưa từng login nhưng vào wp-admin vẫn bình thường. Khách ngoài login thì không thể vào đường phần bảng điều khiển của user!</p>
+<p>Hiện tại mình chuyển qua dùng plugin của CloudFlare thì hoàn toàn bình thường login và các chức năng hoạt động tốt nên đành chuyển qua CloudFlare !</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=230#respond" data-commentid="230" data-postid="3758" data-belowelement="div-comment-230" data-respondelement="respond" data-replyto="Reply to lkb123" aria-label="Reply to lkb123">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-231" class="comment byuser comment-author-bibica bypostauthor odd alt depth-4 parent">
+			<article class="comment-body" id="div-comment-231" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-231">									<time datetime="2018-05-04T09:32:47+07:00" itemprop="datePublished">
+										04/05/2018 at 09:32									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Setting như trong bài thì login wp-admin bình thường mà 😀</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=231#respond" data-commentid="231" data-postid="3758" data-belowelement="div-comment-231" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			<ul class="children">
+
+		<li id="comment-232" class="comment even depth-5">
+			<article class="comment-body" id="div-comment-232" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/mystery192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">lkb123</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-232">									<time datetime="2018-05-04T12:12:47+07:00" itemprop="datePublished">
+										04/05/2018 at 12:12									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Thì mình nói là &#8220;nhưng vào wp-admin vẫn bình thường.&#8221; là phần bảng điều khiển người dùng ấy , của user bình thường ấy như WooComments login vào để check order này nọ thì không được!</p>
+				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+
+		<li id="comment-233" class="comment byuser comment-author-bibica bypostauthor odd alt depth-4">
+			<article class="comment-body" id="div-comment-233" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-233">									<time datetime="2018-05-04T12:24:44+07:00" itemprop="datePublished">
+										04/05/2018 at 12:24									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Login vào sẽ thấy phần kiểu /?SuperSonic đằng sau ấy, phải dùng link đó mới coi được cái trang, kiểu kiểu thế</p>
+<p>Nói chung khi cache, nhất là còn cache bằng CloudFlare thì khá mệt ở các bước, tùy nhu cầu thôi, kiểu bạn có 1 trang 1 thật to, thuần view, lại không muốn tốn quá nhiều tiền cho hosting thì dùng CloudFlare quá tuyệt</p>
+<p>Còn dùng plugin của CloudFlare nó sẽ cache kiểu rất ngu học :]] bất kể admin, user, guest &#8230; bất cả ai vào trang đó lần đầu nó đều cache lại, kết quả là trang đó nếu admin vào, thì người tiếp theo vào cũng nhìn như là admin đang login ở phần comment và có cái viền đen quản trị ở phía trên &#8230;.</p>
+<p>Viền đen ta có thể bỏ đi, nhưng nó hiện cả tên người login ngay dưới comment thì mình không rõ khắc phục kiểu gì, chưa kể là khi có bất kì sửa xóa nào, nó đều xóa tất cả các cache có sẵn</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=233#respond" data-commentid="233" data-postid="3758" data-belowelement="div-comment-233" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+
+		<li id="comment-395" class="comment byuser comment-author-bibica bypostauthor even depth-4">
+			<article class="comment-body" id="div-comment-395" itemtype="https://schema.org/Comment" itemscope>
+				<footer class="comment-meta" aria-label="Comment meta">
+					<img alt="" src="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex96.png" srcset="https://static.bibica.net/wp-content/uploads/fv-gravatar-cache/cf204c301a46f1b6bc57ffdb8f82977ex192.png 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy" decoding="async">					<div class="comment-author-info">
+						<div class="comment-author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope>
+							<cite itemprop="name" class="fn">bibica</cite>						</div>
+
+													<div class="entry-meta comment-metadata">
+								<a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-395">									<time datetime="2018-09-16T23:31:22+07:00" itemprop="datePublished">
+										16/09/2018 at 23:31									</time>
+								</a>							</div>
+												</div>
+
+									</footer>
+
+				<div class="comment-content" itemprop="text">
+					<p>Giờ mới thấy cái comment này 😀</p>
+<p>WooComments thì mình vẫn thấy dùng WP Rocket đơn giản và hiệu quả nhất, dùng CloudFlare làm gì cho phiền hà 😛</p>
+<span class="reply"><a rel="nofollow" class="comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?replytocom=395#respond" data-commentid="395" data-postid="3758" data-belowelement="div-comment-395" data-respondelement="respond" data-replyto="Reply to bibica" aria-label="Reply to bibica">Reply</a></span>				</div>
+			</article>
+			</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+		</ol>
+<!-- .comment-list -->
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="https://dev-bibica-net.pantheonsite.io/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-form-comment"><label for="comment" class="screen-reader-text">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p>
+<label for="author" class="screen-reader-text">Name</label><input placeholder="Name *" id="author" name="author" type="text" value="" size="30" required>
+<label for="email" class="screen-reader-text">Email</label><input placeholder="Email *" id="email" name="email" type="email" value="" size="30" required>
+<p class="comment-form-subscriptions"><label for="subscribe-reloaded"><input style="width:30px" type="checkbox" name="subscribe-reloaded" id="subscribe-reloaded" value="yes" checked> Notify me of followup comments via e-mail.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="3758" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+			</div>
+
+					</main>
+	</div>
+
+	<div class="widget-area sidebar is-right-sidebar grid-25 tablet-grid-25 grid-parent" id="right-sidebar">
+	<div class="inside-right-sidebar">
+		<aside id="dpe_fp_widget-11" class="widget inner-padding widget_dpe_fp_widget"><h2 class="widget-title">Featured Posts</h2>	<ul class="dpe-flexible-posts">
+			<li id="post-849" class="post-849 post type-post status-publish format-standard has-post-thumbnail hentry category-review">
+			<a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/">
+				<img src="https://media.publit.io/file/q_80/12-7-2017-6-38-24-pm-2.png" class="attachment-medium size-medium wp-post-image" alt="Webinoly Một Sự Thay Thế Hoàn Hảo Cho EasyEngine" decoding="async" loading="lazy">				<h4 class="title">Webinoly &#8211; Đơn giản và mạnh mẽ</h4>
+			</a>
+		</li>
+			<li id="post-544" class="post-544 post type-post status-publish format-standard has-post-thumbnail hentry category-review">
+			<a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/">
+				<img src="https://media.publit.io/file/q_80/cloudflare-X.png" class="attachment-medium size-medium wp-post-image" alt="CloudFlare" decoding="async" loading="lazy">				<h4 class="title">Cloudflare CDN, DNS và Cache &#8211; Đã hỗ trợ location tại Việt Nam</h4>
+			</a>
+		</li>
+			<li id="post-1072" class="post-1072 post type-post status-publish format-standard has-post-thumbnail hentry category-advertisement category-toolbox">
+			<a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">
+				<img src="https://media.publit.io/file/q_80/generatepress-lightweight-responsive-wordpress-theme-2.jpg" class="attachment-medium size-medium wp-post-image" alt="GeneratePress – Lightweight, Responsive WordPress Theme" decoding="async" loading="lazy">				<h4 class="title">GeneratePress &#8211; Lightweight, Responsive WordPress Theme</h4>
+			</a>
+		</li>
+			<li id="post-1916" class="post-1916 post type-post status-publish format-standard has-post-thumbnail hentry category-advertisement category-review category-toolbox">
+			<a href="https://static.bibica.net/perfmatters/">
+				<img src="https://media.publit.io/file/q_80/wordpress-performance-plugin-slider-6.png" class="attachment-medium size-medium wp-post-image" alt="wordpress-performance-plugin-slider-6" decoding="async" loading="lazy">				<h4 class="title">Perfmatters</h4>
+			</a>
+		</li>
+			<li id="post-6904" class="post-6904 post type-post status-publish format-standard has-post-thumbnail hentry category-toolbox">
+			<a href="https://static.bibica.net/flyingpress-plugin-cache-hang-dau/">
+				<img src="https://media.publit.io/file/q_80/2022-11-12-22-22-23.png" class="attachment-medium size-medium wp-post-image" alt="2022-11-12_22-22-23" decoding="async" loading="lazy">				<h4 class="title">FlyingPress &#8211; plugin cache hàng đầu</h4>
+			</a>
+		</li>
+		</ul>
+<!-- .dpe-flexible-posts -->
+</aside>	</div>
+</div>
+
+	</div>
+<!-- #content -->
+</div>
+<!-- #page -->
+
+
+<div class="site-footer">
+			<footer class="site-info" aria-label="Site" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					<div style="float:left">Copyright <i class="fa fa-copyright"></i> 2022 Master XinClub - Powered by <i class="fa fa-heart"></i> <a href="https://static.bibica.net/cloud-vps-upcloud/" rel="bookmark">UpCloud</a> <i class="fa fa-heartbeat"></i> <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/" rel="bookmark">Webinoly</a> <i class="fa fa-cloud"></i> <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/" rel="bookmark">Cloudflare</a> <i class="fa fa-moon-o"></i> <a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">GeneratePress</a> <i class="fa fa-wordpress"></i> <a href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
+</div>				</div>
+			</div>
+		</footer>
+		</div>
+<!-- .site-footer -->
+
+<a title="Scroll back to top" aria-label="Scroll back to top" rel="nofollow" href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+					
+				</a><script id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://static.bibica.net/#website","url":"https://static.bibica.net/","name":"BIBICA.NET","potentialAction":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#searchaction"},"publisher":{"@id":"https://static.bibica.net/#organization"}},{"@type":"SearchAction","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#searchaction","target":"https://static.bibica.net/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"BreadcrumbList","name":"Breadcrumbs","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://static.bibica.net/"},{"@type":"ListItem","position":2,"name":"Review","item":"https://static.bibica.net/category/review/"}]},{"@type":"WebPage","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#webpage","url":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms","inLanguage":"en_US","name":"SuperSonic và CloudFlare TTFB ~3x ms – BIBICA.NET","description":"Thật ra nếu SuperSonic họ viết hoàn hảo, vấn đề xóa cache trên CloudFlare tốt thì gần như bạn không phải dùng thêm bất cứ plugin cache nào nữa cả, hệ thống serv","datePublished":"2018-03-26T20:08:36+00:00","dateModified":"2020-04-02T06:35:47+00:00","isPartOf":{"@id":"https://static.bibica.net/#website"},"breadcrumb":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#breadcrumbs"},"primaryImageOfPage":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#thumbnail"},"image":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#thumbnail"}},{"@type":"Organization","@id":"https://static.bibica.net/#organization","url":"https://static.bibica.net/","name":"BIBICA.NET","logo":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#logo"},"image":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#logo"}},{"@type":"ImageObject","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#logo","url":"https://media.publit.io/file/w_512,h_512,c_fit,q_80/cropped-563a3a6682276d793436-1-jpg.jpg","width":512,"height":512},{"@type":"ImageObject","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#thumbnail","url":"https://media.publit.io/file/w_979,h_543,c_fit,q_80/3-27-2018-2-53-56-am.png","width":979,"height":543},{"@type":"Article","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#article","url":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms","headline":"SuperSonic và CloudFlare TTFB ~3x ms","datePublished":"2018-03-26T20:08:36+00:00","dateModified":"2020-04-02T06:35:47+00:00","commentCount":21,"wordCount":1557,"articleSection":["Review","Toolbox"],"isPartOf":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#webpage"},"mainEntityOfPage":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#webpage"},"image":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#thumbnail"},"publisher":{"@id":"https://static.bibica.net/#organization"},"author":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#author"}},{"@type":"Person","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#author","url":"https://static.bibica.net/author/bibica/","name":"bibica","image":{"@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#author_image"}},{"@type":"ImageObject","@id":"https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms#author_image","url":"https://secure.gravatar.com/avatar/cf204c301a46f1b6bc57ffdb8f82977e?s=96&d=mm&r=g","width":96,"height":96,"caption":"bibica"}]}</script><script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+		if ( typeof(jQuery) !== 'undefined' ) {
+		jQuery( document ).ready(function(){
+		function monsterinsights_scroll_tracking_load() {
+		if ( ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) || ( typeof(__gtagTracker) !== 'undefined' && __gtagTracker ) ) {
+		(function(factory) {
+		factory(jQuery);
+		}(function($) {
+
+		/* Scroll Depth */
+		"use strict";
+		var defaults = {
+		percentage: true
+		};
+
+		var $window = $(window),
+		cache = [],
+		scrollEventBound = false,
+		lastPixelDepth = 0;
+
+		/*
+		* Plugin
+		*/
+
+		$.scrollDepth = function(options) {
+
+		var startTime = +new Date();
+
+		options = $.extend({}, defaults, options);
+
+		/*
+		* Functions
+		*/
+
+		function sendEvent(action, label, scrollDistance, timing) {
+		if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+		return;
+		}
+			var paramName = action.toLowerCase();
+	var fieldsArray = {
+	send_to: 'G-6Y2T5Q1R88',
+	non_interaction: true
+	};
+	fieldsArray[paramName] = label;
+
+	if (arguments.length > 3) {
+	fieldsArray.scroll_timing = timing
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	} else {
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	}
+			}
+
+		function calculateMarks(docHeight) {
+		return {
+		'25%' : parseInt(docHeight * 0.25, 10),
+		'50%' : parseInt(docHeight * 0.50, 10),
+		'75%' : parseInt(docHeight * 0.75, 10),
+		/* Cushion to trigger 100% event in iOS */
+		'100%': docHeight - 5
+		};
+		}
+
+		function checkMarks(marks, scrollDistance, timing) {
+		/* Check each active mark */
+		$.each(marks, function(key, val) {
+		if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+		sendEvent('Percentage', key, scrollDistance, timing);
+		cache.push(key);
+		}
+		});
+		}
+
+		function rounded(scrollDistance) {
+		/* Returns String */
+		return (Math.floor(scrollDistance/250) * 250).toString();
+		}
+
+		function init() {
+		bindScrollDepth();
+		}
+
+		/*
+		* Public Methods
+		*/
+
+		/* Reset Scroll Depth with the originally initialized options */
+		$.scrollDepth.reset = function() {
+		cache = [];
+		lastPixelDepth = 0;
+		$window.off('scroll.scrollDepth');
+		bindScrollDepth();
+		};
+
+		/* Add DOM elements to be tracked */
+		$.scrollDepth.addElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.merge(options.elements, elems);
+
+		/* If scroll event has been unbound from window, rebind */
+		if (!scrollEventBound) {
+		bindScrollDepth();
+		}
+
+		};
+
+		/* Remove DOM elements currently tracked */
+		$.scrollDepth.removeElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.each(elems, function(index, elem) {
+
+		var inElementsArray = $.inArray(elem, options.elements);
+		var inCacheArray = $.inArray(elem, cache);
+
+		if (inElementsArray != -1) {
+		options.elements.splice(inElementsArray, 1);
+		}
+
+		if (inCacheArray != -1) {
+		cache.splice(inCacheArray, 1);
+		}
+
+		});
+
+		};
+
+		/*
+		* Throttle function borrowed from:
+		* Underscore.js 1.5.2
+		* http://underscorejs.org
+		* (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+		* Underscore may be freely distributed under the MIT license.
+		*/
+
+		function throttle(func, wait) {
+		var context, args, result;
+		var timeout = null;
+		var previous = 0;
+		var later = function() {
+		previous = new Date;
+		timeout = null;
+		result = func.apply(context, args);
+		};
+		return function() {
+		var now = new Date;
+		if (!previous) previous = now;
+		var remaining = wait - (now - previous);
+		context = this;
+		args = arguments;
+		if (remaining <= 0) {
+		clearTimeout(timeout);
+		timeout = null;
+		previous = now;
+		result = func.apply(context, args);
+		} else if (!timeout) {
+		timeout = setTimeout(later, remaining);
+		}
+		return result;
+		};
+		}
+
+		/*
+		* Scroll Event
+		*/
+
+		function bindScrollDepth() {
+
+		scrollEventBound = true;
+
+		$window.on('scroll.scrollDepth', throttle(function() {
+		/*
+		* We calculate document and window height on each scroll event to
+		* account for dynamic DOM changes.
+		*/
+
+		var docHeight = $(document).height(),
+		winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+		scrollDistance = $window.scrollTop() + winHeight,
+
+		/* Recalculate percentage marks */
+		marks = calculateMarks(docHeight),
+
+		/* Timing */
+		timing = +new Date - startTime;
+
+		checkMarks(marks, scrollDistance, timing);
+		}, 500));
+
+		}
+
+		init();
+		};
+
+		/* UMD export */
+		return $.scrollDepth;
+
+		}));
+
+		jQuery.scrollDepth();
+		} else {
+		setTimeout(monsterinsights_scroll_tracking_load, 200);
+		}
+		}
+		monsterinsights_scroll_tracking_load();
+		});
+		}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script>
+<link rel="stylesheet" id="et_bloom-css-css" href="https://static.bibica.net/wp-content/plugins/bloom/css/style.css?ver=1.3.12" media="all">
+<script src="https://static.bibica.net/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?ver=2.2.1" id="generate-sticky-js"></script>
+<script id="contact-form-7-js-extra">var wpcf7 = {"api":{"root":"https:\/\/static.bibica.net\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};</script>
+<script id="wpzerospam-js-extra">var wpzerospam = {"key":"wi0ktldp1iuJo@X9Eg8fh07kp!#i@!#^WioES9miJ(0%*job@yWBNu^AL4Yvfo)E"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//assets/js/wpzerospam.js?ver=4.6.0" id="wpzerospam-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//integrations/contact-form-7/js/cf7.js?ver=4.6.0" id="wpzerospam-integration-cf7-js"></script>
+<script id="generate-smooth-scroll-js-extra">var smooth = {"elements":[".smooth-scroll","li.smooth-scroll a"],"duration":"800"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js?ver=2.2.1" id="generate-smooth-scroll-js"></script>
+<!--[if lte IE 11]>
+<script src='https://dev-bibica-net.pantheonsite.io/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.2.3' id='generate-classlist-js'></script>
+<![endif]-->
+<script id="generate-menu-js-extra">var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.2.3" id="generate-menu-js"></script>
+<script id="generate-navigation-search-js-extra">var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/navigation-search.min.js?ver=3.2.3" id="generate-navigation-search-js"></script>
+<script id="generate-back-to-top-js-extra">var generatepressBackToTop = {"smooth":"1"};</script>
+<script src="https://static.bibica.net/wp-content/themes/generatepress/assets/js/back-to-top.min.js?ver=3.2.3" id="generate-back-to-top-js"></script>
+<script src="https://static.bibica.net/wp-includes/js/comment-reply.min.js?ver=6.1.1" id="comment-reply-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/core/admin/js/common.js?ver=4.9.3" id="et-core-common-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=sxG6g8i781CS7Xa" id="enlighterjs-js"></script>
+<script id="enlighterjs-js-after">!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":true,"textOverflow":"break","linenumbers":true,"theme":"dracula","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);</script>
+<script data-cfasync="false" data-no-optimize="1" src="https://static.bibica.net/wp-content/plugins/perfmatters/vendor/instant-page/instantpage.js?ver=2.0.0" id="perfmatters-instant-page-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/jquery.uniform.min.js?ver=1.3.12" id="et_bloom-uniform-js-js"></script>
+<script id="et_bloom-custom-js-js-extra">var bloomSettings = {"ajaxurl":"https:\/\/static.bibica.net\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/static.bibica.net\/supersonic-va-cloudflare-ttfb-3x-ms\/","stats_nonce":"2b27dbdf5f","subscribe_nonce":"1f19cc9153","is_user_logged_in":"not_logged"};</script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/custom.js?ver=1.3.12" id="et_bloom-custom-js-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/bloom/js/idle-timer.min.js?ver=1.3.12" id="et_bloom-idle-timer-js-js"></script>
+<script src="https://static.bibica.net/wp-content/plugins/zero-spam-for-wordpress-4.6.0//integrations/comments/js/comments.js?ver=4.6.0" id="wpzerospam-integration-comments-js"></script>
+
+</body>
+</html>

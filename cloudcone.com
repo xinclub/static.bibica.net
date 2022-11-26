@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=https://app.cloudcone.com/?ref=353">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://app.cloudcone.com/?ref=353";
+		</script>
+
+		<p>You are being redirected to <a href="https://app.cloudcone.com/?ref=353">https://app.cloudcone.com/?ref=353</a></p>
+	</body>
+</html>

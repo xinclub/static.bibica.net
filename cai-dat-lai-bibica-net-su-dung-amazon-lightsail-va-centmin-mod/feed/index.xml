@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cài đặt lại bibica.net sử dụng Amazon Lightsail và Centmin Mod	</title>
+	<atom:link href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 16:09:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-788</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 03 Aug 2019 05:10:58 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-788</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-787&quot;&gt;Mai Nam&lt;/a&gt;.
+
+Phần &quot;Cấu Hình Lightsail&quot; không làm theo thì thế :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-787">Mai Nam</a>.</p>
+<p>Phần &#8220;Cấu Hình Lightsail&#8221; không làm theo thì thế 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mai Nam		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-787</link>
+
+		<dc:creator><![CDATA[Mai Nam]]></dc:creator>
+		<pubDate>Sat, 03 Aug 2019 04:54:19 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-787</guid>
+
+					<description><![CDATA[Ko hiểu tại sao lightsail hay ec2 mình setup EE 4 chạy domain ngon lành rồi nhưng cứ dùng cmd ping đến site là nó báo timeout là sao bạn nhỉ ?]]></description>
+			<content:encoded><![CDATA[<p>Ko hiểu tại sao lightsail hay ec2 mình setup EE 4 chạy domain ngon lành rồi nhưng cứ dùng cmd ping đến site là nó báo timeout là sao bạn nhỉ ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kính		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-760</link>
+
+		<dc:creator><![CDATA[kính]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2019 01:55:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-760</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-759&quot;&gt;bibica&lt;/a&gt;.
+
+Thanks b.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-759">bibica</a>.</p>
+<p>Thanks b.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-759</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2019 01:48:34 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-759</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-758&quot;&gt;kính&lt;/a&gt;.
+
+Page load time (https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-758">kính</a>.</p>
+<p>Page load time (https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kính		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-758</link>
+
+		<dc:creator><![CDATA[kính]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2019 01:43:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-758</guid>
+
+					<description><![CDATA[chào b, cho m hỏi cái add on test speed web tên là gì vậy a ?]]></description>
+			<content:encoded><![CDATA[<p>chào b, cho m hỏi cái add on test speed web tên là gì vậy a ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hai		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-592</link>
+
+		<dc:creator><![CDATA[Hai]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2019 03:06:13 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-592</guid>
+
+					<description><![CDATA[Đang dùng EC2 Free Tier t2.micro thấy cũng ổn áp mà được free 1 năm dùng thử. Các bạn muốn trải nghiệm vps amazon mà chưa muốn xuống tiền thì có thể đăng ký chương trình Free Tier mà trải nghiệm]]></description>
+			<content:encoded><![CDATA[<p>Đang dùng EC2 Free Tier t2.micro thấy cũng ổn áp mà được free 1 năm dùng thử. Các bạn muốn trải nghiệm vps amazon mà chưa muốn xuống tiền thì có thể đăng ký chương trình Free Tier mà trải nghiệm</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-571</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2018 04:09:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-571</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-570&quot;&gt;Nguyễn Minh Hùng&lt;/a&gt;.
+
+Khả năng cao là Lightsail đang giới hạn nhiều lại tài nguyên sử dụng, từ ngày họ giảm giá xuống $3.5 / month là thấy VPS yếu hẳn ra :D
+
+Đang dùng gói nào thì thử tăng phần cứng lên thêm tí xem có cải thiện không?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-570">Nguyễn Minh Hùng</a>.</p>
+<p>Khả năng cao là Lightsail đang giới hạn nhiều lại tài nguyên sử dụng, từ ngày họ giảm giá xuống $3.5 / month là thấy VPS yếu hẳn ra 😀</p>
+<p>Đang dùng gói nào thì thử tăng phần cứng lên thêm tí xem có cải thiện không?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Minh Hùng		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-570</link>
+
+		<dc:creator><![CDATA[Nguyễn Minh Hùng]]></dc:creator>
+		<pubDate>Sat, 22 Dec 2018 03:45:30 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-570</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-536&quot;&gt;Binh Phan&lt;/a&gt;.
+
+hôm qua mới dính quả timeout với lightsail bác ạ.
+Phải reboot instance.
+Ứ biết nguyên nhân là gì. Mình thì dùng webinoly.
+Nên có khi là do lightsail rồi]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-536">Binh Phan</a>.</p>
+<p>hôm qua mới dính quả timeout với lightsail bác ạ.<br />
+Phải reboot instance.<br />
+Ứ biết nguyên nhân là gì. Mình thì dùng webinoly.<br />
+Nên có khi là do lightsail rồi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-548</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 14 Dec 2018 17:05:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-548</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-546&quot;&gt;Binh Phan&lt;/a&gt;.
+
+Về VPS thì mình dùng không dưới 10 dịch vụ, kể cả Google Cloud, IBM Cloud .... sau mới chốt về Lightsail á :D
+
+Lightsail thực tế mắc hơn các dịch vụ khác rất nhiều, gói 512 MB RAM của họ ngày xưa là $5 / month, giờ còn $3.5 thôi, rẻ chắc do bạn dùng gift code nên thấy thế thôi :P
+
+Nói chung đám dịch vụ to, họ để cấu hình CPU thấp, nhưng là con số thực, không ảo như các dịch vụ khác, cơ sở hạ tầng, đường truyền họ mạnh, nên gần như không có chuyện downtime nhảm nhảm như bảo trì hay ... cúp điện :D
+
+Nói chung đang dùng Lightsail là bạn đang dùng một dịch vụ VPS tầm thế giới rồi :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-546">Binh Phan</a>.</p>
+<p>Về VPS thì mình dùng không dưới 10 dịch vụ, kể cả Google Cloud, IBM Cloud &#8230;. sau mới chốt về Lightsail á 😀</p>
+<p>Lightsail thực tế mắc hơn các dịch vụ khác rất nhiều, gói 512 MB RAM của họ ngày xưa là $5 / month, giờ còn $3.5 thôi, rẻ chắc do bạn dùng gift code nên thấy thế thôi 😛</p>
+<p>Nói chung đám dịch vụ to, họ để cấu hình CPU thấp, nhưng là con số thực, không ảo như các dịch vụ khác, cơ sở hạ tầng, đường truyền họ mạnh, nên gần như không có chuyện downtime nhảm nhảm như bảo trì hay &#8230; cúp điện 😀</p>
+<p>Nói chung đang dùng Lightsail là bạn đang dùng một dịch vụ VPS tầm thế giới rồi 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Binh Phan		</title>
+		<link>https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-546</link>
+
+		<dc:creator><![CDATA[Binh Phan]]></dc:creator>
+		<pubDate>Fri, 14 Dec 2018 12:37:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4136#comment-546</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-537&quot;&gt;bibica&lt;/a&gt;.
+
+hi bạn,
+
+Sau 1 thời gian sử dụng amazon lightsail + Centmin Mod, mình cảm thấy khá hài lòng.
+Vấn đề timeout có thể là do máy của mình hoặc 1 nguyên nhân khác. Mình ko nghĩ là do centmin, còn về amazon lightsail thì mình ko bàn về tốc độ của nó, tại vì giá của nó khá rẻ. :)
+Mình thấy thích centmin mod hơn webinoly, tại vì nó có đủ các thành phần, mình ko cần phải cài thêm bất cứ thứ gì. Chỉ duy nhất là cài đặt hơi phức tạp. :D
+
+Cảm ơn bạn đã giới thiệu bộ đôi này tới mình. :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-bibica-net-su-dung-amazon-lightsail-va-centmin-mod/#comment-537">bibica</a>.</p>
+<p>hi bạn,</p>
+<p>Sau 1 thời gian sử dụng amazon lightsail + Centmin Mod, mình cảm thấy khá hài lòng.<br />
+Vấn đề timeout có thể là do máy của mình hoặc 1 nguyên nhân khác. Mình ko nghĩ là do centmin, còn về amazon lightsail thì mình ko bàn về tốc độ của nó, tại vì giá của nó khá rẻ. 🙂<br />
+Mình thấy thích centmin mod hơn webinoly, tại vì nó có đủ các thành phần, mình ko cần phải cài thêm bất cứ thứ gì. Chỉ duy nhất là cài đặt hơi phức tạp. 😀</p>
+<p>Cảm ơn bạn đã giới thiệu bộ đôi này tới mình. 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments for BIBICA.NET	</title>
+	<atom:link href="https://static.bibica.net/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 10 Nov 2022 09:41:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		Comment on Oracle Cloud Always Free &#8211; Đơn giản là RÁC by bibica		</title>
+		<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1030</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 09:41:49 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6725#comment-1030</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029&quot;&gt;Nguyen Hong Danh&lt;/a&gt;.
+
+Gói cấu hình khỏe kiểu VM.Standard.A1.Flex thì sau xxx time bị xóa cũng rất dễ hiểu, còn gói cùi nhất VM.Standard.E2.1.Micro thì yếu quá, dùng không nổi 
+
+Mà quan trọng nhất, tối qua tôi cũng có thử chat trực tiếp với support của Oracle, họ nói ngắn gọn là tài khoản free, kể cả dùng bất cứ gói Always Free nào, thích là xóa hết
+
+Nên thôi, đành giã từ sự nghiệp Oracle Cloud Always Free cho thèng bibica.net vại :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029">Nguyen Hong Danh</a>.</p>
+<p>Gói cấu hình khỏe kiểu VM.Standard.A1.Flex thì sau xxx time bị xóa cũng rất dễ hiểu, còn gói cùi nhất VM.Standard.E2.1.Micro thì yếu quá, dùng không nổi </p>
+<p>Mà quan trọng nhất, tối qua tôi cũng có thử chat trực tiếp với support của Oracle, họ nói ngắn gọn là tài khoản free, kể cả dùng bất cứ gói Always Free nào, thích là xóa hết</p>
+<p>Nên thôi, đành giã từ sự nghiệp Oracle Cloud Always Free cho thèng bibica.net vại 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Oracle Cloud Always Free &#8211; Đơn giản là RÁC by Nguyen Hong Danh		</title>
+		<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029</link>
+
+		<dc:creator><![CDATA[Nguyen Hong Danh]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 09:29:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6725#comment-1029</guid>
+
+					<description><![CDATA[Nói chung tất cả đều có thể bỏ qua nếu nó free và ổn định. Nhưng ... không =_= . Đã từng bị 1 lần lấy mất IP và phải vào cấp phát lại IP rồi config các kiểu ....]]></description>
+			<content:encoded><![CDATA[<p>Nói chung tất cả đều có thể bỏ qua nếu nó free và ổn định. Nhưng &#8230; không =_= . Đã từng bị 1 lần lấy mất IP và phải vào cấp phát lại IP rồi config các kiểu &#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Cài đặt lại ngoirungdui.com sử dụng Amazon Lightsail và Webinoly by Nguyễn Huy Anh		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-1026</link>
+
+		<dc:creator><![CDATA[Nguyễn Huy Anh]]></dc:creator>
+		<pubDate>Thu, 26 May 2022 07:03:54 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-1026</guid>
+
+					<description><![CDATA[mng cho mk hỏi là mk đang muốn thay code và database wordpress trên aws mà ko biết thay nnao. Ai biết chỉ giúp mk với ạ]]></description>
+			<content:encoded><![CDATA[<p>mng cho mk hỏi là mk đang muốn thay code và database wordpress trên aws mà ko biết thay nnao. Ai biết chỉ giúp mk với ạ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Cloudflare Registrar by Dương - chè Thái Nguyên		</title>
+		<link>https://static.bibica.net/cloudflare-registrar/#comment-1025</link>
+
+		<dc:creator><![CDATA[Dương - chè Thái Nguyên]]></dc:creator>
+		<pubDate>Mon, 11 Oct 2021 00:53:22 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5830#comment-1025</guid>
+
+					<description><![CDATA[Shop mình cũng đang chuyển hầu hết các domain về CF rồi, giá ở đây có khi còn đẹp hơn cả bên Namesilo nữa]]></description>
+			<content:encoded><![CDATA[<p>Shop mình cũng đang chuyển hầu hết các domain về CF rồi, giá ở đây có khi còn đẹp hơn cả bên Namesilo nữa</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on WireGuard VPN by Vuong Nguyen		</title>
+		<link>https://static.bibica.net/wireguard-vpn/#comment-1024</link>
+
+		<dc:creator><![CDATA[Vuong Nguyen]]></dc:creator>
+		<pubDate>Thu, 23 Sep 2021 05:03:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5795#comment-1024</guid>
+
+					<description><![CDATA[ngon đấy.]]></description>
+			<content:encoded><![CDATA[<p>ngon đấy.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on WireGuard VPN by Dương		</title>
+		<link>https://static.bibica.net/wireguard-vpn/#comment-1023</link>
+
+		<dc:creator><![CDATA[Dương]]></dc:creator>
+		<pubDate>Thu, 23 Sep 2021 00:20:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5795#comment-1023</guid>
+
+					<description><![CDATA[Ok Bình]]></description>
+			<content:encoded><![CDATA[<p>Ok Bình</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Tối ưu WP-Cron bằng WP Crontrol và linux’s cronjob by bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1022</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 14 Aug 2021 19:18:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-1022</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021&quot;&gt;Tien Dung&lt;/a&gt;.
+
+Làm theo bài viết là đủ :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021">Tien Dung</a>.</p>
+<p>Làm theo bài viết là đủ 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Tối ưu WP-Cron bằng WP Crontrol và linux’s cronjob by Tien Dung		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021</link>
+
+		<dc:creator><![CDATA[Tien Dung]]></dc:creator>
+		<pubDate>Sat, 14 Aug 2021 06:16:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-1021</guid>
+
+					<description><![CDATA[Xin hỏi bác, nếu Vô hiệu hoá wp-cron thì các tác vụ như đăng ký thành viên, đặt hàng trong woo ảnh hưởng chứ ạ?
+
+Làm thế nào để tối ưu cái này bác?]]></description>
+			<content:encoded><![CDATA[<p>Xin hỏi bác, nếu Vô hiệu hoá wp-cron thì các tác vụ như đăng ký thành viên, đặt hàng trong woo ảnh hưởng chứ ạ?</p>
+<p>Làm thế nào để tối ưu cái này bác?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on [A4V.Manga] Dragon Ball by bibica		</title>
+		<link>https://static.bibica.net/a4v-manga-dragon-ball/#comment-1020</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 23 Jul 2021 02:27:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3700#comment-1020</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/a4v-manga-dragon-ball/#comment-1019&quot;&gt;Nguyên&lt;/a&gt;.
+
+Bạn vào &lt;a href=&quot;https://www.facebook.com/A4V.Manga&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow ugc&quot;&gt;fanpage&lt;/a&gt; của họ, xong hú truthiendietdia gửi cho hé :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/a4v-manga-dragon-ball/#comment-1019">Nguyên</a>.</p>
+<p>Bạn vào <a href="https://www.facebook.com/A4V.Manga" target="_blank" rel="noopener nofollow ugc">fanpage</a> của họ, xong hú truthiendietdia gửi cho hé 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on [A4V.Manga] Dragon Ball by Nguyên		</title>
+		<link>https://static.bibica.net/a4v-manga-dragon-ball/#comment-1019</link>
+
+		<dc:creator><![CDATA[Nguyên]]></dc:creator>
+		<pubDate>Fri, 23 Jul 2021 02:08:58 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3700#comment-1019</guid>
+
+					<description><![CDATA[anh ơi, up lại link driver được không anh ơi]]></description>
+			<content:encoded><![CDATA[<p>anh ơi, up lại link driver được không anh ơi</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

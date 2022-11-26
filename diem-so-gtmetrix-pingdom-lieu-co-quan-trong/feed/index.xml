@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Điểm số GTmetrix, Pingdom &#8230; liệu có quan trọng?	</title>
+	<atom:link href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=diem-so-gtmetrix-pingdom-lieu-co-quan-trong</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 16:38:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-266</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 14 May 2018 09:54:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-266</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-265&quot;&gt;Duck&lt;/a&gt;.
+
+Có vẻ comment nó hơi xa so với nội dung của bài này :D
+
+Bàn về cache thì vào WP Rocket và Rocket-Nginx hay Cloudflare CDN, DNS Và Cache chứ ta :P
+
+Còn thuần view thì cứ tống hết sang Cloudflare, nó chịu được sơ sơ 10.000 người online mỗi giây mà vẫn đáp ứng tốc độ nhanh nhất, chưa kể còn miễn phí :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-265">Duck</a>.</p>
+<p>Có vẻ comment nó hơi xa so với nội dung của bài này 😀</p>
+<p>Bàn về cache thì vào WP Rocket và Rocket-Nginx hay Cloudflare CDN, DNS Và Cache chứ ta 😛</p>
+<p>Còn thuần view thì cứ tống hết sang Cloudflare, nó chịu được sơ sơ 10.000 người online mỗi giây mà vẫn đáp ứng tốc độ nhanh nhất, chưa kể còn miễn phí 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duck		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-265</link>
+
+		<dc:creator><![CDATA[Duck]]></dc:creator>
+		<pubDate>Mon, 14 May 2018 09:45:12 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-265</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-260&quot;&gt;bibica&lt;/a&gt;.
+
+Mình đang dùng gói 1€ bên Aruba Cloud. Chạy ầm ầm 5 site WordPress. Lúc nào cũng ~100 người online=)))
+Quan trọng thêm 1 thứ nữa, là caching :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-260">bibica</a>.</p>
+<p>Mình đang dùng gói 1€ bên Aruba Cloud. Chạy ầm ầm 5 site WordPress. Lúc nào cũng ~100 người online=)))<br />
+Quan trọng thêm 1 thứ nữa, là caching 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-262</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 13 May 2018 03:54:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-262</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-261&quot;&gt;Sìn Chảy&lt;/a&gt;.
+
+Nó cũng là CDN thôi, có điều 1 số dịch vụ như Jetpack (https://static.bibica.net/jetpack-image-cdn/) ngoài chuyện CDN hình ảnh, họ còn kèm theo nén tấm ảnh về dung lượng tốt nhất mà gần như chất lượng ảnh không đổi, họ còn có thêm API giúp bạn set kích thước ảnh phù hợp ở mọi vị trí trên site
+
+Thay vì bình thường 1 tấm ảnh upload lên, WP nó phải tạo thêm 3-5 tấm thumbnails, giờ thì bạn chỉ cần đúng 1 tấm ảnh gốc là đủ, không phải tạo thumbnails nữa, đỡ rất nhiều space cho hosting 
+
+Nôm na là thế, chi tiết thì xem bài viết mình có gửi ở bên trên :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-261">Sìn Chảy</a>.</p>
+<p>Nó cũng là CDN thôi, có điều 1 số dịch vụ như Jetpack (https://static.bibica.net/jetpack-image-cdn/) ngoài chuyện CDN hình ảnh, họ còn kèm theo nén tấm ảnh về dung lượng tốt nhất mà gần như chất lượng ảnh không đổi, họ còn có thêm API giúp bạn set kích thước ảnh phù hợp ở mọi vị trí trên site</p>
+<p>Thay vì bình thường 1 tấm ảnh upload lên, WP nó phải tạo thêm 3-5 tấm thumbnails, giờ thì bạn chỉ cần đúng 1 tấm ảnh gốc là đủ, không phải tạo thumbnails nữa, đỡ rất nhiều space cho hosting </p>
+<p>Nôm na là thế, chi tiết thì xem bài viết mình có gửi ở bên trên 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sìn Chảy		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-261</link>
+
+		<dc:creator><![CDATA[Sìn Chảy]]></dc:creator>
+		<pubDate>Sun, 13 May 2018 03:33:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-261</guid>
+
+					<description><![CDATA[CDN ảnh là gì thế bác]]></description>
+			<content:encoded><![CDATA[<p>CDN ảnh là gì thế bác</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-260</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 13 May 2018 00:35:44 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-260</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-259&quot;&gt;Duck&lt;/a&gt;.
+
+Mấy trang test chủ yếu tham khảo cho vui, khoe trình là chính, thực tế chỉ cần 1 cái hosting tốt (UpCloud), cdn ảnh (Jetpack Phonto), dùng một theme đừng quá tệ (GeneratePress) là cơ bản đã vù vù rồi :P
+
+Trừ khi website của bạn có hơn 1000 người online 1 lúc, còn lại thì đều không đáng kể :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-259">Duck</a>.</p>
+<p>Mấy trang test chủ yếu tham khảo cho vui, khoe trình là chính, thực tế chỉ cần 1 cái hosting tốt (UpCloud), cdn ảnh (Jetpack Phonto), dùng một theme đừng quá tệ (GeneratePress) là cơ bản đã vù vù rồi 😛</p>
+<p>Trừ khi website của bạn có hơn 1000 người online 1 lúc, còn lại thì đều không đáng kể 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duck		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-259</link>
+
+		<dc:creator><![CDATA[Duck]]></dc:creator>
+		<pubDate>Sun, 13 May 2018 00:16:55 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-259</guid>
+
+					<description><![CDATA[Mấy trang perf test đa phần đánh giá theo HTTP/1.1
+Nếu dùng HTTP/2 thì không nên tham khảo mấy trang này nha :D]]></description>
+			<content:encoded><![CDATA[<p>Mấy trang perf test đa phần đánh giá theo HTTP/1.1<br />
+Nếu dùng HTTP/2 thì không nên tham khảo mấy trang này nha 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-256</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 12 May 2018 04:36:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-256</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-255&quot;&gt;Huy&lt;/a&gt;.
+
+Đơn giản nhất là dùng bộ plugin ngoài, chẳng hạn như Disqus (https://wordpress.org/plugins/disqus-conditional-load/)
+
+Đây cũng là 1 giải pháp cho việc cache fullsite bằng Cloudflare 
+
+Khá là ngạc nhiên khi một dịch vụ miễn phí cdn, dns, cache ... to khủng khiếp như Cloudflare cũng xài Disqus cho hệ thống comment trên blog của họ]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-255">Huy</a>.</p>
+<p>Đơn giản nhất là dùng bộ plugin ngoài, chẳng hạn như Disqus (https://wordpress.org/plugins/disqus-conditional-load/)</p>
+<p>Đây cũng là 1 giải pháp cho việc cache fullsite bằng Cloudflare </p>
+<p>Khá là ngạc nhiên khi một dịch vụ miễn phí cdn, dns, cache &#8230; to khủng khiếp như Cloudflare cũng xài Disqus cho hệ thống comment trên blog của họ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Huy		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-255</link>
+
+		<dc:creator><![CDATA[Huy]]></dc:creator>
+		<pubDate>Sat, 12 May 2018 04:22:04 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-255</guid>
+
+					<description><![CDATA[Bác có bài nào chỉ cách tối ưu khi post comment không? Lúc này sao thấy nó chậm chậm. ko biết sao config]]></description>
+			<content:encoded><![CDATA[<p>Bác có bài nào chỉ cách tối ưu khi post comment không? Lúc này sao thấy nó chậm chậm. ko biết sao config</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-249</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 09 May 2018 13:51:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-249</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-248&quot;&gt;Huy&lt;/a&gt;.
+
+Cần chớ (https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/)
+
+Xưa cũng viết 1 bài khá là dài, chung quy lại bạn thấy cái nào đẹp, hợp mắt thì dùng thôi, hiện tại mình đang dùng Bloom :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-248">Huy</a>.</p>
+<p>Cần chớ (https://static.bibica.net/danh-gia-bo-ve-cac-plugin-subscribe-cho-wordpress/)</p>
+<p>Xưa cũng viết 1 bài khá là dài, chung quy lại bạn thấy cái nào đẹp, hợp mắt thì dùng thôi, hiện tại mình đang dùng Bloom 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Huy		</title>
+		<link>https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/#comment-248</link>
+
+		<dc:creator><![CDATA[Huy]]></dc:creator>
+		<pubDate>Wed, 09 May 2018 13:37:47 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4450#comment-248</guid>
+
+					<description><![CDATA[You are subscribed to this post. Manage your subscriptions
+
+Cái này có cần plugin ko bác^^]]></description>
+			<content:encoded><![CDATA[<p>You are subscribed to this post. Manage your subscriptions</p>
+<p>Cái này có cần plugin ko bác^^</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

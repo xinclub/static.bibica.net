@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: EasyEngine v4 Stable Release	</title>
+	<atom:link href="https://static.bibica.net/easyengine/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/easyengine/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=easyengine</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 09:43:47 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine/#comment-585</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 01 Jan 2019 04:01:14 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-585</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine/#comment-584&quot;&gt;Hải&lt;/a&gt;.
+
+Server thì nhiều người vẫn thích dùng CentOS hơn, có điều mình dùng thấy cũng na ná nhau cả, hiệu quả tới đâu thì cũng do trình người config cả :D
+
+EE thì họ vẫn chuyên dùng cho các con VPS cấu hình min RAM :]] v4 mình chưa thử, chứ v3 xưa dùng chạy hơn 6 tháng ổn định, không thấy lỗi gì luôn :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine/#comment-584">Hải</a>.</p>
+<p>Server thì nhiều người vẫn thích dùng CentOS hơn, có điều mình dùng thấy cũng na ná nhau cả, hiệu quả tới đâu thì cũng do trình người config cả 😀</p>
+<p>EE thì họ vẫn chuyên dùng cho các con VPS cấu hình min RAM :]] v4 mình chưa thử, chứ v3 xưa dùng chạy hơn 6 tháng ổn định, không thấy lỗi gì luôn 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hải		</title>
+		<link>https://static.bibica.net/easyengine/#comment-584</link>
+
+		<dc:creator><![CDATA[Hải]]></dc:creator>
+		<pubDate>Tue, 01 Jan 2019 03:54:03 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-584</guid>
+
+					<description><![CDATA[ubuntu có ưu điểm gì so với centos ko bác. Đang dùng centos quen 2 năm nay toàn chạy hocvps mà nghe bác giới thiệu cái EasyEngine này ham hố quá]]></description>
+			<content:encoded><![CDATA[<p>ubuntu có ưu điểm gì so với centos ko bác. Đang dùng centos quen 2 năm nay toàn chạy hocvps mà nghe bác giới thiệu cái EasyEngine này ham hố quá</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine/#comment-540</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2018 04:49:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-540</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine/#comment-539&quot;&gt;Nguyễn Minh Hùng&lt;/a&gt;.
+
+So sánh thì đã so rồi còn gì (https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/)
+
+Còn dùng thì nhu cầu về cái gì đã :P
+
+Thuần túy nói về speed, lý thuyết sẽ không tool, script nào hơn được Centmin Mod, cao lắm chỉ bằng họ
+
+Còn cân đối về tốc độ, hiệu quả, tính dễ sử dụng, ít lỗi  ....  thì EasyEngine gần như đứng đầu, xưa mình dùng EasyEngine cho thèng ngoirungdui.com, vứt đó gần 6 tháng mà không có lỗi gì hết :D
+
+V4 thì họ cũng mới viết cái khung chính cơ bản lại, nhiều tính năng chưa viết lại nên mình cũng không mặn mà ngồi test lắm :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine/#comment-539">Nguyễn Minh Hùng</a>.</p>
+<p>So sánh thì đã so rồi còn gì (https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/)</p>
+<p>Còn dùng thì nhu cầu về cái gì đã 😛</p>
+<p>Thuần túy nói về speed, lý thuyết sẽ không tool, script nào hơn được Centmin Mod, cao lắm chỉ bằng họ</p>
+<p>Còn cân đối về tốc độ, hiệu quả, tính dễ sử dụng, ít lỗi  &#8230;.  thì EasyEngine gần như đứng đầu, xưa mình dùng EasyEngine cho thèng ngoirungdui.com, vứt đó gần 6 tháng mà không có lỗi gì hết 😀</p>
+<p>V4 thì họ cũng mới viết cái khung chính cơ bản lại, nhiều tính năng chưa viết lại nên mình cũng không mặn mà ngồi test lắm 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Minh Hùng		</title>
+		<link>https://static.bibica.net/easyengine/#comment-539</link>
+
+		<dc:creator><![CDATA[Nguyễn Minh Hùng]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2018 04:41:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-539</guid>
+
+					<description><![CDATA[hóng 1 bài so sánh webinoly với EE ver 4 này :3]]></description>
+			<content:encoded><![CDATA[<p>hóng 1 bài so sánh webinoly với EE ver 4 này :3</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/easyengine/#comment-312</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Fri, 15 Jun 2018 05:56:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-312</guid>
+
+					<description><![CDATA[Hehe, it is time for docker I guess. Just try to install it for the first time. Not really difficulty at all but a bundle of advantageous features. Highly recommended.]]></description>
+			<content:encoded><![CDATA[<p>Hehe, it is time for docker I guess. Just try to install it for the first time. Not really difficulty at all but a bundle of advantageous features. Highly recommended.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John		</title>
+		<link>https://static.bibica.net/easyengine/#comment-254</link>
+
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Fri, 11 May 2018 05:18:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-254</guid>
+
+					<description><![CDATA[Did a Test with https too http://bit.ly/2rycy5m have fun with it same results and no timeout and page wasnt cached at first if 3k user hit php 7 it simply uses full ram and crash the mysql but not hhvm]]></description>
+			<content:encoded><![CDATA[<p>Did a Test with https too http://bit.ly/2rycy5m have fun with it same results and no timeout and page wasnt cached at first if 3k user hit php 7 it simply uses full ram and crash the mysql but not hhvm</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine/#comment-253</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 10 May 2018 22:29:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-253</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine/#comment-252&quot;&gt;John&lt;/a&gt;.
+
+Hmm, I see you have many redirects, maybe you used protocol https, and when tested you use protocol http? (https://imgur.com/8K3IjYa)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine/#comment-252">John</a>.</p>
+<p>Hmm, I see you have many redirects, maybe you used protocol https, and when tested you use protocol http? (https://imgur.com/8K3IjYa)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John		</title>
+		<link>https://static.bibica.net/easyengine/#comment-252</link>
+
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Thu, 10 May 2018 13:28:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-252</guid>
+
+					<description><![CDATA[@bibica Lol did a test with 1500 The avg client around 2000 and 2 timeout and can handle alot more  https://ldr.io/2KQ4PZi  with just 30 % cpu usage Memory usage 400 mb which ideal with 10k post around 15 Plugin]]></description>
+			<content:encoded><![CDATA[<p>@bibica Lol did a test with 1500 The avg client around 2000 and 2 timeout and can handle alot more  https://ldr.io/2KQ4PZi  with just 30 % cpu usage Memory usage 400 mb which ideal with 10k post around 15 Plugin</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/easyengine/#comment-251</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 10 May 2018 11:43:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-251</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/easyengine/#comment-250&quot;&gt;John&lt;/a&gt;.
+
+You can try my setting for tested (https://imgur.com/vSKk1Ss), maybe 1000 or 2000 clients over 1 min
+
+With WP Rocket and Rocket-Nginx you can pass 2000 client / s with VPS 1 GB RAM (https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/easyengine/#comment-250">John</a>.</p>
+<p>You can try my setting for tested (https://imgur.com/vSKk1Ss), maybe 1000 or 2000 clients over 1 min</p>
+<p>With WP Rocket and Rocket-Nginx you can pass 2000 client / s with VPS 1 GB RAM (https://static.bibica.net/easyengine-vs-centmin-mod-vs-runcloud-vs-webinoly/)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John		</title>
+		<link>https://static.bibica.net/easyengine/#comment-250</link>
+
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Thu, 10 May 2018 11:32:26 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=385#comment-250</guid>
+
+					<description><![CDATA[How to enable swap? and does it increase performance and if you have time please try Hhvm with wpfc and memcache enable it can handle more than 1500 active user without any issue 
+here an test with hhvm https://ldr.io/2G1JN6g using 5$ digital ocean server]]></description>
+			<content:encoded><![CDATA[<p>How to enable swap? and does it increase performance and if you have time please try Hhvm with wpfc and memcache enable it can handle more than 1500 active user without any issue<br />
+here an test with hhvm https://ldr.io/2G1JN6g using 5$ digital ocean server</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

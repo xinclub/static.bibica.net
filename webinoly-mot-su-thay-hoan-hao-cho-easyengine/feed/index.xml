@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Webinoly &#8211; Đơn giản và mạnh mẽ	</title>
+	<atom:link href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=webinoly-mot-su-thay-hoan-hao-cho-easyengine</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Sun, 20 Nov 2022 04:05:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Văn Hiệp		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-989</link>
+
+		<dc:creator><![CDATA[Văn Hiệp]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2020 16:13:11 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-989</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-988&quot;&gt;bibica&lt;/a&gt;.
+
+uhm oke, mình cám ơn bạn, mình thực hiện thử xem sao.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-988">bibica</a>.</p>
+<p>uhm oke, mình cám ơn bạn, mình thực hiện thử xem sao.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-988</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2020 16:11:28 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-988</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-987&quot;&gt;Văn Hiệp&lt;/a&gt;.
+
+Khởi động lại server, giống kiểu bạn khởi động Windows trên PC lại thôi]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-987">Văn Hiệp</a>.</p>
+<p>Khởi động lại server, giống kiểu bạn khởi động Windows trên PC lại thôi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Văn Hiệp		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-987</link>
+
+		<dc:creator><![CDATA[Văn Hiệp]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2020 16:01:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-987</guid>
+
+					<description><![CDATA[Hi bạn, mình có liên hệ bạn qua facebook.
+Mình có câu hỏi là, lệnh restart webinoly, khởi động lại VPS là lệnh gì ạ? Mình có xem trên trang webinoly là -server-reset, mình sợ lệnh này là reset lại toàn bộ, khôi phục VPS lại như lúc chưa cài phải không ạ? mong bạn giúp đở.]]></description>
+			<content:encoded><![CDATA[<p>Hi bạn, mình có liên hệ bạn qua facebook.<br />
+Mình có câu hỏi là, lệnh restart webinoly, khởi động lại VPS là lệnh gì ạ? Mình có xem trên trang webinoly là -server-reset, mình sợ lệnh này là reset lại toàn bộ, khôi phục VPS lại như lúc chưa cài phải không ạ? mong bạn giúp đở.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Huynh Hung		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-986</link>
+
+		<dc:creator><![CDATA[Huynh Hung]]></dc:creator>
+		<pubDate>Sun, 20 Sep 2020 03:03:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-986</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-985&quot;&gt;bibica&lt;/a&gt;.
+
+Mình chỉnh các port như vậy nhưng vẫn không vào được. Tuy nhiên, khi xóa tất cả các port, chỉ tạo 1 loại là all traffic thì đã vào được, chắc là danh sách bibica đưa ra vẫn thiếu 1 port nào đó (đối với VPS Amazon). Cám ơn bibica đã chỉ ra nguyên nhân !!!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-985">bibica</a>.</p>
+<p>Mình chỉnh các port như vậy nhưng vẫn không vào được. Tuy nhiên, khi xóa tất cả các port, chỉ tạo 1 loại là all traffic thì đã vào được, chắc là danh sách bibica đưa ra vẫn thiếu 1 port nào đó (đối với VPS Amazon). Cám ơn bibica đã chỉ ra nguyên nhân !!!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-985</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 19 Sep 2020 04:11:10 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-985</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-984&quot;&gt;Huynh Hung&lt;/a&gt;.
+
+Cũng không chắc lắm lý do, xem thử đã mở các port như webinoly yêu cầu chưa? (https://i1.wp.com/bibica.net/wp-content/uploads/2018/04/4-2-2018-10-08-55-am.png)
+
+Còn mặc định cài webinoly, tạo site thì nó sẽ chạy ổn định, không lỗi gì cả]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-984">Huynh Hung</a>.</p>
+<p>Cũng không chắc lắm lý do, xem thử đã mở các port như webinoly yêu cầu chưa? (https://i1.wp.com/bibica.net/wp-content/uploads/2018/04/4-2-2018-10-08-55-am.png)</p>
+<p>Còn mặc định cài webinoly, tạo site thì nó sẽ chạy ổn định, không lỗi gì cả</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Huynh Hung		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-984</link>
+
+		<dc:creator><![CDATA[Huynh Hung]]></dc:creator>
+		<pubDate>Sat, 19 Sep 2020 03:57:19 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-984</guid>
+
+					<description><![CDATA[Bạn cho mình hỏi. Mình cài đặt webinoly và wordpress thành công rồi, vào được trang web rồi. Nhưng khi cài đặt SSL xong thì không vào được nữa, tắt ssl thì vào lại được. phải làm sao để cài SSL vậy, còn phải thực hiện bước nào nữa không bạn. mình cài trên VPS amazon]]></description>
+			<content:encoded><![CDATA[<p>Bạn cho mình hỏi. Mình cài đặt webinoly và wordpress thành công rồi, vào được trang web rồi. Nhưng khi cài đặt SSL xong thì không vào được nữa, tắt ssl thì vào lại được. phải làm sao để cài SSL vậy, còn phải thực hiện bước nào nữa không bạn. mình cài trên VPS amazon</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dung Bui		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-885</link>
+
+		<dc:creator><![CDATA[Dung Bui]]></dc:creator>
+		<pubDate>Tue, 24 Dec 2019 03:57:13 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-885</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-884&quot;&gt;bibica&lt;/a&gt;.
+
+Mình chạy amazon lightsail 10$/1m, cấu hình như phần bên trên của bạn. Tuy nhiên, đôi khi chạy chuyển các trang khác nhau khi viết bài mới hay trang khác hay lưu trang trong wp-admin thì thấy chờ lâu quá. Đôi khi mất tận 5-6s. Không biết đây có phải là vấn đề trong cấu hình không bạn?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-884">bibica</a>.</p>
+<p>Mình chạy amazon lightsail 10$/1m, cấu hình như phần bên trên của bạn. Tuy nhiên, đôi khi chạy chuyển các trang khác nhau khi viết bài mới hay trang khác hay lưu trang trong wp-admin thì thấy chờ lâu quá. Đôi khi mất tận 5-6s. Không biết đây có phải là vấn đề trong cấu hình không bạn?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-884</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2019 10:24:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-884</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-883&quot;&gt;Dung Bui&lt;/a&gt;.
+
+Tùy việc đang chạy trên nền tảng nào, share host hay vps mà có cách chỉnh khác nhau :P
+
+Mà thật ra đang chạy bao nhiêu ram cũng không quan trọng đâu, vì thường nếu bị thiếu, thì khi comment, post bài .... nó tự văng lỗi ra rồi, nếu vẫn đang chạy bình thường các thứ thì cũng không cần quan tâm nhiều tới cái này làm gì :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-883">Dung Bui</a>.</p>
+<p>Tùy việc đang chạy trên nền tảng nào, share host hay vps mà có cách chỉnh khác nhau 😛</p>
+<p>Mà thật ra đang chạy bao nhiêu ram cũng không quan trọng đâu, vì thường nếu bị thiếu, thì khi comment, post bài &#8230;. nó tự văng lỗi ra rồi, nếu vẫn đang chạy bình thường các thứ thì cũng không cần quan tâm nhiều tới cái này làm gì 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dung Bui		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-883</link>
+
+		<dc:creator><![CDATA[Dung Bui]]></dc:creator>
+		<pubDate>Mon, 23 Dec 2019 10:01:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-883</guid>
+
+					<description><![CDATA[Cho mình hỏi một chút, một số plugin có phần Install Info, trong đó nó chỉ ra một số thông số về cấu hình chung. Trang của mình phần WordPress Configurations : Memory Limit chỉ có 40MB. Mình có thay đổi cài đặt này trong wp_config lên 512mb nhưng kiểm tra lại qua nhiều plugin đều chỉ 40mb. Trong phần PHP Configurations : php Memory Limit hiển thị ở 1000mb. 
+Với WordPress Configurations : Memory Limit chỉ có 40MB thì trang web có mình đã có thể tối ưu chưa ? và làm thế nào để mình nâng WordPress Configurations : Memory Limit lên 512. Cảm ơn bạn.]]></description>
+			<content:encoded><![CDATA[<p>Cho mình hỏi một chút, một số plugin có phần Install Info, trong đó nó chỉ ra một số thông số về cấu hình chung. Trang của mình phần WordPress Configurations : Memory Limit chỉ có 40MB. Mình có thay đổi cài đặt này trong wp_config lên 512mb nhưng kiểm tra lại qua nhiều plugin đều chỉ 40mb. Trong phần PHP Configurations : php Memory Limit hiển thị ở 1000mb.<br />
+Với WordPress Configurations : Memory Limit chỉ có 40MB thì trang web có mình đã có thể tối ưu chưa ? và làm thế nào để mình nâng WordPress Configurations : Memory Limit lên 512. Cảm ơn bạn.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-809</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 06 Sep 2019 09:22:14 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849#comment-809</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-807&quot;&gt;Chi&lt;/a&gt;.
+
+https://webinoly.com/en/documentation/sites/
+-&gt; Parked domain or alias]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comment-807">Chi</a>.</p>
+<p>https://webinoly.com/en/documentation/sites/<br />
+-> Parked domain or alias</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

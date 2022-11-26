@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cloud VPS UpCloud &#8211; UPDATE 2022	</title>
+	<atom:link href="https://static.bibica.net/cloud-vps-upcloud/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cloud-vps-upcloud/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloud-vps-upcloud</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 23 Nov 2022 07:02:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Khôi Nguyễn		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-979</link>
+
+		<dc:creator><![CDATA[Khôi Nguyễn]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2020 09:09:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-979</guid>
+
+					<description><![CDATA[Tớ dùng UpCloud đây, chơi 2 VPS 1 con $10, 1 con $20. Dùng ổn cả. Nhưng mình không dùng chay. Mình chạy kèm với RunCloud ($15.00/tháng) để nó có control panel quản trị, bao mượt.]]></description>
+			<content:encoded><![CDATA[<p>Tớ dùng UpCloud đây, chơi 2 VPS 1 con $10, 1 con $20. Dùng ổn cả. Nhưng mình không dùng chay. Mình chạy kèm với RunCloud ($15.00/tháng) để nó có control panel quản trị, bao mượt.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-792</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 06 Aug 2019 04:14:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-792</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-791&quot;&gt;Khải&lt;/a&gt;.
+
+Về lý thuyết thì cứ thẻ có thanh toán quốc tế, còn tiền trong thẻ là được, còn không thử qua paypal xem thế nào?
+
+Cụ thể nhất contact bên support UpCloud cho nhanh :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-791">Khải</a>.</p>
+<p>Về lý thuyết thì cứ thẻ có thanh toán quốc tế, còn tiền trong thẻ là được, còn không thử qua paypal xem thế nào?</p>
+<p>Cụ thể nhất contact bên support UpCloud cho nhanh 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khải		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-791</link>
+
+		<dc:creator><![CDATA[Khải]]></dc:creator>
+		<pubDate>Tue, 06 Aug 2019 04:10:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-791</guid>
+
+					<description><![CDATA[Có ai bị như mình ko nhỉ, đăng ký tới phần billing thì verify card thất bại, mình dùng ACB!
+Mình đăng ký theo link ref của Ad!]]></description>
+			<content:encoded><![CDATA[<p>Có ai bị như mình ko nhỉ, đăng ký tới phần billing thì verify card thất bại, mình dùng ACB!<br />
+Mình đăng ký theo link ref của Ad!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-790</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2019 09:47:04 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-790</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-789&quot;&gt;long&lt;/a&gt;.
+
+Thường trang nào database thật to, thật to nó mới cần tốc độ ổ cứng nhanh 1 tẹo, chứ trang bé bé tí toàn dùng RAM cache cả rồi, nhìn cái ổ cứng làm gì nữa :P
+
+Tùy bạn dùng để làm gì và yêu cần cao nhất ở hosting là gì nữa?
+
+Chẳng hạn cá nhân, thì mình cần uptime và speed về Việt Nam thật tốt, tốt nhất có thể trong tầm giá, thì hiện tại không ai qua được dịch vụ của Amazon Lightsail (location Singapore) cả]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-789">long</a>.</p>
+<p>Thường trang nào database thật to, thật to nó mới cần tốc độ ổ cứng nhanh 1 tẹo, chứ trang bé bé tí toàn dùng RAM cache cả rồi, nhìn cái ổ cứng làm gì nữa 😛</p>
+<p>Tùy bạn dùng để làm gì và yêu cần cao nhất ở hosting là gì nữa?</p>
+<p>Chẳng hạn cá nhân, thì mình cần uptime và speed về Việt Nam thật tốt, tốt nhất có thể trong tầm giá, thì hiện tại không ai qua được dịch vụ của Amazon Lightsail (location Singapore) cả</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: long		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-789</link>
+
+		<dc:creator><![CDATA[long]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2019 03:05:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-789</guid>
+
+					<description><![CDATA[Amazon Lightsail mình thấy ổ cứng = 1/5 so với các dịch vụ khác thì dùng có ổn không bạn]]></description>
+			<content:encoded><![CDATA[<p>Amazon Lightsail mình thấy ổ cứng = 1/5 so với các dịch vụ khác thì dùng có ổn không bạn</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-565</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 17 Dec 2018 06:58:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-565</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-563&quot;&gt;bibica&lt;/a&gt;.
+
+Lúc mình giới thiệu UpCloud thì mình nghĩ không nhiều người VN biết và dùng tới nó đâu, toàn cắm đầu chạy quảng cáo cho Vultr là chính
+
+Thời điểm đó gần như họ là dịch vụ có location Singapore nhanh và mạnh nhất, và bây giờ nó vẫn đủ tốt để mình không ... gỡ cái bài quảng cáo này đi :D tùy nhu cầu mà sử dụng thôi :P
+
+Câu chuyện nãy giờ nói vẫn thế, có vấn đề gì mà haiz hay không haiz ở đây nhỉ?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-563">bibica</a>.</p>
+<p>Lúc mình giới thiệu UpCloud thì mình nghĩ không nhiều người VN biết và dùng tới nó đâu, toàn cắm đầu chạy quảng cáo cho Vultr là chính</p>
+<p>Thời điểm đó gần như họ là dịch vụ có location Singapore nhanh và mạnh nhất, và bây giờ nó vẫn đủ tốt để mình không &#8230; gỡ cái bài quảng cáo này đi 😀 tùy nhu cầu mà sử dụng thôi 😛</p>
+<p>Câu chuyện nãy giờ nói vẫn thế, có vấn đề gì mà haiz hay không haiz ở đây nhỉ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tien Dung		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-564</link>
+
+		<dc:creator><![CDATA[Tien Dung]]></dc:creator>
+		<pubDate>Mon, 17 Dec 2018 05:48:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-564</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-563&quot;&gt;bibica&lt;/a&gt;.
+
+Có gì đâu bác bảo đá sang vn nhỉ, haiz]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-563">bibica</a>.</p>
+<p>Có gì đâu bác bảo đá sang vn nhỉ, haiz</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-563</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 17 Dec 2018 05:14:46 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-563</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-558&quot;&gt;Tien Dung&lt;/a&gt;.
+
+Đang bàn về UpCloud đá sang VPS Việt Nam thì hơi tội, cơ sở hạ tầng VN còn yếu, tới VNG tiền tài vật lực thuộc hàng top VN còn bị sập do cúp điện thì mấy dịch vụ hosting này nọ tuổi gì mà bàn :D
+
+Nói chung UpCloud, Vultr, DigitalOcean, Linode ... ở 1 phân khúc, Amazon AWS, Microsoft Azure , Google Cloud ở phân khúc khác, và gần như khi dùng đám AWS, Google Cloud rồi thì ít ai còn muốn dùng lại phân khúc khác lắm, tiêu chuẩn họ ở mức cao nhất rồi
+
+Có điều ở thời điểm hiện tại Cloudflare họ có hỗ trợ location VN rồi, nên cơ bản dùng dịch vụ nào cũng nhanh cả thôi, kiếm dịch vụ nào uptime cao là ổn
+
+Thực tế mình dùng Amazon Lightsail, là một dịch vụ con của AWS EC2, với tiêu chuẩn cùi hơn, mà còn chẳng thèm nhìn vào mấy dịch vụ khác nữa là :D
+
+Mình dùng hơn 8 tháng rồi, độ ổn định của họ rất cao, không có chuyện downtime, DDoS, cúp điện, bảo trì hay ping trùi trột ... gì cả, downtime của họ gần như bạn chỉ F5 lại phát là không kịp nhìn luôn =))
+
+Quan trọng nhất Amazon họ cho dùng gift code, 10-15$ có 150$ trong tài khoản dùng tầm 1 năm, tha hồ mà tiêu xài bét nhè :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-558">Tien Dung</a>.</p>
+<p>Đang bàn về UpCloud đá sang VPS Việt Nam thì hơi tội, cơ sở hạ tầng VN còn yếu, tới VNG tiền tài vật lực thuộc hàng top VN còn bị sập do cúp điện thì mấy dịch vụ hosting này nọ tuổi gì mà bàn 😀</p>
+<p>Nói chung UpCloud, Vultr, DigitalOcean, Linode &#8230; ở 1 phân khúc, Amazon AWS, Microsoft Azure , Google Cloud ở phân khúc khác, và gần như khi dùng đám AWS, Google Cloud rồi thì ít ai còn muốn dùng lại phân khúc khác lắm, tiêu chuẩn họ ở mức cao nhất rồi</p>
+<p>Có điều ở thời điểm hiện tại Cloudflare họ có hỗ trợ location VN rồi, nên cơ bản dùng dịch vụ nào cũng nhanh cả thôi, kiếm dịch vụ nào uptime cao là ổn</p>
+<p>Thực tế mình dùng Amazon Lightsail, là một dịch vụ con của AWS EC2, với tiêu chuẩn cùi hơn, mà còn chẳng thèm nhìn vào mấy dịch vụ khác nữa là 😀</p>
+<p>Mình dùng hơn 8 tháng rồi, độ ổn định của họ rất cao, không có chuyện downtime, DDoS, cúp điện, bảo trì hay ping trùi trột &#8230; gì cả, downtime của họ gần như bạn chỉ F5 lại phát là không kịp nhìn luôn =))</p>
+<p>Quan trọng nhất Amazon họ cho dùng gift code, 10-15$ có 150$ trong tài khoản dùng tầm 1 năm, tha hồ mà tiêu xài bét nhè 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tien Dung		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-562</link>
+
+		<dc:creator><![CDATA[Tien Dung]]></dc:creator>
+		<pubDate>Mon, 17 Dec 2018 04:11:42 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-562</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-559&quot;&gt;bibica&lt;/a&gt;.
+
+&quot;Uptime 99.99%? con số này ở đâu ra thế?&quot;
+
+Số liệu mình theo dõi chứ đâu cậu.
+
+https://i.imgur.com/bFpAuEl.png
+
+Nói chung thế là ổn rồi, dùng mấy nhà cung cấp VN mới thấy tởm k chịu dc - sang nc ngoài nó downtime tí cũng không sao cả
+
+Để mình nghiên cứu thằng Amazon Lightsail xem sao.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-559">bibica</a>.</p>
+<p>&#8220;Uptime 99.99%? con số này ở đâu ra thế?&#8221;</p>
+<p>Số liệu mình theo dõi chứ đâu cậu.</p>
+<p>https://i.imgur.com/bFpAuEl.png</p>
+<p>Nói chung thế là ổn rồi, dùng mấy nhà cung cấp VN mới thấy tởm k chịu dc &#8211; sang nc ngoài nó downtime tí cũng không sao cả</p>
+<p>Để mình nghiên cứu thằng Amazon Lightsail xem sao.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/#comment-561</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 17 Dec 2018 03:57:28 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832#comment-561</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloud-vps-upcloud/#comment-559&quot;&gt;bibica&lt;/a&gt;.
+
+Uptime 99.99%? con số này ở đâu ra thế?
+
+Downtime, uptime, ping ... chúng ta không nói bằng mồm, vui lòng dẫn chứng :D
+
+Mình khi cãi tay đôi với support bên UpCloud họ đều gân cổ lên cãi là hệ thống bọn teo ổn, không bị gì, cho tới khi mình show được ra thì chúng nó mới phải ngậm mồm lại đấy :D
+
+Cụm location Asia thường rất khó đạt uptime tốt, vì nhiều lý do, cơ sở hạ tầng, điện đóm .... 
+
+Bởi thế hiện tại gần như mình chỉ dùng Amazon Lightsail trên các trang chính (https://static.bibica.net/amazon-lightsail/) tỷ lệ của họ trong 6 tháng mình chạy thử thì chỉ down tầm 10 phút, đạt tỷ lệ uptime ~ 99.996% 
+
+Thực tế giá Amazon Lightsail bằng với giá của ... UpCloud ở cùng cấu hình đấy :D
+
+Dùng Amazon Lightsail mình gần như chẳng bao giờ phải lo downtime hay ping có vấn đề, còn dùng bên UpCloud thì ít nhất 1 lần họ phải đền bù tiền cho mình, và 1 lần mình với họ cùng ngồi để sử lý vụ ping Singapore mà lên hơn 200 ms, nói luôn là nhờ thế mà các ông đang dùng cụm locaton Singapore được hưởng lợi đấy :]]
+
+Và nếu bạn đọc hết bài này, sẽ thấy là mình vẫn quảng cáo cho UpCloud, với các trang cần cấu hình ổ cứng và cpu nhanh, mạnh ... mình vẫn recommend dùng UpCloud :D họ vẫn ổn so với các dịch vụ phổ thông khác :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloud-vps-upcloud/#comment-559">bibica</a>.</p>
+<p>Uptime 99.99%? con số này ở đâu ra thế?</p>
+<p>Downtime, uptime, ping &#8230; chúng ta không nói bằng mồm, vui lòng dẫn chứng 😀</p>
+<p>Mình khi cãi tay đôi với support bên UpCloud họ đều gân cổ lên cãi là hệ thống bọn teo ổn, không bị gì, cho tới khi mình show được ra thì chúng nó mới phải ngậm mồm lại đấy 😀</p>
+<p>Cụm location Asia thường rất khó đạt uptime tốt, vì nhiều lý do, cơ sở hạ tầng, điện đóm &#8230;. </p>
+<p>Bởi thế hiện tại gần như mình chỉ dùng Amazon Lightsail trên các trang chính (https://static.bibica.net/amazon-lightsail/) tỷ lệ của họ trong 6 tháng mình chạy thử thì chỉ down tầm 10 phút, đạt tỷ lệ uptime ~ 99.996% </p>
+<p>Thực tế giá Amazon Lightsail bằng với giá của &#8230; UpCloud ở cùng cấu hình đấy 😀</p>
+<p>Dùng Amazon Lightsail mình gần như chẳng bao giờ phải lo downtime hay ping có vấn đề, còn dùng bên UpCloud thì ít nhất 1 lần họ phải đền bù tiền cho mình, và 1 lần mình với họ cùng ngồi để sử lý vụ ping Singapore mà lên hơn 200 ms, nói luôn là nhờ thế mà các ông đang dùng cụm locaton Singapore được hưởng lợi đấy :]]</p>
+<p>Và nếu bạn đọc hết bài này, sẽ thấy là mình vẫn quảng cáo cho UpCloud, với các trang cần cấu hình ổ cứng và cpu nhanh, mạnh &#8230; mình vẫn recommend dùng UpCloud 😀 họ vẫn ổn so với các dịch vụ phổ thông khác 😛</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

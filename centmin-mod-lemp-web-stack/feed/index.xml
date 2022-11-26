@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Centmin Mod LEMP Web Stack	</title>
+	<atom:link href="https://static.bibica.net/centmin-mod-lemp-web-stack/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/centmin-mod-lemp-web-stack/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=centmin-mod-lemp-web-stack</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 27 May 2021 13:33:23 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Thuan Vu		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1013</link>
+
+		<dc:creator><![CDATA[Thuan Vu]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 13:33:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-1013</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1012&quot;&gt;bibica&lt;/a&gt;.
+
+Cảm ơn bạn nhiều, mình tìm mãi mà ko ra.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1012">bibica</a>.</p>
+<p>Cảm ơn bạn nhiều, mình tìm mãi mà ko ra.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1012</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 12:36:43 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-1012</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1011&quot;&gt;Thuan Vu&lt;/a&gt;.
+
+Ah, như trong hình thì mình chạy &lt;strong&gt;htop&lt;/strong&gt; :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1011">Thuan Vu</a>.</p>
+<p>Ah, như trong hình thì mình chạy <strong>htop</strong> 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Thuan Vu		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-1011</link>
+
+		<dc:creator><![CDATA[Thuan Vu]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 08:43:34 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-1011</guid>
+
+					<description><![CDATA[Admin cho mình hỏi chạy lệnh gì để kiểm tra cpu với ram đang dùng nhỉ?
+Mình chạy lệnh Top nó ko ra được như ảnh của bạn.]]></description>
+			<content:encoded><![CDATA[<p>Admin cho mình hỏi chạy lệnh gì để kiểm tra cpu với ram đang dùng nhỉ?<br />
+Mình chạy lệnh Top nó ko ra được như ảnh của bạn.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-971</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2020 04:30:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-971</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-970&quot;&gt;Centot&lt;/a&gt;.
+
+Bạn search tên plugin + centminmod trên google xem thế nào :D
+
+Thường thì mình hay gặp nhất là centminmod họ tắt sẵn 1 số quyền root vì lý do bảo mật, cần bật lên, hay 1 số plugin mình từng dùng kiểu backup, cần host có cài zip với unzip, chưa cài thì nó không chạy thôi
+
+Còn cụ thể hơn có thể vào forum centminmod hỏi cụ thể, tác giả support trong 30s ấy mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-970">Centot</a>.</p>
+<p>Bạn search tên plugin + centminmod trên google xem thế nào 😀</p>
+<p>Thường thì mình hay gặp nhất là centminmod họ tắt sẵn 1 số quyền root vì lý do bảo mật, cần bật lên, hay 1 số plugin mình từng dùng kiểu backup, cần host có cài zip với unzip, chưa cài thì nó không chạy thôi</p>
+<p>Còn cụ thể hơn có thể vào forum centminmod hỏi cụ thể, tác giả support trong 30s ấy mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Centot		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-970</link>
+
+		<dc:creator><![CDATA[Centot]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2020 03:18:34 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-970</guid>
+
+					<description><![CDATA[bạn cho mình hỏi nếu tiện khi mình sử dụng centminmod, cài 1 số script có gọi API về thì như kiểu centminmod nó chặn có cách nào xử lý vấn đề đó ko, mình đã thử xem các nginx domain và hệ thống chỉnh sửa thêm thắt mà vẫn ko đc]]></description>
+			<content:encoded><![CDATA[<p>bạn cho mình hỏi nếu tiện khi mình sử dụng centminmod, cài 1 số script có gọi API về thì như kiểu centminmod nó chặn có cách nào xử lý vấn đề đó ko, mình đã thử xem các nginx domain và hệ thống chỉnh sửa thêm thắt mà vẫn ko đc</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-940</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 14:22:42 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-940</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-937&quot;&gt;Văn Nguyễn&lt;/a&gt;.
+
+@Nguyễn Văn: trong bài này ghi rõ link rồi mà?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-937">Văn Nguyễn</a>.</p>
+<p>@Nguyễn Văn: trong bài này ghi rõ link rồi mà?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Văn		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-939</link>
+
+		<dc:creator><![CDATA[Nguyễn Văn]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 14:10:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-939</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-938&quot;&gt;bibica&lt;/a&gt;.
+
+bạn ơi có hướng dẫn cài ssl qua Cloudflare từ centmin mod không cho xin với, thanks]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-938">bibica</a>.</p>
+<p>bạn ơi có hướng dẫn cài ssl qua Cloudflare từ centmin mod không cho xin với, thanks</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-938</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 10:09:11 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-938</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-937&quot;&gt;Văn Nguyễn&lt;/a&gt;.
+
+Tùy bạn muốn dùng gì để chạy ssl thôi, chạy thông qua Centmin Mod thì thêm vào dòng &quot;nano /etc/centminmod/custom_config.inc&quot; đã nói ở phần &quot;Tùy Biến Centmin Mod&quot;
+
+Cá nhân thì mình vẫn recommend dùng ssl qua SSL của Cloudflare, nó nhàn, cài 1 lần xong là thôi, không phải quan tâm gì tới ssl nữa, sau có chuyển host, config hay gì, chỉ sửa lại xíu là được :D
+
+SSL qua Letsencrypt lâu lâu hết hạn nó cứ ngáo ngáo, mất thời gian để xử lý lắm :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-937">Văn Nguyễn</a>.</p>
+<p>Tùy bạn muốn dùng gì để chạy ssl thôi, chạy thông qua Centmin Mod thì thêm vào dòng &#8220;nano /etc/centminmod/custom_config.inc&#8221; đã nói ở phần &#8220;Tùy Biến Centmin Mod&#8221;</p>
+<p>Cá nhân thì mình vẫn recommend dùng ssl qua SSL của Cloudflare, nó nhàn, cài 1 lần xong là thôi, không phải quan tâm gì tới ssl nữa, sau có chuyển host, config hay gì, chỉ sửa lại xíu là được 😀</p>
+<p>SSL qua Letsencrypt lâu lâu hết hạn nó cứ ngáo ngáo, mất thời gian để xử lý lắm 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Văn Nguyễn		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-937</link>
+
+		<dc:creator><![CDATA[Văn Nguyễn]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 09:30:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-937</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-936&quot;&gt;bibica&lt;/a&gt;.
+
+Vẫn truy cập dc http://datxanhquangninh.net/
+Và truy cập dc https://datxanhquangninh.net/
+Chắc mình cài sai cái bước nào ấy, giờ xóa hết bạn nhỉ, cảm ơn nhiều ạ]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-936">bibica</a>.</p>
+<p>Vẫn truy cập dc http://datxanhquangninh.net/<br />
+Và truy cập dc https://datxanhquangninh.net/<br />
+Chắc mình cài sai cái bước nào ấy, giờ xóa hết bạn nhỉ, cảm ơn nhiều ạ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-936</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 27 Mar 2020 09:27:39 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=708#comment-936</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-935&quot;&gt;Văn Nguyễn&lt;/a&gt;.
+
+Setup như mặc định nó đâu có thế nhỉ]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/centmin-mod-lemp-web-stack/#comment-935">Văn Nguyễn</a>.</p>
+<p>Setup như mặc định nó đâu có thế nhỉ</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

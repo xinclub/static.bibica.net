@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Duplicator Pro &#8211; UPDATE 2022	</title>
+	<atom:link href="https://static.bibica.net/duplicator-pro/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/duplicator-pro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=duplicator-pro</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Fri, 25 Nov 2022 00:58:30 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Nguyễn Minh Hùng		</title>
+		<link>https://static.bibica.net/duplicator-pro/#comment-471</link>
+
+		<dc:creator><![CDATA[Nguyễn Minh Hùng]]></dc:creator>
+		<pubDate>Fri, 30 Nov 2018 02:08:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2012#comment-471</guid>
+
+					<description><![CDATA[giờ nó có thêm Ondrive với Ondriver for Business.
+Blog của anh nhiều điều bổ ích quá. Tỉ like]]></description>
+			<content:encoded><![CDATA[<p>giờ nó có thêm Ondrive với Ondriver for Business.<br />
+Blog của anh nhiều điều bổ ích quá. Tỉ like</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/duplicator-pro/#comment-206</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 18 Apr 2018 10:28:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2012#comment-206</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/duplicator-pro/#comment-205&quot;&gt;Vượng&lt;/a&gt;.
+
+Chủ yếu Duplicator Pro thích hợp cho việc có thể dùng được trên mọi loại hosting, backup, restore, clone site nhanh gọn đơn giản
+
+Còn nếu dùng Vultr backup bằng snapshots thì quá tuyệt, lúc chạy nó không ảnh hưởng tới VPS của mình, thành ra về lý thuyết là sẽ không phải tốn tí tài nguyên VPS nào cho việc backup, restore
+
+Cơ mừ mình thì sắp nghỉ hẳn Vultr rồi nên không quan tâm mấy :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/duplicator-pro/#comment-205">Vượng</a>.</p>
+<p>Chủ yếu Duplicator Pro thích hợp cho việc có thể dùng được trên mọi loại hosting, backup, restore, clone site nhanh gọn đơn giản</p>
+<p>Còn nếu dùng Vultr backup bằng snapshots thì quá tuyệt, lúc chạy nó không ảnh hưởng tới VPS của mình, thành ra về lý thuyết là sẽ không phải tốn tí tài nguyên VPS nào cho việc backup, restore</p>
+<p>Cơ mừ mình thì sắp nghỉ hẳn Vultr rồi nên không quan tâm mấy :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/duplicator-pro/#comment-205</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Wed, 18 Apr 2018 10:17:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2012#comment-205</guid>
+
+					<description><![CDATA[mình thì có backup của vultr rồi nên mình chả quan tâm :-). nếu có vấn đề ghì mình clone server phát xong ngay. nhưng mà nghe có vể thuyết phục chắc mình cũng cài cho bõ ngứa mắt quá.]]></description>
+			<content:encoded><![CDATA[<p>mình thì có backup của vultr rồi nên mình chả quan tâm :-). nếu có vấn đề ghì mình clone server phát xong ngay. nhưng mà nghe có vể thuyết phục chắc mình cũng cài cho bõ ngứa mắt quá.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

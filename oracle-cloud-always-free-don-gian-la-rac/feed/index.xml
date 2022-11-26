@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Oracle Cloud Always Free &#8211; Đơn giản là RÁC	</title>
+	<atom:link href="https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=oracle-cloud-always-free-don-gian-la-rac</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 10 Nov 2022 09:41:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1030</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 09:41:49 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6725#comment-1030</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029&quot;&gt;Nguyen Hong Danh&lt;/a&gt;.
+
+Gói cấu hình khỏe kiểu VM.Standard.A1.Flex thì sau xxx time bị xóa cũng rất dễ hiểu, còn gói cùi nhất VM.Standard.E2.1.Micro thì yếu quá, dùng không nổi 
+
+Mà quan trọng nhất, tối qua tôi cũng có thử chat trực tiếp với support của Oracle, họ nói ngắn gọn là tài khoản free, kể cả dùng bất cứ gói Always Free nào, thích là xóa hết
+
+Nên thôi, đành giã từ sự nghiệp Oracle Cloud Always Free cho thèng bibica.net vại :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029">Nguyen Hong Danh</a>.</p>
+<p>Gói cấu hình khỏe kiểu VM.Standard.A1.Flex thì sau xxx time bị xóa cũng rất dễ hiểu, còn gói cùi nhất VM.Standard.E2.1.Micro thì yếu quá, dùng không nổi </p>
+<p>Mà quan trọng nhất, tối qua tôi cũng có thử chat trực tiếp với support của Oracle, họ nói ngắn gọn là tài khoản free, kể cả dùng bất cứ gói Always Free nào, thích là xóa hết</p>
+<p>Nên thôi, đành giã từ sự nghiệp Oracle Cloud Always Free cho thèng bibica.net vại 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyen Hong Danh		</title>
+		<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comment-1029</link>
+
+		<dc:creator><![CDATA[Nguyen Hong Danh]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 09:29:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6725#comment-1029</guid>
+
+					<description><![CDATA[Nói chung tất cả đều có thể bỏ qua nếu nó free và ổn định. Nhưng ... không =_= . Đã từng bị 1 lần lấy mất IP và phải vào cấp phát lại IP rồi config các kiểu ....]]></description>
+			<content:encoded><![CDATA[<p>Nói chung tất cả đều có thể bỏ qua nếu nó free và ổn định. Nhưng &#8230; không =_= . Đã từng bị 1 lần lấy mất IP và phải vào cấp phát lại IP rồi config các kiểu &#8230;.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cloudflare Registrar	</title>
+	<atom:link href="https://static.bibica.net/cloudflare-registrar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cloudflare-registrar/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloudflare-registrar</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Fri, 15 Oct 2021 21:47:28 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Dương - chè Thái Nguyên		</title>
+		<link>https://static.bibica.net/cloudflare-registrar/#comment-1025</link>
+
+		<dc:creator><![CDATA[Dương - chè Thái Nguyên]]></dc:creator>
+		<pubDate>Mon, 11 Oct 2021 00:53:22 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5830#comment-1025</guid>
+
+					<description><![CDATA[Shop mình cũng đang chuyển hầu hết các domain về CF rồi, giá ở đây có khi còn đẹp hơn cả bên Namesilo nữa]]></description>
+			<content:encoded><![CDATA[<p>Shop mình cũng đang chuyển hầu hết các domain về CF rồi, giá ở đây có khi còn đẹp hơn cả bên Namesilo nữa</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

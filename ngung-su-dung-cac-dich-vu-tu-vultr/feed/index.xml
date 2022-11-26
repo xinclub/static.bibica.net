@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Ngừng sử dụng các dịch vụ từ Vultr	</title>
+	<atom:link href="https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ngung-su-dung-cac-dich-vu-tu-vultr</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Sun, 26 Aug 2018 12:56:50 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-387</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 26 Aug 2018 12:56:50 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-387</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-386&quot;&gt;Nhan Le&lt;/a&gt;.
+
+Nói chung tùy nhu cầu, nếu bạn đơn giản chỉ thích ngồi nhìn các con số thì có thể thử VPS UpCloud (https://static.bibica.net/cloud-vps-upcloud/)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-386">Nhan Le</a>.</p>
+<p>Nói chung tùy nhu cầu, nếu bạn đơn giản chỉ thích ngồi nhìn các con số thì có thể thử VPS UpCloud (https://static.bibica.net/cloud-vps-upcloud/)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhan Le		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-386</link>
+
+		<dc:creator><![CDATA[Nhan Le]]></dc:creator>
+		<pubDate>Sun, 26 Aug 2018 11:35:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-386</guid>
+
+					<description><![CDATA[Thấy giới thiệu Amazon Lightsail có vẻ ngon quá mà test tốc độ thấy nản thím ơi https://tocdo.net/result/39628]]></description>
+			<content:encoded><![CDATA[<p>Thấy giới thiệu Amazon Lightsail có vẻ ngon quá mà test tốc độ thấy nản thím ơi https://tocdo.net/result/39628</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-244</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 07 May 2018 17:32:01 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-244</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-243&quot;&gt;Duck&lt;/a&gt;.
+
+Vultr thì mình có viết một bài rất dài để giới thiệu về dịch vụ, cơ sở hạ tầng của họ thì phải nói là cực mạnh, giá rẻ, location bao la, điểm duy nhất nếu chửi bới, có lẽ là vấn đề bảo trì, mình cũng chưa hiểu lý do, tại sao họ lên lịch bảo trì một cách rất cụ thể, nhưng thời gian để hoàn thành việc bảo trì lại rất có vấn đề, nhất là cụm location Japan, từ 11/2017 tới 05/2018, cứ trung bình 1-2 tháng họ lại bảo trì 1 lần, nhanh nhất thì chỉ 1-2 phút, chậm nhất là 6h, và như mình từng nói, downtime không dịch vụ nào tránh được, tuy thế bất kể lý do gì, việc downtime 1 lần quá 1h là không chấp nhận được
+
+Hình dung bạn làm 1 trang thương mại điện tử, trong 6h đó có khoảng 30 khách vào đặt hàng nếu downtime đúng lúc đó thì bạn thất thu tới cỡ nào? bởi thế mình đã phải chuyển trang group buys nhỏ của mình là ngoirungdui.com sang Amazon Lightsail (một dịch vụ có tỷ lệ uptime ở cụm location Singapore khoảng 99.97%)
+
+Còn trang blog này, mình đang dùng UpCloud, các cụm location tại Châu Âu của họ cách đây vài năm cũng be bét, có đợt downtime gần 5h hay sao đó, tuy thế hiện tại cụm location Singapore của họ đang là dịch vụ cho tốc độ download, upload, ttfb, cấu hình phần cứng, giá ... tốt nhất mình có thể thấy, uptime thì như mình từng nói, phải dùng thêm khoảng 6-8 tháng nữa mới dám khẳng định tốt hay không :P
+
+Nếu họ không tốt mình vẫn phải chuyển đi thôi :]] Amazon Lightsail rất có thể sẽ là bến đỗ cuối của mình :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-243">Duck</a>.</p>
+<p>Vultr thì mình có viết một bài rất dài để giới thiệu về dịch vụ, cơ sở hạ tầng của họ thì phải nói là cực mạnh, giá rẻ, location bao la, điểm duy nhất nếu chửi bới, có lẽ là vấn đề bảo trì, mình cũng chưa hiểu lý do, tại sao họ lên lịch bảo trì một cách rất cụ thể, nhưng thời gian để hoàn thành việc bảo trì lại rất có vấn đề, nhất là cụm location Japan, từ 11/2017 tới 05/2018, cứ trung bình 1-2 tháng họ lại bảo trì 1 lần, nhanh nhất thì chỉ 1-2 phút, chậm nhất là 6h, và như mình từng nói, downtime không dịch vụ nào tránh được, tuy thế bất kể lý do gì, việc downtime 1 lần quá 1h là không chấp nhận được</p>
+<p>Hình dung bạn làm 1 trang thương mại điện tử, trong 6h đó có khoảng 30 khách vào đặt hàng nếu downtime đúng lúc đó thì bạn thất thu tới cỡ nào? bởi thế mình đã phải chuyển trang group buys nhỏ của mình là ngoirungdui.com sang Amazon Lightsail (một dịch vụ có tỷ lệ uptime ở cụm location Singapore khoảng 99.97%)</p>
+<p>Còn trang blog này, mình đang dùng UpCloud, các cụm location tại Châu Âu của họ cách đây vài năm cũng be bét, có đợt downtime gần 5h hay sao đó, tuy thế hiện tại cụm location Singapore của họ đang là dịch vụ cho tốc độ download, upload, ttfb, cấu hình phần cứng, giá &#8230; tốt nhất mình có thể thấy, uptime thì như mình từng nói, phải dùng thêm khoảng 6-8 tháng nữa mới dám khẳng định tốt hay không 😛</p>
+<p>Nếu họ không tốt mình vẫn phải chuyển đi thôi :]] Amazon Lightsail rất có thể sẽ là bến đỗ cuối của mình 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Duck		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-243</link>
+
+		<dc:creator><![CDATA[Duck]]></dc:creator>
+		<pubDate>Mon, 07 May 2018 17:11:22 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-243</guid>
+
+					<description><![CDATA[Vultr trừ việc gắt gỏng ra thì 10/10.
+Còn lại cứ có dấu hiệu abuse là nó ban liền, không cần biết có abuse thật không : /
+Kinh nghiệm 2 acc rồi :&#124;]]></description>
+			<content:encoded><![CDATA[<p>Vultr trừ việc gắt gỏng ra thì 10/10.<br />
+Còn lại cứ có dấu hiệu abuse là nó ban liền, không cần biết có abuse thật không : /<br />
+Kinh nghiệm 2 acc rồi 😐</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-241</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 07 May 2018 09:23:01 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-241</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-240&quot;&gt;Vượng&lt;/a&gt;.
+
+Giữ lại vài tháng, có điều giờ nhiều VPS quá, lại toàn dịch vụ đáp ứng nhu cầu tốt hơn, nên thôi, đành nghỉ Vultr vậy :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-240">Vượng</a>.</p>
+<p>Giữ lại vài tháng, có điều giờ nhiều VPS quá, lại toàn dịch vụ đáp ứng nhu cầu tốt hơn, nên thôi, đành nghỉ Vultr vậy 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/ngung-su-dung-cac-dich-vu-tu-vultr/#comment-240</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Mon, 07 May 2018 09:20:31 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4434#comment-240</guid>
+
+					<description><![CDATA[thế cố giữ mà lại... không dùng à? :p]]></description>
+			<content:encoded><![CDATA[<p>thế cố giữ mà lại&#8230; không dùng à? :p</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Simple Comment Editing	</title>
+	<atom:link href="https://static.bibica.net/simple-comment-editing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/simple-comment-editing/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=simple-comment-editing</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 20:30:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/simple-comment-editing/#comment-191</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 16 Apr 2018 11:52:17 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4181#comment-191</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/simple-comment-editing/#comment-187&quot;&gt;Vượng&lt;/a&gt;.
+
+Ah mừ có nhận được email của êm chưa đại ka, có ít việc cần nhờ vả :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/simple-comment-editing/#comment-187">Vượng</a>.</p>
+<p>Ah mừ có nhận được email của êm chưa đại ka, có ít việc cần nhờ vả :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/simple-comment-editing/#comment-190</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 16 Apr 2018 11:22:18 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4181#comment-190</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/simple-comment-editing/#comment-187&quot;&gt;Vượng&lt;/a&gt;.
+
+Thật ra cũng chưa hài lòng lắm, lúc ấn edit lại comment form nó xấu tóa :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/simple-comment-editing/#comment-187">Vượng</a>.</p>
+<p>Thật ra cũng chưa hài lòng lắm, lúc ấn edit lại comment form nó xấu tóa :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/simple-comment-editing/#comment-187</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Mon, 16 Apr 2018 10:23:25 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4181#comment-187</guid>
+
+					<description><![CDATA[cũng hay. câu được comment :-)]]></description>
+			<content:encoded><![CDATA[<p>cũng hay. câu được comment 🙂</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

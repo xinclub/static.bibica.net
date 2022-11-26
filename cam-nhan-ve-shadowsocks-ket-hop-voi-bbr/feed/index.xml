@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cảm nhận về Shadowsocks kết hợp với BBR	</title>
+	<atom:link href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cam-nhan-ve-shadowsocks-ket-hop-voi-bbr</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 20:19:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Le Ho		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-776</link>
+
+		<dc:creator><![CDATA[Le Ho]]></dc:creator>
+		<pubDate>Tue, 23 Jul 2019 14:05:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-776</guid>
+
+					<description><![CDATA[Em có ông anh làm công nhân bên khựa mà bên đó chặn mấy dịch vụ của Google hay FB nên liên lạc bất tiện. E có cái VPS Google free mà mò hoài ko cấu hình đc Shadowsocks, e ko phải dân IT nên càng mò thì càng mù thêm. Ae nào có thể giúp e cấu hình trên VPS của Google ko e xin hậu tạ và cảm xin cảm ơn trước.]]></description>
+			<content:encoded><![CDATA[<p>Em có ông anh làm công nhân bên khựa mà bên đó chặn mấy dịch vụ của Google hay FB nên liên lạc bất tiện. E có cái VPS Google free mà mò hoài ko cấu hình đc Shadowsocks, e ko phải dân IT nên càng mò thì càng mù thêm. Ae nào có thể giúp e cấu hình trên VPS của Google ko e xin hậu tạ và cảm xin cảm ơn trước.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-770</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 12:34:11 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-770</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-769&quot;&gt;Nguyen Lam&lt;/a&gt;.
+
+Vấn đề bạn dùng Shadowsocks làm cái gì đã, nếu chỉ cần dùng proxy để đi các trang bị chặn, hay an toàn khi duyệt web thì cài VPN cho đơn giản, cần tốc độ và dùng được ở china thì cài Shadowsocks :D
+
+Nó cũng như chuyện bạn chỉ cần thêm 1 cái text nhỏ vào 1 bức ảnh, Paint trên Windows đã đủ dùng, không cần thiết phải cài cả 1 bộ Photoshop vào chỉ để làm chuyện đó :P
+
+Tổng thể thì nhu cầu bạn cần là cái gì, thì mới cho giải pháp được :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-769">Nguyen Lam</a>.</p>
+<p>Vấn đề bạn dùng Shadowsocks làm cái gì đã, nếu chỉ cần dùng proxy để đi các trang bị chặn, hay an toàn khi duyệt web thì cài VPN cho đơn giản, cần tốc độ và dùng được ở china thì cài Shadowsocks 😀</p>
+<p>Nó cũng như chuyện bạn chỉ cần thêm 1 cái text nhỏ vào 1 bức ảnh, Paint trên Windows đã đủ dùng, không cần thiết phải cài cả 1 bộ Photoshop vào chỉ để làm chuyện đó 😛</p>
+<p>Tổng thể thì nhu cầu bạn cần là cái gì, thì mới cho giải pháp được 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyen Lam		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-769</link>
+
+		<dc:creator><![CDATA[Nguyen Lam]]></dc:creator>
+		<pubDate>Sun, 14 Jul 2019 11:59:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-769</guid>
+
+					<description><![CDATA[Anh có tìm hiểu về V2Ray ko? E thấy nó nhiều ưu điểm hơn Shadowsocks, a có thể làm thử và riview cho ae xem đc ko? E thấy mà ko biết setup thế nào.
+https://www.v2ray.com/en/]]></description>
+			<content:encoded><![CDATA[<p>Anh có tìm hiểu về V2Ray ko? E thấy nó nhiều ưu điểm hơn Shadowsocks, a có thể làm thử và riview cho ae xem đc ko? E thấy mà ko biết setup thế nào.<br />
+https://www.v2ray.com/en/</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-710</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 14:12:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-710</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706&quot;&gt;bibica&lt;/a&gt;.
+
+Thế khỏi cần cài bbr :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706">bibica</a>.</p>
+<p>Thế khỏi cần cài bbr 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-709</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 13:15:10 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-709</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706&quot;&gt;bibica&lt;/a&gt;.
+
+Khi mình chạy dòng này thì bị lỗi. các thao tác sau đó cũng có vẻ không giống nữa.
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+http://prntscr.com/nak595]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706">bibica</a>.</p>
+<p>Khi mình chạy dòng này thì bị lỗi. các thao tác sau đó cũng có vẻ không giống nữa.<br />
+wget &#8211;no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh<br />
+chmod +x bbr.sh<br />
+./bbr.sh<br />
+http://prntscr.com/nak595</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-708</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 11:05:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-708</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706&quot;&gt;bibica&lt;/a&gt;.
+
+Chạy dòng nào mà ra lỗi đó thế ạ :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706">bibica</a>.</p>
+<p>Chạy dòng nào mà ra lỗi đó thế ạ 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-707</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 10:47:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-707</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706&quot;&gt;bibica&lt;/a&gt;.
+
+Mình cài thử trên CentOS 7 64 thấy bị lỗi
+Press any key to start...or Press Ctrl+C to cancel
+herror: Failed dependencies:
+        glibc = 2.17 is needed by elrepo-release-7.0-3.el7.elrepo.noarch
+Retrieving https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+Error: Install elrepo failed, please check it.
+Cái này là sao bạn nhỉ?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706">bibica</a>.</p>
+<p>Mình cài thử trên CentOS 7 64 thấy bị lỗi<br />
+Press any key to start&#8230;or Press Ctrl+C to cancel<br />
+herror: Failed dependencies:<br />
+        glibc = 2.17 is needed by elrepo-release-7.0-3.el7.elrepo.noarch<br />
+Retrieving https://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm<br />
+Error: Install elrepo failed, please check it.<br />
+Cái này là sao bạn nhỉ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-706</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 10:22:24 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-706</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-705&quot;&gt;Đạo Nguyễn&lt;/a&gt;.
+
+Google BBR mặc định trên các OS mới hình như cũng có sẵn rồi hay sao đó :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-705">Đạo Nguyễn</a>.</p>
+<p>Google BBR mặc định trên các OS mới hình như cũng có sẵn rồi hay sao đó 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-705</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 10:18:15 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-705</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-704&quot;&gt;bibica&lt;/a&gt;.
+
+:D Cái này cài trên CentOs 7 và nginx có tăng tốc tải trang không bạn nhỉ? Mình hỏi vì cái này mình thấy mới quá.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-704">bibica</a>.</p>
+<p>😀 Cái này cài trên CentOs 7 và nginx có tăng tốc tải trang không bạn nhỉ? Mình hỏi vì cái này mình thấy mới quá.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-704</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 11 Apr 2019 09:49:17 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4073#comment-704</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-703&quot;&gt;Đạo Nguyễn&lt;/a&gt;.
+
+Hình ảnh và nội dung trong bài đủ có câu trả lời rồi mà nhỉ :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cam-nhan-ve-shadowsocks-ket-hop-voi-bbr/#comment-703">Đạo Nguyễn</a>.</p>
+<p>Hình ảnh và nội dung trong bài đủ có câu trả lời rồi mà nhỉ 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

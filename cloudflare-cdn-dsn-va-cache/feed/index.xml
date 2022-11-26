@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cloudflare CDN, DNS và Cache &#8211; Đã hỗ trợ location tại Việt Nam	</title>
+	<atom:link href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloudflare-cdn-dsn-va-cache</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 03 Feb 2021 09:43:45 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-999</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 09:43:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-999</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-998&quot;&gt;Đạo Nguyễn&lt;/a&gt;.
+
+Nếu đơn giản kiểu cache hết tất cả trang, xong tống hết sang server của Cloudflare thì xưa giờ có nhiều plugins tương tự thế rồi mà??? làm trò này thì thiếu điều là tức thời luôn rồi :D (https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/)
+Chắc na na thèng SuperSonic mà ít lỗi hơn :P
+
+Nói chung từ ngày Cloudflare có hỗ trợ server tại VN, thì gần như tối ưu này nọ, chỉ &quot;vui mồm&quot; là chính, thèng bibica.net tôi cũng chỉ dùng Cache Enabler + Cloudflare là đủ :P
+
+Thực tế mọi người vào trang này, ấn chuyển trang chắc cũng chỉ mất 1-2s là cùng thôi mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-998">Đạo Nguyễn</a>.</p>
+<p>Nếu đơn giản kiểu cache hết tất cả trang, xong tống hết sang server của Cloudflare thì xưa giờ có nhiều plugins tương tự thế rồi mà??? làm trò này thì thiếu điều là tức thời luôn rồi 😀 (https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/)<br />
+Chắc na na thèng SuperSonic mà ít lỗi hơn 😛</p>
+<p>Nói chung từ ngày Cloudflare có hỗ trợ server tại VN, thì gần như tối ưu này nọ, chỉ &#8220;vui mồm&#8221; là chính, thèng bibica.net tôi cũng chỉ dùng Cache Enabler + Cloudflare là đủ 😛</p>
+<p>Thực tế mọi người vào trang này, ấn chuyển trang chắc cũng chỉ mất 1-2s là cùng thôi mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Đạo Nguyễn		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-998</link>
+
+		<dc:creator><![CDATA[Đạo Nguyễn]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 09:11:14 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-998</guid>
+
+					<description><![CDATA[Có WP Cloudflare Super Page Cache mới ra hay lắm bác, bác test thử xem]]></description>
+			<content:encoded><![CDATA[<p>Có WP Cloudflare Super Page Cache mới ra hay lắm bác, bác test thử xem</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-930</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 08:45:38 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-930</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-929&quot;&gt;Toàn&lt;/a&gt;.
+
+Webinoly mặc định họ không chặn gì liên quan tới cloudflare cả, xem lại tùy chọn khi cài đặt hay có cài các plugin security nào khác, họ chặn gì trong đó không?
+
+Che IP thật thì đơn giản nhất là dùng các dịch vụ như cloudflare, không thì có thể dùng 1 IP khác làm proxy cho hosting, có nói trong phần Bonus: Reverse Proxy Site (https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-929">Toàn</a>.</p>
+<p>Webinoly mặc định họ không chặn gì liên quan tới cloudflare cả, xem lại tùy chọn khi cài đặt hay có cài các plugin security nào khác, họ chặn gì trong đó không?</p>
+<p>Che IP thật thì đơn giản nhất là dùng các dịch vụ như cloudflare, không thì có thể dùng 1 IP khác làm proxy cho hosting, có nói trong phần Bonus: Reverse Proxy Site (https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Toàn		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-929</link>
+
+		<dc:creator><![CDATA[Toàn]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 00:47:15 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-929</guid>
+
+					<description><![CDATA[Mình đang gặp lỗi này với cloudflare và webinoly, khi mở cloudflare với website thì website không thể truy cập vào hiển thị lỗi:
+
+[error] 15709#15709: *86035 access forbidden by rule, client: 171.245.59.49, server: My Server request: &quot;GET /cgi-sys/suspendedpage.cgi HTTP/2.0
+
+Khi tắt cloudflare (DNS only), website của mình lại hoạt động ok, nhờ Ad và các bạn chỉ giúp cách fix. Ví dụ nếu mình muốn che ip thật của hosting mình thì có cách nào khác ngoài dùng cloudflare không?]]></description>
+			<content:encoded><![CDATA[<p>Mình đang gặp lỗi này với cloudflare và webinoly, khi mở cloudflare với website thì website không thể truy cập vào hiển thị lỗi:</p>
+<p>[error] 15709#15709: *86035 access forbidden by rule, client: 171.245.59.49, server: My Server request: &#8220;GET /cgi-sys/suspendedpage.cgi HTTP/2.0</p>
+<p>Khi tắt cloudflare (DNS only), website của mình lại hoạt động ok, nhờ Ad và các bạn chỉ giúp cách fix. Ví dụ nếu mình muốn che ip thật của hosting mình thì có cách nào khác ngoài dùng cloudflare không?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tua		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-868</link>
+
+		<dc:creator><![CDATA[tua]]></dc:creator>
+		<pubDate>Fri, 08 Nov 2019 16:13:30 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-868</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-867&quot;&gt;bibica&lt;/a&gt;.
+
+oki oki. lúc mình vào bị lỗi error định chụp lại lần nữa cả đồng hồ nhưng lười nên thôi.
+dù sao thì web vn thì dùng cái này khá ổn. mình sẽ làm theo.
+thanks you]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-867">bibica</a>.</p>
+<p>oki oki. lúc mình vào bị lỗi error định chụp lại lần nữa cả đồng hồ nhưng lười nên thôi.<br />
+dù sao thì web vn thì dùng cái này khá ổn. mình sẽ làm theo.<br />
+thanks you</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-867</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2019 17:27:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-867</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-866&quot;&gt;tua&lt;/a&gt;.
+
+Không chắc lắm, bên mình vào bình thường, với check gì thì mình dùng thẳng mấy dịch vụ monitor (https://updown.io/ngfb)
+
+Họ check từ tất cả các nơi trên thế giới, độ chính xác cao, và là cơ sở để kiện cáo với các dịch vụ hosting :D
+
+Chẳng cần nói nhiều, updown báo sập là dịch vụ hosting .... khỏi cãi :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-866">tua</a>.</p>
+<p>Không chắc lắm, bên mình vào bình thường, với check gì thì mình dùng thẳng mấy dịch vụ monitor (https://updown.io/ngfb)</p>
+<p>Họ check từ tất cả các nơi trên thế giới, độ chính xác cao, và là cơ sở để kiện cáo với các dịch vụ hosting 😀</p>
+<p>Chẳng cần nói nhiều, updown báo sập là dịch vụ hosting &#8230;. khỏi cãi 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tua		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-866</link>
+
+		<dc:creator><![CDATA[tua]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2019 17:21:03 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-866</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-865&quot;&gt;bibica&lt;/a&gt;.
+
+vừa truy cập lại web bạn cũng đơ đơ 1 lúc mới load được. khả năng cũng do cloudflare thật. g9]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-865">bibica</a>.</p>
+<p>vừa truy cập lại web bạn cũng đơ đơ 1 lúc mới load được. khả năng cũng do cloudflare thật. g9</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-865</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2019 14:47:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-865</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-864&quot;&gt;tua&lt;/a&gt;.
+
+Time này có vẻ hơi khó để nói chính xác là do host hay do Cloudflare :D
+
+Monitor trực tiếp tới host thì không thấy báo sập host :P
+
+Thôi tạm cho là do Cloudflare lâu lâu, thi thoảng nó ngáo ngáo vậy :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-864">tua</a>.</p>
+<p>Time này có vẻ hơi khó để nói chính xác là do host hay do Cloudflare 😀</p>
+<p>Monitor trực tiếp tới host thì không thấy báo sập host 😛</p>
+<p>Thôi tạm cho là do Cloudflare lâu lâu, thi thoảng nó ngáo ngáo vậy 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tua		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-864</link>
+
+		<dc:creator><![CDATA[tua]]></dc:creator>
+		<pubDate>Thu, 07 Nov 2019 14:35:40 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-864</guid>
+
+					<description><![CDATA[truy cập vào bibica bị lỗi error vào lức 9h34 pm 
+https://imgur.com/a/vbLWuRo
+không biết có phải server lỗi hay do cloudflare bị lỗi nhỉ bạn]]></description>
+			<content:encoded><![CDATA[<p>truy cập vào bibica bị lỗi error vào lức 9h34 pm<br />
+https://imgur.com/a/vbLWuRo<br />
+không biết có phải server lỗi hay do cloudflare bị lỗi nhỉ bạn</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-642</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 19 Mar 2019 01:33:40 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=544#comment-642</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-638&quot;&gt;bibica&lt;/a&gt;.
+
+Nói chung từ ngày Cloudflare họ hỗ trợ location Việt Nam thì gần như các bài tối ưu này nọ chỉ là cưỡi ngựa xem hoa cả :P
+
+May ra trang nào người vào đông quá thì cần thêm cache là đủ, tổng thể giờ nhàn cả mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cloudflare-cdn-dsn-va-cache/#comment-638">bibica</a>.</p>
+<p>Nói chung từ ngày Cloudflare họ hỗ trợ location Việt Nam thì gần như các bài tối ưu này nọ chỉ là cưỡi ngựa xem hoa cả 😛</p>
+<p>May ra trang nào người vào đông quá thì cần thêm cache là đủ, tổng thể giờ nhàn cả mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

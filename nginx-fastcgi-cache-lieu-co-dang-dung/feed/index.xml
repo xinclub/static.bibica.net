@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Nginx Fastcgi Cache, liệu có đáng dùng?	</title>
+	<atom:link href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nginx-fastcgi-cache-lieu-co-dang-dung</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 00:35:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-895</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 06 Jan 2020 19:31:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-895</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-894&quot;&gt;Nguyễn Mạnh Hùng&lt;/a&gt;.
+
+Thông báo đó do người dùng config thêm gì vào gây ra thôi, cụ thể cứ tạo 1 trang mới hoàn toàn xem có lỗi đó không thì biết ngay mà :D
+
+Mà theo như nói nãy giờ, nếu chỉ thêm Rocket-nginx ở phía server, thì thử bỏ dòng config đó ra xem còn thông báo đó không thì biết mà?
+
+Về điểm số thì thật ra nó cũng có giá trị tham khảo cho vui ở thời internet vừa có thôi :D còn giờ trình duyệt chạy http2 cả rồi thì các kiến thức đó nó vô giá trị cả :D chung quy ông đừng chạy quá sai là được, kiểu cái ảnh thumbnail bé xíu, lại đi dùng cái ảnh gốc nặng 2-3MB để load ra thì hơi hãm :D còn lại sai bình thường thì cũng chẳng đáng kể
+
+Ý về Cloudflare thì nói nhanh là không dịch vụ CDN nào có tuổi đi so được với Cloudflare hết, chủ yếu khác biệt là do cách nó vận hành, kiểu CDN, thì cũng phải vào trang chủ, vào trang chủ xong mới load các request tĩnh từ CDN về, trong trường hợp trang chủ host ở xa vị trí truy cập, thường vẫn sẽ .... chậm
+
+Cụ thể nhất có thể nhìn vào thèng .... bibica.net cũng được :D thực tế nó đang dùng hosting tại US, mà truy cập từ VN tới cũng chỉ loanh quanh ~1s :D
+
+Nói chung cơ bản như tôi nói từ đầu ấy, cài Webinoly vào, để mặc định là xong, phía server gần như không cần phải sửa cái gì, trừ kiểu cài vài plugin khác vào, nó cần đổi ít thông số thì sửa, còn lại cứ để mặc định mà chạy là thừa nhanh và ổn định rồi, cá nhân tôi cũng chỉ chỉnh lại vài dòng ở cấu hình để thêm quyền cho vài plugin blackup là chính
+
+Và nói tới đây phải nói tới tác giả của Centmin Mod ấy, phần config cấu hình server, hắn sửa kinh hoàng, nhanh thêm 0.001s và chạy không lỗi gì, hắn vẫn không chê và thêm vào :D thực tế khi dùng Centmin Mod tôi cũng có thử 1 vài config khác, nhưng chung quy đều .... thua xa setting mặc định tác giả để sẵn :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-894">Nguyễn Mạnh Hùng</a>.</p>
+<p>Thông báo đó do người dùng config thêm gì vào gây ra thôi, cụ thể cứ tạo 1 trang mới hoàn toàn xem có lỗi đó không thì biết ngay mà 😀</p>
+<p>Mà theo như nói nãy giờ, nếu chỉ thêm Rocket-nginx ở phía server, thì thử bỏ dòng config đó ra xem còn thông báo đó không thì biết mà?</p>
+<p>Về điểm số thì thật ra nó cũng có giá trị tham khảo cho vui ở thời internet vừa có thôi 😀 còn giờ trình duyệt chạy http2 cả rồi thì các kiến thức đó nó vô giá trị cả 😀 chung quy ông đừng chạy quá sai là được, kiểu cái ảnh thumbnail bé xíu, lại đi dùng cái ảnh gốc nặng 2-3MB để load ra thì hơi hãm 😀 còn lại sai bình thường thì cũng chẳng đáng kể</p>
+<p>Ý về Cloudflare thì nói nhanh là không dịch vụ CDN nào có tuổi đi so được với Cloudflare hết, chủ yếu khác biệt là do cách nó vận hành, kiểu CDN, thì cũng phải vào trang chủ, vào trang chủ xong mới load các request tĩnh từ CDN về, trong trường hợp trang chủ host ở xa vị trí truy cập, thường vẫn sẽ &#8230;. chậm</p>
+<p>Cụ thể nhất có thể nhìn vào thèng &#8230;. bibica.net cũng được 😀 thực tế nó đang dùng hosting tại US, mà truy cập từ VN tới cũng chỉ loanh quanh ~1s 😀</p>
+<p>Nói chung cơ bản như tôi nói từ đầu ấy, cài Webinoly vào, để mặc định là xong, phía server gần như không cần phải sửa cái gì, trừ kiểu cài vài plugin khác vào, nó cần đổi ít thông số thì sửa, còn lại cứ để mặc định mà chạy là thừa nhanh và ổn định rồi, cá nhân tôi cũng chỉ chỉnh lại vài dòng ở cấu hình để thêm quyền cho vài plugin blackup là chính</p>
+<p>Và nói tới đây phải nói tới tác giả của Centmin Mod ấy, phần config cấu hình server, hắn sửa kinh hoàng, nhanh thêm 0.001s và chạy không lỗi gì, hắn vẫn không chê và thêm vào 😀 thực tế khi dùng Centmin Mod tôi cũng có thử 1 vài config khác, nhưng chung quy đều &#8230;. thua xa setting mặc định tác giả để sẵn :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Mạnh Hùng		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-894</link>
+
+		<dc:creator><![CDATA[Nguyễn Mạnh Hùng]]></dc:creator>
+		<pubDate>Mon, 06 Jan 2020 16:11:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-894</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-893&quot;&gt;bibica&lt;/a&gt;.
+
+Mình xài combo đó mấy cái site nó chỉ số toàn A 9x trở lên khá tốt. Nhưng bị cái lỗi đó khó chịu. Remove luôn fastcgi không biết được không? 
+Công nhận làm mấy cái server này liên tục còn nhớ. Bỏ làm chừng vài tháng là quên hết cho dù toàn xài tools không có cần nhớ mấy câu lệnh nhiều. 
+Hồi trước tôi cũng xài cloudflare mà thấy nó hay bị lỗi nên nghỉ chơi cloudflare. Chơi với bunnycdn cho site tiếng anh. Site tiếng việt đang xài vccloud cdn. Không biết giờ cloudflare có server VN thì ngon hơn xưa và hết lỗi không.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-893">bibica</a>.</p>
+<p>Mình xài combo đó mấy cái site nó chỉ số toàn A 9x trở lên khá tốt. Nhưng bị cái lỗi đó khó chịu. Remove luôn fastcgi không biết được không?<br />
+Công nhận làm mấy cái server này liên tục còn nhớ. Bỏ làm chừng vài tháng là quên hết cho dù toàn xài tools không có cần nhớ mấy câu lệnh nhiều.<br />
+Hồi trước tôi cũng xài cloudflare mà thấy nó hay bị lỗi nên nghỉ chơi cloudflare. Chơi với bunnycdn cho site tiếng anh. Site tiếng việt đang xài vccloud cdn. Không biết giờ cloudflare có server VN thì ngon hơn xưa và hết lỗi không.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-893</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 06 Jan 2020 05:38:52 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-893</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-892&quot;&gt;Nguyễn Mạnh Hùng&lt;/a&gt;.
+
+Trong mặc định cài đặt của Webinoly thường rất ít có lỗi gì liên quan tới nginx (là liên quan tới hệ thống) như thế, cài Rocket-nginx vào thì nó thêm 1 dòng code trong file config, thử bỏ dòng đó đi, rồi restart thử lại xem thế nào :D hoặc muốn nhanh nhất thì liên hệ thẳng phần support của Webinoly, tác giả và cộng đồng sẽ hỗ trợ bạn :D mình thì gần nửa năm nay không đụng gì tới code nên quên ráo rồi :D tới cái info VPS cho mấy trang như bibica.net, bữa mình cài lại máy, xóa luôn mà chưa có thời gian để lấy lại á :]]
+
+Về combo đơn giản và hiệu quả nhất thì Ubuntu 18.04 + Webinoly + Wp-rocket là đủ, nó có thể phù hợp tới 99% các nhu cầu, Rocket-nginx thì nó cũng chỉ là một môi trường ảo, đa phần mình cũng dùng để chạy test xem hiệu năng tới cỡ nào, chứ thực tế thuần Wp Rocket nó cũng chịu tải rất tốt rồi :P
+
+Mình còn chẳng dùng cả WP Rocket, mình dùng sản phẩm miễn phí của KeyCDN là Cache Enabler, và cũng chẳng có gì phàn nàn :P
+
+Tầm nữa năm nay mình khá ít viết gì hay cập nhập lại bài viết, chủ yếu lượng kiến thức mới nó cũng xoay quanh thế cả, gần như đọc hiểu hết bài &quot;Tăng Tốc, Tối Ưu Hóa Cho WordPress&quot; là đủ (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/)
+
+Cũng có nhiều công nghệ, giải pháp khác .... tuy thế hiệu năng, thường nó chỉ tính theo ms, kiểu 0.001s, thành ra nó cũng chẳng có nhiều ý nghĩa về thực tế
+
+Mà từ ngày Cloudflare họ có hỗ trợ cache server Việt Nam, thì mình cũng gần như không còn đụng chạm gì tới khoản tối ưu này nọ nữa rồi, giải pháp của Cloudflare quá sức triệt để :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-892">Nguyễn Mạnh Hùng</a>.</p>
+<p>Trong mặc định cài đặt của Webinoly thường rất ít có lỗi gì liên quan tới nginx (là liên quan tới hệ thống) như thế, cài Rocket-nginx vào thì nó thêm 1 dòng code trong file config, thử bỏ dòng đó đi, rồi restart thử lại xem thế nào 😀 hoặc muốn nhanh nhất thì liên hệ thẳng phần support của Webinoly, tác giả và cộng đồng sẽ hỗ trợ bạn 😀 mình thì gần nửa năm nay không đụng gì tới code nên quên ráo rồi 😀 tới cái info VPS cho mấy trang như bibica.net, bữa mình cài lại máy, xóa luôn mà chưa có thời gian để lấy lại á :]]</p>
+<p>Về combo đơn giản và hiệu quả nhất thì Ubuntu 18.04 + Webinoly + Wp-rocket là đủ, nó có thể phù hợp tới 99% các nhu cầu, Rocket-nginx thì nó cũng chỉ là một môi trường ảo, đa phần mình cũng dùng để chạy test xem hiệu năng tới cỡ nào, chứ thực tế thuần Wp Rocket nó cũng chịu tải rất tốt rồi 😛</p>
+<p>Mình còn chẳng dùng cả WP Rocket, mình dùng sản phẩm miễn phí của KeyCDN là Cache Enabler, và cũng chẳng có gì phàn nàn 😛</p>
+<p>Tầm nữa năm nay mình khá ít viết gì hay cập nhập lại bài viết, chủ yếu lượng kiến thức mới nó cũng xoay quanh thế cả, gần như đọc hiểu hết bài &#8220;Tăng Tốc, Tối Ưu Hóa Cho WordPress&#8221; là đủ (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/)</p>
+<p>Cũng có nhiều công nghệ, giải pháp khác &#8230;. tuy thế hiệu năng, thường nó chỉ tính theo ms, kiểu 0.001s, thành ra nó cũng chẳng có nhiều ý nghĩa về thực tế</p>
+<p>Mà từ ngày Cloudflare họ có hỗ trợ cache server Việt Nam, thì mình cũng gần như không còn đụng chạm gì tới khoản tối ưu này nọ nữa rồi, giải pháp của Cloudflare quá sức triệt để 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nguyễn Mạnh Hùng		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-892</link>
+
+		<dc:creator><![CDATA[Nguyễn Mạnh Hùng]]></dc:creator>
+		<pubDate>Sun, 05 Jan 2020 17:32:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-892</guid>
+
+					<description><![CDATA[Mình sử dụng các dịch vụ bạn giới thiệu như Upcloud + Ubuntu 18.04 + Webinoly + Wp-rocket + Rocket-nginx.  Sử dụng cho 2 site. Đều cho điểm số khá tốt toàn 9x và điểm A. Nhưng mình restart và kiểm tra nginx -t. Nó ra cảnh báo như vầy: 
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size
+Mình làm thế nào cho nó hết cảnh báo như vậy.]]></description>
+			<content:encoded><![CDATA[<p>Mình sử dụng các dịch vụ bạn giới thiệu như Upcloud + Ubuntu 18.04 + Webinoly + Wp-rocket + Rocket-nginx.  Sử dụng cho 2 site. Đều cho điểm số khá tốt toàn 9x và điểm A. Nhưng mình restart và kiểm tra nginx -t. Nó ra cảnh báo như vầy:<br />
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size<br />
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size<br />
+nginx: [warn] could not build optimal fastcgi_params_hash, you should increase either fastcgi_params_hash_max_size: 512 or fastcgi_params_hash_bucket_size: 64; ignoring fastcgi_params_hash_bucket_size<br />
+Mình làm thế nào cho nó hết cảnh báo như vậy.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-690</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 30 Mar 2019 15:44:36 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-690</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-687&quot;&gt;Poros&lt;/a&gt;.
+
+Cái real time 5k là info từ đâu :D Google Analytics à, thường thì 1 core CPU nó hú lên tầm 3k client 1s là ngáp ngáp cả rồi, cụ thể thì cứ chạy loader.io vài vòng là có kết quả :D
+
+Nói chung cache bằng redis mà hiệu quả thì người ta đã dùng cả rồi :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-687">Poros</a>.</p>
+<p>Cái real time 5k là info từ đâu 😀 Google Analytics à, thường thì 1 core CPU nó hú lên tầm 3k client 1s là ngáp ngáp cả rồi, cụ thể thì cứ chạy loader.io vài vòng là có kết quả 😀</p>
+<p>Nói chung cache bằng redis mà hiệu quả thì người ta đã dùng cả rồi 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: poros		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-688</link>
+
+		<dc:creator><![CDATA[poros]]></dc:creator>
+		<pubDate>Sat, 30 Mar 2019 15:02:30 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-688</guid>
+
+					<description><![CDATA[Nguyễn Minh Hùng trước tôi dùng Redis cũng méo biết clear cache thế nào toàn phải vào VSP gõ &quot;Rediscli flushall&quot; mỗi khi sửa đổi mới nhục :)) xong sau mới biết là phải cài nginx helper :))]]></description>
+			<content:encoded><![CDATA[<p>Nguyễn Minh Hùng trước tôi dùng Redis cũng méo biết clear cache thế nào toàn phải vào VSP gõ &#8220;Rediscli flushall&#8221; mỗi khi sửa đổi mới nhục :)) xong sau mới biết là phải cài nginx helper :))</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Poros		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-687</link>
+
+		<dc:creator><![CDATA[Poros]]></dc:creator>
+		<pubDate>Sat, 30 Mar 2019 14:57:51 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-687</guid>
+
+					<description><![CDATA[Trang mình wordpress (không cài plugin cache) chỉ dùng redis + nginx helper, real time 5k CPU vẫn có 35% tất nhiên là không không cache qua Cloudflare vì chả cần thiết vì redis nó cache hết rồi. Nhưng phải công nhận Redis nó phức tạp, nhiều cái oái ăm. Mỗi lần sửa post 1 là phải nhét post đó vào nginx helper để nó clear cache 2 là purge all (nếu lười) &#062;__&#060;]]></description>
+			<content:encoded><![CDATA[<p>Trang mình wordpress (không cài plugin cache) chỉ dùng redis + nginx helper, real time 5k CPU vẫn có 35% tất nhiên là không không cache qua Cloudflare vì chả cần thiết vì redis nó cache hết rồi. Nhưng phải công nhận Redis nó phức tạp, nhiều cái oái ăm. Mỗi lần sửa post 1 là phải nhét post đó vào nginx helper để nó clear cache 2 là purge all (nếu lười) &gt;__&lt;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-644</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 21 Mar 2019 22:25:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-644</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-643&quot;&gt;Khải Trần&lt;/a&gt;.
+
+Redis cache nói cho dễ hiểu là các thông tin từ database đưa ra, nó sẽ cache, như các wiget hiện ra, cụ thể như thèng bibica.net là phần &quot;Featured Posts&quot; ở bên phải trang chẳng hạn, hay như các comment mới ....
+
+Tổng thể thì wordpress nặng nhất là việc lấy các data từ database ra, dùng Redis cache thì nó sẽ tự lôi các thông tin này ra từ ram, lý thuyết là nhanh và nhẹ
+
+Mỗi cái là nó &quot;vô cùng khó&quot; xử lý, ví dụ như bạn edit bài viết, cụ thể như bài &quot;Cloud VPS UpCloud – Đã hỗ trợ thanh toán Paypal&quot; nằm ở phần &quot;Featured Posts&quot;, bạn đổi nó thành &quot;Cloud VPS UpCloud&quot; thì khi ấn SAVE, bài viết của bạn nó hiểu và nó sửa lại, nhưng ở các phần khác thì nó không xóa cache, vẫn cứ lôi cache cũ ra dùng lại 
+
+Nó chồng chéo và dễ sai lên rất nhiều, không phải ngẫu nhiên mà người ta nói cache thành file html và lưu trên ổ cứng là đơn giản và hiệu quả nhất :D 
+
+Thực tế mình vẫn chỉ recommend WP Rocket và Rocket-Nginx để cache trên WordPress thôi :D
+
+Còn nếu bạn thích cái cảm giác xé gió bất kể truy cập từ mọi nơi trên thế giới thì cứ thử SuperSonic trên Cloudflare là được (https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/)
+
+Cân tất cả mọi thể loại cache, 10.000 client mỗi giây vẫn ... chiến hết nhá :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-643">Khải Trần</a>.</p>
+<p>Redis cache nói cho dễ hiểu là các thông tin từ database đưa ra, nó sẽ cache, như các wiget hiện ra, cụ thể như thèng bibica.net là phần &#8220;Featured Posts&#8221; ở bên phải trang chẳng hạn, hay như các comment mới &#8230;.</p>
+<p>Tổng thể thì wordpress nặng nhất là việc lấy các data từ database ra, dùng Redis cache thì nó sẽ tự lôi các thông tin này ra từ ram, lý thuyết là nhanh và nhẹ</p>
+<p>Mỗi cái là nó &#8220;vô cùng khó&#8221; xử lý, ví dụ như bạn edit bài viết, cụ thể như bài &#8220;Cloud VPS UpCloud – Đã hỗ trợ thanh toán Paypal&#8221; nằm ở phần &#8220;Featured Posts&#8221;, bạn đổi nó thành &#8220;Cloud VPS UpCloud&#8221; thì khi ấn SAVE, bài viết của bạn nó hiểu và nó sửa lại, nhưng ở các phần khác thì nó không xóa cache, vẫn cứ lôi cache cũ ra dùng lại </p>
+<p>Nó chồng chéo và dễ sai lên rất nhiều, không phải ngẫu nhiên mà người ta nói cache thành file html và lưu trên ổ cứng là đơn giản và hiệu quả nhất 😀 </p>
+<p>Thực tế mình vẫn chỉ recommend WP Rocket và Rocket-Nginx để cache trên WordPress thôi 😀</p>
+<p>Còn nếu bạn thích cái cảm giác xé gió bất kể truy cập từ mọi nơi trên thế giới thì cứ thử SuperSonic trên Cloudflare là được (https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/)</p>
+<p>Cân tất cả mọi thể loại cache, 10.000 client mỗi giây vẫn &#8230; chiến hết nhá :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khải Trần		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-643</link>
+
+		<dc:creator><![CDATA[Khải Trần]]></dc:creator>
+		<pubDate>Thu, 21 Mar 2019 16:32:59 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-643</guid>
+
+					<description><![CDATA[Hay quá ad ơi, lại dễ hiểu nữa!
+Tiện thể làm luôn bài viết về Redis cache đi ad, hj
+Chúc ad sức khỏe để ra nhiều thêm các bài viết chất lượng!]]></description>
+			<content:encoded><![CDATA[<p>Hay quá ad ơi, lại dễ hiểu nữa!<br />
+Tiện thể làm luôn bài viết về Redis cache đi ad, hj<br />
+Chúc ad sức khỏe để ra nhiều thêm các bài viết chất lượng!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-488</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 02 Dec 2018 04:23:41 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4473#comment-488</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-487&quot;&gt;Nguyễn Minh Hùng&lt;/a&gt;.
+
+Mặc định khi cài Nginx Fastcgi Cache vào là họ từ cài Nginx Helper vào rồi mà :D
+
+Chủ yếu mục đích Nginx Fastcgi Cache sinh ra là để cache, tăng độ trâu chó chịu tải của site, chứ nó không đi hướng dễ sử dụng, nên cũng chỉ các site tĩnh, kiểu thèng bibica.net, không dùng shop, không chạy các thứ thay đổi nhiều thông tin, còn bạn nào show kiểu bài viết, comment, đếm số lượt đọc bài post .... là Nginx Fastcgi Cache gần như không dùng được
+
+Tổng thể cache mình vẫn recommend dùng WP Rocket và Rocket-Nginx, hiểu quả và tùy biến cao, chạy ổn định và có precache :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/nginx-fastcgi-cache-lieu-co-dang-dung/#comment-487">Nguyễn Minh Hùng</a>.</p>
+<p>Mặc định khi cài Nginx Fastcgi Cache vào là họ từ cài Nginx Helper vào rồi mà 😀</p>
+<p>Chủ yếu mục đích Nginx Fastcgi Cache sinh ra là để cache, tăng độ trâu chó chịu tải của site, chứ nó không đi hướng dễ sử dụng, nên cũng chỉ các site tĩnh, kiểu thèng bibica.net, không dùng shop, không chạy các thứ thay đổi nhiều thông tin, còn bạn nào show kiểu bài viết, comment, đếm số lượt đọc bài post &#8230;. là Nginx Fastcgi Cache gần như không dùng được</p>
+<p>Tổng thể cache mình vẫn recommend dùng WP Rocket và Rocket-Nginx, hiểu quả và tùy biến cao, chạy ổn định và có precache 😀</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

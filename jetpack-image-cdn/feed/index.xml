@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Jetpack Image CDN	</title>
+	<atom:link href="https://static.bibica.net/jetpack-image-cdn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/jetpack-image-cdn/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jetpack-image-cdn</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 01 Apr 2020 20:25:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-824</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 12 Oct 2019 01:40:10 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-824</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-823&quot;&gt;Ngọc Đức&lt;/a&gt;.
+
+Ảnh gốc bắt buộc phải còn trên hosting vì lâu lâu Jetpack họ cũng check lại file gốc mà, thấy không còn file gốc thì không load được ảnh ra đâu :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-823">Ngọc Đức</a>.</p>
+<p>Ảnh gốc bắt buộc phải còn trên hosting vì lâu lâu Jetpack họ cũng check lại file gốc mà, thấy không còn file gốc thì không load được ảnh ra đâu 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ngọc Đức		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-823</link>
+
+		<dc:creator><![CDATA[Ngọc Đức]]></dc:creator>
+		<pubDate>Fri, 11 Oct 2019 12:56:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-823</guid>
+
+					<description><![CDATA[Vậy ảnh gốc có còn được lưu trên hosting nữa không bác? Hay là đã được cache rồi thì nó xóa?]]></description>
+			<content:encoded><![CDATA[<p>Vậy ảnh gốc có còn được lưu trên hosting nữa không bác? Hay là đã được cache rồi thì nó xóa?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-656</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 22:16:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-656</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-653&quot;&gt;bibica&lt;/a&gt;.
+
+:( Mình làm woocomerce bạn ạ, mới chuyển từ Shopify, store mình rất lớn, cỡ ~10k products cơ, hiện đang học tối ưu và tăng hiệu suất của server lên, host mình đang chạy bên digital ocean + serverpilot, database sử dụng percona. Mọi thứ cũng hòm hòm rồi giờ chỉ còn vụ tối ưu file ảnh nữa là ok vì 1 sản phẩm của mình chứa rất nhiều ảnh, mỗi lần load là ác mộc X_X
+
+P/S: Theo bạn có nên bật cái CDN các file tĩnh của jetpack không? Shop mình bán ở thị trường mỹ và châu âu. Mình không quan tâm lượng truy cập từ VN.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-653">bibica</a>.</p>
+<p>🙁 Mình làm woocomerce bạn ạ, mới chuyển từ Shopify, store mình rất lớn, cỡ ~10k products cơ, hiện đang học tối ưu và tăng hiệu suất của server lên, host mình đang chạy bên digital ocean + serverpilot, database sử dụng percona. Mọi thứ cũng hòm hòm rồi giờ chỉ còn vụ tối ưu file ảnh nữa là ok vì 1 sản phẩm của mình chứa rất nhiều ảnh, mỗi lần load là ác mộc X_X</p>
+<p>P/S: Theo bạn có nên bật cái CDN các file tĩnh của jetpack không? Shop mình bán ở thị trường mỹ và châu âu. Mình không quan tâm lượng truy cập từ VN.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-655</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 22:11:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-655</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-653&quot;&gt;bibica&lt;/a&gt;.
+
+Ah, cái đó là phần Asset CDN (https://jetpack.com/support/site-accelerator/)
+
+Nôm na cũng tương tự như ảnh, họ dùng server của họ để CDN các file tĩnh, kiểu js, css ... về lý thuyết thì không hiệu quả cho speed lắm, cho chịu tải thì có thể hiệu quả, có điều site bạn chắc phải &gt; 1000 người online 1 lúc mới thấy hiệu quả mất :D
+
+Nói chung CDN ảnh, Image CDN của Jetpack dùng các công nghệ rất tiến bộ, về lý thuyết là hiệu quả, có điều do location gần nhất của họ cũng là Singapore thôi đâm ra nó không hiệu quả về speed lắm, vì gần như giờ ai cũng dùng host tại Singapore hay Japan cả rồi
+
+Mà từ ngày Cloudflare hỗ trợ location Việt Nam, gần như nhanh thiên hạ vô địch rồi :D (http://haproxy.tech/ trang này mình đang cache để làm mẫu cache bằng Cloudflare này)
+
+Mà chung quy cũng phải xem nhu cầu thế nào mà chọn dịch vụ, chứ theo trao đổi nãy giờ mình cũng khó nói gì thêm được :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-653">bibica</a>.</p>
+<p>Ah, cái đó là phần Asset CDN (https://jetpack.com/support/site-accelerator/)</p>
+<p>Nôm na cũng tương tự như ảnh, họ dùng server của họ để CDN các file tĩnh, kiểu js, css &#8230; về lý thuyết thì không hiệu quả cho speed lắm, cho chịu tải thì có thể hiệu quả, có điều site bạn chắc phải > 1000 người online 1 lúc mới thấy hiệu quả mất 😀</p>
+<p>Nói chung CDN ảnh, Image CDN của Jetpack dùng các công nghệ rất tiến bộ, về lý thuyết là hiệu quả, có điều do location gần nhất của họ cũng là Singapore thôi đâm ra nó không hiệu quả về speed lắm, vì gần như giờ ai cũng dùng host tại Singapore hay Japan cả rồi</p>
+<p>Mà từ ngày Cloudflare hỗ trợ location Việt Nam, gần như nhanh thiên hạ vô địch rồi 😀 (http://haproxy.tech/ trang này mình đang cache để làm mẫu cache bằng Cloudflare này)</p>
+<p>Mà chung quy cũng phải xem nhu cầu thế nào mà chọn dịch vụ, chứ theo trao đổi nãy giờ mình cũng khó nói gì thêm được :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-654</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 21:51:32 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-654</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-653&quot;&gt;bibica&lt;/a&gt;.
+
+Cám ơn bạn nhé, mà bạn bảo Jetpack chỉ hỗ trợ CDN images, mình cài vô còn thấy thêm 1 dòng &quot;Speed up static file load times&quot;, cái này là tính năng mới của nó hay có lâu rồi nhưng bạn không khuyến khích dùng? Có phương pháp khác hiệu quả hơn?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-653">bibica</a>.</p>
+<p>Cám ơn bạn nhé, mà bạn bảo Jetpack chỉ hỗ trợ CDN images, mình cài vô còn thấy thêm 1 dòng &#8220;Speed up static file load times&#8221;, cái này là tính năng mới của nó hay có lâu rồi nhưng bạn không khuyến khích dùng? Có phương pháp khác hiệu quả hơn?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-653</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 20:03:01 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-653</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-652&quot;&gt;Cuong&lt;/a&gt;.
+
+Mình nói rồi còn gì &quot;Mà thực ra mình set như thế chủ yếu là để link ảnh nó là link thực, không có mấy giá trị kiểu ?w=300 đằng sau để đạt 100 điểm khi check ở mấy trang chấm điểm thôi&quot;
+
+Mà để có link thực như thế thì phải set trong CDN của WP Rocket như thế :D
+
+Dùng bình thường thì chỉ cần cài Jetpack vào, bật cái Photo lên là được :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-652">Cuong</a>.</p>
+<p>Mình nói rồi còn gì &#8220;Mà thực ra mình set như thế chủ yếu là để link ảnh nó là link thực, không có mấy giá trị kiểu ?w=300 đằng sau để đạt 100 điểm khi check ở mấy trang chấm điểm thôi&#8221;</p>
+<p>Mà để có link thực như thế thì phải set trong CDN của WP Rocket như thế 😀</p>
+<p>Dùng bình thường thì chỉ cần cài Jetpack vào, bật cái Photo lên là được 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-652</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 20:00:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-652</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-651&quot;&gt;bibica&lt;/a&gt;.
+
+Mình không hiểu lắm, thế config CDN trong WP Rocket có tác dụng gì vậy? Ngoài ra như mình hỏi về cái config nginx nữa đó, mong bạn giải đáp. Cám ơn bạn.
+
+P/S: Cái tiết kiệm dung lượng cho server là như nào? Mình thấy lúc up sản phẩm lên web nó vẫn tự tạo ra 1 đống thumbnails ấy :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-651">bibica</a>.</p>
+<p>Mình không hiểu lắm, thế config CDN trong WP Rocket có tác dụng gì vậy? Ngoài ra như mình hỏi về cái config nginx nữa đó, mong bạn giải đáp. Cám ơn bạn.</p>
+<p>P/S: Cái tiết kiệm dung lượng cho server là như nào? Mình thấy lúc up sản phẩm lên web nó vẫn tự tạo ra 1 đống thumbnails ấy 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-651</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 19:47:09 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-651</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-650&quot;&gt;Cuong&lt;/a&gt;.
+
+Set CDN chọn images trong WP Rocket thế là ổn rồi mà :D
+
+Mà thực ra mình set như thế chủ yếu là để link ảnh nó là link thực, không có mấy giá trị kiểu ?w=300 đằng sau để đạt 100 điểm khi check ở mấy trang chấm điểm thôi
+
+Dùng thì nên dùng thuần bản gốc Photo của Jetpack để nó tự sửa các link ảnh thumnails, ảnh gốc .... đúng giá trị, tiết kiệm dung lượng cho server, với nó cũng hiệu quả hơn nữa :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-650">Cuong</a>.</p>
+<p>Set CDN chọn images trong WP Rocket thế là ổn rồi mà 😀</p>
+<p>Mà thực ra mình set như thế chủ yếu là để link ảnh nó là link thực, không có mấy giá trị kiểu ?w=300 đằng sau để đạt 100 điểm khi check ở mấy trang chấm điểm thôi</p>
+<p>Dùng thì nên dùng thuần bản gốc Photo của Jetpack để nó tự sửa các link ảnh thumnails, ảnh gốc &#8230;. đúng giá trị, tiết kiệm dung lượng cho server, với nó cũng hiệu quả hơn nữa 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cuong		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-650</link>
+
+		<dc:creator><![CDATA[Cuong]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 19:35:01 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-650</guid>
+
+					<description><![CDATA[Bạn ơi mình config jetpack CDN image kết hợp với WP Rocket như thế này đã đúng chưa? Có gì bạn hướng dẫn mình thêm hay cho lời khuyên gì được không?
+
+Bạn xem qua hình mình gửi cái WP Rocket mình cấu hình CDN cho jetpack: https://imgur.com/a/hD9f4NP
+
+Mình điền như thế đã đúng chưa? Mình làm theo hướng dẫn của bạn ở ngoirungdui: https://i2.wp.com/ngoirungdui.com/wp-content/uploads/2017/11/11-24-2017-10-45-48-AM_zp35yt_wzumgu.png
+
+Link bài viết: https://ngoirungdui.com/100-diem-cho-gtmetrix-pingdom-va-pagespeed-insights/
+
+Ngoài ra có đoạn này hướng dẫn:
+
+2.2 Kèm theo phải set cookie cho mấy file font này, nếu server chạy Nginx thì set như bên dưới
+
+location ~* .(?:ttf&#124;ttc&#124;otf&#124;eot&#124;woff&#124;woff2)$ {
+expires 1M;
+access_log off;
+add_header Pragma public;
+add_header Cache-Control “public”;
+}
+
+Mình vào nginx thì thấy trong rocket-nginx có 1 đoạn khá giống hoặc tương tự rồi, mình có cần điền thêm cái bạn hướng dẫn vào không? Đoạn dưới là mình lấy trong file cnf của rocket-nginx.
+
+###################################################################################################
+# BROWSER MEDIA CACHE
+#
+location ~* \.(ico&#124;gif&#124;jpe?g&#124;png&#124;svg&#124;eot&#124;otf&#124;woff&#124;woff2&#124;ttf&#124;ogg)$ {
+	etag on;
+	expires 30d;
+	
+}
+
+Cám ơn bạn, mong sớm nhận được câu trả lời từ bạn.]]></description>
+			<content:encoded><![CDATA[<p>Bạn ơi mình config jetpack CDN image kết hợp với WP Rocket như thế này đã đúng chưa? Có gì bạn hướng dẫn mình thêm hay cho lời khuyên gì được không?</p>
+<p>Bạn xem qua hình mình gửi cái WP Rocket mình cấu hình CDN cho jetpack: https://imgur.com/a/hD9f4NP</p>
+<p>Mình điền như thế đã đúng chưa? Mình làm theo hướng dẫn của bạn ở ngoirungdui: https://i2.wp.com/ngoirungdui.com/wp-content/uploads/2017/11/11-24-2017-10-45-48-AM_zp35yt_wzumgu.png</p>
+<p>Link bài viết: https://ngoirungdui.com/100-diem-cho-gtmetrix-pingdom-va-pagespeed-insights/</p>
+<p>Ngoài ra có đoạn này hướng dẫn:</p>
+<p>2.2 Kèm theo phải set cookie cho mấy file font này, nếu server chạy Nginx thì set như bên dưới</p>
+<p>location ~* .(?:ttf|ttc|otf|eot|woff|woff2)$ {<br />
+expires 1M;<br />
+access_log off;<br />
+add_header Pragma public;<br />
+add_header Cache-Control “public”;<br />
+}</p>
+<p>Mình vào nginx thì thấy trong rocket-nginx có 1 đoạn khá giống hoặc tương tự rồi, mình có cần điền thêm cái bạn hướng dẫn vào không? Đoạn dưới là mình lấy trong file cnf của rocket-nginx.</p>
+<p>###################################################################################################<br />
+# BROWSER MEDIA CACHE<br />
+#<br />
+location ~* \.(ico|gif|jpe?g|png|svg|eot|otf|woff|woff2|ttf|ogg)$ {<br />
+	etag on;<br />
+	expires 30d;</p>
+<p>}</p>
+<p>Cám ơn bạn, mong sớm nhận được câu trả lời từ bạn.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/jetpack-image-cdn/#comment-544</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 10 Dec 2018 13:12:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1403#comment-544</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/jetpack-image-cdn/#comment-543&quot;&gt;Toàn&lt;/a&gt;.
+
+Lý thuyết là có :D
+
+Thực tế rất nhiều trang họ bỏ không dùng comment ngoài như Disqus ... cũng vì lý do này
+
+Nói chung tùy quan điểm thôi :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/jetpack-image-cdn/#comment-543">Toàn</a>.</p>
+<p>Lý thuyết là có 😀</p>
+<p>Thực tế rất nhiều trang họ bỏ không dùng comment ngoài như Disqus &#8230; cũng vì lý do này</p>
+<p>Nói chung tùy quan điểm thôi 😛</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Cài đặt lại ngoirungdui.com sử dụng Amazon Lightsail và Webinoly	</title>
+	<atom:link href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 26 May 2022 07:03:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: Nguyễn Huy Anh		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-1026</link>
+
+		<dc:creator><![CDATA[Nguyễn Huy Anh]]></dc:creator>
+		<pubDate>Thu, 26 May 2022 07:03:54 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-1026</guid>
+
+					<description><![CDATA[mng cho mk hỏi là mk đang muốn thay code và database wordpress trên aws mà ko biết thay nnao. Ai biết chỉ giúp mk với ạ]]></description>
+			<content:encoded><![CDATA[<p>mng cho mk hỏi là mk đang muốn thay code và database wordpress trên aws mà ko biết thay nnao. Ai biết chỉ giúp mk với ạ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-898</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Mon, 20 Jan 2020 04:44:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-898</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-897&quot;&gt;Kai&lt;/a&gt;.
+
+Đang dùng bản free, hình như phải chạy qua php, nó rất phí, google kiếm bạn xịn rồi chạy qua Shell Zip để khỏi phải gặp mấy rắc rối kiểu này nữa :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-897">Kai</a>.</p>
+<p>Đang dùng bản free, hình như phải chạy qua php, nó rất phí, google kiếm bạn xịn rồi chạy qua Shell Zip để khỏi phải gặp mấy rắc rối kiểu này nữa 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kai		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-897</link>
+
+		<dc:creator><![CDATA[Kai]]></dc:creator>
+		<pubDate>Mon, 20 Jan 2020 04:13:27 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-897</guid>
+
+					<description><![CDATA[Mình cũng dùng Duplicator mà bản free cho 300mb sources code với data mà sao Lightsail gói 512mb toàn báo 504 gateway time out mỗi khi build file back up nhỉ? Có sửa thử max_execution_time từ 300 lên 1000 vẫn bị lỗi. Bình thường chạy back up trên gói cloud linux hosting bèo nhất của Mắt Bão (512mb ram) thì cũng sources code này nó chạy ngon. Giờ chuyển lên lightsail + webinoly thì lại ko back up dc :v]]></description>
+			<content:encoded><![CDATA[<p>Mình cũng dùng Duplicator mà bản free cho 300mb sources code với data mà sao Lightsail gói 512mb toàn báo 504 gateway time out mỗi khi build file back up nhỉ? Có sửa thử max_execution_time từ 300 lên 1000 vẫn bị lỗi. Bình thường chạy back up trên gói cloud linux hosting bèo nhất của Mắt Bão (512mb ram) thì cũng sources code này nó chạy ngon. Giờ chuyển lên lightsail + webinoly thì lại ko back up dc :v</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trích		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-591</link>
+
+		<dc:creator><![CDATA[Trích]]></dc:creator>
+		<pubDate>Mon, 07 Jan 2019 18:58:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-591</guid>
+
+					<description><![CDATA[Cách trỏ domain theo kiểu file host trước mình vẫn dùng từ lâu lắm rồi xong đến lúc chuyển từ http sang https ko dùng được nữa. Hơi bực, giờ vẫn phải trỏ domain sang ip mới làm được. Hơi bực vụ này nhưng ghét mấy cái vụ chrome nó cứ hiện ko bảo mật hoài nên cài nó cho đẹp thôi :))))]]></description>
+			<content:encoded><![CDATA[<p>Cách trỏ domain theo kiểu file host trước mình vẫn dùng từ lâu lắm rồi xong đến lúc chuyển từ http sang https ko dùng được nữa. Hơi bực, giờ vẫn phải trỏ domain sang ip mới làm được. Hơi bực vụ này nhưng ghét mấy cái vụ chrome nó cứ hiện ko bảo mật hoài nên cài nó cho đẹp thôi :))))</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-433</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 07 Oct 2018 10:14:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-433</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-432&quot;&gt;Hải&lt;/a&gt;.
+
+Nếu thế UpCloud có vẻ hợp nhu cầu, I/O đám UpCloud thì gần như thiên hạ vô địch rồi :D
+
+Có điều thi thoảng nó cũng down ít phút, mình không thích downtime nên mới move sang Amazon thôi
+
+Chuyện backup mà làm nghẽn hay treo VPS thì là do phương pháp không đúng, cái này là vấn đề kĩ thuật thôi
+
+Lightsail tổng thời gian backup và up lên Google Drive cho thèng bibica.net tầm 2 phút (data khoảng 1GB)
+
+Nói chung thực tế làm sao thì vẫn phải chạy thử mới rõ được, Lightsail hay UpCloud đều cho trial để dùng mà :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-432">Hải</a>.</p>
+<p>Nếu thế UpCloud có vẻ hợp nhu cầu, I/O đám UpCloud thì gần như thiên hạ vô địch rồi 😀</p>
+<p>Có điều thi thoảng nó cũng down ít phút, mình không thích downtime nên mới move sang Amazon thôi</p>
+<p>Chuyện backup mà làm nghẽn hay treo VPS thì là do phương pháp không đúng, cái này là vấn đề kĩ thuật thôi</p>
+<p>Lightsail tổng thời gian backup và up lên Google Drive cho thèng bibica.net tầm 2 phút (data khoảng 1GB)</p>
+<p>Nói chung thực tế làm sao thì vẫn phải chạy thử mới rõ được, Lightsail hay UpCloud đều cho trial để dùng mà 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hải		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-432</link>
+
+		<dc:creator><![CDATA[Hải]]></dc:creator>
+		<pubDate>Sat, 06 Oct 2018 15:12:36 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-432</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-427&quot;&gt;bibica&lt;/a&gt;.
+
+Cảm ơn đã rep!
+
+Nhưng mình tham khảo qua 1 vòng thì I/O của thằng Lightsail này kém quá
+Kém xa so với Vultr hay các nhà ncc khác nổi nổi hiện nay
+Nhu cầu cũng ko có nhiều
+Có web WP 5k post ngày ~1k visit thôi nhưng ngày nào cũng backup code lại và ném lên google drive ( code khoảng 6GB )
+Sợ với tốc độ I/O như vậy sẽ bị nghẽn và treo vps.
+Lăn tăn!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-427">bibica</a>.</p>
+<p>Cảm ơn đã rep!</p>
+<p>Nhưng mình tham khảo qua 1 vòng thì I/O của thằng Lightsail này kém quá<br />
+Kém xa so với Vultr hay các nhà ncc khác nổi nổi hiện nay<br />
+Nhu cầu cũng ko có nhiều<br />
+Có web WP 5k post ngày ~1k visit thôi nhưng ngày nào cũng backup code lại và ném lên google drive ( code khoảng 6GB )<br />
+Sợ với tốc độ I/O như vậy sẽ bị nghẽn và treo vps.<br />
+Lăn tăn!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-427</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 06 Oct 2018 10:19:46 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-427</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-424&quot;&gt;Hải&lt;/a&gt;.
+
+1. Hiện tại Lightsail hỗ trợ CentOS, openSUSE, FreeBSD, Debian, Ubuntu và Amazon Linux  
+2. Lightsail chỉ là cái tên gọi của dịch vụ VPS thôi mà, liên quan gì tới việc bạn cài hay config app, script ... nhỉ?
+3. Bài viết về Amazon Lightsail mình có nói rõ họ có cho free dùng 1 tháng rồi mà nhỉ? (https://static.bibica.net/amazon-lightsail/)
+
+Tổng thể tùy nhu cầu bạn dùng cho cái gì? traffic ra làm sao để chọn gói phù hợp, còn thuần túy nói về ping, speed và đặc biệt là uptime thì Amazon Lightsail gần như thiên hạ vô địch ở cái mức giá $3.5/ month hiện nay rồi
+
+Dùng gift card thì bạn chỉ tốn tầm $15 cho gift card $150 trong 1 năm sử dụng, dễ hiểu hơn là bạn có thể dùng gói $10/month với sơ sơ 2Gb RAM :D
+
+1 tháng thực tế tốn có $1.25 mà có con VPS 2GB RAM ping, speed và đặc biệt là uptime nói ngắn gọi là chấp hết các thể loại (http://monitor.bibica.net/publicreport/gwv1lv4l/147562/3/934996)
+
+Mình dùng gói rẻ nhất 512 MB RAM location Singapore từ giữa tháng 4 tới giờ là đầu tháng 10, nôm na là gần 6 tháng, mà nó chỉ down tầm 10 phút, tỷ lệ uptime đang là 99.996%
+
+Nói chung từ ngày dùng nó xong gần như mình chẳng cần quan tâm tới VPS nữa :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-424">Hải</a>.</p>
+<p>1. Hiện tại Lightsail hỗ trợ CentOS, openSUSE, FreeBSD, Debian, Ubuntu và Amazon Linux<br />
+2. Lightsail chỉ là cái tên gọi của dịch vụ VPS thôi mà, liên quan gì tới việc bạn cài hay config app, script &#8230; nhỉ?<br />
+3. Bài viết về Amazon Lightsail mình có nói rõ họ có cho free dùng 1 tháng rồi mà nhỉ? (https://static.bibica.net/amazon-lightsail/)</p>
+<p>Tổng thể tùy nhu cầu bạn dùng cho cái gì? traffic ra làm sao để chọn gói phù hợp, còn thuần túy nói về ping, speed và đặc biệt là uptime thì Amazon Lightsail gần như thiên hạ vô địch ở cái mức giá $3.5/ month hiện nay rồi</p>
+<p>Dùng gift card thì bạn chỉ tốn tầm $15 cho gift card $150 trong 1 năm sử dụng, dễ hiểu hơn là bạn có thể dùng gói $10/month với sơ sơ 2Gb RAM 😀</p>
+<p>1 tháng thực tế tốn có $1.25 mà có con VPS 2GB RAM ping, speed và đặc biệt là uptime nói ngắn gọi là chấp hết các thể loại (http://monitor.bibica.net/publicreport/gwv1lv4l/147562/3/934996)</p>
+<p>Mình dùng gói rẻ nhất 512 MB RAM location Singapore từ giữa tháng 4 tới giờ là đầu tháng 10, nôm na là gần 6 tháng, mà nó chỉ down tầm 10 phút, tỷ lệ uptime đang là 99.996%</p>
+<p>Nói chung từ ngày dùng nó xong gần như mình chẳng cần quan tâm tới VPS nữa :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhan Le		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-425</link>
+
+		<dc:creator><![CDATA[Nhan Le]]></dc:creator>
+		<pubDate>Sat, 06 Oct 2018 06:37:23 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-425</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-424&quot;&gt;Hải&lt;/a&gt;.
+
+Nó cho free tháng đầu đó bạn, OS có đủ từ Ubuntu tới CentOS
+Xoá VPS nhớ xoá IP]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-424">Hải</a>.</p>
+<p>Nó cho free tháng đầu đó bạn, OS có đủ từ Ubuntu tới CentOS<br />
+Xoá VPS nhớ xoá IP</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hải		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-424</link>
+
+		<dc:creator><![CDATA[Hải]]></dc:creator>
+		<pubDate>Sat, 06 Oct 2018 06:35:18 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-424</guid>
+
+					<description><![CDATA[1. Thằng Lightsail này chỉ có ubuntu thôi à bạn
+2. Thằng Lightsail này nếu config chạy với xenforo 2 có ổn ko bạn ( mình đang chạy xf 2 với centos 7 rất ổn định nên phân vân )
+3. Nó có cho dùng thử để mình test code ko b]]></description>
+			<content:encoded><![CDATA[<p>1. Thằng Lightsail này chỉ có ubuntu thôi à bạn<br />
+2. Thằng Lightsail này nếu config chạy với xenforo 2 có ổn ko bạn ( mình đang chạy xf 2 với centos 7 rất ổn định nên phân vân )<br />
+3. Nó có cho dùng thử để mình test code ko b</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhan Le		</title>
+		<link>https://static.bibica.net/cai-dat-lai-ngoirungdui-com-su-dung-amazon-lightsail-va-webinoly/#comment-398</link>
+
+		<dc:creator><![CDATA[Nhan Le]]></dc:creator>
+		<pubDate>Wed, 19 Sep 2018 18:57:36 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3960#comment-398</guid>
+
+					<description><![CDATA[Webinoly hiện tại (1.6.0) đã tự cấu hình cái Google TCP BBR rồi nên chắc ko cần phải tự cài nữa ahihi. Chi tiết trong code của nó file lib/install nhé]]></description>
+			<content:encoded><![CDATA[<p>Webinoly hiện tại (1.6.0) đã tự cấu hình cái Google TCP BBR rồi nên chắc ko cần phải tự cài nữa ahihi. Chi tiết trong code của nó file lib/install nhé</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

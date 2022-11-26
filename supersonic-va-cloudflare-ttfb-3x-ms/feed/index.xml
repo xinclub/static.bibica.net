@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: SuperSonic và CloudFlare TTFB ~3x ms	</title>
+	<atom:link href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=supersonic-va-cloudflare-ttfb-3x-ms</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 06:35:47 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-762</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 23 Jun 2019 21:03:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-762</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-761&quot;&gt;đạt&lt;/a&gt;.
+
+Xóa domain đi rồi thì không quản lý qua CloudFlare được nữa]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-761">đạt</a>.</p>
+<p>Xóa domain đi rồi thì không quản lý qua CloudFlare được nữa</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: đạt		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-761</link>
+
+		<dc:creator><![CDATA[đạt]]></dc:creator>
+		<pubDate>Sun, 23 Jun 2019 15:21:09 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-761</guid>
+
+					<description><![CDATA[dạ cho e hỏi là gói free của cloudflare thì cho phép liên kết vs tên miền nếu như e xoá tên miền đó đi thì có đc tạo tiếp nửa ko ạ]]></description>
+			<content:encoded><![CDATA[<p>dạ cho e hỏi là gói free của cloudflare thì cho phép liên kết vs tên miền nếu như e xoá tên miền đó đi thì có đc tạo tiếp nửa ko ạ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-648</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 22 Mar 2019 19:01:57 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-648</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-647&quot;&gt;Khai Tran&lt;/a&gt;.
+
+Có ạ, chạy lệnh đó nó hình như nó tự xóa plugin trong WP thì phải :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-647">Khai Tran</a>.</p>
+<p>Có ạ, chạy lệnh đó nó hình như nó tự xóa plugin trong WP thì phải 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khai Tran		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-647</link>
+
+		<dc:creator><![CDATA[Khai Tran]]></dc:creator>
+		<pubDate>Fri, 22 Mar 2019 18:47:33 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-647</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-646&quot;&gt;bibica&lt;/a&gt;.
+
+Cho mình hỏi thêm là mình có cần chạy dòng lệnh của Webinoly là site example.com -cache=off không?
+
+Ad giải thích dễ hiểu quá, cảm ơn ad nhiều!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-646">bibica</a>.</p>
+<p>Cho mình hỏi thêm là mình có cần chạy dòng lệnh của Webinoly là site example.com -cache=off không?</p>
+<p>Ad giải thích dễ hiểu quá, cảm ơn ad nhiều!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-646</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 22 Mar 2019 16:20:49 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-646</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-645&quot;&gt;Khải Trần&lt;/a&gt;.
+
+Ah, đầu tiên phải xem quan điểm dùng có cần cache không đã? vì cache hiệu quả nó chỉ cao nhất ở các trang traffic lớn, như dùng FastCgi thì chịu tầm 1000 người online 1 lúc, còn dùng sang cache bằng SuperSonic thì ... gần như bao nhiêu người vào cũng chiến hết, vì lúc này tất cả traffic bị tống sang Cloudflare rồi, server bạn gần như không phải làm gì cả :D
+
+Còn nếu trang bạn traffic lèo tèo kiểu thèng bibica.net, ngày tầm 30-40 lượt truy cập thì cache hay không cache cũng chẳng khác gì mấy đâu :P
+
+Về ý 1-2 bạn hỏi thì cơ bản giống nhau, nôm na chỉ dùng 1 plugin cache duy nhất, không khi chạy sẽ đụng chạm, xóa hết các plugin cache đi xong rồi cài gì thì cài]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-645">Khải Trần</a>.</p>
+<p>Ah, đầu tiên phải xem quan điểm dùng có cần cache không đã? vì cache hiệu quả nó chỉ cao nhất ở các trang traffic lớn, như dùng FastCgi thì chịu tầm 1000 người online 1 lúc, còn dùng sang cache bằng SuperSonic thì &#8230; gần như bao nhiêu người vào cũng chiến hết, vì lúc này tất cả traffic bị tống sang Cloudflare rồi, server bạn gần như không phải làm gì cả 😀</p>
+<p>Còn nếu trang bạn traffic lèo tèo kiểu thèng bibica.net, ngày tầm 30-40 lượt truy cập thì cache hay không cache cũng chẳng khác gì mấy đâu 😛</p>
+<p>Về ý 1-2 bạn hỏi thì cơ bản giống nhau, nôm na chỉ dùng 1 plugin cache duy nhất, không khi chạy sẽ đụng chạm, xóa hết các plugin cache đi xong rồi cài gì thì cài</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Khải Trần		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-645</link>
+
+		<dc:creator><![CDATA[Khải Trần]]></dc:creator>
+		<pubDate>Fri, 22 Mar 2019 15:32:48 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-645</guid>
+
+					<description><![CDATA[Phiền Ad cho mình hỏi tí nhé!
+
+01. Mình dùng Webinoly để cài đặt website, trong đó mình có dùng FastCgi Cache. Giờ mình muốn dùng combo SuperSonic và Cloudflare thì mình có cần phải chạy dòng lệnh này của webinoly không: site example.com -cache=off.
+
+02. Hai plugin này có cần phải xóa không: Nginx Helper và Redis Object Cache?
+
+Mình cảm ơn ad nhiều nhé, bài viết rất chất lượng, hj!]]></description>
+			<content:encoded><![CDATA[<p>Phiền Ad cho mình hỏi tí nhé!</p>
+<p>01. Mình dùng Webinoly để cài đặt website, trong đó mình có dùng FastCgi Cache. Giờ mình muốn dùng combo SuperSonic và Cloudflare thì mình có cần phải chạy dòng lệnh này của webinoly không: site example.com -cache=off.</p>
+<p>02. Hai plugin này có cần phải xóa không: Nginx Helper và Redis Object Cache?</p>
+<p>Mình cảm ơn ad nhiều nhé, bài viết rất chất lượng, hj!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-624</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 06 Mar 2019 05:22:26 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-624</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622&quot;&gt;bibica&lt;/a&gt;.
+
+Viết tầm 3-6 tháng không update lại là đã thấy sai rồi :D
+
+Mấy bài cũ giới thiệu Vultr, UpCloud ... trên bibica.net giờ giá tiền, thông số phần cứng giờ sai cả rồi ấy chứ :]]]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622">bibica</a>.</p>
+<p>Viết tầm 3-6 tháng không update lại là đã thấy sai rồi 😀</p>
+<p>Mấy bài cũ giới thiệu Vultr, UpCloud &#8230; trên bibica.net giờ giá tiền, thông số phần cứng giờ sai cả rồi ấy chứ :]]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: charli		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-623</link>
+
+		<dc:creator><![CDATA[charli]]></dc:creator>
+		<pubDate>Wed, 06 Mar 2019 01:26:16 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-623</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622&quot;&gt;bibica&lt;/a&gt;.
+
+Tks kiu Admin
+Có lẻ nghiên cứu trang ThachPham hơi lỗi thời rồi nhỉ, kaka. để mình nghiên cứu BIBICA.NET.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622">bibica</a>.</p>
+<p>Tks kiu Admin<br />
+Có lẻ nghiên cứu trang ThachPham hơi lỗi thời rồi nhỉ, kaka. để mình nghiên cứu BIBICA.NET.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-622</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 12:35:20 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-622</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-621&quot;&gt;charli&lt;/a&gt;.
+
+Về điểm số thì đầu tiên bạn tham khảo bài này đã &quot;Điểm Số GTmetrix, Pingdom … Liệu Có Quan Trọng?&quot; (https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/)
+
+Thực tế điểm số, nó là một bài test để bạn có thể &quot;tham khảo&quot; thêm về cách config hiệu năng, xem coi có hợp lý không, chứ nó chẳng nói lên cái gì
+
+Kiểu bạn hướng tới traffic cho user từ VN, mà các trang check ở US báo trang bạn chậm thì cũng chẳng nói lên cái gì
+
+Về &quot;Use cookie-free domains&quot; thì không cần quan tâm, vớ vẩn thôi, còn &quot;Serve scaled images&quot; thì ý nó báo là kích thước hiển thị không đúng, kiếu đúng ra ở vị trí đó chỉ cần cái ảnh 200 x 200 px, mà bạn lại đang dùng cái ảnh 1920 x 1080, nó bị nặng hơn 1 cách quá đáng thôi :P
+
+Về tốc độ thì mình nghĩ bạn tham khảo bài &quot;Tăng Tốc, Tối Ưu Hóa Cho WordPress&quot; (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/) cũng khá đầy đủ rồi, còn rảnh hơn thì cứ đọc hết các bài trên bibica.net cũng tương đối đủ hổ báo rồi :P
+
+Thực tế bibica.net bạn cũng có thể thấy gần như ấn vào link mới chỉ mất tầm 1-2s là nó qua trang mới, load xong cả rồi mừ :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-621">charli</a>.</p>
+<p>Về điểm số thì đầu tiên bạn tham khảo bài này đã &#8220;Điểm Số GTmetrix, Pingdom … Liệu Có Quan Trọng?&#8221; (https://static.bibica.net/diem-so-gtmetrix-pingdom-lieu-co-quan-trong/)</p>
+<p>Thực tế điểm số, nó là một bài test để bạn có thể &#8220;tham khảo&#8221; thêm về cách config hiệu năng, xem coi có hợp lý không, chứ nó chẳng nói lên cái gì</p>
+<p>Kiểu bạn hướng tới traffic cho user từ VN, mà các trang check ở US báo trang bạn chậm thì cũng chẳng nói lên cái gì</p>
+<p>Về &#8220;Use cookie-free domains&#8221; thì không cần quan tâm, vớ vẩn thôi, còn &#8220;Serve scaled images&#8221; thì ý nó báo là kích thước hiển thị không đúng, kiếu đúng ra ở vị trí đó chỉ cần cái ảnh 200 x 200 px, mà bạn lại đang dùng cái ảnh 1920 x 1080, nó bị nặng hơn 1 cách quá đáng thôi 😛</p>
+<p>Về tốc độ thì mình nghĩ bạn tham khảo bài &#8220;Tăng Tốc, Tối Ưu Hóa Cho WordPress&#8221; (https://static.bibica.net/tang-toc-toi-uu-hoa-cho-wordpress/) cũng khá đầy đủ rồi, còn rảnh hơn thì cứ đọc hết các bài trên bibica.net cũng tương đối đủ hổ báo rồi 😛</p>
+<p>Thực tế bibica.net bạn cũng có thể thấy gần như ấn vào link mới chỉ mất tầm 1-2s là nó qua trang mới, load xong cả rồi mừ 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: charli		</title>
+		<link>https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-621</link>
+
+		<dc:creator><![CDATA[charli]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2019 09:51:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3758#comment-621</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-620&quot;&gt;bibica&lt;/a&gt;.
+
+Hi Ad
+Litspeed cache thì có chức năng Purge khi có sự thay đổi trên bài viết hoặc comment.... 
+Cho mình hỏi thêm chút khi mình thì báo lỗi trong Gtmetrix: Use cookie-free domains với Serve scaled images. Có bài nào của ad hướng dẫn phần này chưa. Tks ad.
+Chốt: vậy giờ không xài plugin Cache nào luôn ah. keke.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/supersonic-va-cloudflare-ttfb-3x-ms/#comment-620">bibica</a>.</p>
+<p>Hi Ad<br />
+Litspeed cache thì có chức năng Purge khi có sự thay đổi trên bài viết hoặc comment&#8230;.<br />
+Cho mình hỏi thêm chút khi mình thì báo lỗi trong Gtmetrix: Use cookie-free domains với Serve scaled images. Có bài nào của ad hướng dẫn phần này chưa. Tks ad.<br />
+Chốt: vậy giờ không xài plugin Cache nào luôn ah. keke.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

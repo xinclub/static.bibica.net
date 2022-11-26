@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Advertisement &#8211; BIBICA.NET</title>
+	<atom:link href="https://static.bibica.net/category/review/advertisement/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Wed, 23 Nov 2022 07:02:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://static.bibica.net/wp-content/uploads/2017/12/cropped-563a3a6682276d793436-1-32x32.jpg</url>
+	<title>Advertisement &#8211; BIBICA.NET</title>
+	<link>https://static.bibica.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cloud VPS UpCloud &#8211; UPDATE 2022</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloud-vps-upcloud</link>
+					<comments>https://static.bibica.net/cloud-vps-upcloud/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 29 Mar 2018 19:24:38 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832</guid>
+
+					<description><![CDATA[UpCloud là một dịch vụ VPS mà tình cờ mình biết vào năm 2018 khi so sánh các bài benchmarks VPS với nhau, khá là ngạc nhiên khi ở các bài test này UpCloud ăn đứt các dịch vụ có tiếng thế giới như Vultr, DigitalOcean, Linode, Azure AWS EC2 luôn, cả về phần cứng lẫn độ phản hồi TTFB ... <a title="Cloud VPS UpCloud &#8211; UPDATE 2022" class="read-more" href="https://static.bibica.net/cloud-vps-upcloud/" aria-label="More on Cloud VPS UpCloud &#8211; UPDATE 2022">Read more →</a>
+<p><a href="https://static.bibica.net/cloud-vps-upcloud/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/cloud-vps-upcloud/feed/</wfw:commentRss>
+			<slash:comments>56</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Perfmatters</title>
+		<link>https://static.bibica.net/perfmatters/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=perfmatters</link>
+					<comments>https://static.bibica.net/perfmatters/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 23 Dec 2017 01:01:06 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1916</guid>
+
+					<description><![CDATA[Perfmatters là một plugin tăng tốc hiệu xuất cho WordPress, được anh em nhà Jackson viết nên, họ là một trong những người cực đoan về hiệu năng cho WordPress nhất mà mình từng gặp
+Bằng cách bật, tắt các tính năng không cần thiết, set vị trí load cho các file js, css, bạn sẽ giúp trang web của mình tăng thêm từ 10-20% cho tới 50% hiệu năng so với bình thường <a class="read-more" href="https://static.bibica.net/perfmatters/">Read more →</a>
+<p><a href="https://static.bibica.net/perfmatters/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/perfmatters/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>GeneratePress &#8211; Lightweight, Responsive WordPress Theme</title>
+		<link>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=generatepress-lightweight-responsive-wordpress-theme</link>
+					<comments>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 09 Dec 2017 09:29:55 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1072</guid>
+
+					<description><![CDATA[Giới thiệu về theme GeneratePress, chủ đề đang được sử dụng tại bibica.net <a class="read-more" href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">Read more →</a>
+<p><a href="https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/generatepress-lightweight-responsive-wordpress-theme/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cloud VPS Vultr</title>
+		<link>https://static.bibica.net/cloud-vps-vultr/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloud-vps-vultr</link>
+					<comments>https://static.bibica.net/cloud-vps-vultr/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 13 Dec 2017 12:18:58 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1654</guid>
+
+					<description><![CDATA[Vultr là một trong các dịch vụ Cloud VPS có phần cứng mạnh mẽ, tốc độ truy cập từ Việt Nam và giá tốt nhất hiện nay, recommend các bạn dùng thử, thành ra Cloud VPS Vultr là bài đầu tiên trong chuyên mục Advertisement :D <a class="read-more" href="https://static.bibica.net/cloud-vps-vultr/">Read more →</a>
+<p><a href="https://static.bibica.net/cloud-vps-vultr/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/cloud-vps-vultr/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Extended Widget Options &#8211; WordPress Widget Control</title>
+		<link>https://static.bibica.net/extended-widget-options-wordpress-widget-control/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=extended-widget-options-wordpress-widget-control</link>
+					<comments>https://static.bibica.net/extended-widget-options-wordpress-widget-control/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 13:54:45 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4486</guid>
+
+					<description><![CDATA[Extended Widget Options là một trong số rất ít các plugin trả phí mà mình đang sử dụng cho bibica.net, thật ra thông thường, mình nghĩ plugin FREE cũng dư xài rồi, có điều thật sự là nếu bạn dùng Extended Widget Options thì gần như bạn không cần phải dùng thêm bất kì plugin nào để quản lý các widget ... <a title="Extended Widget Options &#8211; WordPress Widget Control" class="read-more" href="https://static.bibica.net/extended-widget-options-wordpress-widget-control/" aria-label="More on Extended Widget Options &#8211; WordPress Widget Control">Read more →</a>
+<p><a href="https://static.bibica.net/extended-widget-options-wordpress-widget-control/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/extended-widget-options-wordpress-widget-control/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

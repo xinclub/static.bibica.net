@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: OpenVPN và Vultr	</title>
+	<atom:link href="https://static.bibica.net/openvpn-va-vultr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/openvpn-va-vultr/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=openvpn-va-vultr</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Thu, 02 Apr 2020 01:09:51 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/openvpn-va-vultr/#comment-442</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2018 05:41:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4059#comment-442</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/openvpn-va-vultr/#comment-441&quot;&gt;hưng&lt;/a&gt;.
+
+Chạy bình thường bạn nhé :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/openvpn-va-vultr/#comment-441">hưng</a>.</p>
+<p>Chạy bình thường bạn nhé 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: hưng		</title>
+		<link>https://static.bibica.net/openvpn-va-vultr/#comment-441</link>
+
+		<dc:creator><![CDATA[hưng]]></dc:creator>
+		<pubDate>Thu, 01 Nov 2018 05:13:35 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4059#comment-441</guid>
+
+					<description><![CDATA[không biết vps đang cài nginx install thêm thằng này có chạy cùng nhau được không bạn nhỉ]]></description>
+			<content:encoded><![CDATA[<p>không biết vps đang cài nginx install thêm thằng này có chạy cùng nhau được không bạn nhỉ</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/openvpn-va-vultr/#comment-144</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 08 Apr 2018 07:29:42 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4059#comment-144</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/openvpn-va-vultr/#comment-143&quot;&gt;Vượng&lt;/a&gt;.
+
+Thật ra mún thèng nào đọc thì vứt thẳng link vào mặt chúng nó là chính, còn Google search ra thì xác xuất hơi bị khó với mấy cái chủ đề này :D]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/openvpn-va-vultr/#comment-143">Vượng</a>.</p>
+<p>Thật ra mún thèng nào đọc thì vứt thẳng link vào mặt chúng nó là chính, còn Google search ra thì xác xuất hơi bị khó với mấy cái chủ đề này 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vượng		</title>
+		<link>https://static.bibica.net/openvpn-va-vultr/#comment-143</link>
+
+		<dc:creator><![CDATA[Vượng]]></dc:creator>
+		<pubDate>Sun, 08 Apr 2018 07:23:29 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=4059#comment-143</guid>
+
+					<description><![CDATA[Đã gọi là chuẩn SEO thì phải viết tiêu đề là &quot;Làm thế méo nào để biết VPS thành VPN&quot; chớ, kaka. Cool. Nhưng mà mình nói rồi, mình chạy mỗi con sock nhét vào trình duyệt là xong :-
+)]]></description>
+			<content:encoded><![CDATA[<p>Đã gọi là chuẩn SEO thì phải viết tiêu đề là &#8220;Làm thế méo nào để biết VPS thành VPN&#8221; chớ, kaka. Cool. Nhưng mà mình nói rồi, mình chạy mỗi con sock nhét vào trình duyệt là xong :-<br />
+)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

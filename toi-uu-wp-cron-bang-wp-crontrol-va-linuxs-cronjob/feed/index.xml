@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Tối ưu WP-Cron bằng WP Crontrol và linux’s cronjob	</title>
+	<atom:link href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Sat, 14 Aug 2021 19:18:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1022</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 14 Aug 2021 19:18:07 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-1022</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021&quot;&gt;Tien Dung&lt;/a&gt;.
+
+Làm theo bài viết là đủ :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021">Tien Dung</a>.</p>
+<p>Làm theo bài viết là đủ 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Tien Dung		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-1021</link>
+
+		<dc:creator><![CDATA[Tien Dung]]></dc:creator>
+		<pubDate>Sat, 14 Aug 2021 06:16:00 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-1021</guid>
+
+					<description><![CDATA[Xin hỏi bác, nếu Vô hiệu hoá wp-cron thì các tác vụ như đăng ký thành viên, đặt hàng trong woo ảnh hưởng chứ ạ?
+
+Làm thế nào để tối ưu cái này bác?]]></description>
+			<content:encoded><![CDATA[<p>Xin hỏi bác, nếu Vô hiệu hoá wp-cron thì các tác vụ như đăng ký thành viên, đặt hàng trong woo ảnh hưởng chứ ạ?</p>
+<p>Làm thế nào để tối ưu cái này bác?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-486</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 14:43:19 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-486</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-484&quot;&gt;bibica&lt;/a&gt;.
+
+Không liên quan, dòng code đó nó chỉ để tự chạy cái link https://static.bibica.net/wp-cron.php?doing_wp_cron mỗi phút mỗi lần thôi]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-484">bibica</a>.</p>
+<p>Không liên quan, dòng code đó nó chỉ để tự chạy cái link https://static.bibica.net/wp-cron.php?doing_wp_cron mỗi phút mỗi lần thôi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhân		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-485</link>
+
+		<dc:creator><![CDATA[Nhân]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 14:40:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-485</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-484&quot;&gt;bibica&lt;/a&gt;.
+
+thì ra do HTTPS.  Đổi thành HTTP thì web hoạt động.
+Mà trang web của em có SSL mà, sao kỳ vậy ta? 
+liftingfreak(.)com]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-484">bibica</a>.</p>
+<p>thì ra do HTTPS.  Đổi thành HTTP thì web hoạt động.<br />
+Mà trang web của em có SSL mà, sao kỳ vậy ta?<br />
+liftingfreak(.)com</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-484</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 14:25:01 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-484</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-481&quot;&gt;Nhân&lt;/a&gt;.
+
+Sửa lại domain, xong bê dòng code đó copy vào, xong Ctrl + O -&gt; Enter -&gt; Ctrl + X là xong rồi rồi]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-481">Nhân</a>.</p>
+<p>Sửa lại domain, xong bê dòng code đó copy vào, xong Ctrl + O -> Enter -> Ctrl + X là xong rồi rồi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhân		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-483</link>
+
+		<dc:creator><![CDATA[Nhân]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 14:13:37 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-483</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-482&quot;&gt;bibica&lt;/a&gt;.
+
+Quả nhiên disable wp cron default thì nó không bị lỗi. Thêm dòng lệnh trong crontab thì bị lỗi. 
+Xóa đi dòng lệnh, vẫn còn lỗi không vào được, và sau khi enable lại cron default thì trang web hoạt động bình thường. 
+Vậy vấn đề nằm ở đoạn code đó rồi. Có cách nào fix không Bình Ca??]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-482">bibica</a>.</p>
+<p>Quả nhiên disable wp cron default thì nó không bị lỗi. Thêm dòng lệnh trong crontab thì bị lỗi.<br />
+Xóa đi dòng lệnh, vẫn còn lỗi không vào được, và sau khi enable lại cron default thì trang web hoạt động bình thường.<br />
+Vậy vấn đề nằm ở đoạn code đó rồi. Có cách nào fix không Bình Ca??</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-482</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 12:43:17 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-482</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-481&quot;&gt;Nhân&lt;/a&gt;.
+
+define(&#039;DISABLE_WP_CRON&#039;, true); thì chỉ là tắt chạy wp cron thôi, không liên quan gì trang bị lỗi cả :D
+
+Thử đơn giản nhất thì cứ cài 1 cái wp mới, xong thêm dòng đó vào file config xem thế nào]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-481">Nhân</a>.</p>
+<p>define(&#8216;DISABLE_WP_CRON&#8217;, true); thì chỉ là tắt chạy wp cron thôi, không liên quan gì trang bị lỗi cả 😀</p>
+<p>Thử đơn giản nhất thì cứ cài 1 cái wp mới, xong thêm dòng đó vào file config xem thế nào</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhân		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-481</link>
+
+		<dc:creator><![CDATA[Nhân]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 12:27:45 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-481</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-477&quot;&gt;bibica&lt;/a&gt;.
+
+đã thử hết các thể loại khoảng trống nhưng vẫn không được. thôi kệ anh ơi, duyên số chưa tới :v]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-477">bibica</a>.</p>
+<p>đã thử hết các thể loại khoảng trống nhưng vẫn không được. thôi kệ anh ơi, duyên số chưa tới :v</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-477</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 10:47:44 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-477</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-475&quot;&gt;Nhân&lt;/a&gt;.
+
+Xem coi có copy sai từ nào không? Bài này ngày xưa viết không để mấy đoạn code vào tag [code] nên dễ copy thừa khoảng trắng hay sai kí tự lắm :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-475">Nhân</a>.</p>
+<p>Xem coi có copy sai từ nào không? Bài này ngày xưa viết không để mấy đoạn code vào tag [code] nên dễ copy thừa khoảng trắng hay sai kí tự lắm 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nhân		</title>
+		<link>https://static.bibica.net/toi-uu-wp-cron-bang-wp-crontrol-va-linuxs-cronjob/#comment-475</link>
+
+		<dc:creator><![CDATA[Nhân]]></dc:creator>
+		<pubDate>Sat, 01 Dec 2018 10:36:04 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2904#comment-475</guid>
+
+					<description><![CDATA[Em disable cron mặc định thì web ko vào được, sau đó làm như anh, thêm dòng đó trong crontab -e.  (đã chỉnh sửa domain)
+xong khởi động lại nginx, trang web vẫn không vào được vậy anh ơi ?]]></description>
+			<content:encoded><![CDATA[<p>Em disable cron mặc định thì web ko vào được, sau đó làm như anh, thêm dòng đó trong crontab -e.  (đã chỉnh sửa domain)<br />
+xong khởi động lại nginx, trang web vẫn không vào được vậy anh ơi ?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Sử lý vấn đề tạo ảnh thumbnails trên WordPress	</title>
+	<atom:link href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=su-ly-van-de-tao-thumbnails-thua-tren-wordpress</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Sun, 22 Nov 2020 11:15:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-991</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 22 Nov 2020 11:15:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-991</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-990&quot;&gt;Hoang&lt;/a&gt;.
+
+Thử dùng qua các dịch vụ chuyên về ảnh xem có cải thiện hơn không ( Jetpack Image CDN chẳng hạn ), tại ảnh theo mặc định WordPress tự crop và nén chất lượng kém lắm]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-990">Hoang</a>.</p>
+<p>Thử dùng qua các dịch vụ chuyên về ảnh xem có cải thiện hơn không ( Jetpack Image CDN chẳng hạn ), tại ảnh theo mặc định WordPress tự crop và nén chất lượng kém lắm</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hoang		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-990</link>
+
+		<dc:creator><![CDATA[Hoang]]></dc:creator>
+		<pubDate>Sun, 22 Nov 2020 11:08:47 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-990</guid>
+
+					<description><![CDATA[Hi admin, mình sử dụng woocomercial, thumnail sản phẩm của mình bị mờ mặc dù ảnh gốc rất nét. Mong admin cho xin hướng xử lý. Thnks.]]></description>
+			<content:encoded><![CDATA[<p>Hi admin, mình sử dụng woocomercial, thumnail sản phẩm của mình bị mờ mặc dù ảnh gốc rất nét. Mong admin cho xin hướng xử lý. Thnks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-904</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 12 Feb 2020 15:12:02 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-904</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-903&quot;&gt;Hồng Phúc&lt;/a&gt;.
+
+Tổng thể bạn cài Jetpack Image CDN vào, cài tiếp  Stop Generating Image Sizes, chọn tắt tất cả thumbnail, cài tiếp Clean Image Filenames để sửa lại các ảnh có kí tự đặc biệt
+
+Nếu có cài plugin cache gì thì clear hết rồi xem lại kết quả ra làm sao?
+
+Mình có cài woocomerce bên trang ngoirungdui.com thì thấy mọi thứ liên quan tới ảnh đều bình thường cả]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-903">Hồng Phúc</a>.</p>
+<p>Tổng thể bạn cài Jetpack Image CDN vào, cài tiếp  Stop Generating Image Sizes, chọn tắt tất cả thumbnail, cài tiếp Clean Image Filenames để sửa lại các ảnh có kí tự đặc biệt</p>
+<p>Nếu có cài plugin cache gì thì clear hết rồi xem lại kết quả ra làm sao?</p>
+<p>Mình có cài woocomerce bên trang ngoirungdui.com thì thấy mọi thứ liên quan tới ảnh đều bình thường cả</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hồng Phúc		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-903</link>
+
+		<dc:creator><![CDATA[Hồng Phúc]]></dc:creator>
+		<pubDate>Wed, 12 Feb 2020 15:07:06 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-903</guid>
+
+					<description><![CDATA[Ad cho hỏi, mình đang gặp vấn đề về ảnh thumbnail khác với ảnh chính. 
+Site mình sử dụng woocomerce, các ảnh thumbnail trong product bị tạo ra rất lộn xộn, ảnh của sản phẩm này bị chồng chéo qua sản phẩm khác!
+Anh chỉ mình cách khắc phục ạ!]]></description>
+			<content:encoded><![CDATA[<p>Ad cho hỏi, mình đang gặp vấn đề về ảnh thumbnail khác với ảnh chính.<br />
+Site mình sử dụng woocomerce, các ảnh thumbnail trong product bị tạo ra rất lộn xộn, ảnh của sản phẩm này bị chồng chéo qua sản phẩm khác!<br />
+Anh chỉ mình cách khắc phục ạ!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-830</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 20 Oct 2019 13:57:05 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-830</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-828&quot;&gt;bibica&lt;/a&gt;.
+
+Stick vào là không dùng, dùng cái nào thì không stick]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-828">bibica</a>.</p>
+<p>Stick vào là không dùng, dùng cái nào thì không stick</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hoàng		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-829</link>
+
+		<dc:creator><![CDATA[Hoàng]]></dc:creator>
+		<pubDate>Sun, 20 Oct 2019 13:53:39 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-829</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-828&quot;&gt;bibica&lt;/a&gt;.
+
+Vậy mình sẽ dùng plugin này, không ngờ cái ảnh mà nó làm ngốn quá nhiều tài nguyên đến vậy
+à, khi sử dụng Generating Image Sizes và trong phần setting của nó mình tắt hết và chỉ trừ lại cái dòng số 3 từ trên xuống như hình screenshort trên của bài post thì có ok không bạn?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-828">bibica</a>.</p>
+<p>Vậy mình sẽ dùng plugin này, không ngờ cái ảnh mà nó làm ngốn quá nhiều tài nguyên đến vậy<br />
+à, khi sử dụng Generating Image Sizes và trong phần setting của nó mình tắt hết và chỉ trừ lại cái dòng số 3 từ trên xuống như hình screenshort trên của bài post thì có ok không bạn?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-828</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 20 Oct 2019 13:28:56 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-828</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-827&quot;&gt;Hoàng&lt;/a&gt;.
+
+Generating Image Sizes nó là plugin làm sẵn, dùng tiện, nhàn, và hiệu quả hơn :D
+
+Đơn giản nhất thì dùng Jetpack Image CDN để nó tự xử lý các vấn đề về ảnh, rồi dùng Generating Image Sizes tắt việc tạo các ảnh thừa đi
+
+Ảnh nó nhẹ, nét hơn và giảm tải cho server nữa :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-827">Hoàng</a>.</p>
+<p>Generating Image Sizes nó là plugin làm sẵn, dùng tiện, nhàn, và hiệu quả hơn 😀</p>
+<p>Đơn giản nhất thì dùng Jetpack Image CDN để nó tự xử lý các vấn đề về ảnh, rồi dùng Generating Image Sizes tắt việc tạo các ảnh thừa đi</p>
+<p>Ảnh nó nhẹ, nét hơn và giảm tải cho server nữa 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hoàng		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-827</link>
+
+		<dc:creator><![CDATA[Hoàng]]></dc:creator>
+		<pubDate>Sun, 20 Oct 2019 13:22:58 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-827</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-826&quot;&gt;bibica&lt;/a&gt;.
+
+Cảm ơn bạn, 
+Web của mình mới lập và chỉ có mỗi 58 bài viết mà lên tới 2G lận, cài đủ mọi loại plugin optimize rồi mà vẫn chưa tối ưu hết được, lang thang tiếp tìm cách tối ưu mới mò ra bài này của bạn,hi. 
+1. Mình chỉ làm theo bước trên là chỉnh mỗi cái Image Setting cho mỗi cái ảnh thumbnail là 300x0 px thôi, và chiều rộng max thì 300px nhưng mình chưa hiểu sao lại là 0px chiều cho chiều cao nhỉ?
+2. Mình đã chỉnh như trên rồi nhưng vẫn phải cài thêm plugin Generating Image Sizes à bạn?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-826">bibica</a>.</p>
+<p>Cảm ơn bạn,<br />
+Web của mình mới lập và chỉ có mỗi 58 bài viết mà lên tới 2G lận, cài đủ mọi loại plugin optimize rồi mà vẫn chưa tối ưu hết được, lang thang tiếp tìm cách tối ưu mới mò ra bài này của bạn,hi.<br />
+1. Mình chỉ làm theo bước trên là chỉnh mỗi cái Image Setting cho mỗi cái ảnh thumbnail là 300&#215;0 px thôi, và chiều rộng max thì 300px nhưng mình chưa hiểu sao lại là 0px chiều cho chiều cao nhỉ?<br />
+2. Mình đã chỉnh như trên rồi nhưng vẫn phải cài thêm plugin Generating Image Sizes à bạn?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: bibica		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-826</link>
+
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 19 Oct 2019 14:39:28 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-826</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-825&quot;&gt;Hoàng&lt;/a&gt;.
+
+Media Cleaner hay Image Cleanup chỉ để xóa các ảnh thumbnails thừa, trang bạn vẫn đang hoạt động ổn định nghĩa là vẫn thừa dung lượng mà, cứ để tạm thế cũng được :D
+
+Cài Stop Generating Image Sizes vào để nó không tạo thêm các thumbnails thừa là được :P]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-825">Hoàng</a>.</p>
+<p>Media Cleaner hay Image Cleanup chỉ để xóa các ảnh thumbnails thừa, trang bạn vẫn đang hoạt động ổn định nghĩa là vẫn thừa dung lượng mà, cứ để tạm thế cũng được 😀</p>
+<p>Cài Stop Generating Image Sizes vào để nó không tạo thêm các thumbnails thừa là được 😛</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Hoàng		</title>
+		<link>https://static.bibica.net/su-ly-van-de-tao-thumbnails-thua-tren-wordpress/#comment-825</link>
+
+		<dc:creator><![CDATA[Hoàng]]></dc:creator>
+		<pubDate>Sat, 19 Oct 2019 14:29:09 +0000</pubDate>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3456#comment-825</guid>
+
+					<description><![CDATA[Bài viết của bạn hữu ích, nhưng mình thử thì plugin Image Cleanup đã không còn được update hơn 2 năm nay rồi, và giờ mọi web site đã được khuyến khích dùng phiên bản wordpress mới nhất và nâng cấp lên version PHP 7.x trở lên rồi, nên không dùng plugin này được
+Còn plugin Media Cleaner thì mình cài nhưng do một số vấn đề nên không dùng được bản free mà nó bắt phải dùng bản pro (a-cay lắm, :)). 
+Vậy bạn có thể giới thiệu cho mình và mọi người biết là có plugin nào miễn phí để xóa ảnh nữa không?
+hoặc cho mình biết chỗ nào bán plugin bản pro trên để mua với giá rẻ hơn? chứ để xóa ảnh mà bỏ ra $24 chưa cần thiết lắm vì website đang nhỏ, web mà lớn thì mua luôn khỏi lăn tăn.
+Cảm ơn bạn.]]></description>
+			<content:encoded><![CDATA[<p>Bài viết của bạn hữu ích, nhưng mình thử thì plugin Image Cleanup đã không còn được update hơn 2 năm nay rồi, và giờ mọi web site đã được khuyến khích dùng phiên bản wordpress mới nhất và nâng cấp lên version PHP 7.x trở lên rồi, nên không dùng plugin này được<br />
+Còn plugin Media Cleaner thì mình cài nhưng do một số vấn đề nên không dùng được bản free mà nó bắt phải dùng bản pro (a-cay lắm, :)).<br />
+Vậy bạn có thể giới thiệu cho mình và mọi người biết là có plugin nào miễn phí để xóa ảnh nữa không?<br />
+hoặc cho mình biết chỗ nào bán plugin bản pro trên để mua với giá rẻ hơn? chứ để xóa ảnh mà bỏ ra $24 chưa cần thiết lắm vì website đang nhỏ, web mà lớn thì mua luôn khỏi lăn tăn.<br />
+Cảm ơn bạn.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

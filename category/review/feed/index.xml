@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Review &#8211; BIBICA.NET</title>
+	<atom:link href="https://static.bibica.net/category/review/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.bibica.net/</link>
+	<description>What You See Is What We Share</description>
+	<lastBuildDate>Fri, 25 Nov 2022 12:14:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://static.bibica.net/wp-content/uploads/2017/12/cropped-563a3a6682276d793436-1-32x32.jpg</url>
+	<title>Review &#8211; BIBICA.NET</title>
+	<link>https://static.bibica.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cloud VPS Vultr</title>
+		<link>https://static.bibica.net/cloud-vps-vultr/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloud-vps-vultr</link>
+					<comments>https://static.bibica.net/cloud-vps-vultr/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Wed, 13 Dec 2017 12:18:58 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1654</guid>
+
+					<description><![CDATA[Vultr là một trong các dịch vụ Cloud VPS có phần cứng mạnh mẽ, tốc độ truy cập từ Việt Nam và giá tốt nhất hiện nay, recommend các bạn dùng thử, thành ra Cloud VPS Vultr là bài đầu tiên trong chuyên mục Advertisement :D <a class="read-more" href="https://static.bibica.net/cloud-vps-vultr/">Read more →</a>
+<p><a href="https://static.bibica.net/cloud-vps-vultr/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/cloud-vps-vultr/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Citizen Promaster Land AT6085-50E &#8211; Chiếc đồng Hồ Lý Tưởng</title>
+		<link>https://static.bibica.net/citizen-promaster-land-at6085-50e/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=citizen-promaster-land-at6085-50e</link>
+					<comments>https://static.bibica.net/citizen-promaster-land-at6085-50e/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Tue, 25 Oct 2022 20:32:17 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6180</guid>
+
+					<description><![CDATA[Đầu tiên chắc phải nói lý do tại sao mình chọn sản phẩm này, từ đó mới nói tiếp được Ý tưởng của mình là 1 chiếc đồng hồ đơn giản, sử dụng hằng ngày cho mọi trang phục hoặc không gian khác nhau, kiểu đi chơi, đi học, đi làm, đám cưới, đám ma &#8230;. đều có thể sử ... <a title="Citizen Promaster Land AT6085-50E &#8211; Chiếc đồng Hồ Lý Tưởng" class="read-more" href="https://static.bibica.net/citizen-promaster-land-at6085-50e/" aria-label="More on Citizen Promaster Land AT6085-50E &#8211; Chiếc đồng Hồ Lý Tưởng">Read more →</a>
+<p><a href="https://static.bibica.net/citizen-promaster-land-at6085-50e/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/citizen-promaster-land-at6085-50e/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>nextDNS &#8211; Chặn quảng cáo bằng DNS</title>
+		<link>https://static.bibica.net/nextdns-chan-quang-cao-bang-dns/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nextdns-chan-quang-cao-bang-dns</link>
+					<comments>https://static.bibica.net/nextdns-chan-quang-cao-bang-dns/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 18 Sep 2021 02:40:44 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=5774</guid>
+
+					<description><![CDATA[NextDNS về cơ bản nó là 1 dịch vụ phân giải tên miền, kiểu 1.1.1.1 của Cloudflare hay 8.8.8.8 của Google,t uy thế người xây dựng nên NextDNS cho phép khách hàng, config cụ thể các setting mà họ mong muốn Các tính năng chính của NextDNS là gì? &#8211; Chặn quảng cáo, trình theo dõi bằng cách sử dụng ... <a title="nextDNS &#8211; Chặn quảng cáo bằng DNS" class="read-more" href="https://static.bibica.net/nextdns-chan-quang-cao-bang-dns/" aria-label="More on nextDNS &#8211; Chặn quảng cáo bằng DNS">Read more →</a>
+<p><a href="https://static.bibica.net/nextdns-chan-quang-cao-bang-dns/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/nextdns-chan-quang-cao-bang-dns/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Duplicator Pro &#8211; UPDATE 2022</title>
+		<link>https://static.bibica.net/duplicator-pro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=duplicator-pro</link>
+					<comments>https://static.bibica.net/duplicator-pro/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 24 Dec 2017 03:05:13 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=2012</guid>
+
+					<description><![CDATA[Duplicator Pro là plugin số 1 trong việc tự động sao lưu hoặc di chuyển trang web sang các dịch vụ hosting, domain khác <a class="read-more" href="https://static.bibica.net/duplicator-pro/">Read more →</a>
+<p><a href="https://static.bibica.net/duplicator-pro/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/duplicator-pro/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tăng tốc toàn diện cho bibica.net năm 2022</title>
+		<link>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tang-toc-toan-dien-cho-bibica-net-nam-2022</link>
+					<comments>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sun, 20 Nov 2022 05:32:37 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7303</guid>
+
+					<description><![CDATA[Tổng thể combo hiện tại của bibica.net cho năm 2022 là UpCloud Singapore Ubuntu v22.04 LTS Webinoly v1.16.7 &#8211; Nginx v1.22.1 + MariaDB v10.6.11 (MySQL) PHP 7.4.33 Cloudflare &#8211; sử dụng DNS, SSL và cache file tĩnh (css,js) Perfmatters để  tối ưu hiệu xuất cho WordPress FlyingPress để cache ở cấp độ Nginx  Jetpack để cache xử lý hình ảnh Bài viết này ... <a title="Tăng tốc toàn diện cho bibica.net năm 2022" class="read-more" href="https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/" aria-label="More on Tăng tốc toàn diện cho bibica.net năm 2022">Read more →</a>
+<p><a href="https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/tang-toc-toan-dien-cho-bibica-net-nam-2022/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cloud VPS UpCloud &#8211; UPDATE 2022</title>
+		<link>https://static.bibica.net/cloud-vps-upcloud/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=cloud-vps-upcloud</link>
+					<comments>https://static.bibica.net/cloud-vps-upcloud/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 29 Mar 2018 19:24:38 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=3832</guid>
+
+					<description><![CDATA[UpCloud là một dịch vụ VPS mà tình cờ mình biết vào năm 2018 khi so sánh các bài benchmarks VPS với nhau, khá là ngạc nhiên khi ở các bài test này UpCloud ăn đứt các dịch vụ có tiếng thế giới như Vultr, DigitalOcean, Linode, Azure AWS EC2 luôn, cả về phần cứng lẫn độ phản hồi TTFB ... <a title="Cloud VPS UpCloud &#8211; UPDATE 2022" class="read-more" href="https://static.bibica.net/cloud-vps-upcloud/" aria-label="More on Cloud VPS UpCloud &#8211; UPDATE 2022">Read more →</a>
+<p><a href="https://static.bibica.net/cloud-vps-upcloud/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/cloud-vps-upcloud/feed/</wfw:commentRss>
+			<slash:comments>56</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Webinoly &#8211; Đơn giản và mạnh mẽ</title>
+		<link>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=webinoly-mot-su-thay-hoan-hao-cho-easyengine</link>
+					<comments>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 07 Dec 2017 11:37:00 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=849</guid>
+
+					<description><![CDATA[Webinoly là một *UNIX script dành cho hệ điều hành Ubuntu giúp bạn tự động cài đặt một webserver sử dụng Nginx + MariaDB (MySQL) + PHP + HTTP / 2 hoàn chỉnh phục vụ riêng cho WordPress. (bạn chỉ cần gõ tổng cộng đúng 2 dòng lệnh là xong) <a class="read-more" href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/">Read more →</a>
+<p><a href="https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/webinoly-mot-su-thay-hoan-hao-cho-easyengine/feed/</wfw:commentRss>
+			<slash:comments>93</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Giới thiệu về dịch vụ speedtest bench.sh</title>
+		<link>https://static.bibica.net/gioi-thieu-ve-dich-vu-speedtest-bench-sh/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gioi-thieu-ve-dich-vu-speedtest-bench-sh</link>
+					<comments>https://static.bibica.net/gioi-thieu-ve-dich-vu-speedtest-bench-sh/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 18 Nov 2022 19:52:24 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=7220</guid>
+
+					<description><![CDATA[Trang teddysun thì tình cờ mình biết tới ở giai đoạn tìm hiểu về hệ thống phòng thủ tên lửa, ah nhầm, hệ thống Great Firewall của Trung Quốc bench.sh là 1 tool để kiểm tra tốc độ và các thông tin cấu hình của VPS, được viết ra bởi teddysun Bạn có thể xem được khá nhiều thông tin quan ... <a title="Giới thiệu về dịch vụ speedtest bench.sh" class="read-more" href="https://static.bibica.net/gioi-thieu-ve-dich-vu-speedtest-bench-sh/" aria-label="More on Giới thiệu về dịch vụ speedtest bench.sh">Read more →</a>
+<p><a href="https://static.bibica.net/gioi-thieu-ve-dich-vu-speedtest-bench-sh/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/gioi-thieu-ve-dich-vu-speedtest-bench-sh/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Perfmatters</title>
+		<link>https://static.bibica.net/perfmatters/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=perfmatters</link>
+					<comments>https://static.bibica.net/perfmatters/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Sat, 23 Dec 2017 01:01:06 +0000</pubDate>
+				<category><![CDATA[Advertisement]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Toolbox]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=1916</guid>
+
+					<description><![CDATA[Perfmatters là một plugin tăng tốc hiệu xuất cho WordPress, được anh em nhà Jackson viết nên, họ là một trong những người cực đoan về hiệu năng cho WordPress nhất mà mình từng gặp
+Bằng cách bật, tắt các tính năng không cần thiết, set vị trí load cho các file js, css, bạn sẽ giúp trang web của mình tăng thêm từ 10-20% cho tới 50% hiệu năng so với bình thường <a class="read-more" href="https://static.bibica.net/perfmatters/">Read more →</a>
+<p><a href="https://static.bibica.net/perfmatters/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/perfmatters/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Oracle Cloud Always Free &#8211; Đơn giản là RÁC</title>
+		<link>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=oracle-cloud-always-free-don-gian-la-rac</link>
+					<comments>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/#comments</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 08:49:24 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6725</guid>
+
+					<description><![CDATA[Mình từng dùng Amazon Lightsail vài năm, rất hài lòng, cụm server Singapore của họ, có thể nói là đứng đầu thế giới về giá cả ($3.5) và uptime (~100%), phàn nàn duy nhất có lẽ là tốc độ ổ cứng hơi chậm Sau chuyển sang UpCloud vì bên đi vì Amazon Lightsail hết tiền 😛 Dùng UpCloud cụm server ... <a title="Oracle Cloud Always Free &#8211; Đơn giản là RÁC" class="read-more" href="https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/" aria-label="More on Oracle Cloud Always Free &#8211; Đơn giản là RÁC">Read more →</a>
+<p><a href="https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/oracle-cloud-always-free-don-gian-la-rac/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lynyrd – JSLeatherGoodsAU – Ví đôi (bifold) hoàn hảo</title>
+		<link>https://static.bibica.net/lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao</link>
+					<comments>https://static.bibica.net/lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao/#respond</comments>
+		
+		<dc:creator><![CDATA[bibica]]></dc:creator>
+		<pubDate>Fri, 04 Nov 2022 16:27:14 +0000</pubDate>
+				<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">https://static.bibica.net/?p=6699</guid>
+
+					<description><![CDATA[Lynyrd là dòng ví đôi truyền thống (bifold) có thiết kế tốt nhất mình từng biết, sức chứa thẻ và tiền mặt tốt, thao tác quản lý xuất sắc, an toàn và lịch sự Thông số: Dài: 108mmCao: 75mmĐộ dày: 8mmCân nặng: 41 gram Sử dụng da Kangaroo full grain vegetable tanned, màu “Whisky” độ dày trung bình mỗi lớp ... <a title="Lynyrd – JSLeatherGoodsAU – Ví đôi (bifold) hoàn hảo" class="read-more" href="https://static.bibica.net/lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao/" aria-label="More on Lynyrd – JSLeatherGoodsAU – Ví đôi (bifold) hoàn hảo">Read more →</a>
+<p><a href="https://static.bibica.net/lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao/">Source</a></p>]]></description>
+		
+					<wfw:commentRss>https://static.bibica.net/lynyrd-jsleathergoodsau-vi-doi-bifold-hoan-hao/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
